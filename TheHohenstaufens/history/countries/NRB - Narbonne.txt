@@ -1,0 +1,352 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = occitain
+religion = catholic
+technology_group = western
+capital = 4061
+
+#Viscounts of Carcassone
+1012.1.1 = {
+	monarch = {
+		name = "Pierre Raimond"
+		dynasty = "de Carcassonne"
+		dip = 4
+		adm = 2
+		mil = 2
+	}
+}
+1034.1.1 = {
+	heir = {
+		name = "Roger"
+		monarch_name = "Roger I"
+		dynasty = "de Carcassonne"
+		birth_date = 1034.1.1
+		death_date = 1067.1.1
+		claim = 95
+		dip = 1
+		adm = 3
+		mil = 2
+	}
+}
+1060.1.1 = {
+	monarch = {
+		name = "Roger I"
+		dynasty = "de Carcassonne"
+		birth_date = 1034.1.1
+		dip = 1
+		adm = 3
+		mil = 2
+	}
+}
+1067.1.1 = {
+	monarch = {
+		name = "Ermengarde"
+		dynasty = "de Carcassonne"
+		birth_date = 1040.1.1 #est
+		female = yes
+		dip = 2
+		adm = 2
+		mil = 2
+	}
+	queen = {
+		country_of_origin = NRB
+		name = "Raimond Bernard"
+		dynasty = "Trencavel"
+		birth_date = 1036.1.1 #est
+		death_date = 1074.1.1
+		female = no
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Bernard Anton"
+		monarch_name = "Bernard Anton IV"
+		dynasty = "Trencavel"
+		birth_date = 1066.1.1
+		death_date = 1129.1.1
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1099.3.26 = {
+	monarch = {
+		name = "Bernard Anton IV"
+		dynasty = "Trencavel"
+		birth_date = 1066.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	heir = {
+		name = "Roger"
+		monarch_name = "Roger II"
+		dynasty = "Trencavel"
+		birth_date = 1099.1.1 #est
+		death_date = 1150.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1129.1.1 = {
+	monarch = {
+		name = "Roger II"
+		dynasty = "Trencavel"
+		birth_date = 1099.1.1 #est
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Raimond"
+		monarch_name = "Raimond I"
+		dynasty = "Trencavel"
+		birth_date = 1129.1.1
+		death_date = 1167.10.15
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+1150.1.1 = {
+	monarch = {
+		name = "Raimond I"
+		dynasty = "Trencavel"
+		birth_date = 1129.1.1
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+	heir = {
+		name = "Roger"
+		monarch_name = "Roger III"
+		dynasty = "Trencavel"
+		birth_date = 1150.1.1
+		death_date = 1194.3.19
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1167.10.15 = {
+	monarch = {
+		name = "Roger III"
+		dynasty = "Trencavel"
+		birth_date = 1150.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1184.1.1 = {
+	heir = {
+		name = "Raimond Roger"
+		monarch_name = "Raimond Roger"
+		dynasty = "Trencavel"
+		birth_date = 1184.1.1
+		death_date = 1209.11.10
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
+1194.3.19 = {
+	monarch = {
+		name = "Raimond Roger"
+		dynasty = "Trencavel"
+		birth_date = 1184.1.1
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = tolerant_personality
+}
+1209.11.10 = {
+	monarch = {
+		name = "Simon I"
+		dynasty = "de Montfort"
+		birth_date = 1175.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	heir = {
+		name = "Amaury"
+		monarch_name = "Amaury I"
+		dynasty = "de Montfort"
+		birth_date = 1195.1.1
+		death_date = 1241.1.1
+		claim = 85
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}
+1218.6.25 = {
+	monarch = {
+		name = "Amaury I"
+		dynasty = "de Montfort"
+		birth_date = 1195.1.1
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+}
+
+#Viscounts of Narbonne
+1224.1.1 = {
+	capital = 2894
+	fixed_capital = 2894
+	monarch = {
+		name = "Aimery III"
+		dynasty = "de Lara"
+		dip = 2
+		adm = 2
+		mil = 2
+	}
+}
+1239.1.1 = {
+	monarch = {
+		name = "Amalric I"
+		dynasty = "de Lara"
+		dip = 2
+		adm = 2
+		mil = 2
+	}
+	heir = {
+		name = "Aimery"
+		monarch_name = "Aimery IV"
+		dynasty = "de Lara"
+		birth_date = 1230.1.1
+		death_date = 1298.10.1
+		claim = 95
+		dip = 3
+		adm = 2
+		mil = 6
+	}
+}
+1270.1.1 = {
+	monarch = {
+		name = "Aimery IV"
+		dynasty = "de Lara"
+		birth_date = 1230.1.1
+		dip = 3
+		adm = 2
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = inspiring_leader_personality
+}
+1298.10.1 = {
+	monarch = {
+		name = "Amalric II"
+		dynasty = "de Lara"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1328.1.1 = {
+	monarch = {
+		name = "Aimery V"
+		dynasty = "de Lara"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1336.1.1 = {
+	monarch = {
+		name = "Almaric III"
+		dynasty = "de Lara"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1341.1.1 = {
+	monarch = {
+		name = "Aimery VI"
+		dynasty = "de Lara"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1388.1.1 = {
+	monarch = {
+		name = "Guillaume I"
+		dynasty = "de Lara"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1397.1.1 = {
+	monarch = {
+		name = "Guillaume II"
+		dynasty = "de Lara"
+		adm = 0
+		dip = 4
+		mil = 2
+	}
+}
+1424.8.17 = {
+	monarch = {
+		name = "Guillaume III"
+		dynasty = "de Lara"
+		dip = 4
+		adm = 2
+		mil = 2
+	}
+}
+1468.1.1 = {
+	monarch = {
+		name = "Jean I"
+		dynasty = "de Foix"
+		birth_date = 1450.1.1
+		dip = 3
+		adm = 3
+		mil = 2
+	}
+}
+1489.12.10 = {
+	heir = {
+		name = "Gaston"
+		monarch_name = "Gaston I"
+		dynasty = "de Foix"
+		birth_date = 1489.12.10
+		death_date = 1512.4.11
+		claim = 90
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+1500.1.1 = {
+	monarch = {
+		name = "Gaston I"
+		dynasty = "de Foix"
+		birth_date = 1489.12.10
+		adm = 3
+		dip = 3
+		mil = 6
+		leader = {	
+			name = "Gaston de Foix"		
+			type = general		
+			rank = 0	
+			fire = 2	
+			shock = 4	
+			manuever = 3	
+			siege = 0
+		}
+	}
+}

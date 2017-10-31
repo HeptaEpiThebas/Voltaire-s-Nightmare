@@ -1,0 +1,117 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = saxon
+religion = catholic
+technology_group = western
+capital = 246
+
+1113.1.1 = {
+	monarch = {
+		name = "Erkembert I"
+		dynasty = "von Tegkwitz"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1143.1.1 = {
+	monarch = {
+		name = "Heinrich I"
+		dynasty = "von Dohna"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+1181.7.28 = {
+	monarch = {
+		name = "Heinrich II"
+		dynasty = "von Dohna"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1225.1.1 = {
+	monarch = {
+		name = "Otto I"
+		dynasty = "von Dohna"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1239.1.1 = {
+	monarch = {
+		name = "Heinrich III"
+		dynasty = "von Dohna"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1256.1.1 = {
+	monarch = {
+		name = "Otto II"
+		dynasty = "von Dohna"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1287.1.1 = {
+	monarch = {
+		name = "Otto III"
+		dynasty = "von Dohna"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1321.1.1 = {
+	monarch = {
+		name = "Otto Heyde I"
+		dynasty = "von Dohna"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1336.1.1 = {
+	monarch = {
+		name = "Friedrich I"
+		dynasty = "von Dohna"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1347.1.1 = {
+	monarch = {
+		name = "Otto Heyde II"
+		dynasty = "von Dohna"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+1385.1.1 = {
+	monarch = {
+		name = "Otto Heyde III"
+		dynasty = "von Dohna"
+		adm = 2
+		dip = 1
+		mil = 1
+	}
+}
+1400.1.1 = {
+	monarch = {
+		name = "Jeschke I"
+		dynasty = "von Dohna"
+		adm = 2
+		dip = 0
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = loose_lips_personality
+}

@@ -1,0 +1,64 @@
+owner = RMG
+controller = RMG
+culture = umbrian
+religion = catholic 
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = wine
+base_manpower = 2
+capital = "Perugia" 
+is_city = yes	
+add_core = RMG
+add_core = PRG
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1100.1.1 = {
+	owner = PRG
+	controller = PRG
+	remove_core = RMG
+	add_core = PAP
+}
+1177.7.24 = { hre = no }
+1322.6.1 = { religion = fraticelli }
+1374.1.1 = { religion = catholic }
+1540.1.1 = {
+	owner = PAP
+	controller = PAP
+	remove_core = PRG
+}
+1798.2.4 = {
+	owner = PRG
+	controller = PRG
+	add_core = PRG
+}
+1798.3.7 = {
+	owner = PAP
+	controller = PAP
+	remove_core = PRG
+}
+1809.5.17 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+}
+1814.4.11 = {
+	owner = PAP
+	controller = PAP
+	remove_core = FRA
+}
+1860.9.29 = { 
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	remove_core = PAP
+}
+1861.3.20 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SPI
+}

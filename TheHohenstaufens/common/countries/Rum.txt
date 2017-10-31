@@ -1,0 +1,137 @@
+# Rum
+graphical_culture = muslimgfx
+
+color = { 144 182 161 }
+
+historical_idea_groups = {
+	logistics_ideas
+	cultural_ideas
+	offensive_ideas
+	religious_ideas
+	economic_ideas
+	spy_ideas
+	defensive_ideas
+	trade_ideas
+	innovativeness_ideas
+	quality_ideas
+}
+
+historical_units = {
+	pre_ottoman_infantry_1
+	pre_ottoman_cavalry_1
+	pre_ottoman_infantry_2
+	pre_ottoman_cavalry_2
+	ottoman_yaya
+	ottoman_musellem
+	ottoman_azab
+	ottoman_timariot
+	ottoman_janissary
+	ottoman_spahi
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+	post_ottoman_infantry
+	post_ottoman_cavalry_a
+}
+
+monarch_names = {
+	"Kilij Arslan #0" = 40
+	"Arslan Shah #0" = 40
+	"Malik Shah #0" = 40
+	"Mahmud #0" = 20
+	"Alp Arslan #0" = 20
+	"Suleyman #0" = 20
+	"Kaykaus #0" = 10
+	"Tutush #0" = 10
+	"Turan Shah #0" = 10
+	"Kayqubad #0" = 10
+	"Kaykhusraw #0" = 10
+	"Togrul #0" = 10
+	"Arslan #0" = 10
+	"Masud #0" = 10
+	"Muhammad #0" = 10
+	"Argun #0" = 10
+	"Mikail #0" = 1
+	"Seljuk #0" = 1
+	"Chagri-Beg #0" = 1
+	"Qutalmish #0" = 1
+	"Tughril-Beg #0" = 1
+	"Qawurd #0" = 1
+	"Uthman #0" = 1
+	"Kerman Shah #0" = 1
+	"Sultan Shah #0" = 1
+	"Ilyas #0" = 1
+	"Yaquti #0" = 1
+	"Arslan Argun #0" = 1
+	"Ahmad #0" = 1
+	"Yaghi Sian #0" = 1
+	"Shams ed-Din #0" = 1
+	"Buldagis #0" = 1
+	"Ismail #0" = 1
+	"Toghan Shah #0" = 1
+	"Iran Shah #0" = 1
+	"Duqaq #0" = 1
+	"Baqtash #0" = 1
+	"Barkiarok #0" = 1
+	"Radwan #0" = 1
+	"Mohammed #0" = 1
+	"Sultan Shah #0" = 1
+	"Dawud #0" = 1
+	"Seljuk Shah #0" = 1
+	"Mas'ud #0" = 1
+	"Mehmed #0" = 1
+	"Sanjar #0" = 1
+	"Muhammed #0" = 1
+	"Togrul Shah #0" = 1
+	"Bahram Shah #0" = 1
+	"Shahanshah #0" = 1
+	"Sancar #0" = 35
+	"Melik #0" = 1
+	"Kayser #0" = 1
+	"Berkyaruk #0" = 1
+	"Muhammad Shah #0" = 1
+	"Tugrul #0" = 1
+	"Moghis #0" = 1
+
+	"Gurcu #0" = -18
+}
+
+leader_names = {
+	"Gurcu" "Kaykaus" "Kilij Arslan" "Kayqubad" "Seljuk" "Arslan" "Mikail" "Chagri-Beg" "Qutalmish" "Tughril-Beg" 
+	"Alp Arslan" "Qawurd" "Uthman" "Kerman Shah" "Sultan Shah" "Ilyas" "Suleyman" "Yaquti" "Muhammad" "Malik Shah" 
+	"Mahmud" "Tutush" "Turan Shah" "Arslan Argun" "Ahmad" "Yaghi Sian" "Shams ed-Din" "Buldagis" "Ismail" "Toghan Shah" 
+	"Iran Shah" "Duqaq" "Baqtash" "Barkiarok" "Arslan Shah" "Radwan" "Mohammed" "Sultan Shah" "Dawud" "Togrul" 
+	"Seljuk Shah" "Mas'ud" "Masud" "Mehmed" "Sanjar" "Muhammed" "Togrul Shah" "Bahram Shah" "Shahanshah" "Sancar" 
+	"Melik" "Argun" "Kayser" "Kaykhusraw" "Berkyaruk" "Muhammad Shah" "Tugrul" "Moghis" "Çagri" "Çaka" 
+	"Afsin" "Ahmet" "Aksonqor" "Alaeddin" "Ali" "Alkan" "Alp Yurek" "Alptigin" "Artuk" "Ayaz" 
+	"Aydin" "Aydogan" "Aydogdu" "Aytekin" "Böru" "Bulend" "Bahadir" "Balaban" "Basbuga" "Batuhan" 
+	"Baturay" "Baybars" "Bayezid" "Baytas" "Belek" "Berkan" "Berkiyaruk" "Bozan" "Bugra" "Burak" 
+	"Cuneyd" "Dundar" "Danismend" "Davud" "Demir" "Dogan" "Dogukan" "Dukak" "Erdem" "Ertan" 
+	"Ertekin" "Ertugrul" "Gunduz" "Hasan" "Hizir" "Ibrahim" "Ilgazi" "Inal" "Iskender" "Kurboga" 
+	"Kaikaus" "Kaikhusraw" "Kaiqobad" "Kara" "Karatay" "Kasim" "Kaya" "Kaytun" "Kemal" "Kiliç" 
+	"Korkut" "Kutalmis" "Kutay" "Kutlug" "Mursel" "Meliksah" "Mengucek" "Mesud" "Murad" "Mustafa" 
+	"Orhan" "Osman" "Porsuk" "Rustem" "Ramazan" "Ridvan" "Söbuk" "Sökmen" "Sönmez" "Saim" 
+	"Saltuk" "Saruca" "Savtekin" "Savur" "Sehinsah" "Selçuk" "Selim" "Sencer" "Sinan" "Tanrivermis" 
+	"Tekin" "Timurtas" "Togay" "Togtekin" "Toktamis" "Tolun" "Toruntay" "Tunga" "Turgut" "Turhan" 
+	"Tutus" "Uluç" "Umur" "Yakut" "Yaman" "Yinal" "Yunus"
+}
+
+ship_names = {
+	"$PROVINCE$ Gemisi"
+}
+
+army_names = {
+	"Anadolu Ordusu" "$PROVINCE$ Ordusu"
+}
+
+fleet_names = {
+	"$PROVINCE$ Donanmasî"
+}

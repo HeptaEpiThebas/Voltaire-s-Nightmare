@@ -1,0 +1,137 @@
+government = merchant_republic
+government_rank = 3
+mercantilism = 25
+primary_culture = tuscan
+religion = catholic
+technology_group = western
+capital = 115	# Pisa
+fixed_capital = 115
+
+1054.1.1 = {
+	monarch = {
+		name = "Repubblica"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1285.1.1 = {
+	monarch = {
+		name = "Ugolino della Gherardesca"
+		birth_date = 1210.1.1
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	add_ruler_modifier = { name = guelph_ruler }
+}
+1289.1.1 = {
+	monarch = {
+		name = "Repubblica"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1313.1.1 = {
+	monarch = {
+		name = "Uguccione della Faggiola"
+		birth_date = 1250.1.1
+		adm = 1
+		dip = 1
+		mil = 5
+	}
+}
+1316.1.1 = {
+	monarch = {
+		name = "Gherardo della Gherardesca"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	add_ruler_modifier = { name = ghib_ruler }
+}
+1324.1.1 = {
+	monarch = {
+		name = "Rinieri della Gherardesca"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1327.1.1 = {
+	monarch = {
+		name = "Fazio della Gherardesca"
+		birth_date = 1305.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1341.1.1 = {
+	monarch = {
+		name = "Rinieri della Gherardesca"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1347.1.1 = {
+	monarch = {
+		name = "Andrea Gambacorta"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1354.1.1 = {
+	monarch = {
+		name = "Francesco Gambacorta"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1364.1.1 = {
+	monarch = {
+		name = "Giovanni dell'Agnello"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1368.1.1 = {
+	monarch = {
+		name = "Pietro Gambacorta"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1392.1.1 = {
+	monarch = {
+		name = "Jacopo d'Appiano"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1398.1.1 = {
+	monarch = {
+		name = "Gherardo d'Appiano"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1399.2.19 = { government = oligarchic_republic }
+1494.1.1 = {
+	monarch = {
+		name = "Simone Orlandi"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}

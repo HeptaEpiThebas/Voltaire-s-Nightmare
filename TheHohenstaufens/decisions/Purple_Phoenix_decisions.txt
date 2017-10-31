@@ -1,0 +1,150 @@
+# rome restored???
+
+country_decisions = {
+
+	triumph_greece = {
+		potential = {
+			tag = BYZ
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			has_dlc = "Purple Phoenix"
+			NOT = { has_country_flag = triumph_greece }
+			hellas_region = { owned_by = BYZ }
+		}
+		allow = {
+			hellas_region = { type = all owned_by = BYZ }
+		}
+		effect = {
+			add_prestige = 10
+			add_army_tradition = 25
+			set_country_flag = triumph_greece
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	triumph_balkans = {
+		potential = {
+			tag = BYZ
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			has_dlc = "Purple Phoenix"
+			NOT = { has_country_flag = triumph_balkans }
+			balkans_superregion = { owned_by = BYZ }
+		}
+		allow = {
+			owns = 1047 #Silistra
+			owns = 2166 #Burgas
+			owns = 573 #Edirne
+			owns = 2135 #Tarnovo
+			owns = 588 #Sofia
+			owns = 2398 #Salonika
+			owns = 708 #Kastoria
+			owns = 714 #Albania
+			owns = 2118 #Montenegro
+			owns = 137 #Ragusa
+			owns = 1083 #Dalmatia
+		}
+		effect = {
+			add_prestige = 20
+			add_army_tradition = 25
+			set_country_flag = triumph_balkans
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	triumph_asia = {
+		potential = {
+			tag = BYZ
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			has_dlc = "Purple Phoenix"
+			NOT = { has_country_flag = triumph_asia }
+			greekislands_region = { owned_by = BYZ }
+		}
+		allow = {
+			greekislands_region = { type = all owned_by = BYZ }
+		}
+		effect = {
+			add_prestige = 10
+			add_army_tradition = 25
+			set_country_flag = triumph_asia
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	triumph_anatolia = {
+		potential = {
+			tag = BYZ
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			has_dlc = "Purple Phoenix"
+			NOT = { has_country_flag = triumph_anatolia }
+			OR = {
+				bithynia_region = { owned_by = BYZ }
+				ephesian_region = { owned_by = BYZ }
+			}
+		}
+		allow = {
+			bithynia_region = { type = all owned_by = BYZ }
+			ephesian_region = { type = all owned_by = BYZ }
+		}
+		effect = {
+			add_prestige = 20
+			add_army_tradition = 25
+			set_country_flag = triumph_anatolia
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	triumph_italy = {
+		potential = {
+			tag = BYZ
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			has_dlc = "Purple Phoenix"
+			NOT = { has_country_flag = triumph_italy }
+			OR = {
+				apulia_region = { owned_by = BYZ }
+				calabrian_region = { owned_by = BYZ }
+				sicilia_region = { owned_by = BYZ }
+			}
+		}
+		allow = {
+			apulia_region = { type = all owned_by = BYZ }
+			calabrian_region = { type = all owned_by = BYZ }
+			sicilia_region = { type = all owned_by = BYZ }
+		}
+		effect = {
+			add_prestige = 35
+			add_army_tradition = 25
+			set_country_flag = triumph_italy
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

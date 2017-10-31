@@ -1,0 +1,876 @@
+conquer_silesia = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		OR = {
+			area = glogow_area
+			area = silesiawest_area
+			area = legnica_area
+		}
+		owner = {
+			NOT = { alliance_with = ROOT }
+			NOT = { overlord_of = ROOT }
+			NOT = { is_subject_of = ROOT }
+		}
+	}
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			tag = BRA
+			tag = PRU
+		}
+		owns = 2650
+		OR = {
+			glogow_area = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { alliance_with = ROOT } }
+				NOT = { owner = { overlord_of = ROOT } }
+				NOT = { owner = { is_subject_of = ROOT } }
+			}
+			silesiawest_area = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { alliance_with = ROOT } }
+				NOT = { owner = { overlord_of = ROOT } }
+				NOT = { owner = { is_subject_of = ROOT } }
+			}
+			legnica_area = {
+				NOT = { owned_by = ROOT }
+				NOT = { owner = { alliance_with = ROOT } }
+				NOT = { owner = { overlord_of = ROOT } }
+				NOT = { owner = { is_subject_of = ROOT } }
+			}
+		}
+		is_free_or_tributary_trigger = yes
+		NOT = { has_country_modifier = prussian_ambition }
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = { owned_by = ROOT }
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}	
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		set_country_flag = conquered_silesia
+		add_country_modifier = {
+			name = "prussian_ambition"
+			duration = 3650
+		}
+	}
+}
+
+
+conquer_warmia_pru = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		area = warmia_area
+		NOT = { owned_by = ROOT }
+		owner = { NOT = { alliance_with = ROOT } }
+		owner = { NOT = { overlord_of = ROOT } }
+		owner = { NOT = { is_subject_of = ROOT } }
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			tag = PRU
+			tag = PTH
+		}
+		is_free_or_tributary_trigger = yes
+		NOT = { has_country_modifier = prussian_ambition }
+		NOT = { has_country_flag = conquered_warmia }
+		warmia_area = {		# Warmia
+			NOT = { owned_by = ROOT }
+			owner = {
+				NOT = { alliance_with = ROOT }
+				NOT = { overlord_of = ROOT }
+				NOT = { is_subject_of = ROOT }
+			}
+		}
+		OR = {
+			2343 = { any_neighbor_province = { owned_by = ROOT } }
+			2328 = { any_neighbor_province = { owned_by = ROOT } }
+			2902 = { any_neighbor_province = { owned_by = ROOT } }
+		}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = { owned_by = ROOT }
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		set_country_flag = conquered_warmia
+		add_country_modifier = {
+			name = "prussian_ambition"
+			duration = 3650
+		}
+	}
+}
+
+connect_the_prussian_lands = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		OR = {
+			region = westpreussen_region
+			region = ostpreussen_region
+		}
+		NOT = { owned_by = ROOT }
+		NOT = { owner = { alliance_with = ROOT } }
+		NOT = { owner = { is_subject_of = ROOT } }
+		NOT = { owner = { overlord_of = ROOT } }
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			AND = {
+				tag = BRA
+				NOT = { exists = PTH }
+			}
+			AND = {
+				tag = PTH
+				NOT = { exists = BRA }
+			}
+		}
+		is_free_or_tributary_trigger = yes
+		owns = 2652			# Berlin
+		owns = 390			# Königsberg
+		westpreussen_region = {
+			NOT = { owned_by = ROOT }
+			NOT = { owner = { alliance_with = ROOT } }
+			NOT = { owner = { is_subject_of = ROOT } }
+			NOT = { owner = { overlord_of = ROOT } }
+		}
+		ostpreussen_region = {
+			NOT = { owned_by = ROOT }
+			NOT = { owner = { alliance_with = ROOT } }
+			NOT = { owner = { is_subject_of = ROOT } }
+			NOT = { owner = { overlord_of = ROOT } }
+		}
+		NOT = { has_country_modifier = prussian_ambition }
+		NOT = { has_country_flag = connected_prussian_lands }
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			NOT = { owns = 2652 }
+			NOT = { owns = 390 }
+		}
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 5000
+		modifier = {
+			factor = 2
+			owns = 2199
+		}
+		modifier = {
+			factor = 2
+			owns = 2793
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		set_country_flag = connected_prussian_lands
+		add_country_modifier = {
+			name = "prussian_ambition"
+			duration = 3650
+		}
+	}
+}
+
+
+conquer_swedish_pomerania = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		OR = {
+			region = pomeralia_region
+			region = pomerania_region
+			region = mecklenburg_region
+		}
+		owned_by = SWE
+		NOT = { owner = { alliance_with = ROOT } }
+		NOT = { owner = { is_subject_of = ROOT } }
+	}
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			tag = BRA
+			tag = PRU
+		}
+		exists = SWE
+		NOT = { alliance_with = SWE }
+		NOT = { SWE = { is_subject_of = ROOT } }
+		NOT = { SWE = { overlord_of = ROOT } }
+		is_free_or_tributary_trigger = yes
+		OR = {
+			pomeralia_region = { owned_by = SWE }
+			pomerania_region = { owned_by = SWE }
+			mecklenburg_region = { owned_by = SWE }
+		}
+		NOT = { has_opinion = { who = SWE value = 50 } }
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes		
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			SWE = { is_at_war = yes }
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		every_target_province = {
+			add_province_modifier = {
+				name = faster_integration
+				duration = 3650
+			}
+		}
+	}
+}
+
+
+conquer_hinterpommern = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		region = pomeralia_region
+		NOT = { owned_by = ROOT }
+		NOT = { owner = { alliance_with = ROOT } }
+		NOT = { owner = { is_subject_of = ROOT } }
+		NOT = { owner = { overlord_of = ROOT } }
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			tag = BRA
+			tag = PRU
+		}
+		is_free_or_tributary_trigger = yes
+		owns = 2635
+		pomeralia_region = {
+			NOT = { owned_by = ROOT }
+			owner = {
+				NOT = { alliance_with = ROOT }
+				NOT = { is_subject_of = ROOT }
+				NOT = { overlord_of = ROOT }
+			}
+		}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes		
+	}
+	success = {
+		all_target_province = { owned_by = ROOT }
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}	
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		every_target_province = {
+			add_province_modifier = {
+				name = faster_integration
+				duration = 3650
+			}
+		}
+	}
+}
+
+vassalize_prussia = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = BRA
+		exists = PTH
+		is_subject = no
+		PTH = {
+			is_subject = no
+			is_neighbor_of = ROOT
+			NOT = { num_of_cities = ROOT }
+			NOT = { total_development = 150 }
+			NOT = { government = imperial_city }
+		}
+		NOT = {
+			has_country_modifier = military_vassalization
+		}
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			NOT = { exists = PTH }
+			PTH = { is_subject_other_than_tributary_trigger = yes }
+			NOT = {
+				has_casus_belli = {
+					type = cb_vassalize_mission
+					target = PTH
+				}
+			}
+		}
+	}
+	success = {
+		PTH = { vassal_of = BRA }
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = PTH value = 0 } }
+		}
+	}
+	immediate = {
+		add_casus_belli = {
+			type = cb_vassalize_mission
+			months = 300
+			target = PTH
+		}
+	}
+	abort_effect = {
+		remove_casus_belli = {
+			type = cb_vassalize_mission
+			target = PTH
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = military_vassalization
+			duration = 3650
+		}
+		hidden_effect = {
+			remove_casus_belli = {
+				type = cb_vassalize_mission
+				target = PTH
+			}
+		}
+	}
+}
+
+brandenburg_breaks_free_from_poland = {
+	
+	type = country
+
+	category = MIL
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = BRA
+		has_regency = no
+		OR = {
+			AND = {
+				exists = POL
+				vassal_of = POL
+			}
+			AND = {
+				exists = PLC
+				vassal_of = PLC
+			}
+		}
+		NOT = {
+			has_country_modifier = prussian_ambition
+		}
+		NOT = { has_country_flag = free_of_poland_bra }
+	}
+	abort = {
+		has_regency = yes
+	}
+	success = {
+		is_subject = no
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = POL value = 0 } }
+		}
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = POL value = -50 } }
+		}
+	}
+	effect = {
+		set_country_flag = free_of_poland_bra
+		add_country_modifier = {
+			name = "prussian_ambition"
+			duration = 3650
+		}
+	}
+}
+
+
+prussia_breaks_free_from_poland = {
+	
+	type = country
+
+	category = MIL
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = PTH
+		has_regency = no
+		OR = {
+			AND = {
+				exists = POL
+				vassal_of = POL
+			}
+			AND = {
+				exists = PLC
+				vassal_of = PLC
+			}
+		}
+		NOT = {
+			has_country_modifier = prussian_ambition
+		}
+		NOT = { has_country_flag = free_of_poland_pru }
+	}
+	abort = {
+		has_regency = yes
+	}
+	success = {
+		is_subject = no
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = POL value = 0 } }
+		}
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = POL value = -50 } }
+		}
+	}
+	effect = {
+		set_country_flag = free_of_poland_pru
+		add_country_modifier = {
+			name = "prussian_ambition"
+			duration = 3650
+		}
+	}
+}
+
+prussia_partitions_poland = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		OR = {
+			owned_by = POL
+			owned_by = PLC
+		}
+		OR = {
+			region = westpreussen_region
+			region = ostpreussen_region
+			region = wielkopolska_region
+		}
+	}
+	
+	allow = {
+		normal_or_historical_nations = yes
+		num_of_cities = 20
+		tag = PRU
+		is_free_or_tributary_trigger = yes
+		is_lesser_in_union = no
+		OR = {
+			PLC = {
+				is_neighbor_of = PRU
+				num_of_cities = 20
+				NOT = { alliance_with = PRU }
+				NOT = { is_subject_of = PRU }
+				any_owned_province = {
+					OR = {
+						region = westpreussen_region
+						region = ostpreussen_region
+						region = wielkopolska_region
+					}
+				}
+			}
+			AND = {
+				NOT = { exists = PLC }
+				POL = {
+					is_neighbor_of = PRU
+					num_of_cities = 20
+					NOT = { alliance_with = PRU }
+					NOT = { is_subject_of = PRU }
+					any_owned_province = {
+						OR = {
+							region = westpreussen_region
+							region = ostpreussen_region
+							region = wielkopolska_region
+						}
+					}
+				}
+			}
+		}
+		NOT = { has_country_modifier = polish_partitions }
+		NOT = { has_country_flag = partitioned_poland }
+		owns = 390
+		owns = 2652
+		owns = 2902
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			any_owned_province = {
+				region = wielkopolska_region
+			}
+		}
+		modifier = {
+			factor = 10
+			ostpreussen_region = {
+				type = all
+				owned_by = PRU
+			}
+		}
+		modifier = {
+			factor = 5
+			westpreussen_region = {
+				type = all
+				owned_by = PRU
+			}
+		}
+		modifier = {
+			factor = 5
+			is_year = 1700
+		}
+		modifier = {
+			factor = 2
+			exists = POL
+			POL = {
+				has_any_disaster = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			exists = PLC
+			PLC = {
+				has_any_disaster = yes
+			}
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		set_country_flag = partitioned_poland
+		add_country_modifier = {
+			name = "polish_partitions"
+			duration = 3650
+		}
+	}
+}
+
+conquer_ratibor = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		area = silesiaeast_area
+		NOT = { owned_by = ROOT }
+		NOT = { is_core = ROOT }
+		owner = {
+			NOT = { alliance_with = ROOT }
+			NOT = { is_subject_of = ROOT }
+			NOT = { overlord_of = ROOT }
+		}
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			tag = BRA
+			tag = PRU
+		}
+		is_free_or_tributary_trigger = yes
+		owns = 822
+		silesiaeast_area = {
+			NOT = { owned_by = ROOT }
+			NOT = { owner = { alliance_with = ROOT } }
+			NOT = { owner = { is_subject_of = ROOT } }
+			NOT = { owner = { overlord_of = ROOT } }
+		}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes		
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}	
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		every_target_province = {
+			add_province_modifier = {
+				name = faster_integration
+				duration = 3650
+			}
+		}
+	}
+}
+
+subjugate_westphalia = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		region = westphalia_region
+		NOT = { owned_by = ROOT }
+		NOT = {
+			owner = { alliance_with = ROOT }
+			owner = { is_subject_of = ROOT }
+			owner = { overlord_of = ROOT }
+		}
+	}
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = PRU
+		exists = WES
+		is_free_or_tributary_trigger = yes
+		NOT = {
+			westphalia_region = {
+				owned_by = ROOT
+			}
+		}
+		WES = {
+			is_neighbor_of = ROOT
+			NOT = { alliance_with = ROOT }
+			NOT = { is_subject_of = ROOT }
+			NOT = { overlord_of = ROOT }
+			any_owned_province = {
+				region = westphalia_region
+			}
+		}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = { owned_by = ROOT }
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}	
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		every_target_province = {
+			add_province_modifier = {
+				name = "faster_integration"
+				duration = 3650
+			}
+		}
+	}
+}

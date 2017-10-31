@@ -1,0 +1,126 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = pfalzish
+religion = catholic
+technology_group = western
+capital = 607
+
+1054.1.1 = {
+	monarch = {
+		name = "Sigebert I"
+		dynasty = "von Sirck"
+		dip = 2
+		adm = 2
+		mil = 2
+	}
+}
+1110.1.1 = {
+	monarch = {
+		name = "Heinrich I"
+		dynasty = "von Sirck"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1152.1.1 = {
+	monarch = {
+		name = "Arnold I"
+		dynasty = "von Sirck"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1158.1.1 = {
+	monarch = {
+		name = "Heinrich II"
+		dynasty = "von Sirck"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1204.1.1 = {
+	monarch = {
+		name = "Arnold II"
+		dynasty = "von Sirck"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1232.1.1 = {
+	monarch = {
+		name = "Arnold III"
+		dynasty = "von Sirck"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1280.1.1 = {
+	monarch = {
+		name = "Friedrich I"
+		dynasty = "von Sirck"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1300.1.1 = {
+	heir = {
+		name = "Arnold"
+		monarch_name = "Arnold IV" #5
+		dynasty = "von Sirck"
+		birth_date = 1300.1.1
+		death_date = 1371.2.23
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1318.1.1 = {
+	monarch = {
+		name = "Arnold IV" #5
+		dynasty = "von Sirck"
+		birth_date = 1300.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1340.1.1 = {
+	heir = {
+		name = "Jakob"
+		monarch_name = "Jakob I"
+		dynasty = "von Sirck"
+		birth_date = 1340.1.1
+		death_date = 1390.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1371.2.23 = {
+	monarch = {
+		name = "Jakob I"
+		dynasty = "von Sirck"
+		birth_date = 1340.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1390.1.1 = {
+	monarch = {
+		name = "Arnold V" #6
+		dynasty = "von Sirck"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+#1431

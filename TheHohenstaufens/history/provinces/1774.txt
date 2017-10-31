@@ -1,0 +1,65 @@
+owner = VNN
+controller = VNN
+culture = venetian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = hemp
+base_manpower = 2
+capital = "Ceneda" 
+is_city = yes	
+add_core = VNN
+add_core = TRV
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1164.1.1 = {
+	owner = TRV
+	controller = TRV
+	remove_core = VNN
+}
+1329.7.2 = {
+	owner = VNN
+	controller = VNN
+	add_core = VNN
+}
+1339.1.1 = {
+	owner = VEN
+	controller = VEN
+	add_core = VEN
+	remove_core = VNN
+	hre = no
+}
+1797.10.17 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+}
+1804.1.1 = {
+	owner = EAH
+	controller = EAH
+	add_core = EAH
+	remove_core = HAB
+}
+1805.12.26 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = EAH
+}
+1814.4.11 = {	
+	owner = LBV
+	controller = LBV
+	add_core = LBV
+	remove_core = ITA
+}
+1866.8.12 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = LBV
+	remove_core = TRV
+}

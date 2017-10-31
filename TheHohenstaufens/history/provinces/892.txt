@@ -1,0 +1,71 @@
+owner = TOR
+controller = TOR
+culture = picard
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 3
+trade_goods = glassware
+base_manpower = 3
+capital = "Tournai"
+is_city = yes
+add_core = TOR
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1477.1.5 = { owner = HAB controller = HAB add_core = HAB hre = yes }
+1513.9.23 = { owner = ENG controller = ENG }
+1518.10.4 = { owner = HAB controller = HAB }
+1519.1.12 = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1549.11.4 = { owner = NED controller = NED add_core = NED remove_core = SPA }
+1579.1.23 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	unrest = 5 
+}
+1635.5.1 = { controller = FRA }
+1648.1.30 = { controller = SPA }
+1648.10.24 = { unrest = 0 remove_core = NED }
+1665.9.17 = { add_claim = FRA }
+1672.5.1 = { controller = FRA }
+1678.9.19 = { controller = SPA }
+1692.1.1 = { controller = FRA }
+1695.9.1 = { controller = SPA }
+1713.4.11 = { owner = HAB controller = HAB add_core = HAB remove_core = SPA }
+1715.9.1 = { remove_claim = FRA } 
+1744.4.1 = { controller = FRA }
+1744.7.1 = { controller = HAB }
+1745.5.10 = { controller = FRA }
+1748.10.18 = { controller = HAB }
+1792.12.1 = { controller = FRA }
+1793.3.18 = { controller = HAB }
+1795.5.16 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = HAB
+	hre = no
+	remove_core = TOR
+}
+1815.3.16 = {
+	owner = NED
+	controller = NED
+	add_core = NED
+	remove_core = FRA
+}
+1830.8.25 = {
+	add_core = BGU
+	unrest = 10
+}
+1831.7.21 = {
+	owner = BGU
+	controller = BGU
+	remove_core = NED
+	unrest = 0
+	base_tax = 6
+	base_production = 5
+	base_manpower = 5
+}

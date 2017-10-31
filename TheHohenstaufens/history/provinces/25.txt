@@ -1,0 +1,45 @@
+owner = MAI
+controller = MAI
+culture = hessian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = grain
+base_manpower = 2
+capital = "Bad Orb"
+is_city = yes
+add_core = MAI
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1556.4.19 = { religion = reformed }
+1803.2.25 = {
+	owner = BGS
+	controller = BGS
+	add_core = BGS
+	remove_core = MAI
+}
+1810.2.16 = {
+	owner = FRN
+	controller = FRN
+	add_core = FRN
+	remove_core = BGS
+}
+1813.10.13 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = FRN
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+}

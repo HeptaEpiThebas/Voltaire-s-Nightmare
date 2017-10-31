@@ -1,0 +1,7 @@
+1242 = "Kergront"
+498 = "Kergent"
+696 = "Dewnens"
+21 = "Ogleddol Dewnens"
+986 = "Resoghen"
+2141 = "Kernow"
+1799 = "Evrok"

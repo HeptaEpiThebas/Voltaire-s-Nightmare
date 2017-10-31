@@ -1,0 +1,304 @@
+retake_scania = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		OR = {
+			area = lund_area
+			area = goinge_area
+		}
+		owned_by = SWE
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		tag = DAN
+		NOT = { has_country_modifier = baltic_ambition }
+		is_free_or_tributary_trigger = yes
+		SWE = {
+			NOT = { alliance_with = DAN }
+			NOT = { is_subject_of = DAN }
+			NOT = { overlord_of = DAN }
+		}
+		OR = {
+			lund_area = { owned_by = SWE }
+			goinge_area = { owned_by = SWE }
+		}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+		modifier = {
+			factor = 2
+			is_monarch_leader = yes
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "baltic_ambition"
+			duration = 3650
+		}
+	}
+}
+
+
+retake_halland = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		area = halmstad_area
+		owned_by = SWE
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		tag = DAN
+		is_free_or_tributary_trigger = yes
+		NOT = { has_country_modifier = military_victory }
+		SWE = {
+			NOT = { alliance_with = DAN }
+			NOT = { is_subject_of = DAN }
+			NOT = { overlord_of = DAN }
+		}
+		halmstad_area = { owned_by = SWE }
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			AND = {
+				NOT = { halmstad_area = { owned_by = SWE } }
+				NOT = { halmstad_area = { owned_by = ROOT } }
+			}
+		}
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+		modifier = {
+			factor = 2
+			is_monarch_leader = yes
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
+			duration = 3650
+		}
+	}
+}
+
+defend_denmark = {
+
+	type = country
+	
+	category = MIL
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = DAN
+		NOT = { has_country_flag = defended_denmark_flag }
+		is_free_or_tributary_trigger = yes
+		OR = {
+			danishislands_region = { owned_by = SWE }
+			jutland_region = { owned_by = SWE }
+		}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		NOT = { war_with = SWE }
+		NOT = { danishislands_region = { owned_by = SWE } }
+		NOT = { jutland_region = { owned_by = SWE } }
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}	
+	}
+	effect = {
+		set_country_flag = defended_denmark_flag
+		add_ruler_modifier = {
+			name = defended_denmark
+		}
+	}
+}
+
+danish_controlled_cot = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = DAN
+		NOT = { has_country_flag = did_danish_trade }
+		NOT = { has_country_modifier = baltic_ambition }
+		is_free_or_tributary_trigger = yes
+		13 = {
+			NOT = { owned_by = DAN }
+			NOT = { owner = { alliance_with = DAN } }
+			NOT = { owner = { is_subject_of = DAN } }
+		}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		13 = { owned_by = ROOT }
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			has_idea = national_trade_policy
+		}	
+	}
+	immediate = {
+		13 = { add_claim = ROOT }
+	}
+	abort_effect = {
+		13 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		set_country_flag = did_danish_trade
+		add_country_modifier = {
+			name = "baltic_ambition"
+			duration = 5475
+		}
+	}
+}
+
+denmark_control_gotland = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = DAN
+		NOT = { has_country_modifier = baltic_ambition }
+		NOT = { has_country_flag = controlled_gotland }
+		is_free_or_tributary_trigger = yes
+		NOT = { owns = 2697 }
+		2697 = {
+			owner = {
+				NOT = { alliance_with = ROOT }
+				NOT = { war_with = ROOT }
+				NOT = { is_subject_of = ROOT }
+			}
+		}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes		
+	}
+	success = {
+		owns = 2697
+	}
+	chance = {
+		factor = 2000
+		modifier = {
+			factor = 5
+			mil = 4
+		}
+		modifier = {
+			factor = 10
+			GOT = { owns = 2697 }
+		}
+	}
+	immediate = {
+		add_claim = 2697
+	}
+	abort_effect = {
+		2697 = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		set_country_flag = controlled_gotland
+		add_country_modifier = {
+			name = "baltic_ambition"
+			duration = 3650
+		}
+	}
+}

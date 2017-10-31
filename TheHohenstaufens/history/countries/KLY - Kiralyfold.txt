@@ -1,0 +1,21 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = eastern
+primary_culture = szaszok
+religion = catholic
+capital = 447
+historical_friend = TRA
+historical_friend = SZK
+
+1162.5.31 = {
+	government = oligarchic_republic
+	monarch = {
+		name = "Saxon Burghers"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#1479 done
+1567.1.1 = { religion = protestant }

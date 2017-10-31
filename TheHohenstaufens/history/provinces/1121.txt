@@ -1,0 +1,60 @@
+owner = SIV
+controller = SIV
+add_core = SIV
+culture = andalucian
+religion = sunni
+hre = no
+base_tax = 4
+base_production = 3
+trade_goods = fish
+base_manpower = 3
+capital = "Al-Buhera"
+is_city = yes
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1063.1.1 = {
+	owner = SEV
+	controller = SEV
+	add_core = SEV
+}
+1091.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = SEV
+}
+1145.3.25 = {
+	owner = SIV
+	controller = SIV
+	remove_core = MOR
+}
+1150.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+}
+1238.1.1 = {
+	owner = NIE
+	controller = NIE
+	add_core = NIE
+	add_core = POR
+	remove_core = MOR
+	remove_core = SIV
+}
+1247.1.1 = {
+	owner = POR
+	controller = POR
+	remove_core = NIE
+	capital = "Albufeira"
+}
+1296.1.1 = { 
+	religion = catholic
+	culture = portugese
+}
+1640.1.1 = { unrest = 8 }
+1640.12.1 = { unrest = 0 }
+1807.11.30 = { controller = FRA }
+1808.6.18 = { controller = POR }

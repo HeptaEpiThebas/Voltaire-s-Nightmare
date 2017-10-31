@@ -1,0 +1,104 @@
+government = tribal_federation
+government_rank = 3
+technology_group = eastern
+primary_culture = cuman
+religion = tengri_pagan_reformed
+secondary_religion = orthodox
+capital = 1789
+
+1054.1.1 = {
+	monarch = {
+		name = "Sokal"
+		dynasty = "Terter"
+		dip = 3
+		mil = 3
+		adm = 3
+	}
+}
+1080.1.1 = {
+	monarch = {
+		name = "Tugorkan"
+		dynasty = "Terter"
+		dip = 3
+		mil = 4
+		adm = 3
+	}
+}
+1091.1.1 = { 
+	capital = 587
+	add_accepted_culture = wallachian
+}
+1099.1.1 = {
+	monarch = {
+		name = "Boniak"
+		dynasty = "Terter"
+		dip = 5
+		mil = 0
+		adm = 2
+	}
+}
+1107.1.1 = {
+	monarch = {
+		name = "Sevinch"
+		dynasty = "Terter"
+		dip = 2
+		mil = 4
+		adm = 2
+	}
+}
+1128.1.1 = {
+	monarch = {
+		name = "Konchak"
+		dynasty = "Terter"
+		dip = 4
+		mil = 4
+		adm = 4
+	}
+}
+1178.1.1 = {
+	monarch = {
+		name = "Kobiak"
+		dynasty = "Terter"
+		dip = 3
+		mil = 2
+		adm = 3
+	}
+}
+1200.1.1 = {
+	monarch = {
+		name = "Danylo"
+		dynasty = "Terter"
+		dip = 2
+		mil = 4
+		adm = 2
+	}
+}
+1223.1.1 = {
+	monarch = {
+		name = "Köten"
+		dynasty = "Terter"
+		dip = 3
+		mil = 3
+		adm = 3
+	}
+}
+1238.1.1 = { religion = catholic }
+1239.1.1 = {
+	religion = orthodox
+	monarch = {
+		name = "Menk"
+		dynasty = "Terter"
+		dip = 3
+		mil = 3
+		adm = 3
+	}
+}
+1275.1.1 = {
+	monarch = {
+		name = "Tortel"
+		dynasty = "Terter"
+		dip = 2
+		mil = 3
+		adm = 2
+	}
+}

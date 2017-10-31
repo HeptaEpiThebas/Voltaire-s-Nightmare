@@ -1,0 +1,41 @@
+owner = NSA
+controller = NSA
+culture = hessian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = carpet
+base_manpower = 2
+capital = "Runkel"
+is_city = yes
+add_core = NSA	
+add_core = ISE
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1137.1.1 = {
+	owner = ISE
+	controller = ISE
+	remove_core = NSA
+}
+1344.1.1 = {
+	owner = TRI
+	controller = TRI
+	add_core = TRI
+	remove_core = ISE
+}
+1797.10.17 = {
+	owner = NSA
+	controller = NSA
+	add_core = NSA
+	remove_core = TRI
+}
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	hre = no
+}

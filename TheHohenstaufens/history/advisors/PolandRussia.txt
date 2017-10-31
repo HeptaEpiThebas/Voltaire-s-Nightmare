@@ -1,0 +1,362 @@
+##################################################
+#
+# ADVISORS FOR THE REGION 'POLAND AND RUSSIA'
+#
+##################################################
+
+advisor = {
+	advisor_id = 2091
+	name = "Witelo"
+	location = 826
+	discount = yes
+	skill = 2
+	type = natural_scientist
+	date = 1265.1.1
+	death_date = 1300.1.1
+}
+
+advisor = {
+	advisor_id = 989
+	name = "Zbigniew Olesnicki" #Catholic clergyman and influential statesman
+	location = 2419 #Krakow?
+	discount = yes
+	skill = 2
+	type = theologian
+	date = 1410.1.1 #20 years old
+	death_date = 1455.4.1
+}
+
+advisor = {
+	advisor_id = 990
+	name = "Grzegorz of Sanok" #Archbishop of Lwów, humanist and philosopher.
+	location = 608 #Lwów
+	discount = yes
+	skill = 1
+	type = philosopher  
+	date = 1454.1.1 #Organised the first Renaissance court in his mansion at Dunajew. Promoted italian culture and new ways in writing. Introduced many artists, Kallimach included. 
+	death_date = 1477.1.29
+}
+
+advisor = {
+	advisor_id = 991
+	name = "Jan Ostroróg" #Voivode of Poznan' and governor of Greater Poland.
+	location = 4052 #Poznan
+	discount = yes
+	skill = 2
+	type = statesman  
+	date = 1455.1.1 #He started works on his main political treaty in 1450's. 
+	death_date = 1501.1.1
+}
+
+advisor = {
+	advisor_id = 992
+	name = "Jan Dlugosz" #Diplomat, then historian, cleric.
+	location = 2419 #Kraków
+	discount = yes
+	skill = 2
+	type = artist  
+	date = 1455.1.1 #Precursor of modern historiography, his "Annales" are the best source for Central-Eastern Eupean history of 15ht cen. He started working on it in 1455. 
+	death_date = 1480.1.1
+}
+
+advisor = {
+	advisor_id = 993
+	name = "Filip Callimachus" #Fillipo Buonaccorsi. Polish-Italian humanist writer who was part of a conspiracy to assasinate Pope Paul II. Diplomat, artist, philosopher. 
+	location = 2419 #Krakow
+	discount = yes
+	skill = 1
+	type = spymaster 
+	date = 1468.1.1 #31 years old, fled to Poland
+	death_date = 1497.1.1 #died
+}
+
+advisor = {
+	advisor_id = 996
+	name = "Wojciech z Brudzewa" #Albert Brudzewski. Professor of Jagiellonian University.
+	location = 2419 #Kraków
+	discount = yes
+	skill = 1
+	type = natural_scientist  
+	date = 1475.1.1 #Interested in geography and astronomy, belonged to known school of astronomy in Krakow. 
+	death_date = 1497.1.1 #died
+}
+
+advisor = {
+	advisor_id = 997
+	name = "Wit Stwosz" #Veit Stoss. German Sculptor made famous for his work in Poland
+	location = 2419 #Krakow
+	discount = yes
+	skill = 2
+	type = artist
+	date = 1477.1.1 #32 years old, came to Krakow
+	death_date = 1533.9.20 #died
+}
+
+advisor = {
+	advisor_id = 998
+	name = "Andrzej Boryszewski" #Archbishop of Lwow and Primate of Poland
+	location = 4052 #Poznan
+	discount = yes
+	skill = 1
+	type = theologian
+	date = 1480.1.1 #45 years old
+	death_date = 1510.1.1 #died
+}
+
+advisor = {
+	advisor_id = 999
+	name = "Jan Laski" #Polish nobleman, Grand Chancellors of the Crown in 1503-1510 
+	location = 2419 #Kraków
+	discount = yes
+	skill = 2
+	type = statesman #could also be diplomat
+	date = 1490.1.1 #34 years old, secretary of the King
+	death_date = 1531.5.19
+}
+
+advisor = {
+	advisor_id = 1000
+	name = "F. Jagiellonczyk" #Cardinal Fryderyk Jagiellonczyk. Primate of Poland and both son and brother to Kings of Poland
+	location = 2419 #Krakow
+	discount = yes
+	skill = 2
+	type = theologian 
+	date = 1493.1.1 #25 years old, became archbishop
+	death_date = 1503.1.1 #died
+}
+
+advisor = {
+	advisor_id = 1001
+	name = "Jan F. Tarnowski" #Jan Feliks "Szram" Tarnowski. Voivode of Lublin 
+	location = 2633 #Lublin
+	discount = yes
+	skill = 1
+	type = statesman
+	date = 1494.1.1 #23 years old,  castellan of Lublin 
+	death_date = 1507.1.1 #died
+}
+
+advisor = {
+	advisor_id = 1002
+	name = "Jan Boner" #Johann Boner, German from Wissemberg. One of the wealthiest men in Poland, unofficial treasurer of King Sigismund I.   
+	location = 2419 #Kraków 
+	discount = yes
+	skill = 2
+	type = treasurer
+	date = 1500.1.1 #~50 years old. Introduced to the court of Sigismund by his fellow Alsacian Seweryn Bettman
+	death_date = 1523.1.1
+}
+
+advisor = {
+	advisor_id = 1004
+	name = "Nicolaus Copernicus" #Greatest Scientist of his day  
+	location = 1138 #Mazovia
+	discount = yes
+	skill = 3
+	type = natural_scientist
+	date = 1504.1.1 #31 years old, ideas pertinent to his theory began in this year
+	death_date = 1543.5.24
+}
+
+advisor = {
+	advisor_id = 1005
+	name = "Piotr Tomicki" #Diplomat, bishop of Poznan', Renaissance man.  
+	location = 2419 #Kraków
+	discount = yes
+	skill = 1
+	type = diplomat
+	date = 1506.1.1 #Advanced fast in diplomatic service of Sigismund, soon becoming one of the most influenced men in chancellory. 
+	death_date = 1535.1.1 #died
+}
+
+advisor = {
+	advisor_id = 1006
+	name = "Hans Dürer" #German who became court painter to Zygmunt I 
+	location = 2419 #Krakow
+	discount = yes
+	skill = 1
+	type = artist
+	date = 1515.1.1 #25 years old
+	death_date = 1538.1.1 #estimated death
+}
+
+advisor = {
+	advisor_id = 1008
+	name = "Bartolomeo Berecci" #Architect from Florence. 
+	location = 2419 #Kraków 
+	discount = yes
+	skill = 2
+	type = artist
+	date = 1516.1.1 #The main architect of the reconstruction of Royal Castle on Wawel Hill in Kraków. 
+	death_date = 1537.1.1 #died
+}
+
+advisor = {
+	advisor_id = 1009
+	name = "Seweryn Boner" #Heir of Jan Boner. Banker and trader, unofficial treasurer of King Sigismund I.   
+	location = 2419 #Kraków 
+	discount = yes
+	skill = 1
+	type = treasurer
+	date = 1520.1.1 #Nephew of Jan, continued his businesses. Promoted to nobility.
+	death_date = 1549.1.1 #died
+}
+
+advisor = {
+	advisor_id = 1012
+	name = "Francesco Lismanini" #Confessor to Queen Bona and undercover heretic
+	location = 2266 #Lodz
+	discount = yes
+	skill = 2
+	type = theologian 
+	date = 1534.1.1 #30 years old
+	death_date = 1566.4.1
+}
+
+advisor = {
+	advisor_id = 1014
+	name = "Waclaw z Szamotul" #Waclaw Szamotulski. Polish composer and renaissance man
+	location = 4052 #Poznan
+	discount = yes
+	skill = 1
+	type = artist
+	date = 1538.1.1 #18 years old. died early.
+	death_date = 1560.1.1
+}
+
+advisor = {
+	advisor_id = 1015
+	name = "S. Orzechowski" #Stanislaw Orzechowski. Talented Polish writer and thinker
+	location = 608 #Lwów
+	discount = yes
+	skill = 2
+	type = artist
+	date = 1540.1.1 #27 years old
+	death_date = 1566.1.1
+}
+
+advisor = {
+	advisor_id = 1016
+	name = "Andrzej Modrzewski" #Andrzej Frycz Modrzewski, "The father of Polish democracy"
+	location = 4052 #Poznan
+	discount = yes
+	skill = 2
+	type = philosopher
+	date = 1541.1.1 #38 years old, returned to Poland.
+	death_date = 1572.1.1
+}
+
+advisor = {
+	advisor_id = 1021
+	name = "Jan Laski" #Polish Protestant evangelical reformer  
+	location = 1138 #Mazovia <- don't know better location.
+	discount = yes
+	skill = 2
+	type = theologian
+	date = 1556.1.1 #~57 years old. Recalled back to Poland.
+	death_date = 1560.1.1
+}
+
+advisor = {
+	advisor_id = 1022
+	name = "Giorgio Biandrata" #Italian physician and polemic
+	location = 1138 #Mazovia
+	discount = yes
+	skill = 1
+	type = natural_scientist
+	date = 1558.1.1 #43 years old, Sent to Poland
+	death_date = 1588.5.5
+}
+
+advisor = {
+	advisor_id = 1028
+	name = "Jan Zamoyski"
+	#one of the most skilled diplomats, politicians and statesmen of his time
+	location = 1138 #Mazovia
+	discount = yes
+	skill = 3
+	type = statesman 
+	date = 1572.3.1 #30 years old
+	death_date = 1605.1.1
+}
+
+advisor = {
+	advisor_id = 1030
+	name = "Piotr Poweski" #Piotr Skarga. Jesuit, counter-reformer, polemicist and advocate of absolute monarchy
+	location = 1138 #Mazovia
+	discount = yes
+	skill = 1
+	type = philosopher #could also be theologian
+	date = 1579.1.1 #43 years old, published 'Lives of the Saints
+	death_date = 1612.9.27
+}
+
+advisor = {
+	advisor_id = 1031
+	name = "Lew Sapieha" #great political figure of the Polish-Lithuanian Commonwealth. Rich and powerful magnate
+	location = 1152 #Lithuania
+	discount = yes
+	skill = 2
+	type = statesman #could also be diplomat
+	date = 1589.1.1 #32 years old, became Great Chancellor of the Grand Duchy
+	death_date = 1633.1.1
+}
+
+advisor = {
+	advisor_id = 1034
+	name = "Adam Wisniowiecki" #Main Schemer after False Dmitriy I Issue
+	location = 1138 #Mazovia
+	discount = yes
+	skill = 1
+	type = spymaster 
+	date = 1596.1.1 #30 years old
+	death_date = 1622.1.1
+}
+
+advisor = {
+	advisor_id = 1035
+	name = "Michal Wisniowiecki" #prince at Wisniowiec
+	location = 1138 #Mazovia
+	discount = yes
+	skill = 1
+	type = statesman 
+	date = 1600.1.1 #? years old, start of False Dmitriy scheme
+	death_date = 1616.1.1
+}
+
+advisor = {
+	advisor_id = 1036
+	name = "Rafal Leszczynski" #Powerful magnate, gathered substantial wealth: 17 towns and over 100 villages 
+	location = 2266 #Lodz
+	discount = yes
+	skill = 2
+	type = trader
+	date = 1619.1.1 #30 years old
+	death_date = 1636.3.29
+}
+
+advisor = {
+	advisor_id = 1039
+	name = "Szymon Starowolski" #Jesuit, Historian and advocate of social conservatism
+	location = 2419 #Krakow
+	discount = yes
+	skill = 1 
+	type = philosopher #could also be artist
+	date = 1621.1.1 #36 years old
+	death_date = 1650.1.1
+}
+
+advisor = {
+	advisor_id = 1082
+	name = "Poniatowski" #Michal Jerzy Poniatowski, brother to last King of Poland
+	location = 1218 #Plock
+	discount = yes
+	skill = 1
+	type = statesman 
+	date = 1776.1.1 #37 years old, Became Archbishop
+	death_date = 1794.1.1
+}
+
+####################################################
+# End of file
+####################################################

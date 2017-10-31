@@ -1,0 +1,63 @@
+government = tribal_democracy
+government_rank = 1
+technology_group = western
+primary_culture = east_frisian
+religion = catholic
+capital = 2204
+
+1054.1.1 = {
+	monarch = {
+		name = "Fryske frijheid"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1356.1.1 = {
+	government = tribal_despotism
+	monarch = {
+		name = "Ewe"
+		dynasty = "Ewesma"
+		birth_date = 1335.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1380.1.1 = {
+	monarch = {
+		name = "Ewo"
+		dynasty = "Ewesma"
+		adm = w
+		dip = w
+		mil = 2
+	}
+}
+1399.1.1 = {
+	monarch = {
+		name = "Menneke"
+		dynasty = "Ewesma"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1444.1.1 = {
+	monarch = {
+		name = "Onno"
+		dynasty = "Ewesma"
+		adm = 3
+		dip = 5
+		mil = 3
+	}
+}
+1481.1.1 = {
+	monarch = {
+		name = "Abeke"
+		dynasty = "Ewesma"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

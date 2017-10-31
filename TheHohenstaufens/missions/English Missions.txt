@@ -1,0 +1,527 @@
+conquer_ireland = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			tag = ENG
+			tag = GBR
+		}
+		is_free_or_tributary_trigger = yes
+		is_year = 1536
+		owns = 2737
+		irish_superregion = {
+			NOT = { owned_by = ROOT }
+		}
+		NOT = { has_country_modifier = british_ambition }
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		irish_superregion = {
+			type = all
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+		modifier = {
+			factor = 2
+			mil = 5
+		}
+	}
+	immediate = {
+		irish_superregion = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		irish_superregion = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "british_ambition"
+			duration = 3650
+		}
+	}
+}
+
+
+conquer_scotland = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		region = scotland_region
+		owned_by = SCO
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			tag = ENG
+			tag = GBR
+		}
+		is_free_or_tributary_trigger = yes
+		is_year = 1603
+		SCO = {
+			is_free_or_tributary_trigger = yes
+			NOT = { alliance_with = ROOT }
+			NOT = { overlord_of = ROOT }
+			NOT = { is_subject_of = ROOT }
+			any_owned_province = {
+				region = scotland_region
+			}
+		}
+		NOT = { has_opinion = { who = SCO value = 50 } }
+		NOT = { has_country_modifier = british_ambition }
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			SCO = { is_subject_of = ROOT }
+			any_target_province = {
+				NOT = { owned_by = ROOT }
+				NOT = { owned_by = SCO }
+			}
+		}
+	}
+	success = {
+		NOT = { exists = SCO }
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+		modifier = {
+			factor = 2
+			mil = 5
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "british_ambition"
+			duration = 3650
+		}
+	}
+}
+
+
+vassalize_scotland = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			tag = ENG
+			tag = GBR
+		}
+		is_free_or_tributary_trigger = yes
+		exists = SCO
+		SCO = {
+			is_subject = no
+			NOT = { num_of_cities = ROOT }
+			NOT = { total_development = 150 }
+			NOT = { government = imperial_city }
+		}
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			NOT = { exists = SCO }
+			SCO = { is_subject_other_than_tributary_trigger = yes }
+			NOT = {
+				has_casus_belli = {
+					type = cb_vassalize_mission
+					target = SCO
+				}
+			}
+		}
+	}
+	success = {
+		SCO = { vassal_of = ROOT }
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			MIL = 4
+		}
+		modifier = {
+			factor = 2
+			MIL = 5
+		}
+	}
+	immediate = {
+		add_casus_belli = {
+			type = cb_vassalize_mission
+			months = 300
+			target = SCO
+		}
+	}
+	abort_effect = {
+		remove_casus_belli = {
+			type = cb_vassalize_mission
+			target = SCO
+		}
+	}
+	effect = {
+		add_prestige = 10
+		hidden_effect = {
+			remove_casus_belli = {
+				type = cb_vassalize_mission
+				target = SCO
+			}
+		}
+	}
+}
+
+monopolize_british_cot = {
+	
+	type = country
+
+	category = DIP
+	
+	allow = {
+		normal_or_historical_nations = yes	
+		OR = {
+			tag = ENG
+			tag = GBR
+			tag = ASE
+		}
+		NOT = {
+			2268 = {
+				is_strongest_trade_power = ROOT
+			}
+		}
+		ROOT = { controls = 2268 }
+		NOT = { has_country_flag = monopolize_british_cot }
+	}
+	abort = {
+	}
+	success = {
+		2268 = {
+			is_strongest_trade_power = ROOT
+		}
+	}
+	chance = {
+		factor = 2000
+		modifier = {
+			factor = 2
+			has_idea = national_trade_policy
+		}	
+	}
+	effect = {
+		add_treasury = 40
+		add_dip_power = 40
+		set_country_flag = monopolize_british_cot
+	}
+}
+
+occupy_paris = {
+	
+	type = country
+
+	category = MIL
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = ENG
+		exists = FRA
+		war_with = FRA
+		NOT = { is_year = 1475 }
+		french_superregion = { owned_by = ROOT }
+		FRA = { controls = 548 }
+		548 = { is_capital = yes }
+		NOT = { has_country_flag = has_occupied_paris }
+		NOT = { has_global_flag = eng_had_end_of_hundred_years_war }
+		has_global_flag = eng_had_start_of_hundred_years_war
+	}
+	abort = {
+		OR = {
+			NOT = { war_with = FRA }
+			any_ally = { controls = 548 }
+		}
+	}
+	success = {
+		controls = 548
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+		modifier = {
+			factor = 2
+			FRA = {
+				NOT = { mil = 2 }
+			}
+		}
+	}
+	effect = {
+		champagne_region = { add_claim = ROOT }
+		burgundy_region = { add_claim = ROOT }
+		normandy_region = { add_claim = ROOT }
+		angevin_region = { add_claim = ROOT }
+		picard_region = { add_claim = ROOT }
+		add_prestige = 5
+		set_country_flag = has_occupied_paris
+	}
+}
+
+
+conquer_normandie_and_caux = {
+	
+	type = country
+	ai_mission = yes
+
+	category = MIL
+	
+	target_provinces = {
+		region = normandy_region
+		owned_by = FRA
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		tag = ENG
+		exists = FRA
+		is_free_or_tributary_trigger = yes
+		NOT = { is_year = 1475 }
+		NOT = { alliance_with = FRA }
+		NOT = { truce_with = FRA }
+		NOT = { has_country_modifier = military_victory }
+		NOT = { has_global_flag = eng_had_end_of_hundred_years_war }
+		has_global_flag = eng_had_start_of_hundred_years_war
+		french_superregion = { owned_by = ROOT }
+		normandy_region = { owned_by = FRA }
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = FRA value = -100 } }
+		}
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = FRA value = -200 } }
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
+			duration = 3650
+		}
+	}
+}
+
+
+conquer_aquitaine = {
+	
+	type = country
+	ai_mission = yes
+
+	category = MIL
+	
+	target_provinces = {
+		region = southgascon_region
+		owned_by = FRA
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		tag = ENG
+		exists = FRA
+		is_free_or_tributary_trigger = yes
+		NOT = { alliance_with = FRA }
+		NOT = { truce_with = FRA }
+		NOT = { is_year = 1475 }
+		french_superregion = { owned_by = ROOT }
+		southgascon_region = { owned_by = FRA }
+		NOT = { has_country_modifier = military_victory }
+		NOT = { has_global_flag = eng_had_end_of_hundred_years_war }
+		has_global_flag = eng_had_start_of_hundred_years_war
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			NOT = { french_superregion = { owned_by = ROOT } }
+		}
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = FRA value = -100 } }
+		}
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = FRA value = -200 } }
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "military_victory"
+			duration = 3650
+		}
+	}
+}
+
+vassalize_france = {
+	
+	type = country
+
+	category = MIL
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = ENG
+		exists = FRA
+		is_subject = no
+		french_superregion = {
+			owned_by = ROOT
+			is_core = ROOT
+		}
+		FRA = {
+			is_subject = no
+			NOT = { num_of_infantry = ROOT }
+			NOT = { num_of_cavalry = ROOT }
+			NOT = { num_of_cities = ROOT }
+		}
+		has_global_flag = eng_had_start_of_hundred_years_war
+		NOT = { truce_with = FRA }
+		NOT = { war_with = FRA }
+		NOT = { has_global_flag = eng_had_end_of_hundred_years_war }
+	}
+	abort = {
+		OR = {
+			is_subject = yes
+			NOT = { exists = FRA }
+			FRA = { is_subject = yes }
+		}
+	}
+	success = {
+		FRA = { junior_union_with = ENG }
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+	}
+	immediate = {
+		add_casus_belli = {
+			type = cb_restore_personal_union
+			months = 120
+			target = FRA
+		}
+	}
+	abort_effect = {
+		remove_casus_belli = {
+			type = cb_restore_personal_union
+			target = FRA
+		}
+	}
+	effect = {
+		add_prestige = 10
+		hidden_effect = {
+			remove_casus_belli = {
+				type = cb_restore_personal_union
+				target = FRA
+			}
+		}
+	}
+}

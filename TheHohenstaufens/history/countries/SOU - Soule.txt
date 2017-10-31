@@ -1,0 +1,118 @@
+government = despotic_monarchy
+government_rank = 1
+primary_culture = gascon
+religion = catholic
+technology_group = western
+capital = 2787
+fixed_capital = 2787
+
+
+1023.1.1 = {
+	monarch = {
+		name = "Guillaume I"
+		dynasty = "de Soule"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1040.1.1 = {
+	monarch = {
+		name = "Raimond Guillaume I"
+		dynasty = "de Soule"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1083.1.1 = {
+	monarch = {
+		name = "Guillaume Raimond"
+		dynasty = "de Soule"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1085.1.1 = {
+	monarch = {
+		name = "Gassion I"
+		dynasty = "de Soule"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1130.1.1 = {
+	monarch = {
+		name = "Auger I"
+		dynasty = "de Soule"
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+}
+1150.1.1 = {
+	monarch = {
+		name = "Navarre"
+		dynasty = "de Soule"
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1170.1.1 = {
+	monarch = {
+		name = "Guillaume II"
+		dynasty = "de Soule"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+1178.1.1 = {
+	monarch = {
+		name = "Raimond Guillaume II"
+		dynasty = "de Soule"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+1200.1.1 = {
+	monarch = {
+		name = "Raimond Guillaume III"
+		dynasty = "de Soule"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1215.1.1 = {
+	monarch = {
+		name = "Raimond Guillaume IV"
+		dynasty = "de Soule"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1237.1.1 = {
+	monarch = {
+		name = "Raimond Guillaume V"
+		dynasty = "de Soule"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1257.1.1 = {
+	monarch = {
+		name = "Auger II"
+		dynasty = "de Soule"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}

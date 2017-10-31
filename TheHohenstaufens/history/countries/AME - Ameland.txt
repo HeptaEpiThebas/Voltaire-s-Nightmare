@@ -1,0 +1,75 @@
+government = tribal_democracy
+government_rank = 1
+primary_culture = east_frisian
+religion = catholic
+technology_group = western
+capital = 2976
+
+1054.1.1 = {
+	monarch = {
+		name = "Fryske frijheid"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1424.1.1 = {
+	government = tribal_despotism
+	monarch = {
+		name = "Ritske"
+		dynasty = "Jelmera"
+		birth_date = 1383.1.1
+		adm = 3
+		dip = 3
+		mil = 6
+	}
+}
+1450.1.17 = {
+	monarch = {
+		name = "Romke"
+		dynasty = "Donia"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1463.1.1 = {
+	monarch = {
+		name = "Hajo"
+		dynasty = "Camminga"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1494.1.1 = {
+	monarch = {
+		name = "Pieter"
+		dynasty = "Camminga"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1510.1.1 = {
+	monarch = {
+		name = "Rienck Minnes"
+		dynasty = "Camminga"
+		birth_date = 1460.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1531.1.1 = {
+	monarch = {
+		name = "Rienck Wytses"
+		dynasty = "Camminga"
+		birth_date = 1517.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#1569 occupied

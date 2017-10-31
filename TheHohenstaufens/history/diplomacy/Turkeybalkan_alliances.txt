@@ -1,0 +1,160 @@
+# Ottoman-Prussian against Austria & Russia
+alliance = {
+	first = TUR
+	second = PRU
+	start_date = 1790.1.1
+	end_date = 1800.1.1
+}
+
+# Ottoman vassal
+vassal = {
+	first = TUR
+	second = RSZ
+	start_date = 1682.11.19
+	end_date = 1685.10.15
+}
+
+# Ottoman vassal
+vassal = {
+	first = TUR
+	second = NAX
+	start_date = 1576.1.1
+	end_date = 1579.1.1
+}
+
+# Ottoman vassal
+vassal = {
+	first = TUR
+	second = WAL
+	start_date = 1445.1.1
+	end_date = 1456.4.1
+}
+
+# Ottoman vassal
+vassal = {
+	first = TUR
+	second = WAL
+	start_date = 1462.11.1
+	end_date = 1594.9.1
+}
+
+# Ottoman vassal
+vassal = {
+	first = TUR
+	second = WAL
+	start_date = 1601.1.1
+	end_date = 1820.1.1
+}
+
+# Ottoman vassal
+vassal = {
+	first = TUR
+	second = MOL
+	start_date = 1512.1.1
+	end_date = 1600.1.1
+}
+
+# Ottoman vassal
+vassal = {
+	first = TUR
+	second = MOL
+	start_date = 1601.1.1
+	end_date = 1825.5.28
+}
+
+# Ottoman vassal
+vassal = {
+	first = TUR
+	second = TRA
+	start_date = 1528.1.1
+	end_date = 1595.1.28
+}
+
+# Ottoman vassal
+vassal = {
+	first = TUR
+	second = TRA
+	start_date = 1601.1.1
+	end_date = 1619.3.20
+}
+vassal = {
+	first = TUR
+	second = TRA
+	start_date = 1620.11.8
+	end_date = 1625.5.9
+}
+vassal = {
+	first = TUR
+	second = TRA
+	start_date = 1626.12.30
+	end_date = 1699.1.1
+}
+
+# Ottoman vassal
+guarantee = {
+	first = TUR
+	second = RAG
+	start_date = 1444.1.1
+	end_date = 1806.1.1
+}
+
+# The Septinsular Republic
+vassal = {
+	first = TUR
+	second = CEP
+	start_date = 1799.3.1
+	end_date = 1807.7.7
+}
+
+#African
+# Tlemcen vassal of the Hafsids
+vassal = {
+	first = TUN
+	second = TLC
+	start_date = 1468.1.1
+	end_date = 1510.1.1
+}
+
+#Autonomous region
+union = {
+	first = TUN
+	second = KBA
+	start_date = 1229.1.1
+	end_date = 1347.1.1
+}
+union = {
+	first = TUN
+	second = KBA
+	start_date = 1357.11.1
+	end_date = 1366.1.1
+}
+
+#Spain takes Tlemcen
+vassal = {
+	first = CAS
+	second = TLC
+	start_date = 1510.1.1
+	end_date = 1516.1.23
+}
+vassal = {
+	first = SPA
+	second = TLC
+	start_date = 1516.1.23
+	end_date = 1517.1.1
+}
+
+# Algiers under Salim Al-Tumi
+vassal = {
+	first = CAS
+	second = ALG
+	start_date = 1510.1.1
+	end_date = 1516.1.1
+}
+
+# Ottoman Algeria
+march = {
+	first = TUR
+	second = ALG
+	start_date = 1516.1.1
+	end_date = 1523.1.1
+}

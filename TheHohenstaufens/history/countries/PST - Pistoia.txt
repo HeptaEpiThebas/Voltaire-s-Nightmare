@@ -1,0 +1,89 @@
+government = italian_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = tuscan
+religion = catholic
+capital = 2022
+
+1115.7.24 = {
+	monarch = {
+		name = "Repubblica"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1294.1.1 = {
+	monarch = {
+		name = "Giano"
+		dynasty = "della Bella"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+1295.1.1 = {
+	monarch = {
+		name = "Repubblica"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1301.1.1 = {
+	monarch = {
+		name = "Andrea"
+		dynasty = "Gherardini"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	leader = {
+		name = "Tolosao degli Uberti"           	
+		type = general	
+		rank = 0	
+		fire = 3	
+		shock = 3	
+		manuever = 3	
+		siege = 1	
+		death_date = 1306.1.1 
+	} 
+}
+1306.1.1 = {
+	monarch = {
+		name = "Repubblica"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1322.1.1 = {
+	monarch = {
+		name = "Ormanno"
+		dynasty = "Tedici"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+1325.1.1 = {
+	monarch = {
+		name = "Filippo"
+		dynasty = "Tedici"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1330.1.1 = {
+	monarch = {
+		name = "Repubblica"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}

@@ -1,0 +1,17 @@
+bookmark =
+{
+	name = "GLORY_TO_ENGLAND"
+	desc = "GLORY_TO_ENGLAND_DESC"
+	date = 1172.1.1
+	
+	country = ENG
+	country = AQT
+	country = PMK
+	country = DMS
+	country = MTH
+	country = KID
+	country = UIS
+
+	easy_country = ENG
+	easy_country = AQT
+}

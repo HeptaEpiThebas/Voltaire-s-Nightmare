@@ -1,0 +1,357 @@
+government = tribal_kingdom
+government_rank = 2
+technology_group = western
+religion = catholic
+primary_culture = irish
+capital = 258
+
+1118.1.1 = {
+	monarch = {
+		name = "Tadhg I"
+		dynasty = "Mac Cárthaigh"
+		birth_date = 1070.1.1 #est
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+1123.1.1 = {
+	monarch = {
+		name = "Cormac I"
+		dynasty = "Mac Cárthaigh"
+		adm = 2
+		dip = 6
+		mil = 3
+	}
+}
+1138.1.1 = {
+	monarch = {
+		name = "Donogh I"
+		dynasty = "Mac Cárthaigh"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1143.1.1 = {
+	monarch = {
+		name = "Dairmait II"
+		dynasty = "Mac Cárthaigh"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+# Earls of Desmond
+1172.1.1 = {
+	government = feudal_monarchy
+	primary_culture = hiberno_norman
+	add_accepted_culture = irish
+	monarch = {
+		name = "Maurice"
+		dynasty = "FitzGerald"
+		birth_date = 1115.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1176.9.1 = {
+	monarch = {
+		name = "Thomas"
+		dynasty = "FitzGerald"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1213.1.1 = {
+	monarch = {
+		name = "John"
+		dynasty = "FitzGerald"
+		adm = 3
+		dip = 3
+		mil = 1
+		leader = {	
+			name = "John Fitzgerald"
+			type = general
+			rank = 0
+			fire = 1
+			shock = 2
+			manuever = 0
+			siege = 0
+		}
+	}
+}
+1259.1.1 = { government_rank = 3 }
+1261.8.1 = {
+	monarch = {
+		name = "Thomas"
+		dynasty = "FitzGerald"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1288.1.1 = {
+	heir = {
+		name = "Thomas"
+		monarch_name = "Thomas"
+		dynasty = "FitzGerald"
+		birth_date = 1288.1.1
+		death_date = 1307.1.1
+		claim = 95
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}
+1298.1.1 = {
+	monarch = {
+		name = "Thomas"
+		dynasty = "FitzGerald"
+		birth_date = 1288.1.1
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}
+1307.1.1 = {
+	monarch = {
+		name = "Maurice"
+		dynasty = "FitzGerald"
+		adm = 2
+		dip = 3
+		mil = 3
+		leader = {	
+			name = "Maurice FitzGerald"
+			type = general
+			rank = 0
+			fire = 3
+			shock = 4
+			manuever = 3
+			siege = 0
+		}
+	}
+}
+1356.1.25 = {
+	monarch = {
+		name = "Maurice"
+		dynasty = "FitzGerald"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Gerald"
+		monarch_name = "Gerald"
+		dynasty = "FitzGerald"
+		birth_date = 1335.1.1
+		death_date = 1398.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1358.1.1 = {
+	monarch = {
+		name = "Gerald"
+		dynasty = "FitzGerald"
+		birth_date = 1335.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1367.1.1 = {
+	add_country_modifier = {
+		name = kilkennystatutesmod
+		duration = -1
+	}
+}
+1398.1.1 = {
+	monarch = {
+		name = "John"
+		dynasty = "FitzGerald"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+	heir = {
+		name = "Thomas"
+		monarch_name = "Thomas"
+		dynasty = "FitzGerald"
+		birth_date = 1386.1.1
+		death_date = 1418.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1399.3.4 = {
+	monarch = {
+		name = "Thomas"
+		dynasty = "FitzGerald"
+		birth_date = 1386.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1418.1.1 = {
+	monarch = {
+		name = "James"
+		dynasty = "FitzGerald"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = intricate_web_weaver_personality
+	add_ruler_personality = lawgiver_personality
+	add_ruler_personality = calm_personality
+}
+1430.1.1 = {
+	heir = {
+		name = "Thomas"
+		monarch_name = "Thomas"
+		dynasty = "FitzGerald"
+		birth_date = 1430.1.1 # Estimate
+		death_date = 1468.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1462.1.1 = {
+	monarch = {
+		name = "Thomas"
+		dynasty = "FitzGerald"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+
+1462.1.1 = {
+	heir = {
+		name = "James"
+		monarch_name = "James"
+		dynasty = "FitzGerald"
+		birth_date = 1459.1.1
+		death_date = 1487.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+1468.1.1 = {
+	monarch = {
+		name = "James"
+		dynasty = "FitzGerald"
+		adm = 3
+		dip = 2
+		mil = 1
+	}
+}
+
+#Murdered
+
+1487.1.1 = {
+	monarch = {
+		name = "Maurice"
+		dynasty = "FitzGerald"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1487.1.1 = {
+	heir = {
+		name = "James"
+		monarch_name = "James"
+		dynasty = "FitzGerald"
+		birth_date = 1479.1.1
+		death_date = 1529.6.18
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+1520.1.1 = {
+	monarch = {
+		name = "James"
+		dynasty = "FitzGerald"
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}
+
+#Dies in Battle, succeded by his Uncle.
+
+1529.6.18 = {
+	monarch = {
+		name = "Thomas"
+		dynasty = "FitzGerald"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+
+#Nicknamed "The Court Page, Grandson of Thomas, title also held by John brother of his grandfather.
+1534.1.1 = {
+	monarch = {
+		name = "Thomas"
+		dynasty = "FitzGerald"
+		adm = 1
+		dip = 1
+		mil = 0
+	}
+}
+
+#Murdered
+
+1536.1.1 = {
+	monarch = {
+		name = "James"
+		dynasty = "FitzGerald"
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+
+1536.1.1 = {
+	heir = {
+		name = "James"
+		monarch_name = "James"
+		dynasty = "FitzGerald"
+		birth_date = 1533.1.1
+		death_date = 1583.11.11
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1558.1.1 = {
+	monarch = {
+		name = "James"
+		dynasty = "FitzGerald"
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}

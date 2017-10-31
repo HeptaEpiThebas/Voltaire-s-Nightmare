@@ -1,0 +1,6 @@
+2324 = "Bordèu"
+1222 = "Armanhac"
+1767 = "Labrit"
+758 = "Bigòrra"
+2801 = "Comenge"
+2787 = "Sola"

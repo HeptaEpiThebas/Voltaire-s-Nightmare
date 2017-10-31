@@ -1,0 +1,120 @@
+government = tribal_despotism
+government_rank = 3
+technology_group = eastern
+primary_culture = lithuanian
+religion = animism
+capital = 2849
+
+1054.1.1 = {
+	monarch = {
+		name = "Borkus"
+		dynasty = "Palemonai"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1102.1.1 = {
+	monarch = {
+		name = "Gimbutas"
+		dynasty = "Palemonai"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1150.1.1 = {
+	monarch = {
+		name = "Montvilas"
+		dynasty = "Palemonai"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1198.1.1 = {
+	monarch = {
+		name = "Zivinbudas"
+		dynasty = "Palemonai"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+1219.1.1 = {
+	monarch = {
+		name = "Erdvilas"
+		dynasty = "Palemonai"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1236.1.1 = {
+	monarch = {
+		name = "Vykintas"
+		dynasty = "Mindaugai"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+1251.7.17 = { government = feudal_monarchy }
+1253.7.6 = {
+	monarch = {
+		name = "Algminas"
+		dynasty = "Mindaugai"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1300.1.1 = {
+	monarch = {
+		name = "Buseika"
+		dynasty = "Kesgaila"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1343.1.1 = {
+	monarch = {
+		name = "Valimantas"
+		dynasty = "Kesgaila"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1386.1.1 = {
+	monarch = {
+		name = "Rumbaudas"
+		dynasty = "Kesgaila"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1413.1.1 = {
+	religion = catholic
+	monarch = {
+		name = "Mykolas"
+		dynasty = "Kesgaila"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+1432.1.1 = {
+	religion = orthodox
+	monarch = {
+		name = "Svitrigaila"
+		dynasty = Gediminai
+		birth_date = 1370.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+1435.12.31 = { religion = catholic }

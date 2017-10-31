@@ -1,0 +1,242 @@
+government = feudal_monarchy
+government_rank = 2
+primary_culture = tuscan
+religion = catholic
+technology_group = western
+capital = 640 # Firenze
+
+1052.5.6 = {
+	monarch = {
+		name = "Frederico"
+		dynasty = "di Canossa"
+		birth_date = 1040.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Matilde"
+		monarch_name = "Matilde"
+		dynasty = "di Canossa"
+		birth_date = 1046.7.1
+		death_date = 1115.7.24
+		claim = 95
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = inspiring_leader_personality
+	add_heir_personality = incorruptible_personality
+	add_heir_personality = industrious_personality
+}
+1055.7.1 = {
+	monarch = {
+		name = "Matilde"
+		dynasty = "di Canossa"
+		birth_date = 1046.7.1
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = inspiring_leader_personality
+	add_ruler_personality = incorruptible_personality
+	add_ruler_personality = industrious_personality
+}
+#1115 collapses
+1537.1.6 = {
+	government_rank = 4
+	government = administrative_monarchy
+	monarch = {
+		name = "Cosimo I"
+		dynasty = "de' Medici"
+		birth_date = 1519.6.21
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
+1541.3.25 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco"
+		dynasty = "de' Medici"
+		birth_date = 1541.3.25
+		death_date = 1587.10.17
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 0
+	}
+}
+1574.4.22 = {
+	monarch = {
+		name = "Francesco I"
+		dynasty = "de' Medici"
+		birth_date = 1541.3.25
+		adm = 2
+		dip = 4
+		mil = 0
+	}
+}
+1574.4.22 = {
+	heir = {
+		name = "Ferdinando"
+		monarch_name = "Ferdinando I"
+		dynasty = "de' Medici"
+		birth_date = 1549.7.30
+		death_date = 1609.2.17
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+}
+1587.10.20 = {
+	monarch = {
+		name = "Ferdinando I"
+		dynasty = "de' Medici"
+		birth_date = 1549.7.30
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+1590.5.12 = {
+	heir = {
+		name = "Cosimo"
+		monarch_name = "Cosimo II"
+		dynasty = "de' Medici"
+		birth_date = 1590.5.12
+		death_date = 1621.2.28
+		claim = 95
+		adm = 0
+		dip = 4
+		mil = 1
+	}
+}
+1609.2.7 = {
+	monarch = {
+		name = "Cosimo II"
+		dynasty = "de' Medici"
+		birth_date = 1590.5.12
+		adm = 0
+		dip = 4
+		mil = 1
+	}
+}
+1610.7.14 = {
+	heir = {
+		name = "Ferdinando"
+		monarch_name = "Ferdinando"
+		dynasty = "de' Medici"
+		birth_date = 1610.7.14
+		death_date = 1670.5.23
+		claim = 95
+		adm = 0
+		dip = 5
+		mil = 3
+	}
+}
+1621.2.24 = {
+	monarch = {
+		name = "Ferdinando II"
+		dynasty = "de' Medici"
+		birth_date = 1610.7.14
+		adm = 0
+		dip = 5
+		mil = 3
+	}
+}
+1642.8.14 = {
+	heir = {
+		name = "Cosimo"
+		monarch_name = "Cosimo III"
+		dynasty = "de' Medici"
+		birth_date = 1642.8.14
+		death_date = 1723.10.13
+		claim = 95
+		adm = 0
+		dip = 4
+		mil = 4
+	}
+}
+1670.5.24 = {
+	monarch = {
+		name = "Cosimo III"
+		dynasty = "de' Medici"
+		birth_date = 1642.8.14
+		adm = 0
+		dip = 4
+		mil = 4
+	}
+}
+1671.5.24 = {
+	heir = {
+		name = "Gian Gastone"
+		monarch_name = "Gian Gastone"
+		dynasty = "de' Medici"
+		birth_date = 1671.5.24
+		death_date = 1737.7.9
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+1723.10.30 = {
+	monarch = {
+		name = "Gian Gastone"
+		dynasty = "de' Medici"
+		birth_date = 1671.5.24
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+1737.7.10 = {
+	monarch = {
+		name = "Francesco II"
+		dynasty = "von Habsburg"
+		birth_date = 1708.12.8
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+1740.1.1 = { government = enlightened_despotism }
+1765.8.19 = {
+	monarch = {
+		name = "Pietro Leopoldo I"
+		dynasty = "von Habsburg"
+		birth_date = 1747.5.5
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1790.7.22 = {
+	monarch = {
+		name = "Ferdinando III"
+		dynasty = "von Habsburg"
+		birth_date = 1769.5.6
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+}
+
+1859.11.7 = {
+	government = constitutional_republic
+	monarch = {
+		name = "Carlo Bon Compagni"
+		birth_date = 1804.7.25
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1859.12.8 = { government = constitutional_monarchy }

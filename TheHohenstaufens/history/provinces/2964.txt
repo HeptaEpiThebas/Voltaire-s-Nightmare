@@ -1,0 +1,47 @@
+owner = WWS
+controller = WWS
+culture = swabian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = grain
+base_manpower = 2
+capital = "Giengen" 
+is_city = yes	
+add_core = WWS
+add_core = GIE
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1268.10.29 = {
+	owner = HEL
+	controller = HEL
+	add_core = HEL
+	remove_core = WWS
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+}
+1391.1.1 = {
+	owner = GIE
+	controller = GIE
+	remove_core = HEL
+}
+1803.3.25 = {
+	owner = WUR
+	controller = WUR
+	add_core = WUR
+	remove_core = GIE
+	base_tax = 2
+	base_production = 2
+	base_manpower = 2
+}
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+}

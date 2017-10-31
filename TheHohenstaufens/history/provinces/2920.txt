@@ -1,0 +1,75 @@
+owner = ARC
+controller = ARC
+add_core = ARC
+culture = andalucian
+religion = sunni
+hre = no
+base_tax = 5
+base_production = 4
+trade_goods = naval_supplies
+base_manpower = 3
+capital = "Qadis"
+is_city = yes
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+fort_14th = yes
+
+1068.1.1 = {
+	owner = SEV
+	controller = SEV
+	add_core = SEV
+}
+1091.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = SEV
+}
+1143.1.1 = {
+	owner = ARC
+	controller = ARC
+	remove_core = MOR
+}
+1145.12.31 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+}
+1238.1.1 = {
+	owner = SEV
+	controller = SEV
+	add_core = SEV
+	remove_core = MOR
+	remove_core = ARC
+}
+1248.11.23 = {
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+	capital = "Cadiz"
+	estate = estate_nobles
+}
+1296.1.1 = { religion = catholic }
+1337.1.1 = { fort_14th = no fort_15th = yes }
+1516.1.23 = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+}
+1713.4.11 = { remove_core = CAS remove_core = SEV }
+1820.1.1 = {
+	revolt = {
+		type = revolutionary_rebels
+		leader = "Rafael del Riego"
+		size = 1
+	}
+	controller = REB
+}
+1820.3.10 = {
+	revolt = {}
+	controller = SPA
+}
+1823.9.30 = { controller = FRA }
+1823.10.1 = { controller = SPA }

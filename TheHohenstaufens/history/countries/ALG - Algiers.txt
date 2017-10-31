@@ -1,0 +1,49 @@
+government = iqta 
+government_rank = 3
+technology_group = muslim
+religion = sunni
+primary_culture = algerian
+capital = 1946 # Al-Djazair
+
+1510.1.1 = {
+	monarch = {
+		name = "Salim"
+		dynasty = "Al-Tumi"
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+1516.1.1 = {
+	monarch = {
+		name = "Oruc Reis"
+		dynasty = "Yakubid"
+		birth_date = 1474.1.1
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+}
+1518.1.1 = {
+	monarch = {
+		name = "Hayreddin Barbarossa"
+		dynasty = "Yakubid"
+		birth_date = 1478.1.1
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}
+1525.1.1 = {
+	heir = {
+		name = "Hasan"
+		monarch_name = "Hasan"
+		dynasty = "Yakubid"
+		birth_date = 1525.1.1
+		death_Date = 1572.1.1
+		claim = 95
+		adm = 3
+		dip = 4
+		mil = 5
+	}
+}

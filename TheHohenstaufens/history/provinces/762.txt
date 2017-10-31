@@ -1,0 +1,53 @@
+owner = MAI
+controller = MAI
+culture = hessian
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = wax
+base_manpower = 5
+capital = "Mainz"
+is_city = yes
+add_core = MAI
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+fort_14th = yes
+
+1440.1.1 = { trade_goods = books }
+1556.4.19 = { religion = reformed }
+1560.1.1 = { fort_14th = no fort_15th = yes }
+1631.12.22 = { controller = SWE }
+1635.1.1 = { controller = MAI }
+1644.1.1 = { controller = FRA }
+1648.10.24 = { controller = MAI }
+1792.10.1 = { controller = FRA }
+1792.12.3 = { controller = MAI }
+1795.5.16 = { controller = FRA }
+1797.10.17 = {
+	owner = FRA
+	add_core = FRA
+	base_tax = 3
+	base_production = 4
+	base_manpower = 3
+	hre = no
+}
+1814.4.11 = {
+	owner = DSD
+	controller = DSD
+	add_core = DSD
+	remove_core = FRA
+	remove_core = MAI
+}
+1815.3.16 = { hre = yes }
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	base_tax = 2
+	base_production = 3
+	base_manpower = 2
+}

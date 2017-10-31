@@ -1,0 +1,89 @@
+government = tribal_kingdom
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = irish
+capital = 127
+
+1345.1.1 = {
+	monarch = {
+		name = "Murtagh I"
+		dynasty = "Ó Néill"
+		birth_date = 1330.1.1
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1395.1.1 = {
+	monarch = {
+		name = "Brian I"
+		dynasty = "Ó Néill"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1425.1.1 = {
+	monarch = {
+		name = "Aodh"
+		dynasty = "Ó Néill"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1440.1.1 = {
+	monarch = {
+		name = "Conn I"
+		dynasty = "Ó Néill"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1482.1.1 = {
+	monarch = {
+		name = "Niall"
+		dynasty = "Ó Néill"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+1512.4.11 = {
+	monarch = {
+		name = "Brian II"
+		dynasty = "Ó Néill"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1529.1.1 = {
+	monarch = {
+		name = "Murtagh II"
+		dynasty = "Ó Néill"
+		adm = 0
+		dip = 1
+		mil = 2
+	}
+}
+1560.1.1 = {
+	monarch = {
+		name = "Domhnall"
+		dynasty = "Ó Néill"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1590.1.1 = {
+	monarch = {
+		name = "Conn II"
+		dynasty = "Ó Néill"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

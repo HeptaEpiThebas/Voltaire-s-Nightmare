@@ -1,0 +1,23 @@
+name = "Cretan War"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 2679 # Tinos
+}
+
+1645.6.24 = {
+	add_attacker = TUR
+	add_attacker = WAL
+	add_attacker = TRA
+	add_attacker = MOL
+	add_defender = VEN
+}
+
+# Crete is ceded to the Ottomans
+1669.9.27 = {
+	rem_attacker = TUR
+	rem_attacker = WAL
+	rem_attacker = TRA
+	rem_attacker = MOL
+	rem_defender = VEN
+}

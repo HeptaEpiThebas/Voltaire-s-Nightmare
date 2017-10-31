@@ -1,0 +1,40 @@
+government = italian_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = tuscan
+religion = catholic
+capital = 1813
+
+1170.1.1 = {
+	monarch = {
+		name = "Consiglio Generale"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1307.1.1 = {
+	government = oligarchic_republic
+	government_rank = 3
+	mercantilism = 0.25
+}
+1316.1.1 = {
+	monarch = {
+		name = "Albizzo dei Tancredi"
+		dip = 1
+		mil = 3
+		adm = 1
+	}
+	add_ruler_modifier = { name = ghib_ruler }
+}
+1331.1.1 = {
+	monarch = {
+		name = "Consiglio Generale"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+#1342 submits to LAN

@@ -1,0 +1,28 @@
+government = iqta
+government_rank = 1
+technology_group = muslim
+primary_culture = andalucian
+religion = sunni
+capital = 2920
+
+1053.1.1 = {
+	monarch = {
+		name = "Muhammad al-Qaim"
+		dynasty = "Jizrunid"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+#1068 to SEV
+#1091 to MOR?
+1143.1.1 = {
+	monarch = {
+		name = "Abu'l-Qasim"
+		dynasty = "Idrisid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#1145 to MOR

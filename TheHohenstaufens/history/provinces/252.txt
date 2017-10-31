@@ -1,0 +1,40 @@
+owner = MMB
+controller = MMB
+culture = thuringian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = wax
+base_manpower = 2
+capital = "Merseburg"
+is_city = yes
+add_core = MMB
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1440.1.1 = { trade_goods = books }
+1565.10.8 = {
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+	remove_core = MMB
+	religion = protestant
+}
+1790.8.1 = { unrest = 5 }
+1791.1.1 = { unrest = 0 }
+1815.6.9 = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+	remove_core = SAX
+}
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	remove_core = PRU
+	hre = no
+}

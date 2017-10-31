@@ -1,0 +1,88 @@
+government = tribal_democracy
+government_rank = 1
+technology_group = western
+primary_culture = east_frisian
+religion = catholic
+capital = 414
+
+1054.1.1 = {
+	monarch = {
+		name = "Fryske frijheid"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1316.1.1 = {
+	government = tribal_despotism
+	monarch = {
+		name = "Benno"
+		dynasty = "Ukena"
+		birth_date = 1301.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1351.1.1 = {
+	monarch = {
+		name = "Ukos"
+		dynasty = "Ukena"
+		birth_date = 1333.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1391.1.1 = {
+	monarch = {
+		name = "Focko"
+		dynasty = "Ukena"
+		birth_date = 1370.1.1
+		adm = 4
+		dip = 4
+		mil = 5
+		leader = {
+			name = "Focko Ukena"
+			type = general
+			rank = 1
+			fire = 1
+			shock = 3
+			manuever = 3
+			siege = 1
+		}
+	}
+}
+1436.10.6 = {
+	monarch = {
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Theda"
+		monarch_name = "Theda"
+		dynasty = "Ukena"
+		birth_date = 1432.1.1
+		death_date = 1494.11.16
+		female = yes
+		claim = 80
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+1444.1.1 = {
+	monarch = {
+		name = "Theda"
+		dynasty = "Ukena"
+		birth_date = 1432.1.1
+		female = yes
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}

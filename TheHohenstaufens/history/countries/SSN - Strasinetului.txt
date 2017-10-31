@@ -1,0 +1,16 @@
+government = tribal_democracy
+government_rank = 3
+technology_group = eastern
+primary_culture = moldovan
+religion = orthodox
+capital = 1832
+
+1054.1.1 = {
+	monarch = {
+		name = "Tribal Council"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}	
+}

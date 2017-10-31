@@ -1,0 +1,67 @@
+owner = CJK
+controller = CJK
+culture = brabantian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = amber
+base_manpower = 2
+capital = "Cuijk"
+is_city = yes	
+add_core = CJK
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1357.9.8 = {
+	owner = BRB
+	controller = BRB
+	add_core = BRB
+}
+1400.1.1 = {
+	owner = GEL
+	controller = GEL
+	add_core = GEL
+	remove_core = BRB
+}
+1437.1.1 = {
+	owner = BRB
+	controller = BRB
+	add_core = BRB
+	remove_core = GEL
+}
+1477.1.5 = { owner = HAB controller = HAB add_core = HAB remove_core = CJK }
+1519.1.12 = { owner = SPA controller = SPA add_core = SPA remove_core = HAB }
+1549.11.4 = { owner = NED controller = NED add_core = NED remove_core = SPA }
+1579.1.23 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+	unrest = 5 
+}
+1602.1.1 = {
+	owner = NED
+	controller = NED
+	remove_core = SPA
+	religion = reformed
+	unrest = 0
+}
+1648.10.24 = { hre = no }
+1810.7.10 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1813.11.30 = {
+	owner = NED
+	controller = NED
+	remove_core = FRA
+	base_tax = 3
+	base_production = 3
+	base_manpower = 3
+} 

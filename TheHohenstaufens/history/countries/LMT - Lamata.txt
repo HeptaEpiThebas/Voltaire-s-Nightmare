@@ -1,0 +1,16 @@
+government = tribal_democracy
+government_rank = 3
+technology_group = eastern
+primary_culture = curonian
+religion = animism
+capital = 2906
+
+1054.1.1 = {
+	monarch = {
+		name = "Tribal Council"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}

@@ -1,0 +1,80 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 80  160  90 } 
+
+historical_idea_groups = {
+	cultural_ideas
+	logistics_ideas
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	naval_ideas	
+	administrative_ideas
+	offensive_ideas
+	economic_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	pre_muslim_infantry_1a
+	pre_muslim_cavalry_1b
+	pre_muslim_infantry_2a
+	pre_muslim_cavalry_2b
+	mamluk_archer
+	mamluk_cavalry_charge
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+	post_muslim_infantry
+	post_muslim_cavalry_a
+}
+
+monarch_names = {
+	"Abderrahmane #0" = 10
+	"Ahmed #0" = 10
+	"Abdelaziz #0" = 10
+	"Ahmed Amokrane #0" = 10
+	"Sidi El Naceur #0" = 10
+	"Si Betka #0" = 10
+	"Ben Bouzid #0" = 10
+	"Abdesselem #0" = 10
+	"Sidi Ahmed #0" = 10
+	"Abdallah #0" = 1
+	"Abdesslam #0" = 1
+	"Mohand #0" = 1
+	"Boumezrag #0" = 1
+	"Mohammed #0" = 1
+	"Azis #0" = 1
+	"Zahir #0" = 1
+	
+	"Werdja #0" = -1
+	"Tabassum #0" = -1
+	"Daïkra #0" = -1
+}
+
+leader_names = {
+	"Ait Ghobri"
+	"Abi Youcef"
+	"Ait Abbas"
+	"Ait Aïssi"
+	"Ait Akerma"
+	"Ait Aouggacha"
+	"Ait Djennad"
+	"Ait Douala"
+	"Ait Fraoussen"
+	"Ait Idjer"
+	"Ait Iraten"
+	Maatka
+}
+
+ship_names = {
+	Barr Muta'al Wali Batin Zahir Akhir Awwal
+	Mu'akhkhir Muqaddim Muqtadir Qadir Samad
+	Wahid Majid Wajed Qayyum Hayy Mumit Muhyi
+	Mu'id Mubdi Muhsi Hamid Waliyy Matin Qawiyy
+	Wakil Haqq Shahid Ba'ith Koukou
+}

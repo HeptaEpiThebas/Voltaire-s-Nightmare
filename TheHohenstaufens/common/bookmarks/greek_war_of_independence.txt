@@ -1,0 +1,12 @@
+bookmark =
+{
+	name = "GREEK_WAR_OF_INDEPENDENCE"
+	desc = "GREEK_WAR_OF_INDEPENDENCE_DESC"
+	date = 1827.10.20
+	
+	country = GBR
+	country = FRA
+	country = RUS
+	country = GRE
+	country = TUR
+}

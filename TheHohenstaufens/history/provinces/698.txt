@@ -1,0 +1,57 @@
+owner = WWS
+controller = WWS
+culture = boden_alemannic
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 1
+trade_goods = honey
+base_manpower = 1
+capital = "Zell am Harmersbach"
+is_city = yes
+add_core = WWS
+add_core = ZEL
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1268.10.29 = {
+	owner = KGZ
+	controller = KGZ
+	add_core = KGZ
+	remove_core = WWS
+}
+1313.8.24 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	remove_core = KGZ
+}
+1330.8.6 = {
+	owner = BAD
+	controller = BAD
+	add_core = BAD
+	remove_core = HAB
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+}
+1366.1.1 = {
+	owner = ZEL
+	controller = ZEL
+}
+1803.2.25 = {
+	owner = BAD
+	controller = BAD
+	remove_core = ZEL
+}
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	base_tax = 2
+	base_production = 3
+	base_manpower = 1
+}

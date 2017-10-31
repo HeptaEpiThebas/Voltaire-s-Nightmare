@@ -1,0 +1,81 @@
+owner = GRA
+controller = GRA
+add_core = GRA
+culture = andalucian
+religion = sunni
+hre = no
+base_tax = 4
+base_production = 3
+trade_goods = bananas
+base_manpower = 3
+capital = "Baza"
+is_city = yes
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1070.1.1 = {
+	owner = SEV
+	controller = SEV
+	add_core = SEV
+}
+1091.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = SEV
+}
+1145.3.25 = {
+	owner = MGG
+	controller = MGG
+	add_core = MGG
+	remove_core = MOR
+}
+1151.1.1 = {
+	owner = MCA
+	controller = MCA
+	add_core = MCA
+	remove_core = MGG
+}
+1168.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = MCA
+}
+1238.1.1 = {
+	owner = GRA
+	controller = GRA
+	remove_core = MOR
+}
+1487.1.1 = { revolt = { type = religious_rebels size = 0 } controller = REB }
+1489.12.10 = { revolt = {} controller = CAS }
+1492.1.2 = {
+	owner = CAS
+	add_core = CAS
+	remove_core = GRA
+}
+1499.12.1 = { unrest = 2 }
+1502.2.1 = { unrest = 0 religion = catholic }
+1516.1.23 = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+}
+1568.12.25 = { unrest = 15 }
+1570.10.28 = {	unrest = 0 }
+1713.4.11 = { remove_core = CAS }
+1811.1.1 = { controller = FRA }
+1812.10.1 = { controller = SPA }
+1820.1.1 = {
+	revolt = {
+		type = revolutionary_rebels
+		size = 0
+	}
+	controller = REB
+}
+1820.3.10 = {
+	revolt = {}
+	controller = SPA
+}

@@ -1,0 +1,51 @@
+country_decisions = {
+
+	stop_shadow_kingdom = {
+		major = yes
+		potential = {
+			ai = no
+			NOT = { has_global_flag = italy_out_of_HRE }
+			has_global_flag = enable_stop_shadow_kingdom
+			is_emperor = yes
+		}
+		allow = {
+			NOT = { is_year = 1490 }
+			custom_trigger_tooltip = {
+				tooltip = tuscany_in_hre_tooltip
+				lombardy_superregion = {
+					type = all
+					OR = {
+						owned_by = ROOT
+						is_part_of_hre = yes
+						owner = {
+							is_subject_of = ROOT
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			hidden_effect = {
+				set_global_flag = italy_out_of_HRE #Disables Shadow Kingdom Event.
+				every_province = {
+					limit = {
+						superregion = lombardy_superregion
+						is_part_of_hre = no
+						OR = {
+							owned_by = ROOT
+							owner = {
+								is_subject_of = ROOT
+							}
+						}
+					}
+					set_in_empire = yes
+				}
+			}
+			custom_tooltip = disable_shadow_kingdom_tooltip
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}

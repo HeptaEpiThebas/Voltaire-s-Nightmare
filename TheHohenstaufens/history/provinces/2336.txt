@@ -1,0 +1,85 @@
+owner = DNA
+controller = DNA
+culture = andalucian
+religion = sunni
+hre = no
+base_tax = 4
+base_production = 3
+trade_goods = fish
+base_manpower = 3
+capital = "Daniyah"
+is_city = yes
+add_core = DNA
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1060.1.1 = {
+	owner = ZGZ
+	controller = ZGZ
+	add_core = ZGZ
+}
+1082.1.1 = {
+	owner = TTO
+	controller = TTO
+	add_core = TTO
+	remove_core = ZGZ
+}
+1092.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = TTO
+}
+1145.3.25 = {
+	owner = MCA
+	controller = MCA
+	add_core = MCA
+	remove_core = MOR
+}
+1170.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = MCA
+}
+1224.1.1 = {
+	owner = DNA
+	controller = DNA
+	remove_core = MOR
+}
+1228.1.1 = {
+	owner = MCA
+	controller = MCA
+	add_core = MCA
+}
+1243.1.1 = { add_core = CAS }
+1244.1.1 = {
+	owner = ARA
+	controller = ARA
+	add_core = ARA
+	add_core = VLK
+	remove_core = MCA
+	remove_core = DNA
+	remove_core = CAS
+	religion = catholic
+	culture = valencian
+	capital = "Dénia"
+}
+1516.1.23 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+}
+1519.7.1 = { unrest = 2 }
+1521.9.11 = { unrest = 0 }
+1609.9.22 = { unrest = 2 }
+1609.11.1 = { unrest = 0 }
+1705.12.16 = { controller = HAB }
+1707.5.8 = { controller = SPA }
+1713.7.13 = { remove_core = ARA remove_core = VLK }
+1812.1.1 = { controller = FRA }
+1813.3.19 = { controller = SPA }
+1823.8.4 = { controller = FRA }
+1823.10.1 = { controller = SPA }

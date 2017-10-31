@@ -1,0 +1,54 @@
+owner = WBG
+controller = WBG
+culture = franconian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = honey
+base_manpower = 3
+capital = "Rothenburg ob der Tauber" 
+is_city = yes
+add_core = WBG
+add_core = ROE
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1153.1.1 = {
+	owner = WWS
+	controller = WWS
+	add_core = WWS
+	remove_core = WBG
+}
+1268.10.29 = {
+	owner = HOO
+	controller = HOO
+	add_core = HOO
+	remove_core = WWS
+}
+1274.1.1 = {
+	owner = ROE
+	controller = ROE
+	remove_core = HOO
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+}
+1440.1.1 = { trade_goods = books }
+1803.2.25 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = ROE
+	base_tax = 2
+	base_production = 1
+	base_manpower = 1
+}
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+}

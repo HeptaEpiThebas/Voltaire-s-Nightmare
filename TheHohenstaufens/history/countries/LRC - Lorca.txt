@@ -1,0 +1,80 @@
+government = iqta
+government_rank = 1
+technology_group = muslim
+primary_culture = andalucian
+religion = sunni
+capital = 2183
+
+1042.1.1 = {
+	monarch = {
+		name = "Man ibn Sumadih"
+		dynasty = "Sumadid"
+		dip = 2
+		mil = 4
+		adm = 2
+	}
+}
+1051.1.1 = {
+	monarch = {
+		name = "Ibn Khatib"
+		dynasty = "Labbunid"
+		dip = 3
+		mil = 3
+		adm = 2
+	}
+}
+1060.1.1 = {
+	monarch = {
+		name = "Abu Muhammad"
+		dynasty = "Labbunid"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1070.1.1 = {
+	monarch = {
+		name = "Abu ibn Ayas"
+		dynasty = "Labbunid"
+		dip = 2
+		mil = 2
+		adm = 1
+	}
+}
+1080.1.1 = {
+	monarch = {
+		name = "Abu al-Asbagh"
+		dynasty = "Labbunid"
+		dip = 0
+		mil = 1
+		adm = 0
+	}
+}
+#done 1091
+1228.1.1 = {
+	monarch = {
+		name = "Abu Abdallah"
+		dynasty = "Ahlid"
+		dip = 3
+		mil = 2
+		adm = 3
+	}
+}
+1244.1.1 = {
+	monarch = {
+		name = "Ali ibn Abu"
+		dynasty = "Ahlid"
+		dip = 3
+		mil = 2
+		adm = 3
+	}
+}
+1264.1.1 = {
+	monarch = {
+		name = "Muhammad"
+		dynasty = "Ahlid"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}

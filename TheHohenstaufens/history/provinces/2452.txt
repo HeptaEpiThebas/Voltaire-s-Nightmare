@@ -1,0 +1,36 @@
+owner = GWY
+controller = GWY
+add_core = GWY
+culture = welsh
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = naval_supplies
+base_manpower = 1
+capital = "Llangefni"
+is_city = yes
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1277.11.1 = { add_core = WLS }
+1282.11.1 = { controller = ENG }
+1282.12.11 = {
+	owner = ENG
+	add_core = ENG
+}
+1399.1.1 = { unrest = 20 }
+1415.1.1 = { unrest = 0 }
+1453.1.1 = { unrest = 5 }
+1471.1.1 = { unrest = 8 }
+1485.8.23 = { unrest = 0 }
+1535.2.4 = { remove_core = GWY }
+1707.5.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	remove_core = ENG
+}
+1750.1.1 = { religion = reformed }

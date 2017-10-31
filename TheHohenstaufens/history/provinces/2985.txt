@@ -1,0 +1,41 @@
+owner = WWS
+controller = WWS
+add_core = WWS
+culture = swabian
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 1
+trade_goods = carpet
+base_manpower = 1
+capital = "Nördlingen" 
+is_city = yes	
+add_core = NOI
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1215.1.1 = {
+	owner = NOI
+	controller = NOI
+	remove_core = WWS
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+}
+1803.2.25 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = NOI
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+}

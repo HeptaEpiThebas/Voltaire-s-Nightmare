@@ -1,0 +1,19 @@
+name = "War of the Burgundian Succession"
+war_goal = {
+	type = take_core
+	casus_belli = cb_core
+	province = 918
+}
+
+1477.1.5 = {
+	add_attacker = FRA
+	add_defender = HAB
+	add_defender = TIR
+}
+
+# Treaty of Arras
+1482.12.23 = {
+	rem_attacker = FRA
+	rem_defender = HAB
+	rem_defender = TIR
+}

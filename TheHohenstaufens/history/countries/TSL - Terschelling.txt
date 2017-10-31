@@ -1,0 +1,172 @@
+government = tribal_democracy
+government_rank = 1
+primary_culture = east_frisian
+religion = catholic
+technology_group = western
+capital = 1864
+
+1054.1.1 = {
+	monarch = {
+		name = "Fryske frijheid"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1248.1.1 = {
+	government = tribal_despotism
+	monarch = {
+		name = "Elf"
+		dynasty = "Popma"
+		birth_date = 1235.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1265.1.1 = {
+	heir = {
+		name = "Claes"
+		monarch_name = "Claes"
+		dynasty = "Popma"
+		birth_date = 1265.1.1
+		death_date = 1309.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1280.1.1 = {
+	monarch = {
+		name = "Claes"
+		dynasty = "Popma"
+		birth_date = 1265.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1290.1.1 = {
+	heir = {
+		name = "Ziwaert"
+		monarch_name = "Ziwaert I"
+		dynasty = "Popma"
+		birth_date = 1290.1.1
+		death_date = 1352.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1309.1.1 = {
+	monarch = {
+		name = "Ziwaert I"
+		dynasty = "Popma"
+		birth_date = 1290.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1352.1.1 = {
+	monarch = {
+		name = "Ziwaert II"
+		dynasty = "Popma"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Poppe Ziwaerts"
+		monarch_name = "Poppe"
+		dynasty = "Popma"
+		birth_date = 1352.1.1
+		death_date = 1423.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1415.1.1 = {
+	monarch = {
+		name = "Poppe"
+		dynasty = "Popma"
+		birth_date = 1352.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Rienck Poppes"
+		monarch_name = "Rienck"
+		dynasty = "Popma"
+		birth_date = 1405.1.1
+		death_date = 1469.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1423.1.1 = {
+	monarch = {
+		name = "Rienck"
+		dynasty = "Popma"
+		birth_date = 1405.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1440.1.1 = {
+	heir = {
+		name = "Foppe Riencks"
+		monarch_name = "Foppe"
+		dynasty = "Popma"
+		birth_date = 1440.1.1
+		death_date = 1495.1.1
+		claim = 95
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+}
+1469.1.1 = {
+	monarch = {
+		name = "Foppe"
+		dynasty = "Popma"
+		birth_date = 1440.1.1
+		adm = 2
+		dip = 5
+		mil = 4
+	}
+	heir = {
+		name = "Jarich"
+		monarch_name = "Jarich"
+		dynasty = "Popma"
+		birth_date = 1447.1.1
+		death_date = 1500.1.1
+		claim = 95
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+1495.1.1 = {
+	monarch = {
+		name = "Jarich"
+		dynasty = "Popma"
+		birth_date = 1447.1.1
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+
+#sold to HAB netherlands 1500.1.1 
+
+

@@ -1,0 +1,41 @@
+owner = WWS
+controller = WWS
+culture = swabian
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 1
+trade_goods = livestock
+base_manpower = 1
+capital = "Königsbrunn" 
+is_city = yes	
+add_core = WWS
+add_core = AUG
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1268.10.29 = {
+	owner = AUG
+	controller = AUG
+	remove_core = WWS
+	base_tax = 2
+	base_production = 2
+	base_manpower = 2
+}
+1803.2.25 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = AUG
+}
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}

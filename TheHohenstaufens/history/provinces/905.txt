@@ -1,0 +1,67 @@
+owner = BAV
+controller = BAV
+culture = bavarian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = livestock
+base_manpower = 2
+capital = "Eschenlohe" 
+is_city = yes	
+add_core = BAV	
+add_core = ESC
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1157.1.1 = {
+	owner = ESC
+	controller = ESC
+	remove_core = BAV
+}
+1294.1.1 = {
+	owner = FXI
+	controller = FXI
+	add_core = FXI
+	remove_core = ESC
+}
+1325.1.1 = {
+	owner = AUG
+	controller = AUG
+	add_core = AUG
+	remove_core = FXI
+}
+1332.1.1 = {
+	owner = MUL
+	controller = MUL
+	add_core = MUL
+	remove_core = AUG
+}
+1340.12.21 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = MUL
+}
+1349.1.1 = {
+	owner = MUL
+	controller = MUL
+	add_core = MUL
+	remove_core = BAV
+}
+1503.1.1 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = MUL
+}
+1704.8.13 = { controller = HAB }
+1714.9.7 = { controller = BAV }
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+}

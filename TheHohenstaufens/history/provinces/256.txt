@@ -1,0 +1,52 @@
+owner = PUM
+controller = PUM
+culture = moselle_franconian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = lumber
+base_manpower = 2
+capital = "Prüm"
+is_city = yes	
+add_core = PUM
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1513.1.1 = {
+	owner = SMM
+	controller = SMM
+}
+1546.1.1 = {
+	owner = PUM
+	controller = PUM
+}
+1576.1.1 = {
+	owner = TRI
+	controller = TRI
+	add_core = TRI
+}
+1794.8.1 = { controller = FRA }
+1797.10.17 = {
+	owner = FRA
+	add_core = FRA
+	remove_core = TRI
+	remove_core = PUM
+	hre = no
+}
+1814.4.11 = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+	remove_core = FRA
+}
+1815.3.16 = { hre = yes }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	remove_core = PRU
+	hre = no
+}

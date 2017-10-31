@@ -1,0 +1,43 @@
+government = theocratic_government
+government_rank = 3
+technology_group = western
+primary_culture = lombard
+religion = catholic
+capital = 107
+
+1022.6.22 = {
+	monarch = {
+		name = "Ambrogio II"
+		birth_date = 991.1.1
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+1057.9.20 = {
+	monarch = {
+		name = "Atto I"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1077.1.1 = {
+	monarch = {
+		name = "Arnolfo I"
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+1098.1.1 = {
+	government = italian_monarchy
+	government_rank = 1
+	monarch = {
+		name = "Repubblica"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}

@@ -1,0 +1,78 @@
+owner = GEH
+controller = GEH
+culture = hessian
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = munitions
+base_manpower = 5
+capital = "Selbold"
+is_city = yes
+add_core = GEH
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1158.1.1 = {
+	owner = MAI
+	controller = MAI
+	add_core = MAI
+}
+1170.1.1 = {
+	owner = GEH
+	controller = GEH
+	remove_core = MAI
+	capital = "Gelnhausen"
+}
+1435.5.26 = {
+	owner = HNU
+	controller = HNU
+	add_core = HNU
+}
+1440.1.1 = { trade_goods = books }
+1542.1.1 = { religion = reformed }
+1736.3.28 = {
+	owner = HES
+	controller = HES
+	add_core = HES
+	remove_core = GEH
+	remove_core = HNU
+}
+1807.7.9 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+	hre = no
+}
+1810.2.16 = {
+	owner = FRN
+	controller = FRN
+	add_core = FRN
+	remove_core = FRA
+	hre = yes
+}
+1813.10.13 = {
+	owner = HES
+	controller = HES
+	remove_core = FRN
+}
+1866.9.20 = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	remove_core = PRU
+	hre = no
+}

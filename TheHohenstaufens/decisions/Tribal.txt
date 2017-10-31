@@ -1,0 +1,117 @@
+country_decisions = {
+	
+	tribal_despotism_reform = {
+		major = yes
+		potential = {
+			government = tribal_despotism
+		}
+		allow = {
+			adm_power = 200
+			legitimacy = 60
+			stability = 3
+			has_institution = feudalism
+			OR = {
+				full_idea_group = manufacturing_ideas
+				full_idea_group = administrative_ideas
+			}
+		}
+		effect = {
+			change_government = despotic_monarchy
+			add_stability = -5
+			add_adm_power = -200
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	tribal_kingdom_reform = {
+		major = yes
+		potential = {
+			government = tribal_kingdom
+		}
+		allow = {
+			adm_power = 200
+			legitimacy = 60
+			stability = 3
+			has_institution = feudalism
+			OR = {
+				full_idea_group = manufacturing_ideas
+				full_idea_group = administrative_ideas
+			}
+		}
+		effect = {
+			change_government = feudal_monarchy
+			add_stability = -5
+			add_adm_power = -200
+			if = {
+				limit = {
+					NOT = { has_idea_group = irish_ideas }
+					NOT = { tag = MMU }
+					NOT = { tag = ULS }
+					NOT = { tag = LEI }
+					NOT = { tag = SLN }
+					NOT = { tag = DMS }
+					NOT = { tag = MNS }
+					is_playing_custom_nation = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		
+	tribal_federation_reform = {
+		major = yes
+		potential = {
+			government = tribal_federation
+		}
+		allow = {
+			adm_power = 200
+			legitimacy = 60
+			stability = 3
+			has_institution = feudalism
+			OR = {
+				full_idea_group = manufacturing_ideas
+				full_idea_group = administrative_ideas
+			}
+		}
+		effect = {
+			change_government = feudal_monarchy
+			add_stability = -5
+			add_adm_power = -200
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tribal_democracy_reform = {
+		major = yes
+		potential = {
+			government = tribal_democracy
+		}
+		allow = {
+			adm_power = 200
+			republican_tradition = 99
+			stability = 3
+			has_institution = feudalism
+			OR = {
+				full_idea_group = manufacturing_ideas
+				full_idea_group = administrative_ideas
+			}
+		}
+		effect = {
+			change_government = oligarchic_republic
+			add_stability = -5
+			add_adm_power = -200
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

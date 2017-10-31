@@ -1,0 +1,33 @@
+owner = ADR
+controller = ADR
+culture = catalan
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = copper
+base_manpower = 1
+capital = "Andorra la Vella"
+is_city = yes
+add_core = ADR
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1396.1.1 = {
+	owner = ARA
+	controller = ARA
+}
+1396.12.1 = {
+	owner = ADR
+	controller = ADR
+}
+1512.1.1 = {
+	owner = ARA
+	controller = ARA
+}
+1513.1.1 = {
+	owner = ADR
+	controller = ADR
+}

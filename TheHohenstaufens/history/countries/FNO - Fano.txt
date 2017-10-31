@@ -1,0 +1,16 @@
+government = italian_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = romagnan
+capital = 1173
+
+1157.1.1 = {
+	monarch = {
+		name = "Repubblica"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

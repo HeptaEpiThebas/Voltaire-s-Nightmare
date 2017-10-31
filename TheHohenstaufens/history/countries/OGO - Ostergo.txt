@@ -1,0 +1,49 @@
+government = tribal_democracy
+government_rank = 1
+primary_culture = east_frisian
+religion = catholic
+technology_group = western
+capital = 2204
+
+1054.1.1 = {
+	monarch = {
+		name = "Fryske frijheid"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+}
+1355.1.1 = {
+	monarch = {
+		name = "Pybe Wiarda"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1399.1.1 = {
+	monarch = {
+		name = "Sjoerd Wiarda"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1410.1.1 = {
+	monarch = {
+		name = "Fryske frijheid"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1494.1.1 = {
+	monarch = {
+		name = "Juw Dekama"
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

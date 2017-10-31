@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "VICTORIA_TWO"
+	desc = "VICTORIA_TWO_DESC"
+	date = 1836.1.1
+	
+	country = GBR
+	country = FRA
+	country = RUS
+	country = EAH
+	country = PRU
+	country = TUR
+	country = SPA
+	country = SWE
+	country = BGU
+	country = BAV
+	country = NED
+}

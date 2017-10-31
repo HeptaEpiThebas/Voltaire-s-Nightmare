@@ -1,0 +1,64 @@
+owner = ADE
+controller = ADE
+culture = bavarian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = lumber
+base_manpower = 1
+capital = "Tegernsee"
+is_city = yes
+add_core = ADE
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+estate = estate_church
+
+1180.1.1 = {
+	owner = MER
+	controller = MER
+	add_core = MER
+}
+1246.6.15 = {
+	owner = BAV
+	controller = BAV
+}
+1248.6.19 = {
+	add_core = BAV
+	remove_core = MER
+	remove_core = ADE
+}
+1253.11.29 = {
+	owner = MUL
+	controller = MUL
+	add_core = MUL
+	remove_core = BAV
+}
+1340.12.21 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = MUL
+}
+1349.1.1 = {
+	owner = MUL
+	controller = MUL
+	add_core = MUL
+	remove_core = BAV
+}
+1503.1.1 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = MUL
+}
+1704.8.13 = { controller = HAB }
+1714.9.7 = { controller = BAV }
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+}

@@ -1,0 +1,120 @@
+government = italian_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = umbrian
+capital = 1033
+
+1077.1.1 = {
+	monarch = {
+		name = "Repubblica"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1259.1.1 = {
+	government = feudal_monarchy
+	government_rank = 3
+	monarch = {
+		name = "Gentile I"
+		dynasty = "da Varano"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1284.1.1 = {
+	monarch = {
+		name = "Bernardo I"
+		dynasty = "da Varano"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1325.1.1 = {
+	monarch = {
+		name = "Gentile II"
+		dynasty = "da Varano"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1355.1.1 = {
+	monarch = {
+		name = "Rodolfo I"
+		dynasty = "da Varano"
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+1384.1.1 = {
+	monarch = {
+		name = "Giovanni I"
+		dynasty = "da Varano"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1385.1.1 = {
+	monarch = {
+		name = "Gentile III"
+		dynasty = "da Varano"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1399.1.1 = {
+	monarch = {
+		name = "Rodolfo II"
+		dynasty = "da Varano"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1424.1.1 = {
+	monarch = {
+		name = "Piergentile I"
+		dynasty = "da Varano"
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+}
+1444.11.1 = {
+	monarch = {
+		name = "Giulio Cesare"
+		dynasty = "da Varano"
+		adm = 6
+		dip = 4
+		mil = 4
+	}
+}
+1502.1.1 = {
+	monarch = {
+		name = "Giovanni Maria"
+		dynasty = "da Varano"
+		adm = 2
+		dip = 0
+		mil = 2
+	}
+}
+1527.1.1 = {
+	monarch = {
+		name = "Giulia"
+		dynasty = "da Varano"
+		birth_date = 1523.3.24
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#1545

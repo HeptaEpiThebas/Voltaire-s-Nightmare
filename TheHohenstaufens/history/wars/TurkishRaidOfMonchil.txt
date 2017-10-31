@@ -1,0 +1,15 @@
+name = "Ottoman Raid of Monchil"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1345.5.1 = {
+	add_attacker = TUR
+	add_defender = SIA
+}
+
+1345.7.7 = {
+	rem_attacker = TUR
+	rem_defender = SIA
+}

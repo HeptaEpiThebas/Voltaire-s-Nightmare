@@ -1,0 +1,101 @@
+government = tribal_despotism
+government_rank = 4
+technology_group = eastern
+religion = orthodox
+primary_culture = latvian
+capital = 794
+
+1054.1.1 = {
+	monarch = {
+		name = "Eimundar"
+		dynasty = "Rurikovich"
+		dip = 2
+		mil = 3
+		adm = 3
+	}
+}
+1060.1.1 = {
+	monarch = {
+		name = "Mstislav"
+		dynasty = "Rurikovich"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+1069.1.1 = {
+	monarch = {
+		name = "Rogvolod"
+		dynasty = "Rurikovich"
+		birth_date = 1054.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1112.5.25 = {
+	monarch = {
+		name = "Davyd"
+		dynasty = "Rurikovich"
+		birth_date = 1054.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1129.1.1 = {
+	monarch = {
+		name = "Iziaslav"
+		dynasty = "Rurikovich"
+		birth_date = 1096.1.1
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+1132.1.1 = {
+	monarch = {
+		name = "Vasilko"
+		dynasty = "Rurikovich"
+		dip = 2
+		mil = 4
+		adm = 2
+	}
+}
+1144.1.1 = {
+	monarch = {
+		name = "Rogvolod"
+		dynasty = "Rurikovich"
+		dip = 2
+		mil = 2
+		adm = 3
+	}
+}
+1162.1.1 = {
+	monarch = {
+		name = "Vseslav"
+		dynasty = "Rurikovich"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1180.1.1 = {
+	monarch = {
+		name = "Boris"
+		dynasty = "Rurikovich"
+		dip = 3
+		mil = 2
+		adm = 2
+	}
+}
+1200.1.1 = {
+	monarch = {
+		name = "Visvaldis"
+		dynasty = "Rurikovich"
+		dip = 4
+		mil = 1
+		adm = 2
+	}
+}
+#1239 done

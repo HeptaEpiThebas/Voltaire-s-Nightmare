@@ -1,0 +1,26 @@
+government = tribal_despotism
+government_rank = 3
+technology_group = eastern
+primary_culture = wallachian
+religion = orthodox
+capital = 2748
+
+1241.1.1 = {	
+	monarch = {
+		name = "Mislav"
+		dynasty = "Mislavic"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1247.7.2 = {
+	monarch = {
+		name = "Seneslau"
+		dynasty = "Mislavic"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+#1290

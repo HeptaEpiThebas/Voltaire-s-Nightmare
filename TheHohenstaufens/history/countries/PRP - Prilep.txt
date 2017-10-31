@@ -1,0 +1,38 @@
+government = feudal_monarchy
+government_rank = 4
+technology_group = eastern
+primary_culture = serbian
+religion = orthodox
+capital = 2355
+
+1355.12.20 = {
+	monarch = {
+		name = "Vukašin"
+		dynasty = "Mrnjavcevic"
+		birth_date = 1320.1.1
+		dip = 1
+		mil = 4
+		adm = 3
+	}
+	heir = {
+		name = "Marko"
+		monarch_name = "Marko"
+		dynasty = "Mrnjavcevic"
+		birth_date = 1335.1.1
+		death_date = 1395.5.17
+		claim = 95
+		dip = 3
+		mil = 3
+		adm = 2
+	}
+}
+1371.9.26 = {
+	monarch = {
+		name = "Marko"
+		dynasty = "Mrnjavcevic"
+		birth_date = 1335.1.1
+		dip = 3
+		mil = 3
+		adm = 2
+	}
+}

@@ -1,0 +1,42 @@
+government = theocratic_government
+government_rank = 3
+technology_group = western
+primary_culture = lombard
+religion = catholic
+capital = 1014
+
+1054.6.10 = {
+	monarch = {
+		name = "Oddone II"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1079.8.18 = {
+	monarch = {
+		name = "Alberto I"
+		dip = 2
+		mil = 1
+		adm = 1
+	}
+}
+1083.1.1 = {
+	monarch = {
+		name = "Anselmo I"
+		dip = 0
+		mil = 1
+		adm = 0
+	}
+}
+1110.1.1 = {
+	government = italian_monarchy
+	government_rank = 1
+	monarch = {
+		name = "Repubblica"
+		dip = 2
+		mil = 2
+		adm = 2
+		regent = yes
+	}
+}

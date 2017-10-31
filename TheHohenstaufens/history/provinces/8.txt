@@ -1,0 +1,48 @@
+owner = GEH
+controller = GEH
+culture = hessian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = grain
+base_manpower = 2
+capital = "Büdingen"
+is_city = yes
+add_core = GEH
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1158.1.1 = {
+	owner = MAI
+	controller = MAI
+	add_core = MAI
+	remove_core = GEH
+	estate = estate_nobles
+}
+1241.1.1 = {
+	owner = ISE
+	controller = ISE
+	add_core = ISE
+	remove_core = MAI
+}
+1813.10.13 = {
+	owner = HES
+	controller = HES
+	add_core = HES
+	remove_core = ISE
+}
+1866.9.20 = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+}
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	remove_core = PRU
+	hre = no
+}

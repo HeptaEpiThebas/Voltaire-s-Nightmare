@@ -1,0 +1,52 @@
+owner = MMU
+controller = MMU
+culture = irish
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = grain
+base_manpower = 2
+capital = "Macroom"
+is_city = yes	
+add_core = MMU
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1118.1.1 = {
+	owner = DMS
+	controller = DMS
+	add_core = DMS
+	remove_core = MMU
+}
+1172.1.1 = {
+	owner = MMU
+	controller = MMU
+	add_core = MMU
+	remove_core = DMS
+}
+1596.1.1 = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+}
+1642.1.1 = { revolt = { type = nationalist_rebels size = 0 } controller = REB }
+1642.6.7 = {
+	revolt = {}
+	owner = IRE
+	controller = IRE
+	add_core = IRE
+	remove_core = MMU
+}
+1650.4.10 = { controller = ENG }
+1652.4.1 = { owner = ENG }
+1689.3.12 = { revolt = { type = nationalist_rebels size = 0 } controller = REB }
+1690.9.15 = { revolt = {} controller = ENG }
+1707.5.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	remove_core = ENG
+}

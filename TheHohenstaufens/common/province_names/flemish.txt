@@ -1,0 +1,6 @@
+262 = "Enge"
+929 = "Kortryk"
+92 = "Oilsjt"
+2509 = "Rysel"
+934 = "Duunkerke"
+892 = "Doornijk"

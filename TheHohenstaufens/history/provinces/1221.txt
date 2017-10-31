@@ -1,0 +1,54 @@
+owner = TLD
+controller = TLD
+culture = castillian
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = peaches
+base_manpower = 2
+capital = "Jadraque"
+is_city = yes
+add_core = TLD
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1085.1.1 = {
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+	remove_core = TLD
+}
+1365.6.1 = {
+	revolt = {
+		type = pretender_rebels
+		size = 0
+	}
+	controller = REB
+}
+1367.4.3 = {
+	revolt = {}
+	controller = CAS
+}
+1516.1.23 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+}
+1520.6.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
+1521.4.1 = { revolt = {} controller = SPA }
+1699.1.1 = { unrest = 3 }
+1700.1.1 = { unrest = 0 }
+1706.6.25 = { controller = ENG }
+1706.8.4 = { controller = SPA }
+1710.9.27 = { controller = HAB }
+1710.11.9 = { controller = SPA }
+1713.4.11 = { remove_core = CAS }
+1766.3.23 = { unrest = 3 }
+1766.12.1 = { unrest = 0 }
+1808.5.1 = { controller = FRA }
+1808.5.2 = { controller = SPA }
+1808.5.3 = { controller = FRA }
+1813.3.19 = { controller = SPA }

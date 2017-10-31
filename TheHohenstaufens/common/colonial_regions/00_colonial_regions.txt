@@ -1,0 +1,76 @@
+# Tunisia
+colonial_tunisia = {
+	color = { 146 134 57 }
+
+	provinces = {
+		590 692 586 697 984 2932 2583 2576 1153 2710 2164 666 2159 704 2106 2186 1017 425
+	}
+	#Specific
+	names = {
+		trigger = {
+			culture_group = byzantine
+		}
+		name = "COLONIAL_TUNISIA_Aphrike"
+	}
+	names = {
+		trigger = {
+			primary_culture = roman
+		}
+		name = "COLONIAL_TUNISIA_Africae"
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_TUNISIA_Tunisia"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}
+
+colonial_algeria = {
+	color = { 230 225 110 }
+
+	provinces = {
+		2673 1836 700 2298 423 639 2487 789 580 1946 2854 1995 220 2570 2755 2549
+		2639 821 2522 2819 824 924 925 2587 899 2531 2479 939 872 870 4086
+	}
+	
+	# Specific
+	names = {
+		trigger = {
+			primary_culture = turkish
+		}
+		name = "COLONIAL_ALGERIA_Algiers"
+	}
+	names = {
+		trigger = {
+			culture_group = french
+		}
+		name = "COLONIAL_ALGERIA_Algerie"
+	}
+	names = {
+		trigger = {
+			culture_group = iberian
+		}
+		name = "COLONIAL_ALGERIA_Argelia"
+	}
+	names = {
+		trigger = {
+			culture_group = byzantine
+		}
+		name = "COLONIAL_ALGERIA_ExAlgeria"
+	}
+	names = {
+		trigger = {
+			primary_culture = roman
+		}
+		name = "COLONIAL_ALGERIA_Algerii"
+	}
+	# Generic
+	names = {
+		name = "COLONIAL_ALGERIA_Algeria"
+	}
+	names = {
+		name = "COLONIAL_REGION_New_Root_GetName"
+	}
+}

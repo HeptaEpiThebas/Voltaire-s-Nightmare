@@ -1,0 +1,209 @@
+government = iqta 
+technology_group = muslim
+government_rank = 5
+religion = sunni
+primary_culture = berber
+capital = 2854
+
+1236.1.1 = {
+	monarch = {
+		name = "Yahya I"
+		dynasty = "Zayyanid"
+		birth_date = 1206.1.1
+		adm = 3
+		dip = 2
+		mil = 4
+	}
+	add_piety = 0.35
+}
+1283.1.1 = {
+	monarch = {
+		name = "Sa'id Uthman I"
+		dynasty = "Zayyanid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1303.1.1 = {
+	monarch = {
+		name = "Zayyan I"
+		dynasty = "Zayyanid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1308.1.1 = {
+	monarch = {
+		name = "Hammu I"
+		dynasty = "Zayyanid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1318.1.1 = {
+	monarch = {
+		name = "Tashufin I"
+		dynasty = "Zayyanid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1337.1.1 = {
+	monarch = {
+		name = "Sa'id Uthman II"
+		dynasty = "Zayyanid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1359.1.1 = {
+	monarch = {
+		name = "Hammu II"
+		dynasty = "Zayyanid"
+		adm = 3
+		dip = 1
+		mil = 4
+	}
+}
+1389.1.1 = {
+	monarch = {
+		name = "Tashufin II"
+		dynasty = "Zayyanid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1393.1.1 = {
+	monarch = {
+		name = "Zayyan II"
+		dynasty = "Zayyanid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1399.1.1 = {
+	monarch = {
+		name = "Muhammad III"
+		dynasty = "Zayyanid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1401.1.1 = {
+	monarch = {
+		name = "Abdallah I"
+		dynasty = "Zayyanid"
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+1411.1.1 = {
+	monarch = {
+		name = "Muhammad IV"
+		dynasty = "Zayyanid"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1411.12.1 = {
+	monarch = {
+		name = "Abd al-Wahid"
+		dynasty = "Zayyanid"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1424.1.1 = {
+	monarch = {
+		name = "Muhammad V"
+		dynasty = "Zayyanid"
+		adm = 0
+		dip = 3
+		mil = 0
+	}
+}
+1430.7.27 = {
+	monarch = {
+		name = "Ahmad II"
+		dynasty = "Zayyanid"
+		adm = 4
+		dip = 1
+		mil = 2
+		leader = {	name = "Ahmad II"	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 0 }
+	}
+}
+1462.2.2 = {
+	monarch = {
+		name = "Muhammad V"
+		dynasty = "Zayyanid"
+		adm = 0
+		dip = 3
+		mil = 0
+	}
+}
+1468.1.1 = {
+	monarch = {
+		name = "Muhammad VI"
+		dynasty = "Zayyanid"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	government_rank = 3
+}
+1505.1.1 = {
+	monarch = {
+		name = "Muhammad VII"
+		dynasty = "Zayyanid"
+		adm = 2
+		dip = 0
+		mil = 1
+	}
+}
+1516.1.1 = {
+	monarch = {
+		name = "Mûsa III"
+		dynasty = "Zayyanid"
+		adm = 2
+		dip = 1
+		mil = 0
+	}
+}
+1527.1.1 = {
+	monarch = {
+		name = "'Abd Allâh III"
+		dynasty = "Zayyanid"
+		adm = 2
+		dip = 0
+		mil = 0
+	}
+}
+1540.1.1 = {
+	monarch = {
+		name = "Ahmad III"
+		dynasty = "Zayyanid"
+		adm = 0
+		dip = 2
+		mil = 1
+	}
+}
+1550.1.1 = {
+	monarch = {
+		name = "al-Hasan"
+		dynasty = "Zayyanid"
+		adm = 0
+		dip = 3
+		mil = 1
+	}
+}

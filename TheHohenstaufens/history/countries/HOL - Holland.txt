@@ -1,0 +1,356 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = dutch
+capital = 328	# Amsterdam
+
+1049.1.13 = {
+	monarch = {
+		name = "Floris I"
+		dynasty = "van Holland"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+1051.1.1 = {
+	heir = {
+		name = "Dirk"
+		monarch_name = "Dirk V"
+		dynasty = "van Holland"
+		birth_date = 1051.1.1
+		death_date = 1091.6.17
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 4
+	}
+}
+1061.6.28 = {
+	monarch = {
+		name = "Dirk V"
+		dynasty = "van Holland"
+		birth_date = 1051.1.1
+		adm = 1
+		dip = 2
+		mil = 4
+	}
+}
+1083.1.1 = {
+	heir = {
+		name = "Floris"
+		monarch_name = "Floris II"
+		dynasty = "van Holland"
+		birth_date = 1083.1.1
+		death_date = 1121.3.2
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1091.6.17 = {
+	monarch = {
+		name = "Floris II"
+		dynasty = "van Holland"
+		birth_date = 1083.1.1
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1113.1.1 = {
+	heir = {
+		name = "Dirk"
+		monarch_name = "Dirk VI"
+		dynasty = "van Holland"
+		birth_date = 1113.1.1
+		death_date = 1157.8.5
+		claim = 95
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+1121.3.2 = {
+	monarch = {
+		name = "Dirk VI"
+		dynasty = "van Holland"
+		birth_date = 1113.1.1
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+1136.1.1 = {
+	queen = {
+		country_of_origin = BNT
+		name = "Sophia"
+		dynasty = "von Salm"
+		birth_date = 1120.1.1
+		death_date = 1176.9.26
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1141.1.1 = {
+	heir = {
+		name = "Floris"
+		monarch_name = "Floris III"
+		dynasty = "van Holland"
+		birth_date = 1141.1.1
+		death_date = 1190.8.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}
+1157.8.5 = {
+	monarch = { #crusader king
+		name = "Floris III"
+		dynasty = "van Holland"
+		birth_date = 1141.1.1
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}
+1162.8.28 = {
+	queen = {
+		country_of_origin = HSC
+		name = "Ada"
+		dynasty = "Dùn Chailleann"
+		birth_date = 1146.1.1
+		death_date = 1206.1.1
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1190.8.1 = {
+	monarch = {
+		name = "Dirk VII"
+		dynasty = "van Holland"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1203.11.4 = {
+	monarch = {
+		name = "Willem I"
+		dynasty = "van Holland"
+		birth_date = 1167.1.1
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+	queen = {
+		country_of_origin = GEL
+		name = "Adelaide"
+		dynasty = "van Gelre"
+		birth_date = 1182.1.1
+		death_date = 1218.1.1
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1210.6.24 = {
+	heir = {
+		name = "Floris"
+		monarch_name = "Floris IV"
+		dynasty = "van Holland"
+		birth_date = 1210.6.24
+		death_date = 1234.7.19
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1220.7.1 = {
+	queen = {
+		country_of_origin = BRB
+		name = "Marie"
+		dynasty = "de Reginar"
+		birth_date = 1190.1.1
+		death_date = 1260.6.1
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1222.2.4 = {
+	monarch = {
+		name = "Floris IV"
+		dynasty = "van Holland"
+		birth_date = 1210.6.24
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1227.1.1 = {
+	heir = {
+		name = "Willem"
+		monarch_name = "Willem II"
+		dynasty = "van Holland"
+		birth_date = 1227.1.1
+		death_date = 1256.1.28
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1234.7.19 = {
+	monarch = {
+		name = "Willem II"
+		dynasty = "van Holland"
+		birth_date = 1227.1.1
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1254.6.24 = {
+	heir = {
+		name = "Floris"
+		monarch_name = "Floris V"
+		dynasty = "van Holland"
+		birth_date = 1254.6.24
+		death_date = 1296.6.27
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1256.1.28 = {
+	monarch = {
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Floris"
+		monarch_name = "Floris V"
+		dynasty = "van Holland"
+		birth_date = 1254.6.24
+		death_date = 1296.6.27
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+1266.1.1 = {
+	monarch = {
+		name = "Floris V"
+		dynasty = "van Holland"
+		birth_date = 1254.6.24
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+1284.1.1 = {
+	heir = {
+		name = "Jan"
+		monarch_name = "Jan I"
+		dynasty = "van Holland"
+		birth_date = 1284.1.1
+		death_date = 1299.11.10
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1296.6.27 = {
+	monarch = {
+		name = "Jan I"
+		dynasty = "van Holland"
+		birth_date = 1284.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1299.11.10 = {
+	monarch = {
+		name = "Jan II"
+		dynasty = "d'Avesnes"
+		birth_date = 1284.1.1
+		adm = 2
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Willem"
+		monarch_name = "Willem III"
+		dynasty = "d'Avesnes"
+		birth_date = 1286.1.1
+		death_date = 1337.6.7
+		claim = 80
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+1304.8.22 = {
+	monarch = {
+		name = "Willem III"
+		dynasty = "d'Avesnes"
+		birth_date = 1286.1.1
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+1307.1.1 = {
+	heir = {
+		name = "Willem"
+		monarch_name = "Willem IV"
+		dynasty = "d'Avesnes"
+		birth_date = 1307.1.1
+		death_date = 1345.9.26
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1337.6.7 = {
+	monarch = {
+		name = "Willem IV"
+		dynasty = "d'Avesnes"
+		birth_date = 1307.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+#under various BAV states
+1417.5.31 = {
+	monarch = {
+		name = "Jakoba"
+		dynasty = "von Wittelsbach"
+		birth_date = 1401.8.16
+		adm = 2
+		dip = 1
+		mil = 1
+		female = yes
+	}
+}
+1580.1.1 = { government = administrative_republic } # Constitutionalism and the General Estates

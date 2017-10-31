@@ -1,0 +1,39 @@
+owner = ZGZ
+controller = ZGZ
+culture = aragonese
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = plumbum
+base_manpower = 1
+capital = "Calatayud"
+is_city = yes
+add_core = ZGZ
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1139.1.1 = {
+	owner = ARA
+	controller = ARA
+	add_core = ARA
+	remove_core = ZGZ
+}
+1516.1.23 = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+}
+1705.6.29 = { controller = HAB }
+1707.5.26 = { controller = SPA }
+1710.6.13 = { controller = HAB }
+1710.11.1 = { controller = SPA }
+1713.7.13 = { remove_core = ARA }
+1808.12.1 = { controller = FRA }
+1812.7.26 = { controller = SPA }
+1823.8.18 = { controller = FRA }
+1823.10.1 = { controller = SPA }
+1833.9.29 = { unrest = 8 }
+1839.5.13 = { unrest = 0 }

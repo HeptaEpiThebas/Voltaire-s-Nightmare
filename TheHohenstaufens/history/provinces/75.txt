@@ -1,0 +1,41 @@
+owner = HWN
+controller = HWN
+culture = boden_alemannic
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = beer
+base_manpower = 2
+capital = "Engen" 
+is_city = yes	
+add_core = HWN
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1639.1.1 = {
+	owner = FNB
+	controller = FNB
+	add_core = FNB
+}
+1803.2.25 = {
+	owner = WUR
+	controller = WUR
+	add_core = WUR
+	remove_core = FNB
+	remove_core = HWN
+}
+1810.1.1 = {
+	owner = BAD
+	controller = BAD
+	add_core = BAD
+	remove_core = WUR
+}
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+}

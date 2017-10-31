@@ -1,0 +1,16 @@
+government = monastic_order_government
+government_rank = 4
+primary_culture = romansch
+religion = catholic
+technology_group = western
+capital = 1142
+
+1050.1.1 = {
+	monarch = {
+		name = "Canons"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

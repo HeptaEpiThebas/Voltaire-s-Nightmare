@@ -1,0 +1,310 @@
+government = tsardom
+primary_culture = russian
+religion = orthodox
+technology_group = western
+unit_type = eastern
+capital = 712
+government_rank = 6
+
+1000.1.1 = { set_country_flag = unformable }
+1682.4.28 = {
+	monarch = {
+		name = "Pyotr I Veliky"
+		dynasty = Romanov
+		birth_date = 1672.6.9
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = silver_tongue_personality
+}
+
+1700.1.1 = { leader = {	name = "Fyodor M. Apraxine"	type = admiral		rank = 0	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1728.11.10 } }
+
+1700.1.1 = { leader = {	name = "Aleksandr Menshikov"	type = general		rank = 1	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1729.1.1 } }
+
+1705.1.1 = { leader = {	name = "Spiridof"              	type = admiral		rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1715.1.1 } }
+
+1707.1.1 = {
+	heir = {
+		name = "Yekaterina"
+		monarch_name = "Yekaterina I"
+		dynasty = "Romanov"
+		birth_date = 1684.4.15
+		death_date = 1727.5.17
+		claim = 80
+		adm = 4
+		mil = 3
+		dip = 2
+		female = yes
+	}
+}
+
+1710.10.10 = { add_accepted_culture = prussian }
+
+1721.1.1 = { decision = church_tax decision = dissolution_of_the_monasteries }
+1721.8.30 = { add_accepted_culture = latvian }
+1725.1.1 = { leader = {	name = "Minih" type = general	rank = 3	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1739.1.1 } }
+
+1725.1.1 = { leader = {	name = "Tottleben" type = general	rank = 2	fire = 2	shock = 4	manuever = 2	siege = 0	death_date = 1765.1.1 } }
+
+1725.1.30 = {
+	monarch = {
+		name = "Yekaterina I"
+		dynasty = Romanov
+		birth_date = 1684.4.15
+		adm = 4
+		dip = 2
+		mil = 3
+		female = yes
+	}
+}
+
+1725.1.30 = {
+	heir = {
+		name = "Pyotr"
+		monarch_name = "Pyotr II"
+		dynasty = "Romanov"
+		birth_date = 1715.10.23
+		death_date = 1730.1.30
+		claim = 95
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+
+1727.5.8 = {
+	monarch = {
+		name = "Pyotr II"
+		dynasty = Romanov
+		birth_date = 1715.10.23
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+
+1730.1.21 = {
+	monarch = {
+		name = "Anna I"
+		dynasty = Romanov
+		birth_date = 1693.2.7
+		adm = 2
+		dip = 2
+		mil = 1
+		female = yes
+	}
+}
+
+1740.10.19 = {
+	monarch = {
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Ivan"
+		monarch_name = "Ivan VI"
+		dynasty = Romanov
+		birth_date = 1740.8.23
+		death_date = 1764.7.16
+		claim = 70
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1741.1.1 = { leader = {	name = "P. Soltikov"           	type = general	rank = 4	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1760.1.1 } }
+
+1741.11.27 = {
+	monarch = {
+		name = "Elizaveta I"
+		dynasty = Romanov
+		birth_date = 1709.12.29
+		adm = 3
+		dip = 4
+		mil = 3
+		female = yes
+	}
+}
+
+1761.12.27 = {
+	monarch = {
+		name = "Pyotr III"
+		dynasty = Romanov
+		birth_date = 1728.2.21
+		adm = 1
+		dip = 0
+		mil = 2
+	}
+}
+
+1761.12.27 = {
+	heir = {
+		name = "Yekaterina"
+		monarch_name = "Yekaterina II Velikaya"
+		dynasty = "Romanov"
+		birth_date = 1729.5.2
+		death_date = 1796.11.6
+		claim = 80
+		adm = 6
+		dip = 6
+		mil = 5
+		female = yes
+	}
+}
+
+1762.6.30 = {
+	monarch = {
+		name = "Yekaterina II Velikaya"
+		birth_date = 1729.5.2
+		dynasty = Romanov
+		adm = 6
+		dip = 6
+		mil = 5
+		female = yes
+	}
+}
+
+1762.6.30 = {
+	heir = {
+		name = "Pavel"
+		monarch_name = "Pavel I"
+		dynasty = "Romanov"
+		birth_date = 1754.10.1
+		death_date = 1801.3.23
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1770.1.1 = { leader = {	name = "Orlov"                 	type = admiral		rank = 0	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1795.1.1 } }
+
+1770.1.1 = { leader = {	name = "Alexander Suvorov"	type = general		rank = 0	fire = 5	shock = 6	manuever = 6	siege = 1	death_date = 1800.5.18 } }
+
+1795.10.24 = { add_accepted_culture = lithuanian }
+
+1796.11.7 = {
+	monarch = {
+		name = "Pavel I"
+		dynasty = Romanov
+		birth_date = 1754.10.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1796.11.7 = {
+	heir = {
+		name = "Aleksandr"
+		monarch_name = "Aleksandr I"
+		dynasty = "Romanov"
+		birth_date = 1777.12.23
+		death_date = 1825.12.1
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
+
+1797.1.1 = { leader = {	name = "A. Osterman-Tolstoy"      	type = general	rank = 3	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1857.2.12 } }
+
+1801.3.13 = {
+	monarch = {
+		name = "Aleksandr I"
+		dynasty = Romanov
+		birth_date = 1777.12.23
+		adm = 2
+		dip = 4
+		mil = 4
+	}
+}
+
+1801.3.13 = {
+	heir = {
+		name = "Nikolaj"
+		monarch_name = "Nikolaj I"
+		dynasty = "Romanov"
+		birth_date = 1796.7.6
+		death_date = 1855.3.2
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1805.1.1 = { leader = {	name = "Michael A. de Tolly"	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1818.5.26 } }
+
+1805.1.1 = { leader = {	name = "Mikhail Kutuzov"	type = general	rank = 1	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1813.4.28 } }
+
+1805.1.1 = { leader = {	name = "Pyotr Bagration"	type = general	rank = 1	fire = 4	shock = 4	manuever = 3	siege = 2	death_date = 1812.9.12 } }
+
+1806.1.1 = { leader = {	name = "Dmitry Senyavin"	type = admiral	rank = 0	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1831.4.5 } }
+
+1808.1.1 = { leader = {	name = "Tomasov"               	type = general	rank = 3	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1814.1.1 } }
+
+1811.1.1 = { leader = {	name = "Aleksey Ermolov"	type = general	rank = 3	fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 1861.4.23 } }
+
+1812.1.1 = { leader = {	name = "Peter Wittgenstein"	type = general	rank = 3	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1843.6.11 } }
+
+1812.5.28 = { add_accepted_culture = moldovan }
+1814.4.11 = { add_accepted_culture = polish }
+
+1825.12.1 = {
+	monarch = {
+		name = "Nikolaj I"
+		dynasty = "Romanov"
+		birth_date = 1796.7.6
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Aleksandr"
+		monarch_name = "Aleksandr II"
+		dynasty = "Romanov"
+		birth_date = 1818.4.29
+		death_date = 1881.3.13
+		claim = 95
+		adm = 6
+		dip = 2
+		mil = 3
+	}
+}
+
+1855.3.2 = {
+	monarch = {
+		name = "Aleksandr II"
+		dynasty = "Romanov"
+		birth_date = 1818.4.29
+		adm = 6
+		dip = 2
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = free_thinker_personality
+	add_ruler_personality = benevolent_personality
+	heir = {
+		name = "Aleksandr"
+		monarch_name = "Aleksandr III"
+		dynasty = "Romanov"
+		birth_date = 1845.3.10
+		death_date = 1894.11.1
+		claim = 95
+		adm = 1
+		dip = 4
+		mil = 0
+	}
+}

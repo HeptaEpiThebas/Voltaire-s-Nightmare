@@ -1,0 +1,16 @@
+name = "Guelders War"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 291
+}
+
+1502.1.1 = {
+	add_attacker = HAB
+	add_defender = GEL
+}
+
+1514.1.1 = {
+	rem_attacker = HAB
+	rem_defender = GEL
+}

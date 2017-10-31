@@ -1,0 +1,19 @@
+name = "Bosnian Civil War"
+
+war_goal = {
+	type = defend_capital_independence
+	casus_belli = cb_independence_war
+	tag = HUM
+}
+
+1443.6.23 = {
+	add_attacker = HUM
+	add_defender = BOS
+	add_defender = KRJ
+}
+
+1446.1.1 = {
+	rem_attacker = HUM
+	rem_defender = BOS
+	rem_defender = KRJ
+}

@@ -1,0 +1,65 @@
+owner = LRC
+controller = LRC
+add_core = LRC
+culture = andalucian
+religion = sunni
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 3
+capital = "Lorca"
+is_city = yes
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1081.1.1 = {
+	owner = SEV
+	controller = SEV
+	add_core = SEV
+}
+1091.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = SEV
+}
+1145.3.25 = {
+	owner = MCA
+	controller = MCA
+	add_core = MCA
+	remove_core = MOR
+}
+1170.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+	remove_core = MCA
+}
+1228.1.1 = {
+	owner = LRC
+	controller = LRC
+	remove_core = MOR
+}
+1250.1.1 = {
+	owner = MCA
+	controller = MCA
+	add_core = MCA
+	remove_core = LRC
+}
+1266.1.1 = {
+	owner = CAS
+	controller = CAS
+	add_core = CAS
+}
+1296.1.1 = { religion = catholic }
+1516.1.23 = {
+	controller = SPA
+	owner = SPA
+	add_core = SPA
+}
+1713.4.11 = { remove_core = CAS }
+1811.1.1 = { controller = FRA }
+1812.10.1 = { controller = SPA }

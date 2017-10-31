@@ -1,0 +1,88 @@
+government = tribal_democracy
+government_rank = 3
+technology_group = western
+religion = slavic_pagan
+primary_culture = bremer_platt
+capital = 851
+
+1054.1.1 = {
+	monarch = {
+		name = "Chyzani"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1080.1.1 = {
+	government = tribal_despotism
+	monarch = {
+		name = "Dumar"
+		dynasty = "Dumarice"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1114.1.1 = {
+	monarch = {
+		name = "Sventipolk"
+		dynasty = "Dumarice"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+#1131 conquered by MKL
+#conquered by Dano-Rani
+1156.1.1 = { government = feudal_monarchy }
+1168.1.1 = {
+	religion = catholic
+	primary_culture = kashubian
+}
+1178.12.30 = { primary_culture = pommeranian }
+1376.12.6 = {
+	monarch = {
+		name = "Wartislaw VI"
+		dynasty = "Gryf"
+		birth_date = 1345.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+#dead 1394.6.13
+1425.12.6 = {
+	monarch = {
+		name = "Barnim VIII"
+		dynasty = "Gryf"
+		birth_date = 1406.1.1
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+#dead 1451.12.19
+1457.1.1 = {
+	monarch = {
+		name = "Wartislaw X"
+		dynasty = "Gryf"
+		birth_date = 1435.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#dead 1478.12.17
+1534.12.15 = { religion = protestant }
+1569.1.1 = {
+	monarch = {
+		name = "Boguslaw XIII"
+		dynasty = "Gryf"
+		birth_date = 1544.8.9
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+#1603.9.1 to SET

@@ -1,0 +1,19 @@
+government = feudal_monarchy
+government_rank = 3
+technology_group = western
+primary_culture = schlesian
+religion = catholic
+capital = 815
+
+#1138-1163 under POL
+1163.1.1 = {
+	monarch = {
+		name = "Boleslaw I"
+		dynasty = "Piast"
+		birth_date = 1127.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#done 1173.1.5

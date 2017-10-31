@@ -1,0 +1,71 @@
+owner = TUN
+controller = TUN
+culture = tunisian
+religion = sunni
+hre = no
+base_tax = 6
+base_production = 6
+trade_goods = linen
+base_manpower = 6
+capital = "Tunis"
+is_city = yes
+add_core = TUN
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+fort_14th = yes
+extra_cost = 25
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}
+add_permanent_province_modifier = {
+    name = foreign_trade_modifier
+   	duration = -1
+}
+
+1128.1.1 = {
+	owner = KBA
+	controller = KBA
+	add_core = KBA
+}
+1148.1.1 = {
+	owner = TUN
+	controller = TUN
+	remove_core = KBA
+}
+1159.1.1 = {
+	owner = MOR
+	controller = MOR
+	add_core = MOR
+}
+1229.1.1 = {
+	owner = TUN
+	controller = TUN
+	remove_core = MOR
+}
+1337.1.1 = { fort_14th = no fort_15th = yes }
+1357.1.1 = {
+	owner = TLC
+	controller = TLC
+}
+1357.11.1 = {
+	owner = TUN
+	controller = TUN
+}
+1489.1.1 = { unrest = 4 }
+1490.1.1 = { unrest = 0 }
+1534.8.16 = { controller = TUR }
+1535.6.11 = { controller = TUN }
+1569.1.1 = { controller = TUR }
+1573.1.1 = { controller = TUN }
+1574.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1702.1.1 = { unrest = 4 }
+1703.1.1 = { unrest = 0 }
+1735.1.1 = { unrest = 6 } 
+1756.1.1 = { unrest = 0 }

@@ -1,0 +1,31 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = swiss
+religion = catholic
+technology_group = western
+capital = 2281
+fixed_capital = 2281
+#Imperial territory of Transjurania
+
+1125.5.23 = {
+	government = administrative_republic
+	monarch = {
+		name = "Patriziat"
+		adm = 2
+		dip = 2
+		mil = 2
+		regent = yes
+	}
+	historical_friend = ZUG
+	historical_friend = GLA
+	historical_friend = URI
+	historical_friend = NDW
+	historical_friend = SCH
+	historical_friend = LKR
+	historical_friend = ZUR
+	historical_friend = VDX
+}
+1218.2.18 = { capital = 2281 }
+1353.1.1 = { government = canton_government }
+1528.1.1 = { religion = zwinglianist }
+1551.1.1 = { religion = reformed }

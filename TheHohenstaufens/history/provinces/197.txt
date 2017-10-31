@@ -1,0 +1,72 @@
+owner = NBG
+controller = NBG
+culture = bavarian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = grain
+base_manpower = 2
+capital = "Grafenau"
+is_city = yes	
+add_core = NBG
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+fort_14th = yes
+
+1158.1.1 = {
+	owner = ADE
+	controller = ADE
+	add_core = ADE
+}
+1180.1.1 = {
+	owner = MER
+	controller = MER
+	add_core = MER
+	remove_core = ADE
+}
+1248.6.19 = {
+	owner = HLS
+	controller = HLS
+	add_core = HLS
+	remove_core = MER
+	remove_core = NBG
+}
+1337.1.1 = { fort_14th = no fort_15th = yes }
+1375.1.1 = {
+	owner = NGF
+	controller = NGF
+	add_core = NGF
+	remove_core = HLS
+}
+1417.1.1 = {
+	owner = ORT
+	controller = ORT
+	add_core = ORT
+	remove_core = NGF
+}
+1438.1.1 = {
+	owner = MUL
+	controller = MUL
+	add_core = MUL
+	remove_core = ORT
+}
+1503.1.1 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = MUL
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1704.8.13 = { controller = HAB }
+1714.9.7 = { controller = BAV }
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+}

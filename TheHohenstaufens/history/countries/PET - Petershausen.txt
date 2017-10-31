@@ -1,0 +1,419 @@
+government = monastic_order_government
+government_rank = 4
+primary_culture = boden_alemannic
+religion = catholic
+technology_group = western
+capital = 2114
+
+1044.1.1 = {
+	monarch = {
+		name = "Adalbert"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1060.1.1 = {
+	monarch = {
+		name = "Siggo"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1062.1.1 = {
+	monarch = {
+		name = "Arnolf"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1064.1.1 = {
+	monarch = {
+		name = "Meginrad"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1081.1.1 = {
+	monarch = {
+		name = "Liutold"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1085.1.1 = {
+	monarch = {
+		name = "Otto"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1086.1.1 = {
+	monarch = {
+		name = "Dietrich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1116.1.1 = {
+	monarch = {
+		name = "Bertholf"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1127.1.1 = {
+	monarch = {
+		name = "Konrad"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1164.1.1 = {
+	monarch = {
+		name = "Gebhard"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1171.1.1 = {
+	monarch = {
+		name = "Heinrich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1195.1.1 = {
+	monarch = {
+		name = "Eberhard"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1222.1.1 = {
+	monarch = {
+		name = "Konrad"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1248.1.1 = {
+	monarch = {
+		name = "Ulrich"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1258.1.1 = {
+	monarch = {
+		name = "Heinrich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1259.1.1 = {
+	monarch = {
+		name = "Heinrich"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1289.1.1 = {
+	monarch = {
+		name = "Diethelm"
+		dynasty = "von Kastel"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+1321.1.1 = {
+	monarch = {
+		name = "Ulrich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1329.1.1 = {
+	monarch = {
+		name = "Konrad"
+		dynasty = "auf dem Hof"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1339.1.1 = {
+	monarch = {
+		name = "Burkhart"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1342.1.1 = {
+	monarch = {
+		name = "Johann"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1348.1.1 = {
+	monarch = {
+		name = "Johann"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}
+1353.1.1 = {
+	monarch = {
+		name = "Heinrich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1360.1.1 = {
+	monarch = {
+		name = "Burkhart"
+		dynasty = "von Luxemburg"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1386.1.1 = {
+	monarch = {
+		name = "Heinrich"
+		dynasty = "von Sämli"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1392.1.1 = {
+	monarch = {
+		name = "Johann"
+		dynasty = "Frey"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1425.1.1 = {
+	monarch = {
+		name = "Johann"
+		dynasty = "am Feld"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1427.1.1 = {
+	monarch = {
+		name = "Diethelm"
+		dynasty = "Wiss"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1443.1.1 = {
+	monarch = {
+		name = "Johann"
+		dynasty = "Hüw"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+1451.1.1 = {
+	monarch = {
+		name = "Nikolaus"
+		dynasty = "Roschach"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1473.1.1 = {
+	monarch = {
+		name = "Johann"
+		dynasty = "Sünderstorff"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1489.1.1 = {
+	monarch = {
+		name = "Martin"
+		dynasty = "Brülin"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1495.1.1 = {
+	monarch = {
+		name = "Johann"
+		dynasty = "Merk"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1524.1.1 = {
+	monarch = {
+		name = "Andreas"
+		dynasty = "Berlin"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1526.1.1 = {
+	monarch = {
+		name = "Gebhard"
+		dynasty = "Dornsperger"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1556.1.1 = {
+	monarch = {
+		name = "Christoph"
+		dynasty = "Funk"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1580.1.1 = {
+	monarch = {
+		name = "Andreas"
+		dynasty = "Öxlin"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1605.1.1 = {
+	monarch = {
+		name = "Johann"
+		dynasty = "Stephani"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1608.1.1 = {
+	monarch = {
+		name = "Jakob"
+		dynasty = "Renz"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1623.1.1 = {
+	monarch = {
+		name = "Benedikt"
+		dynasty = "Pfeidder"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1639.1.1 = {
+	monarch = {
+		name = "Wilhelm"
+		dynasty = "Rotbach"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1671.1.1 = {
+	monarch = {
+		name = "Wunibald"
+		dynasty = "Saur"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1685.1.1 = {
+	monarch = {
+		name = "Franz"
+		dynasty = "Öderlin"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1714.1.1 = {
+	monarch = {
+		name = "Placidus"
+		dynasty = "Weltlin"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1737.1.1 = {
+	monarch = {
+		name = "Alphons"
+		dynasty = "Strobel"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1750.1.1 = {
+	monarch = {
+		name = "Michael"
+		dynasty = "Sautter"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1761.1.1 = {
+	monarch = {
+		name = "Georg"
+		dynasty = "Strobel"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1786.1.1 = {
+	monarch = {
+		name = "Josef"
+		dynasty = "Keller"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+#1803

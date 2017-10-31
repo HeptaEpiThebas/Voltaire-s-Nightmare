@@ -1,0 +1,66 @@
+#####################################################
+#
+# ADVISORS FOR THE REGION 'AFRICA'
+#
+#####################################################
+
+advisor = {
+	advisor_id = 2040
+	name = "Constantinus Africanus"
+	location = 586
+	discount = yes
+	skill = 2
+	type = natural_scientist
+	date = 1054.1.1
+	death_date = 1099.1.1
+}
+
+advisor = {
+	advisor_id = 2046
+	name = "Fibonacci"
+	location = 423
+	discount = yes
+	skill = 3
+	type = natural_scientist
+	date = 1202.1.1
+	death_date = 1249.1.1
+}
+
+advisor = {
+	advisor_id = 2061
+	name = "Ibn Battuta"
+	location = 1946
+	discount = yes
+	skill = 1
+	type = diplomat
+	date = 1325.6.1
+	death_date = 1368.1.1
+}
+
+advisor = {
+	advisor_id = 2058
+	name = "Ibn Khaldun"
+	location = 586
+	discount = yes
+	skill = 2
+	type = philosopher
+	date = 1352.5.27
+	death_date = 1406.3.19
+}
+
+advisor = {
+	advisor_id = 984
+	name = "James Bruce" #Scottish adventurer
+	location = 1946 #Al-Djazair
+	discount = yes
+	skill = 1
+	type = natural_scientist 
+	date = 1762.1.1 #32 years old, moved to Algiers
+	death_date = 1794.4.27 #dies
+}
+
+# CURRENT TOTAL IS = 1
+
+####################################################
+# End of file
+####################################################

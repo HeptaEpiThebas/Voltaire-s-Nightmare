@@ -1,0 +1,61 @@
+owner = HOL
+controller = HOL
+culture = dutch
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+capital = "Kuilenburg"
+is_city = yes
+add_core = HOL
+add_core = KUI
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1175.1.1 = {
+	owner = KUI
+	controller = KUI
+	remove_core = HOL
+}
+1281.11.21 = {
+	owner = GEL
+	controller = GEL
+	add_core = GEL
+}
+1534.1.1 = { religion = anabaptist }
+1543.9.7 = {
+	owner = SPA
+	controller = SPA
+	add_core = SPA
+}
+1549.11.4 = { 
+	owner = NED 
+	controller = NED 
+	add_core = NED 
+	remove_core = SPA
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+}
+1572.1.1 = { religion = reformed }
+1648.10.24 = { hre = no }
+1810.7.10 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1813.11.30 = {
+	owner = NED
+	controller = NED
+	remove_core = FRA
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+} 

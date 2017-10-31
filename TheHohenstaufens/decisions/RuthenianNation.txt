@@ -1,0 +1,107 @@
+country_decisions = {
+
+	ruthenian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { has_country_flag = unformable }			
+			NOT = { exists = UKR }
+			OR = {
+				primary_culture = byelorussian
+				primary_culture = ruthenian
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 6
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 40
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			
+			OR = {
+				#owns everything
+				AND = {
+					owns_core_province = 608		# Lviv
+					owns_core_province = 1140		# Halych
+					owns_core_province = 620		# Peremyshl
+					owns_core_province = 633		# Terebovl
+					owns_core_province = 604		# Podolia
+				}
+				#or owns only core-core stuff but has god like ruler
+				AND = {
+					owns_core_province = 608		#Lviv				
+					owns_core_province = 604		#Podolia
+					dip = 5
+				}
+			}
+		}
+		effect = {
+			volhynia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_permanent_claim = UKR
+			}
+			halicia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_claim = ROOT }
+				}
+				add_permanent_claim = UKR
+			}
+			add_prestige = 25
+			change_tag = UKR
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government = principality }
+				}
+				change_government = principality
+			}
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 4
+					}
+				}
+				set_government_rank = 4
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_importance = 500		
+	}
+	
+}

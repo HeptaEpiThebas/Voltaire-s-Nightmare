@@ -1,0 +1,173 @@
+country_decisions = {
+
+	italian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = ITA }
+			NOT = { has_country_flag = unformable }
+			capital_scope = { superregion = lombardy_superregion }
+			culture_group = latin
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 30
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			adm_tech = 40
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			owns_core_province = 2560	# Genoa
+			owns_core_province = 1818	# Milan
+			owns_core_province = 972	# Modena
+			owns_core_province = 1862	# Verona
+			owns_core_province = 109	# Mantua
+			owns_core_province = 640	# Firenze
+			owns_core_province = 117	# Siena
+			owns_core_province = 2235	# Roma
+			owns_core_province = 874	# Ancona
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				emperor = {
+					add_opinion = {
+						who = root
+						modifier = opinion_left_empire
+					}
+				}
+				set_in_empire = no
+				emperor = {
+					country_event = { id = hre_event.5 }
+				}
+			}
+			if = {
+				limit = {
+					NOT = { government_rank = 5 }
+				}
+				set_government_rank = 5
+			}
+			change_tag = ITA
+			set_country_flag = unformable
+			lombardy_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ITA
+			}
+			add_prestige = 25
+			ITA = {
+				set_capital = 2235
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				government = republic
+			}
+		}
+	}
+	
+	gods_kingdom = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = ITA }
+			NOT = { exists = KOG }
+			tag = PAP
+			NOT = { has_country_modifier = kingdom_of_god }
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			#Ecclesiastical provinces of Northern Italy
+			owns_core_province = 2560	# Genoa
+			owns_core_province = 1009	# Torino
+			owns_core_province = 1818	# Milano
+			owns_core_province = 972	# Modena
+			owns_core_province = 1021	# Trento
+			owns_core_province = 1769	# Aquileia
+			owns_core_province = 112	# Venice
+			owns_core_province = 974	# Bologna
+			owns_core_province = 1048	# Ravenna
+			owns_core_province = 640	# Firenze
+			owns_core_province = 115	# Pisa
+			owns_core_province = 874	# Ancona
+			owns_core_province = 2607	# Perugia
+			owns_core_province = 1784	# Pesaro
+		}
+		effect = {
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				emperor = {
+					add_opinion = {
+						who = root
+						modifier = opinion_left_empire
+					}
+				}
+				set_in_empire = no
+				emperor = {
+					country_event = { id = hre_event.5 }
+				}
+			}
+			change_tag = KOG
+			change_government = feudal_monarchy
+			set_country_flag = unformable
+			add_country_modifier = {
+				name = "kingdom_of_god"
+				duration = -1
+			}
+			country_event  = { id = catholic_flavor.2 }
+			lombardy_superregion = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = KOG
+			}
+			add_prestige = 20
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

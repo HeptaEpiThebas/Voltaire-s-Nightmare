@@ -1,0 +1,74 @@
+owner = SPT
+controller = SPT
+culture = umbrian
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 1
+trade_goods = grain
+base_manpower = 1
+capital = "Camerino"
+is_city = yes
+add_core = SPT
+add_core = CMR
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1077.1.1 = {
+	owner = CMR
+	controller = CMR
+	add_core = PAP
+	remove_core = SPT
+}
+1177.7.24 = { hre = no }
+1502.6.1 = {
+	owner = RMG
+	controller = RMG
+	add_core = RMG
+}
+1503.11.1 = {
+	owner = CMR
+	controller = CMR
+	remove_core = RMG
+}
+1545.1.1 = {
+	owner = PAP
+	controller = PAP
+	remove_core = CMR
+}
+1797.11.17 = {
+	owner = ANC
+	controller = ANC
+	add_core = ANC
+}
+1798.3.7 = {
+	owner = PAP
+	controller = PAP
+	remove_core = ANC
+}
+1808.1.1 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = PAP
+}
+1814.4.11 = {
+	owner = PAP
+	controller = PAP
+	add_core = PAP
+	remove_core = ITA
+}
+1860.9.29 = { 
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	remove_core = PAP
+}
+1861.3.20 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SPI
+}
