@@ -1,5 +1,9 @@
 ﻿l_english:
 #Events
+ high_kingdom.1: "The High Kingdom of Ireland"
+ high_kingdom.1.t: "The High Kingdom of Ireland"
+ high_kingdom.1.d: "You are the high king of Ireland! Lead the people of Ireland to glory!"
+ high_kingdom.1.a: "To Glory!"
  theocracy.1.c: "A Merchant's Child"
  theocracy.1.d: "A Papal Favorite"
  purple_phoenix.1.d: "Though the Empire's prestige is unwavering, succession remains one of its greatest weaknesses. Ambitious nobles and prominent generals have ever been ready to attempt to seize the reins of Imperial power for themselves."
@@ -86,7 +90,7 @@
  institution_events.79.a: "This changes everything..."
  institution_events.79.a.tt: "Countries that have not yet fully §YEmbraced§! the §Y §! Institution will receive an increasing technology cost penalty of §R1%§! per year up to at most §R50%§!."
  institution_events.790.d: "Steel, coal, great smokestacks and furnaces towering higher than the mightiest castle of the Middle Ages, or the richest palace of the Early Modern Era... in $YEAR$, building on Enlightenment scientism and continual revolutions in manufacturing technology, the world is embracing Industrialization. Rural populations flock to the cities to find work in new factories, while materiels are pumped out at an astonishing rate to support public and military demand. Not only has the landscape changed, but modes of thinking are shaped by the sudden presence of concrete and iron where pastoral vistas once abounded. Let the poets herald this marriage of mammon and muse!"
-#Tributary Events 
+#Tributary Events
  tributary_events.1.d: "Our fiefdom relationship with [Root.Overlord.GetName] is certainly very loose but it has still opened up a world of opportunity for gifted officials and entrepreneurs. Many have come to regard [Root.Overlord.Capital.GetCapitalName] as the best career destination, and with every royal tax collection more set out to see the great [Root.Overlord.GetAdjective] capital.\nWhile there was some worry that this would be a drain on some of our state's most valued people, it does give us influence in the wider circle of countries around [Root.Overlord.GetName]. The few people that choose to return also have valuable experience that we can put to good use."
  tributary_events.1.b: "It is for the best of the [Root.GetAdjective] subjects."
  tributary_events.2.d: "As a part of the de jure [Root.Overlord.GetAdjective] sphere we are increasingly becoming part of the wider [Root.Overlord.GetAdjective] cultural world. The [Root.Overlord.Culture.GetName] royal dialect can be heard in the streets and even the high halls of [Root.Capital.GetCapitalName], and there is a growing awareness of our fiefdom in the [Root.Overlord.GovernmentName] of [Root.Overlord.GetName]."
@@ -506,7 +510,7 @@
  HREMA58: "Disastrous news"
  HREMT59: "Manzikert Won!"
  HREMD59: "As the dust cleared, the full extent of the victory became apparent. With the combined might of the various troop detachments, the much smaller Turkish force broke rank and fell into disorder. Alp Arslan was last seen riding headlong into a company of Varangians and is presumed dead. With a sizeable force wiped out and their leader killed in action, the Seljuk Empire has plunged almost immediately into civil war as various warlords vie for the now vacant throne. Though their borders are still secure, it seems the Turks will no longer be a bother to the true holy and Roman empire."
- HREMA59: "In Hoc Signo Vinces!" 
+ HREMA59: "In Hoc Signo Vinces!"
  HREMT60: "The Turks Arrive"
  HREMD60: "Following the string of Byzantine defeats after Manzikert, the Seljuk Turks were content to annex the lands of the Armenians and made little attempt to break through the reinforced new Byzantine borders in central Anatolia. Now, however, internal politics have led the supreme Seljuk Shah to recognize a new state centered on Iconium for one of his relatives... the pretender has the gall to call it 'The Sultanate of Rum', stealing the rightful title of the Rhomaioi. The new Sultan has now directed his full attention at the complete conquest of Anatolia and the export of Islam to the Christian East."
  HREMA60: "God help us"
