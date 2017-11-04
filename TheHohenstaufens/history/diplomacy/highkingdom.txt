@@ -1,0 +1,176 @@
+#High King at 1054 is Munster
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = WTY
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = WXF
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = OMO
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = LEI
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = BNA
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = OSS
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = EIL
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = UIF
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = MTH
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = IVE
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = ULS
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = OIE
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = TYR
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = INH
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = DGL
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = TCN
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = FMA
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = IAB
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = TBE
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = SLN
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = ICN
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = UML
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = ACN
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = UMA
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
+dependency  = {
+  subject_type = "tributary_state"
+  first = MMU
+  second = CCU
+  start_date = 1054.1.1
+  end date  = 1100.1.1
+}
