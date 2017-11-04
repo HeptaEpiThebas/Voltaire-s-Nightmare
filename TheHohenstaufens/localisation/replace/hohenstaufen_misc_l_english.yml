@@ -13,6 +13,8 @@
  building_arsenal: "Hospice"
  building_college: "College"
 #Misc
+ high_king_ireland: "High King of Ireland"
+ desc_high_king_ireland: "You are the High King of Ireland, giving your nation immesurable legitimacy and prestige."
  cantonnum.tt: "At least §Y40§W provinces in §YSwitzerland§W must be owned by Cantons"
  YOUR_SCORE: ""
  CV_IDEAS_UNLOCK_ADM_LEVEL_DESC: "You have level §Y$LEVEL$§W and need level §Y$NEEDED$§W of administrative technology to unlock this idea slot.\n§GEmbracing the Renaissance unlocks further ideas§!"

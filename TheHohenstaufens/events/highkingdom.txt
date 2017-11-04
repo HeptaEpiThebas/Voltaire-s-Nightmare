@@ -19,8 +19,9 @@ country_event = {
 
   option = {
     name = high_kingdom.1.a
-    country_modifier = {
-      name = high_king_ireland
+    add_country_modifier = {
+      name = "high_king_ireland"
+      duration = -1
     }
   }
 }
