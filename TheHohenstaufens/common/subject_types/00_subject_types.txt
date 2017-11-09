@@ -574,7 +574,7 @@ ire_trib_state = {
 
 	# Properties:
 	transfer_trade_power = no
-	can_fight_independence_war = yes
+	can_fight_independence_war = no
 	joins_overlords_wars = no
 	joins_colonial_wars = no
 	is_voluntary = no

@@ -1,0 +1,28 @@
+country_decisions = {
+    claim_high_kingdom = {
+        potential = {
+            is_subject_of_type = ire_trib_state
+        }
+        allow = {
+            stability = 1
+            legitimacy = 90
+        }
+        effect = {
+            overlord = {
+              reverse_add_casus_belli = {
+                  target = ROOT
+                  type = cb_take_high_kingdom
+                  months = 12
+                  }
+            }
+            add_casus_belli = {
+              target =
+              type = cb_take_high_kingdom
+              months = 12
+            }
+        }
+        ai_will_do = {
+            factor = 0.1
+        }
+    }
+}

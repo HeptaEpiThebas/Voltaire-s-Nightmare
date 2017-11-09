@@ -1,6 +1,14 @@
 # INSTRUCTIONS:
 # -------------
 
+#High Kingdom take
+cb_take_high_kingdom = {
+		valid_for_subject = yes
+		is_triggered_only = yes
+		months = 12
+		war_goal = take_capital_force_tributary
+}
+
 # Restoration of recently broken PU
 cb_restore_personal_union = {
 	valid_for_subject = no
@@ -933,7 +941,7 @@ cb_forced_break_alliance = {
 	attacker_disabled_po = {
 		po_become_tributary_state
 	}
-	
+
 	war_goal = superiority_insult
 }
 
@@ -956,6 +964,6 @@ cb_force_tributary = {
 			}
 		}
 	}
-	
+
 	war_goal = take_capital_force_tributary
 }
