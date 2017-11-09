@@ -565,7 +565,7 @@ tributary_state = {
 }
 
 ire_trib_state = {
-	copy_from = default
+	copy_from = tributary_state
 
 	# Graphics:
 	sprite = GFX_subject_tributary_state
