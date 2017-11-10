@@ -72,5 +72,6 @@ country_event = {
       name = "disgraced_nation"
       duration = 3650
     }
+    add_stability = -1
   }
 }
