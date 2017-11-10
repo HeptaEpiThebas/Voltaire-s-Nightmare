@@ -41,7 +41,7 @@ country_event = {
   }
 
   option = {
-    name = high_kingdom.1.a
+    name = high_kingdom.2.a
     remove_country_modifier = high_king_ireland
     add_country_modifier ={
       name = "disgraced_nation"
