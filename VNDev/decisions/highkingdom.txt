@@ -16,6 +16,10 @@ country_decisions = {
               }
             }
             add_stability = -1
+            add_country_modifier = {
+                name = "high_king_revolter"
+                duration = -1
+            }
         }
         ai_will_do = {
             factor = 0.1

@@ -11,6 +11,11 @@ high_king_ireland = {
 	prestige = 1
 }
 
+high_king_revolter = {
+	legitimacy = -1
+	global_unrest = 2
+}
+
 #####################
 #Voltaires Nightmare
 #####################

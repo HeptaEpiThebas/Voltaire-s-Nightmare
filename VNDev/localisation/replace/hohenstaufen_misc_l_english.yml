@@ -13,8 +13,8 @@
  building_arsenal: "Hospice"
  building_college: "College"
 #Misc
- cb_take_high_kingdom:0 "Take the High Kingdom"
- cb_take_high_kingdom_desc:1 "Take the High Kingdom of ireland for yourself and lead your people to victory!"
+ high_king_revolter: "Irish Revolter"
+ high_king_revolter_desc: "A state that is revolting against the irish High King in the hope to gain the High Kingdom of Ireland for itself."
  high_king_ireland: "High King of Ireland"
  desc_high_king_ireland: "You are the High King of Ireland, giving your nation immesurable legitimacy and prestige."
  cantonnum.tt: "At least §Y40§W provinces in §YSwitzerland§W must be owned by Cantons"
