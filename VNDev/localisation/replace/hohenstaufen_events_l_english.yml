@@ -1,5 +1,9 @@
 ﻿l_english:
 #Events
+ high_kingdom.4: "The High Kingdom is Ours"
+ high_kingdom.4.t: "The High Kingdom is Ours"
+ high_kingdom.4.d: "Our glorious nation has taken the throne of the High Kingdom of Ireland for ourselves!"
+ high_kingdom.4.a: "To Glory!"
  high_kingdom.3: "The War is Lost"
  high_kingdom.3.t: "The War is Lost"
  high_kingdom.3.d: "Your nation has failed in its attempt to take the High Kingdom of Ireland."

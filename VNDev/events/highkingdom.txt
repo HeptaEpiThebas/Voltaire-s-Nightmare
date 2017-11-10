@@ -59,7 +59,7 @@ country_event = {
   trigger = {
     is_subject = yes
     has_country_modifier = high_king_revolter
-    }
+  }
 
   mean_time_to_happen = {
     months = 0
@@ -73,5 +73,36 @@ country_event = {
       duration = 3650
     }
     add_stability = -1
+  }
+}
+#Become High King as Revolter
+country_event = {
+  id = high_kingdom.4
+  title = high_kingdom.4.t
+  desc = high_kingdom.4.d
+  picture = GOOD_WITH_MONARCH_eventPicture
+
+  trigger = {
+    is_subject = no
+    is_at_war = no
+    has_country_modifier = high_king_revolter
+  }
+
+  mean_time_to_happen = {
+    months = 0
+  }
+
+  option = {
+    name = high_kingdom.4.a
+    remove_country_modifier = high_king_revolter
+    any_country = {
+      limit = { has_country_modifier = high_king_ireland }
+      ROOT = {
+        create_subject = {
+          who = PREV
+          subject_type = ire_trib_state
+        }
+      }
+    }
   }
 }
