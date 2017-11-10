@@ -1,5 +1,5 @@
-name="Voltaire's Nightmare [GitHub Version]"
-path="mod/TheHohenstaufens"
+name="Voltaire's Nightmare Developer Version"
+path="mod/VNDev"
 replace_path="common/bookmarks"
 replace_path="common/units"
 replace_path="common/countries"
