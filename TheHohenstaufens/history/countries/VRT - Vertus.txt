@@ -3,7 +3,7 @@ government_rank = 1
 primary_culture = champenois
 religion = catholic
 technology_group = western
-capital = 1
+capital = 750
 
 1361.4.1 = {
 	monarch = {
