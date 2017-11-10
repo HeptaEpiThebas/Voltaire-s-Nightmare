@@ -11,7 +11,7 @@ country_decisions = {
             overlord = {
               reverse_add_casus_belli = {
                   target = ROOT
-                  type = cb_take_high_kingdom
+                  type = cb_independence_war
                   months = 12
               }
             }

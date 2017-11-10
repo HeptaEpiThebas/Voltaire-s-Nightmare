@@ -1,14 +1,6 @@
 # INSTRUCTIONS:
 # -------------
 
-#High Kingdom take
-cb_take_high_kingdom = {
-		valid_for_subject = yes
-		is_triggered_only = yes
-		months = 12
-		war_goal = take_capital_force_tributary
-}
-
 # Restoration of recently broken PU
 cb_restore_personal_union = {
 	valid_for_subject = no
