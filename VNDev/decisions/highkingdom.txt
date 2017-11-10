@@ -13,12 +13,7 @@ country_decisions = {
                   target = ROOT
                   type = cb_take_high_kingdom
                   months = 12
-                  }
-            }
-            add_casus_belli = {
-              target =
-              type = cb_take_high_kingdom
-              months = 12
+              }
             }
         }
         ai_will_do = {
