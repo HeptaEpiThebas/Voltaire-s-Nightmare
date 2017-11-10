@@ -49,3 +49,28 @@ country_event = {
     }
   }
 }
+#Independence War lost
+country_event = {
+  id = high_kingdom.3
+  title = high_kingdom.3.t
+  desc = high_kingdom.3.d
+  picture = ANGRY_MOB_eventPicture
+
+  trigger = {
+    is_subject = yes
+    has_country_modifier = high_king_revolter
+    }
+
+  mean_time_to_happen = {
+    months = 0
+  }
+
+  option = {
+    name = high_kingdom.3.a
+    remove_country_modifier = high_king_revolter
+    add_country_modifier ={
+      name = "disgraced_nation"
+      duration = 120
+    }
+  }
+}

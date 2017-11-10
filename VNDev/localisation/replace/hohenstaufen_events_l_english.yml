@@ -1,5 +1,9 @@
 ﻿l_english:
 #Events
+ high_kingdom.3: "The War is Lost"
+ high_kingdom.3.t: "The War is Lost"
+ high_kingdom.3.d: "Your nation has failed in its attempt to take the High Kingdom of Ireland."
+ high_kingdom.3.a: "I have failed..."
  high_kingdom.2: "Loss of The High Kingdom"
  high_kingdom.2.t: "Loss of The High Kingdom"
  high_kingdom.2.d: "Your people have been humiliated, and you are no longer the high king or Ireland."
