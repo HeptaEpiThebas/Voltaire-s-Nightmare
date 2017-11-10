@@ -10,11 +10,12 @@ country_decisions = {
         }
         effect = {
             overlord = {
-              reverse_add_casus_belli = {
-                  target = ROOT
-                  type = cb_independence_war
-                  months = 12
-              }
+                ROOT = {
+                    declare_war_with_cb = {
+                        who = PREV
+                        casus_belli = cb_independence_war
+                    }
+                }
             }
             add_stability = -1
             add_country_modifier = {
