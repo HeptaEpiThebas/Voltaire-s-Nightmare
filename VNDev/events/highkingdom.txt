@@ -106,3 +106,32 @@ country_event = {
     }
   }
 }
+#Independence Cleanup
+country_event = {
+  id = high_kingdom.5
+  title = high_kingdom.5.t
+  desc = high_kingdom.5.d
+  picture = GOOD_WITH_MONARCH_eventPicture
+
+  trigger = {
+    is_subject = no
+    primary_culture = irish
+    NOT = {has_country_modifier = high_king_ireland}
+    NOT = {has_country_modifier = high_king_revolter}
+  }
+
+  mean_time_to_happen = {
+    months = 0
+  }
+
+  option = {
+    name = high_kingdom.5.a
+    every_country = {
+      limit = { has_country_modifier = high_king_ireland }
+      create_subject = {
+        who = ROOT
+        subject_type = ire_trib_state
+      }
+    }
+  }
+}

@@ -1,5 +1,9 @@
 ﻿l_english:
 #Events
+ high_kingdom.5: "We Must Bow to the High King"
+ high_kingdom.5.t: "We Must Bow to the High King"
+ high_kingdom.5.d: "We must respect the rightful sovereignty of the High King of Ireland and bow to him."
+ high_kingdom.5.a: "It is our duty."
  high_kingdom.4: "The High Kingdom is Ours"
  high_kingdom.4.t: "The High Kingdom is Ours"
  high_kingdom.4.d: "Our glorious nation has taken the throne of the High Kingdom of Ireland for ourselves!"
