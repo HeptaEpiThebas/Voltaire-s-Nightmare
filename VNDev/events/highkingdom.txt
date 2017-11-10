@@ -95,7 +95,7 @@ country_event = {
   option = {
     name = high_kingdom.4.a
     remove_country_modifier = high_king_revolter
-    any_country = {
+    every_country = {
       limit = { has_country_modifier = high_king_ireland }
       ROOT = {
         create_subject = {
