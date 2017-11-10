@@ -15,9 +15,16 @@ country_decisions = {
                   months = 12
               }
             }
+            add_stability = -1
         }
         ai_will_do = {
             factor = 0.1
+            modifier = {
+                factor = 2.5
+                overlord = {
+                    NOT = {legitimacy = 60}
+                }
+            }
         }
     }
 }
