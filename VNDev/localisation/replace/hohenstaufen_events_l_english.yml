@@ -1,5 +1,9 @@
 ﻿l_english:
 #Events
+ high_kingdom.2: "Loss of The High Kingdom"
+ high_kingdom.2.t: "Loss of The High Kingdom"
+ high_kingdom.2.d: "Your people have been humiliated, and you are no longer the high king or Ireland."
+ high_kingdom.2.a: "I have failed..."
  high_kingdom.1: "The High Kingdom of Ireland"
  high_kingdom.1.t: "The High Kingdom of Ireland"
  high_kingdom.1.d: "You are the high king of Ireland! Lead the people of Ireland to glory!"

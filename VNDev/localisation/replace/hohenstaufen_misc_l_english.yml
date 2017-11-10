@@ -13,6 +13,8 @@
  building_arsenal: "Hospice"
  building_college: "College"
 #Misc
+ disgraced_nation: "Disgraced Nation"
+ disgraced_nation_desc: "Your nation was recently humiliated and defeated by its enemies. Your people are in revolt and view you as illegitimate."
  high_king_revolter: "Irish Revolter"
  high_king_revolter_desc: "A state that is revolting against the irish High King in the hope to gain the High Kingdom of Ireland for itself."
  high_king_ireland: "High King of Ireland"

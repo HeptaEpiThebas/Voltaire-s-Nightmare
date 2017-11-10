@@ -1,11 +1,9 @@
-#Internal Event for High King
+# Gain High kingship
 country_event = {
   id = high_kingdom.1
   title = high_kingdom.1.t
   desc = high_kingdom.1.d
-  picture = good_with_monarch
-
-  fire_only_once = yes
+  picture = GOOD_WITH_MONARCH_eventPicture
 
   trigger = {
     is_subject = no
@@ -23,6 +21,31 @@ country_event = {
     add_country_modifier = {
       name = "high_king_ireland"
       duration = -1
+    }
+  }
+}
+# Lose High Kingship
+country_event = {
+  id = high_kingdom.2
+  title = high_kingdom.2.t
+  desc = high_kingdom.2.d
+  picture = ANGRY_MOB_eventPicture
+
+  trigger = {
+    is_subject = yes
+    has_country_modifier = high_king_ireland
+  }
+
+  mean_time_to_happen = {
+    months = 0
+  }
+
+  option = {
+    name = high_kingdom.1.a
+    remove_country_modifier = high_king_ireland
+    add_country_modifier ={
+      name = "disgraced_nation"
+      duration = 120
     }
   }
 }
