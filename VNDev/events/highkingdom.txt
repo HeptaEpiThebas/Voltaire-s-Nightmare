@@ -45,7 +45,7 @@ country_event = {
     remove_country_modifier = high_king_ireland
     add_country_modifier ={
       name = "disgraced_nation"
-      duration = 120
+      duration = 3650
     }
   }
 }
@@ -70,7 +70,7 @@ country_event = {
     remove_country_modifier = high_king_revolter
     add_country_modifier ={
       name = "disgraced_nation"
-      duration = 120
+      duration = 3650
     }
   }
 }
