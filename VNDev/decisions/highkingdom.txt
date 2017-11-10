@@ -7,6 +7,7 @@ country_decisions = {
         allow = {
             stability = 1
             legitimacy = 90
+            liberty_desire = 70
         }
         effect = {
             overlord = {
@@ -25,12 +26,6 @@ country_decisions = {
         }
         ai_will_do = {
             factor = 0.1
-            modifier = {
-                factor = 2.5
-                overlord = {
-                    NOT = {legitimacy = 60}
-                }
-            }
         }
     }
 }
