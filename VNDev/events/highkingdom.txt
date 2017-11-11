@@ -9,6 +9,12 @@ country_event = {
     is_subject = no
     primary_culture = irish
     NOT = {has_country_modifier = high_king_ireland}
+    OR = {
+      all_country = {
+        NOT = {has_country_modifier = high_king_ireland}
+      }
+      has_country_modifier = high_king_revolter
+    }
     is_at_war = no
   }
 
@@ -22,9 +28,30 @@ country_event = {
       name = "high_king_ireland"
       duration = -1
     }
+    if = {
+      limit = {
+        has_country_modifier = high_king_revolter
+      }
+      remove_country_modifier = high_king_revolter
+      every_country = {
+        limit = { has_country_modifier = high_king_ireland }
+        every_subject_country = {
+          country_event = {
+            id = high_kingdom.4
+            days = 150
+          }
+        }
+        ROOT = {
+          create_subject = {
+            who = PREV
+            subject_type = ire_trib_state
+          }
+        }
+      }
+    }
   }
 }
-# Lose High Kingship
+# Lose High Kingship/Independence War
 country_event = {
   id = high_kingdom.2
   title = high_kingdom.2.t
@@ -33,7 +60,11 @@ country_event = {
 
   trigger = {
     is_subject = yes
-    has_country_modifier = high_king_ireland
+    OR = {
+      has_country_modifier = high_king_ireland
+      has_country_modifier = high_king_revolter
+    }
+
   }
 
   mean_time_to_happen = {
@@ -43,74 +74,19 @@ country_event = {
   option = {
     name = high_kingdom.2.a
     remove_country_modifier = high_king_ireland
+    remove_country_modifier = high_king_revolter
     add_country_modifier ={
       name = "disgraced_nation"
       duration = 3650
     }
   }
 }
-#Independence War lost
+
+#Independence Cleanup
 country_event = {
   id = high_kingdom.3
   title = high_kingdom.3.t
   desc = high_kingdom.3.d
-  picture = ANGRY_MOB_eventPicture
-
-  trigger = {
-    is_subject = yes
-    has_country_modifier = high_king_revolter
-  }
-
-  mean_time_to_happen = {
-    months = 0
-  }
-
-  option = {
-    name = high_kingdom.3.a
-    remove_country_modifier = high_king_revolter
-    add_country_modifier ={
-      name = "disgraced_nation"
-      duration = 3650
-    }
-    add_stability = -1
-  }
-}
-#Become High King as Revolter
-country_event = {
-  id = high_kingdom.4
-  title = high_kingdom.4.t
-  desc = high_kingdom.4.d
-  picture = GOOD_WITH_MONARCH_eventPicture
-
-  trigger = {
-    is_subject = no
-    is_at_war = no
-    has_country_modifier = high_king_revolter
-  }
-
-  mean_time_to_happen = {
-    months = 0
-  }
-
-  option = {
-    name = high_kingdom.4.a
-    remove_country_modifier = high_king_revolter
-    every_country = {
-      limit = { has_country_modifier = high_king_ireland }
-      ROOT = {
-        create_subject = {
-          who = PREV
-          subject_type = ire_trib_state
-        }
-      }
-    }
-  }
-}
-#Independence Cleanup
-country_event = {
-  id = high_kingdom.5
-  title = high_kingdom.5.t
-  desc = high_kingdom.5.d
   picture = GOOD_WITH_MONARCH_eventPicture
 
   trigger = {
@@ -121,17 +97,77 @@ country_event = {
   }
 
   mean_time_to_happen = {
-    months = 12
+    months = 0
   }
 
   option = {
-    name = high_kingdom.5.a
+    name = high_kingdom.3.a
     every_country = {
       limit = { has_country_modifier = high_king_ireland }
       create_subject = {
         who = ROOT
         subject_type = ire_trib_state
       }
+    }
+  }
+}
+#Dispute New high King
+country_event = {
+  id = high_kingdom.4
+  title = high_kingdom.4.t
+  desc = high_kingdom.4.d
+  picture = BATTLE_eventPicture
+
+  is_triggered_only = yes
+  #Claim It!
+  option = {
+    name = high_kingdom.4.a
+    ai_chance = {
+      factor = 35
+      modifier = {
+        factor = 2
+        NOT = {
+          has_opinion = {
+            who = PREV
+            value = 0
+          }
+        }
+      }
+      modifier = {
+        factor = 0.5
+        marriage_with = PREV
+      }
+      modifier = {
+        factor = 0.5
+        has_opinion = {
+          who = PREV
+          value = 100
+        }
+      }
+      modifier = {
+        factor = 0
+        alliance_with = PREV
+      }
+    }
+    overlord = {
+        ROOT = {
+            declare_war_with_cb = {
+                who = PREV
+                casus_belli = cb_independence_war
+            }
+        }
+    }
+    add_stability = -1
+    add_country_modifier = {
+        name = "high_king_revolter"
+        duration = -1
+    }
+  }
+  #Don't
+  option = {
+    name = high_kingdom.4.b
+    ai_chance = {
+      factor = 65
     }
   }
 }
