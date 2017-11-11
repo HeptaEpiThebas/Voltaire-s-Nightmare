@@ -22,6 +22,8 @@ disgraced_nation = {
 	global_unrest = 2
 }
 
+high_king_revolter_ally = {}
+
 #####################
 #Voltaires Nightmare
 #####################

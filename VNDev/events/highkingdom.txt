@@ -94,6 +94,10 @@ country_event = {
     primary_culture = irish
     NOT = {has_country_modifier = high_king_ireland}
     NOT = {has_country_modifier = high_king_revolter}
+    OR = {
+      is_at_war = no
+      NOT = {has_country_modifier = high_king_revolter_ally}
+    }
   }
 
   mean_time_to_happen = {
@@ -102,6 +106,7 @@ country_event = {
 
   option = {
     name = high_kingdom.3.a
+    remove_country_modifier = high_king_revolter_ally
     every_country = {
       limit = { has_country_modifier = high_king_ireland }
       create_subject = {
