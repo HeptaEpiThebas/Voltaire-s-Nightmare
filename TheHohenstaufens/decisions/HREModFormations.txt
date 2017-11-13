@@ -5,6 +5,7 @@ country_decisions = {
 		potential = {
 			normal_or_historical_nations = yes
 			NOT = { exists = SCO }
+			NOT = { tag = GBR }
 			NOT = { has_country_flag = unformable }
 			OR = {
 				ai = no
@@ -49,11 +50,11 @@ country_decisions = {
 				change_culture = scottish
 			}
 			random_owned_province = {
-				limit = { culture = highland_scottish } 
+				limit = { culture = highland_scottish }
 				change_culture = scottish
 			}
 			random_owned_province = {
-				limit = { culture = highland_scottish } 
+				limit = { culture = highland_scottish }
 				change_culture = scottish
 			}
 			add_adm_power = 100
@@ -947,7 +948,7 @@ country_decisions = {
 			is_at_war = no
 			owns_or_vassal_of = 2652 #berlin
 			owns_or_vassal_of = 2803 #dresden
-			owns_or_vassal_of = 81 #kassel			
+			owns_or_vassal_of = 81 #kassel
 			owns_or_vassal_of = 2511 #trier
 			owns_or_vassal_of = 1951 #koln
 			owns_or_vassal_of = 2973 #muntser
@@ -1638,7 +1639,7 @@ country_decisions = {
 			custom_trigger_tooltip = {
 				tooltip = cantonnum.tt
 				calc_true_if = {
-					all_province = {  
+					all_province = {
 						superregion = switzerland_superregion
 						owner = { government = canton_government }
 					}
@@ -1768,7 +1769,7 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			is_free_or_tributary_trigger = yes	
+			is_free_or_tributary_trigger = yes
 			government = monarchy
 			owns_core_province = 1955		# Barcelona
 			owns_core_province = 2324		# Bordeaux
@@ -2162,7 +2163,7 @@ country_decisions = {
 			NOT = { exists = ALB }
 			NOT = { tag = DRZ }
 		}
-		allow = {	
+		allow = {
 			adm_tech = 14
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -2458,7 +2459,7 @@ country_decisions = {
 		allow = {
 			adm_tech = 56
 			is_at_war = no
-			is_free_or_tributary_trigger = yes	
+			is_free_or_tributary_trigger = yes
 			government = monarchy
 			owns_core_province = 2172		# Vienna
 			owns_core_province = 781		# Praha
@@ -2469,7 +2470,7 @@ country_decisions = {
 			OR = {
 				owns_core_province = 507		# Split
 				owns_core_province = 112		# Venice
-			}		
+			}
 		}
 		effect = {
 			if = {
