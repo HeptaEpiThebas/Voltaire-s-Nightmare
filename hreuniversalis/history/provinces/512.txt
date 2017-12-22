@@ -1,0 +1,94 @@
+owner = TSZ
+controller = TSZ
+add_core = HUN
+add_core = TSZ
+add_core = SYM
+culture = hungarian
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = wax
+base_manpower = 3
+capital = "Nagybecskerek"
+is_city = yes
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1060.12.6 = {
+	owner = HUN
+	controller = HUN
+}
+1064.1.20 = {
+	owner = TSZ
+	controller = TSZ
+}
+1107.1.1 = {
+	owner = HUN
+	controller = HUN
+	remove_core = TSZ
+}
+1176.1.1 = {
+	base_tax = 3
+	base_production = 1
+	base_manpower = 2
+}
+1301.1.14 = {
+	owner = SYM
+	controller = SYM
+}
+1311.1.1 = {
+	owner = HUN
+	controller = HUN
+	remove_core = SYM
+}
+1514.1.1 = { revolt = { type = anti_tax_rebels size = 2 } controller = REB }
+1514.6.1 = { revolt = {} controller = HUN }
+1526.8.30 = {
+	owner = SYM
+	controller = SYM
+	add_core = SYM
+}
+1527.7.26 = {
+	owner = TRA
+	controller = TRA
+	add_core = TRA
+	remove_core = SYM
+}
+1567.1.1 = { religion = reformed }
+1570.8.16 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+	remove_core = TRA
+}
+1594.6.20 = { revolt = { type = nationalist_rebels size = 2 } controller = REB }
+1598.1.1 = { revolt = {} controller = TUR }
+1686.10.22 = { controller = HUN }
+1699.1.16 = { controller = TUR culture = serbian }
+1716.10.1 = { controller = HUN }
+1718.7.21 = {
+	owner = HUN
+	remove_core = TUR
+	religion = orthodox
+}
+1738.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB }
+1739.1.1 = { revolt = {} controller = HUN }
+1769.1.1 = { revolt = { type = nationalist_rebels size = 2 } controller = REB }
+1770.1.1 = { revolt = {} controller = HUN }
+1804.1.1 = {
+	owner = EAH
+	controller = EAH
+	add_core = EAH
+}
+1848.3.15 = {
+	owner = HUN
+	controller = HUN
+}
+1849.10.4 = {
+	owner = EAH
+	controller = EAH
+}
+1867.5.29 = { add_local_autonomy = 90 }

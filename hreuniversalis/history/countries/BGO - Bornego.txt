@@ -1,0 +1,16 @@
+government = tribal_democracy
+government_rank = 1
+primary_culture = east_frisian
+religion = catholic
+technology_group = western
+capital = 462
+
+1054.1.1 = {
+	monarch = {
+		name = "Fryske frijheid"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

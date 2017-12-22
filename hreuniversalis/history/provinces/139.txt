@@ -1,0 +1,44 @@
+owner = WBG
+controller = WBG
+culture = franconian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 3
+trade_goods = horses
+base_manpower = 2
+capital = "Bad Mergentheim"
+is_city = yes
+add_core = WBG
+add_core = HOO
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1153.1.1 = {
+	owner = HOO
+	controller = HOO
+	remove_core = WBG
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1280.1.1 = {
+	owner = MAI
+	controller = MAI
+	add_core = MAI
+	remove_core = HOO
+}
+1803.2.25 = {
+	owner = WUR
+	controller = WUR
+	add_core = WUR
+	remove_core = MAI
+}
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+}

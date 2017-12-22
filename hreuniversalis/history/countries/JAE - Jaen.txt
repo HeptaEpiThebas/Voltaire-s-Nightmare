@@ -1,0 +1,22 @@
+government = iqta
+government_rank = 5
+technology_group = muslim
+primary_culture = andalucian
+religion = sunni
+capital = 74
+religious_school = maliki_school
+
+1143.1.1 = {
+	monarch = {
+		name = "Ibn Yuzai"
+		dynasty = "Yuzaid"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1246.1.1 = {
+	government = feudal_monarchy
+	religion = catholic
+	technology_group = western
+}

@@ -1,0 +1,30 @@
+owner = MKL
+controller = MKL
+culture = bremer_platt
+religion = slavic_pagan
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = fish
+base_manpower = 2
+capital = "Weligard" 
+is_city = yes	
+add_core = MKL
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1167.1.1 = { religion = catholic }
+1178.12.30 = {
+	culture = pommeranian
+	capital = "Mecklenburg"
+	hre = yes
+}
+1531.1.1  = { religion = protestant }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	hre = no
+}

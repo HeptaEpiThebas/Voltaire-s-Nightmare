@@ -1,0 +1,21 @@
+name = "Lithuanian Civil War"
+war_goal = {
+	type = superiority_insult_mutual
+	casus_belli = cb_insult
+}
+
+1381.8.1 = {
+	add_attacker = TEU
+	add_attacker = WRM
+	add_attacker = ZMG
+	add_defender = LIT
+	add_defender = BLR
+}
+
+1384.7.1 = {
+	rem_attacker = TEU
+	rem_attacker = WRM
+	rem_attacker = ZMG
+	rem_defender = LIT
+	rem_defender = BLR
+}

@@ -1,0 +1,84 @@
+owner = RMG
+controller = RMG
+culture = umbrian
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 3
+trade_goods = olive
+base_manpower = 3
+capital = "Osimo"
+is_city = yes
+add_core = RMG
+add_core = OSI
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1100.1.1 = {
+	owner = OSI
+	controller = OSI
+	remove_core = RMG
+	add_core = PAP
+}
+1177.7.24 = { hre = no }
+1399.1.1 = {
+	owner = RMI
+	controller = RMI
+	add_core = RMI
+}
+1430.1.1 = {
+	owner = OSI
+	controller = OSI
+	remove_core = RMI
+}
+1433.1.1 = {
+	owner = MCE
+	controller = MCE
+	add_core = MCE
+}
+1445.1.1 = {
+	owner = OSI
+	controller = OSI
+	remove_core = MCE
+}
+1500.1.1 = {
+	owner = PAP
+	controller = PAP
+	remove_core = OSI
+}
+1797.11.17 = {
+	owner = ANC
+	controller = ANC
+	add_core = ANC
+}
+1798.3.7 = {
+	owner = PAP
+	controller = PAP
+	remove_core = ANC
+}
+1808.1.1 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = PAP
+}
+1814.4.11 = {
+	owner = PAP
+	controller = PAP
+	add_core = PAP
+	remove_core = ITA
+}
+1860.9.29 = { 
+	owner = SPI
+	controller = SPI
+	add_core = SPI
+	remove_core = PAP
+}
+1861.3.20 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SPI
+}

@@ -1,0 +1,37 @@
+owner = BOS
+controller = BOS
+culture = bosnian
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = livestock
+base_manpower = 4
+capital = "Kreševo"
+is_city = yes
+add_core = BOS
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1252.1.1 = { religion = bogomilist }
+1399.1.1 = {
+	base_tax = 3
+	base_production = 3
+	base_manpower = 3
+}
+1463.1.1 = { religion = orthodox }
+1476.1.1 = {
+	owner = TUR
+	controller = TUR
+	add_core = TUR
+}
+1530.1.1 = { religion = sunni }
+1593.1.1 = { unrest = 3 }
+1606.1.1 = { unrest = 0 }
+1683.1.1 = { unrest = 6 }
+1699.1.1 = { unrest = 0 }
+1738.1.1 = { unrest = 5 }
+1740.1.1 = { unrest = 8 }
+1750.1.1 = { unrest = 0 }

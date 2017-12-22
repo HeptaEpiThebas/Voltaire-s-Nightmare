@@ -1,0 +1,47 @@
+owner = ZLX
+controller = ZLX
+culture = swabian
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 1
+trade_goods = munitions
+base_manpower = 1
+capital = "Rottweil" 
+is_city = yes	
+add_core = ZLX
+add_core = HHB
+add_core = RWI
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1125.1.1 = {
+	owner = HHB
+	controller = HHB
+	remove_core = ZLX
+}
+1140.1.1 = {
+	owner = RWI
+	controller = RWI
+	remove_core = HHB
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+}
+1803.2.25 = {
+	owner = WUR
+	controller = WUR
+	add_core = WUR
+	remove_core = RWI
+	base_tax = 3
+	base_production = 2
+	base_manpower = 3
+}
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+}

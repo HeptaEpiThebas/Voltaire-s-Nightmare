@@ -1,0 +1,79 @@
+government = iqta
+government_rank = 3
+primary_culture = kabyle
+religion = sunni
+technology_group = muslim
+capital = 423 # Kabylia
+religious_school = maliki_school
+
+#Hammadids
+1046.1.1 = {
+	monarch = {
+		name = "Buluggin"
+		dynasty = "Hammadid"
+		adm = 2
+		dip = 1
+		mil = 5
+	}
+}
+1062.1.1 = {
+	monarch = {
+		name = "An-Nasir"
+		dynasty = "Hammadid"
+		adm = 4
+		dip = 0
+		mil = 4
+	}
+}
+1088.1.1 = {
+	monarch = {
+		name = "Al-Mansur"
+		dynasty = "Hammadid"
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1104.1.1 = {
+	monarch = {
+		name = "Abd al-Aziz"
+		dynasty = "Hammadid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1121.1.1 = {
+	monarch = {
+		name = "Yahya"
+		dynasty = "Hammadid"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+#done 1152
+
+1229.1.1 = { capital = 423 }
+1357.1.1 = { capital = 423 }
+#Hafsid Emirs of Bejaia
+1440.1.1 = {
+	monarch = {
+		name = "Abderrahmane"
+		dynasty = "Mokrani"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Ahmed"
+		monarch_name = "Ahmed I"
+		dynasty = "Mokrani"
+		birth_date = 1440.1.1
+		death_date = 1510.1.1
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

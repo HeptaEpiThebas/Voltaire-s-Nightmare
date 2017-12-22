@@ -1,0 +1,17 @@
+government = feudal_monarchy
+government_rank = 3
+technology_group = eastern
+primary_culture = polish
+religion = catholic
+capital = 1993
+
+1261.1.1 = {
+	monarch = {
+		name = "Leszek II"
+		dynasty = "Piast"
+		birth_date = 1241.1.1
+		dip = 2
+		mil = 1
+		adm = 2
+	}
+}

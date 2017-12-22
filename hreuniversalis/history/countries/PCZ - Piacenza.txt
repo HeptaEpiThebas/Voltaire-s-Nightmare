@@ -1,0 +1,36 @@
+government = theocratic_government
+government_rank = 3
+technology_group = western
+primary_culture = emilian
+religion = catholic
+capital = 2108
+
+1097.8.20 = {
+	monarch = {
+		name = "Aldo I"
+		dynasty = "Gabrielli"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1118.1.1 = {
+	monarch = {
+		name = "Ardaino I"
+		dip = 2
+		mil = 2
+		adm = 1
+	}
+}
+1126.1.1 = {
+	government = italian_monarchy
+	government_rank = 1
+	add_army_professionalism = 0.05
+	monarch = {
+		name = "Repubblica"
+		dip = 2
+		mil = 2
+		adm = 2
+		regent = yes
+	}
+}

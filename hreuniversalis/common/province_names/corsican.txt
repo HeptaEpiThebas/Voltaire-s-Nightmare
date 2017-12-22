@@ -1,0 +1,5 @@
+2296 = "Aiacciu"
+2283 = "Bunifaziu"
+1247 = "Bastìa"
+1187 = "Tarranao"
+2111 = "Prupià"

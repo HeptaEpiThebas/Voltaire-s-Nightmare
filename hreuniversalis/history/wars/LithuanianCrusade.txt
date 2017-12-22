@@ -1,0 +1,47 @@
+name = "Lithuanian Crusade"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1347.1.1 = {
+	add_attacker = TEU
+	add_attacker = LIV
+	add_attacker = WRM
+	add_attacker = RIG
+	add_attacker = KUR
+	add_defender = LIT
+	add_defender = ZMG
+	add_defender = BLR
+}
+
+1348.2.2 = { 
+	battle = { 
+		name = "Streva" 
+		location = 1152
+		attacker = { 
+			commander = "Winrich von Kniprode"
+			infantry = 4000
+			losses = 1
+			country = TEU
+		} 
+		defender = { 
+			commander = "Narimantas"
+			infantry = 20000
+			losses = 90
+			country = LIT
+		} 
+		result = yes
+	} 
+} 
+
+1349.1.1 = {
+	rem_attacker = TEU
+	rem_attacker = LIV
+	rem_attacker = WRM
+	rem_attacker = RIG
+	rem_attacker = KUR
+	rem_defender = LIT
+	rem_defender = ZMG
+	rem_defender = BLR
+}

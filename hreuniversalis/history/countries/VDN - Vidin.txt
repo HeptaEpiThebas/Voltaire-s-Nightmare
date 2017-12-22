@@ -1,0 +1,94 @@
+government = feudal_monarchy
+government_rank = 3
+technology_group = eastern
+religion = orthodox
+primary_culture = bulgarian
+capital = 2438
+
+1248.1.1 = {
+	monarch = {
+		name = "Yakov"
+		dynasty = "Svetoslav"
+		birth_date = 1220.1.1
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+}
+1261.1.1 = { government = despotic_monarchy }
+#1263 hungarian vassal
+#later back to bul
+1277.1.1 = {
+	monarch = {
+		name = "Šišman I"
+		dynasty = "Šišman"
+		adm = 4
+		dip = 4
+		mil = 2
+	}
+}
+1283.1.1 = {
+	heir = {
+		name = "Mikhail"
+		monarch_name = "Mikhail I"
+		dynasty = "Šišman"
+		birth_date = 1283.1.1
+		death_date = 1330.7.31
+		claim = 95
+		adm = 6
+		dip = 1
+		mil = 5
+	}
+}
+1308.1.1 = {
+	monarch = {
+		name = "Mikhail I"
+		dynasty = "Šišman"
+		birth_date = 1283.1.1
+		adm = 6
+		dip = 1
+		mil = 5
+		leader = {	
+			name = "Mikhail Šišman"
+			type = general
+			fire = 4
+			shock = 4
+			manuever = 1
+			siege = 0
+		}
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = inspiring_leader_personality
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = obsessive_perfectionist_personality
+}
+1323.1.1 = {
+	monarch = {
+		name = "Belaur"
+		dynasty = "Šišman"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1337.1.1 = {
+	monarch = {
+		name = "Mikhail II"
+		dynasty = "Šišman"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1356.1.1 = {
+	government = feudal_monarchy
+	government_rank = 5
+	monarch = {
+		name = "Ivan Sratsimir"
+		dynasty = "Šišman"
+		birth_date = 1325.1.1
+		adm = 1
+		dip = 4
+		mil = 2
+	}
+}

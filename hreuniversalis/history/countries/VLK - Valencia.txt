@@ -1,0 +1,144 @@
+government = iqta
+government_rank = 5
+technology_group = muslim
+primary_culture = andalucian
+religion = sunni
+capital = 2024
+
+1021.1.1 = {
+	monarch = {
+		name = "Abd al-Aziz"
+		dynasty = "Amirid"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1061.1.1 = {
+	monarch = {
+		name = "Abd al-Malik"
+		dynasty = "Amirid"
+		adm = 0
+		dip = 2
+		mil = 1
+	}
+}
+#1065-1075 until Toledo
+1075.1.1 = {
+	monarch = {
+		name = "Abu Bakr"
+		dynasty = "Amirid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1085.1.1 = {
+	monarch = {
+		name = "Uthman"
+		dynasty = "Amirid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1086.1.1 = {
+	monarch = {
+		name = "Yahya al-Qadir"
+		dynasty = "Dhunnunid"
+		birth_date = 1042.1.1
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+1092.1.1 = {
+	monarch = {
+		name = "Abu Ahmad Djafar"
+		dynasty = "Yahhafid"
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+1094.5.1 = {
+	primary_culture = valencian
+	government = feudal_monarchy
+	religion = catholic
+	technology_group = western
+	monarch = {
+		name = "Rodrigo Díaz"
+		dynasty = "de Vivar"
+		birth_date = 1040.1.1
+		adm = 3
+		dip = 5
+		mil = 6
+		leader = {	
+			name = "El Cid"
+			type = general
+			rank = 0
+			fire = 4
+			shock = 5
+			manuever = 2
+			siege = 0
+		}
+	}
+	queen = {
+		country_of_origin = LON
+		name = "Jimena Díaz"
+		dynasty = "de Oviedo"
+		birth_date = 1070.1.1
+		death_date = 1116.1.1
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1099.1.1 = {
+	monarch = {
+		name = "Jimena Díaz"
+		dynasty = "de Oviedo"
+		birth_date = 1070.1.1
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1102.1.1 = {
+	primary_culture = andalucian
+	government = iqta
+	religion = sunni
+	technology_group = muslim
+}
+#under MOR
+1145.1.1 = {
+	monarch = {
+		name = "Abu Mudammad"
+		dynasty = "Jyaddid"
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+}
+#1147 to Murcia
+#1171 to MOR
+1229.1.1 = {
+	capital = 2024
+	monarch = {
+		name = "Zayyan"
+		dynasty = "Mardanisid"
+		birth_date = 1190.1.1 #est
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+#1238 to ARA
+1238.10.9 = {
+	primary_culture = valencian
+	government = feudal_monarchy
+	religion = catholic
+	technology_group = western
+}

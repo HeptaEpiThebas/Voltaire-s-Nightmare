@@ -1,0 +1,202 @@
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 1                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	name = "asiangfx_INFANTRY_1"
+	pdxmesh = "asian_generic_01_type1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Right_hand_node = "asian_spear_01" 
+	}
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 2                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	name = "asiangfx_INFANTRY_2"
+	pdxmesh = "asian_generic_02_type1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "asian_rifle_02" 
+	}
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 3                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	name = "asiangfx_INFANTRY_3"
+	pdxmesh = "asian_generic_03_type1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "asian_rifle_03" 
+	}
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   LEVEL 4                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	name = "asiangfx_INFANTRY_4"
+	pdxmesh = "asian_generic_03_type1"
+
+	state = { name = "idle" 		animation = "idle" }
+	state = { name = "walk" 		animation = "walk" }
+	state = { name = "attack"		animation = "attack" }
+
+	attach = { 
+		Left_hand_node = "asian_rifle_03" 
+	}
+}
+
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   CAVALRY                                               #####
+#####                                                                                                         #####
+###################################################################################################################
+
+entity = {
+	name = "asiangfx_CAVALRY_1"
+	pdxmesh = "cavalry_horse"
+
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	attach = {
+		name = "rider"
+		Saddle_Node = "asiangfx_CAVALRY_1_rider" 
+	}
+}
+
+entity = {
+	name = "asiangfx_CAVALRY_1_rider"
+	pdxmesh = "asian_generic_01_type1"
+
+	state = { name = "idle" 		animation = "horse_idle" }
+	state = { name = "walk" 		animation = "horse_walk" }
+	state = { name = "attack"		animation = "horse_attack" }
+
+	attach = { 
+		Right_hand_node = "cavalry_saber" 
+	}
+}
+
+entity = {
+	clone = "asiangfx_CAVALRY_1_rider"
+	name = "asiangfx_CAVALRY_2_rider"
+	pdxmesh = "asian_generic_02_type1"
+}
+
+entity = {
+	clone = "asiangfx_CAVALRY_1_rider"
+	name = "asiangfx_CAVALRY_3_rider"
+	pdxmesh = "asian_generic_03_type1"
+}
+
+entity = { 
+	clone = "asiangfx_CAVALRY_1"
+	name = "asiangfx_CAVALRY_2" 
+	attach = { 
+		name = "rider"
+		Saddle_Node = "asiangfx_CAVALRY_2_rider" 
+	}
+}
+
+entity = { 
+	clone = "asiangfx_CAVALRY_1"
+	name = "asiangfx_CAVALRY_3"
+	pdxmesh = "cavalry_horse_3_mesh"	
+	attach = { 
+		name = "rider"
+		Saddle_Node = "asiangfx_CAVALRY_3_rider" 
+	}
+}
+
+###################################################################################################################
+#####                                                                                                         #####
+#####                                                   ARTILLERY                                             #####
+#####                                                                                                         #####
+###################################################################################################################
+
+
+entity = {
+	name = "asiangfx_ARTILLERY_1_cannon"
+	pdxmesh = "artillery_mesh"
+
+	state = { name = "attack"		animation = "artillery_attack" 	event = { time = 0.0	node = "cannon_muzzle"	particle = "artillery_cannon" }	}
+	state = { name = "idle" 		animation = "artillery_idle" }
+	state = { name = "walk" 		animation = "artillery_moving" }
+	
+}
+
+entity = {
+	clone = "asiangfx_ARTILLERY_1_cannon"
+	name = "asiangfx_ARTILLERY_2_cannon"
+}
+
+entity = {
+	clone = "asiangfx_ARTILLERY_1_cannon"
+	name = "asiangfx_ARTILLERY_3_cannon"
+}
+
+entity = {
+	clone = "asiangfx_ARTILLERY_1_cannon"
+	name = "asiangfx_ARTILLERY_4_cannon"
+}
+
+entity = {
+	name = "asiangfx_ARTILLERY_1"
+	pdxmesh = "artillery_base_mesh"
+
+	state = { name = "attack"		animation = "artillery_base_attack" }
+	state = { name = "idle" 		animation = "artillery_base_idle" }
+	state = { name = "walk" 		animation = "artillery_base_moving" }
+	
+	attach = { 
+		name = "gunman"
+		infantry_node = "asiangfx_INFANTRY_1" 
+		cannon_node = "asiangfx_ARTILLERY_1_cannon" 
+	}
+}
+
+entity = {
+	clone = "asiangfx_ARTILLERY_1"
+	name = "asiangfx_ARTILLERY_2_generic"
+}
+
+entity = {
+	clone = "asiangfx_ARTILLERY_1"
+	name = "asiangfx_ARTILLERY_3_generic"
+}
+
+entity = {
+	clone = "asiangfx_ARTILLERY_1"
+	name = "asiangfx_ARTILLERY_4_generic"
+}

@@ -1,0 +1,54 @@
+owner = BGA
+controller = BGA
+add_core = BGA
+culture = boden_alemannic
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = plumbum
+base_manpower = 2
+capital = "Wolfach" 
+is_city = yes	
+add_core = WFC
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1092.1.1 = {
+	owner = WWS
+	controller = WWS
+	add_core = WWS
+	remove_core = BGA
+}
+1204.1.1 = {
+	owner = WFC
+	controller = WFC
+	remove_core = WWS
+	base_tax = 4
+	base_production = 3
+	base_manpower = 3
+}
+1284.1.1 = {
+	owner = FNB
+	controller = FNB
+	add_core = FNB
+	capital = "Hausuch"
+}
+1806.7.12 = {
+	owner = BAD
+	controller = BAD
+	add_core = BAD
+	remove_core = FNB
+	remove_core = WFC
+	base_tax = 2
+	base_production = 1
+	base_manpower = 2
+}
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+}

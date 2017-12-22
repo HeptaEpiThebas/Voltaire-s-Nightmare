@@ -1,0 +1,263 @@
+government = despotic_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = emilian
+capital = 1781
+
+1371.1.1 = {
+	monarch = {
+		name = "Feltrino I"
+		dynasty = "Gonzaga"
+		birth_date = 1330.1.1
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	heir = {
+		name = "Guido"
+		monarch_name = "Guido I"
+		dynasty = "Gonzaga"
+		birth_date = 1340.2.1
+		death_date = 1399.2.2
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1374.12.28 = {
+	monarch = {
+		name = "Guido I"
+		dynasty = "Gonzaga"
+		birth_date = 1340.2.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1399.2.2 = {
+	monarch = {
+		name = "Giacomo I"
+		dynasty = "Gonzaga"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1420.1.1 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco I"
+		dynasty = "Gonzaga"
+		birth_date = 1420.1.1
+		death_date = 1484.2.8
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+1441.1.1 = {
+	monarch = {
+		name = "Francesco I"
+		dynasty = "Gonzaga"
+		birth_date = 1420.1.1
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+1469.1.1 = {
+	heir = {
+		name = "Giampietro"
+		monarch_name = "Giampietro I"
+		dynasty = "Gonzaga"
+		birth_date = 1469.1.1
+		death_date = 1515.11.18
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1484.2.8 = {
+	monarch = {
+		name = "Giampietro I"
+		dynasty = "Gonzaga"
+		birth_date = 1469.1.1
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1496.1.1 = {
+	heir = {
+		name = "Alessandro"
+		monarch_name = "Alessandro I"
+		dynasty = "Gonzaga"
+		birth_date = 1496.1.1
+		death_date = 1530.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1501.7.7 = { government = feudal_monarchy }
+1515.11.18 = {
+	monarch = {
+		name = "Alessandro I"
+		dynasty = "Gonzaga"
+		birth_date = 1496.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1519.1.16 = {
+	heir = {
+		name = "Francesco"
+		monarch_name = "Francesco II"
+		dynasty = "Gonzaga"
+		birth_date = 1519.1.16
+		death_date = 1577.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+1530.1.1 = {
+	monarch = {
+		name = "Francesco II"
+		dynasty = "Gonzaga"
+		birth_date = 1519.1.16
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Camillo"
+		monarch_name = "Camillo I"
+		dynasty = "Gonzaga"
+		birth_date = 1521.3.27
+		death_date = 1595.4.24
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+1577.1.1 = {
+	monarch = {
+		name = "Camillo I"
+		dynasty = "Gonzaga"
+		birth_date = 1521.3.27
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+1581.5.25 = {
+	heir = {
+		name = "Camillo"
+		monarch_name = "Camillo I"
+		dynasty = "Gonzaga"
+		birth_date = 1581.5.25
+		death_date = 1650.11.8
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1595.4.24 = {
+	monarch = {
+		name = "Camillo I"
+		dynasty = "Gonzaga"
+		birth_date = 1581.5.25
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1616.4.20 = {
+	heir = {
+		name = "Alfonso"
+		monarch_name = "Alfonso I"
+		dynasty = "Gonzaga"
+		birth_date = 1616.4.20
+		death_date = 1678.7.25
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1650.11.8 = {
+	monarch = {
+		name = "Alfonso I"
+		dynasty = "Gonzaga"
+		birth_date = 1616.4.20
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Camillo"
+		monarch_name = "Camillo III"
+		dynasty = "Gonzaga"
+		birth_date = 1649.8.23
+		death_date = 1727.8.16
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+1678.7.25 = {
+	monarch = {
+		name = "Camillo III"
+		dynasty = "Gonzaga"
+		birth_date = 1649.8.23
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+1700.12.4 = {
+	heir = {
+		name = "Filippo Alfonso"
+		monarch_name = "Filippo Alfonso"
+		dynasty = "Gonzaga"
+		birth_date = 1700.12.4
+		death_date = 1728.12.13
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1727.8.16 = {
+	monarch = {
+		name = "Filippo Alfonso"
+		dynasty = "Gonzaga"
+		birth_date = 1700.12.4
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1728.12.13 = {
+	monarch = {
+		name = "Ricciarda"
+		dynasty = "Gonzaga"
+		birth_date = 1698.2.22
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#done 1737

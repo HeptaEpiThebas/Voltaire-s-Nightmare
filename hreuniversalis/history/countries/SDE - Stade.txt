@@ -1,0 +1,107 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = low_elbish
+religion = catholic
+capital = 628
+
+1037.1.1 = {
+	monarch = {
+		name = "Lothar II"
+		dynasty = "Udonen"
+		birth_date = 997.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+	heir = {
+		name = "Lothar"
+		monarch_name = "Lothar III"
+		dynasty = "Udonen"
+		birth_date = 1025.1.1
+		death_date = 1082.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1057.11.7 = {
+	monarch = {
+		name = "Lothar III"
+		dynasty = "Udonen"
+		birth_date = 1025.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1082.1.1 = {
+	monarch = {
+		name = "Heinrich III"
+		dynasty = "Udonen"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1087.6.27 = {
+	monarch = {
+		name = "Lothar IV"
+		dynasty = "Udonen"
+		birth_date = 1070.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1106.1.1 = {
+	monarch = {
+		name = "Rudolf I"
+		dynasty = "Udonen"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1124.12.7 = {
+	monarch = {
+		name = "Heinrich IV"
+		dynasty = "Udonen"
+		birth_date = 1102.1.1
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+1128.12.4 = {
+	monarch = {
+		name = "Lothar V"
+		dynasty = "Udonen"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1130.2.15 = {
+	monarch = {
+		name = "Rudolf II"
+		dynasty = "Udonen"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1144.3.14 = {
+	monarch = {
+		name = "Hartwig I"
+		dynasty = "Udonen"
+		birth_date = 1118.1.1
+		adm = 4
+		dip = 6
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = entrepreneur_personality
+}
+#1148.8.25 to BRE

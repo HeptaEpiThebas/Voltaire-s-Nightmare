@@ -1,0 +1,35 @@
+name = "The Second Crusade"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1147.5.1 = {
+	add_attacker = CAS
+	add_attacker = LON
+	add_attacker = POR
+	add_attacker = ARA
+	add_attacker = GEN
+	add_attacker = PIS
+	add_attacker = ENG
+	add_defender = BDJ
+	add_defender = MCA
+	add_defender = MGG
+	add_defender = JAE
+	add_defender = COA
+}
+
+1148.12.1 = {
+	rem_attacker = CAS
+	rem_attacker = LON
+	rem_attacker = POR
+	rem_attacker = ARA
+	rem_attacker = GEN
+	rem_attacker = PIS
+	rem_attacker = ENG
+	rem_defender = BDJ
+	rem_defender = MCA
+	rem_defender = MGG
+	rem_defender = JAE
+	rem_defender = COA
+}

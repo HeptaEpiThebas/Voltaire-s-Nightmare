@@ -1,0 +1,110 @@
+government = tribal_democracy
+government_rank = 1
+primary_culture = east_frisian
+religion = catholic
+technology_group = western
+capital = 2750
+
+1054.1.1 = {
+	monarch = {
+		name = "Fryske frijheid"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1348.1.1 = {
+	monarch = {
+		name = "Ino Tjarksena"
+		birth_date = 1330.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1358.1.1 = {
+	government = tribal_despotism
+	monarch = {
+		name = "Edo I"
+		dynasty = "Papinga"
+		birth_date = 1340.1.1
+		adm = 4
+		dip = 5
+		mil = 4
+	}
+}
+1410.1.1 = {
+	monarch = {
+		name = "Lubben"
+		dynasty = "Papinga"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1426.1.1 = {
+	monarch = {
+		name = "Sibet"
+		dynasty = "Papinga"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1424.1.1 = {
+	heir = {
+		name = "Tanne Duren"
+		monarch_name = "Tanne Duren"
+		dynasty = "Papinga"
+		birth_date = 1424.1.1
+		death_date = 1468.1.1
+		claim = 95
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}
+1442.1.1 = {
+	monarch = {
+		name = "Tanne Duren"
+		dynasty = "Papinga"
+		birth_date = 1424.1.1
+		adm = 4
+		dip = 2
+		mil = 4
+	}
+}
+1468.1.1 = {
+	monarch = {
+		name = "Edo II"
+		dynasty = "Papinga"
+		birth_date = 1444.1.1
+		adm = 4
+		dip = 5
+		mil = 5
+	}
+	heir = {
+		name = "Christoph"
+		monarch_name = "Christoph"
+		dynasty = "Papinga"
+		birth_date = 1460.1.1
+		death_date = 1478.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1511.1.1 = {
+	monarch = {
+		name = "Maria"
+		dynasty = "Papinga"
+		birth_date = 1500.9.5
+		female = yes
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+}
+
+#1575.2.20 to oldbg

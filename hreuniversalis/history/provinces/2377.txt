@@ -1,0 +1,56 @@
+owner = RAP
+controller = RAP
+culture = boden_alemannic
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 2
+trade_goods = grain
+base_manpower = 3
+capital = "Turckheim" 
+is_city = yes
+add_core = RAP	
+add_core = TRK
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1312.1.1 = {
+	owner = TRK
+	controller = TRK
+	remove_core = RAP
+	base_tax = 7
+	base_production = 2
+	base_manpower = 6
+}
+1648.10.24 = { add_core = FRA } #westphalia
+1674.1.1 = {
+	owner = FRA
+	controller = FRA
+	base_tax = 2
+	base_manpower = 2
+}
+1679.1.26 = {
+	hre = no
+	remove_core = TRK
+	add_core = ALS
+}
+1685.10.18 = { unrest = 8 } 
+1686.1.17 = { unrest = 0 }
+1800.1.1 = {
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1814.1.1 = {
+	base_tax = 2
+	base_production = 2
+	base_manpower = 2
+}
+1870.9.18 = { controller = PRU }
+1871.1.18 = { controller = GER }
+1871.5.10 = {
+	owner = GER
+	add_core = GER
+}

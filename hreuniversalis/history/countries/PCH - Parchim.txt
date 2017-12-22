@@ -1,0 +1,52 @@
+government = tribal_democracy
+government_rank = 3
+technology_group = western
+primary_culture = bremer_platt
+religion = slavic_pagan
+capital = 2310
+
+1054.1.1 = {
+	monarch = {
+		name = "Warnabi"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1167.1.1 = { religion = catholic }
+1178.12.30 = {
+	primary_culture = pommeranian
+	government = despotic_monarchy
+	government_rank = 1
+}
+1226.6.5 = {
+	monarch = {
+		name = "(Regency Council)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Pribislaw"
+		monarch_name = "Pribislaw I"
+		dynasty = "von Mecklenburg"
+		birth_date = 1224.5.1
+		death_date = 1275.2.12
+		claim = 95
+		adm = 2
+		dip = 0
+		mil = 2
+	}
+}
+1238.5.1 = {
+	monarch = {
+		name = "Pribislaw I"
+		dynasty = "von Mecklenburg"
+		birth_date = 1224.5.1
+		adm = 2
+		dip = 0
+		mil = 2
+	}
+} #deposed 1255

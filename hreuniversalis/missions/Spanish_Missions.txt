@@ -1,0 +1,398 @@
+finish_reconquista = {
+
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		superregion = iberia_superregion
+		owner = { religion_group = muslim }
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		NOT = { has_country_modifier = completing_the_reconquista }
+		NOT = { has_country_flag = granada_gone }
+		NOT = { is_year = 1600 }
+		OR = {
+			tag = CAS
+			tag = SPA
+			tag = ARA
+			tag = CAT
+			tag = GAL
+			tag = POR
+			tag = LON
+			tag = NAV
+		}
+		is_free_or_tributary_trigger = yes
+		is_at_war = no
+		religion = catholic
+		iberia_superregion = {
+			owned_by = ROOT
+		}
+		iberia_superregion = {
+			owner = { religion_group = muslim }
+		}
+	}
+	abort = {
+		OR = {
+			NOT = { religion = catholic }
+			NOT = { iberia_superregion = { owned_by = ROOT } }
+		}
+	}
+	success = {
+		iberia_superregion = {
+			type = all
+			owner = { NOT = { religion_group = muslim } }
+		}
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 10
+			exists = MOR
+			iberia_superregion = {
+				owned_by = MOR
+			}
+		}
+		modifier = {
+			factor = 1000
+			is_tutorial_active = yes
+		}
+	}
+	effect = {
+		set_country_flag = granada_gone
+		add_country_modifier = {
+			name = "completing_the_reconquista"
+			duration = 3650
+		}
+	}
+}
+
+spain_must_be_christian = {
+
+	type = country
+
+	category = ADM
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			tag = CAS
+			tag = SPA
+			tag = LON
+			tag = GAL
+		}
+		religion = catholic
+		is_at_war = no
+		NOT = {	exists = GRA }
+		iberia_superregion = {
+			owned_by =  ROOT
+			NOT = { religion_group = christian }
+		}
+		NOT = { has_country_modifier = achieved_religious_unity_mission }
+	}
+	abort = {
+		NOT = {	religion = catholic  }
+	}	
+	success = {
+		NOT = {
+			any_owned_province = {
+				superregion = iberia_superregion
+				NOT = { religion_group = christian }
+			}
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			adm = 3
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = "achieved_religious_unity_mission"
+			duration = 3650
+		}
+		if = {
+			limit = {
+				any_owned_province = {
+					superregion = iberia_superregion
+					any_core_country = {
+						NOT = { religion_group = christian }
+					}
+				}
+			}
+			every_owned_province = {
+				limit = {
+					superregion = iberia_superregion
+					any_core_country = {
+						NOT = { religion_group = christian }
+					}
+				}
+				every_core_country = {
+					limit = {
+						NOT = { religion_group = christian }
+					}
+					remove_core = PREV
+				}
+			}
+		}
+	}
+}
+
+no_surrender_to_the_dutch = {
+
+	type = country
+	
+	category = MIL
+	
+	allow = {
+		normal_or_historical_nations = yes
+		NOT = { is_year = 1648 }
+		tag = SPA
+		NOT = { has_country_flag = freed_low_countries }
+		is_free_or_tributary_trigger = yes
+		is_neighbor_of = NED
+		NOT = { alliance_with = NED }
+		NOT = { war_with = NED }
+		NED = {
+			is_free_or_tributary_trigger = yes
+		}
+		lowlands_superregion = {
+			owned_by = ROOT
+		}
+		lowlands_superregion = {
+			owned_by = NED
+		}
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			NOT = { war_with = NED }
+			NED = {
+				is_subject_other_than_tributary_trigger = yes
+			}
+			AND = {
+				NOT = { lowlands_superregion = { owned_by = NED } }
+				NOT = { lowlands_superregion = { owned_by = SPA } }
+			}
+		}
+	}
+	success = {
+		NOT = { war_with = NED }
+		NOT = {
+			lowlands_superregion = {
+				owned_by = NED
+			}
+		}
+	}
+	chance = {
+		factor = 2000
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+		modifier = {
+			factor = 2
+			mil = 6
+		}
+	}
+	effect = {
+		add_war_exhaustion = -5
+		add_adm_power = 100
+		add_prestige = 10
+		set_country_flag = freed_low_countries
+	}
+}
+
+bring_the_dutch_back_to_catholisism = {
+
+	type = country
+	
+	category = MIL
+	
+	allow = {
+		normal_or_historical_nations = yes
+		NOT = { is_year = 1648 }
+		tag = SPA
+		is_free_or_tributary_trigger = yes
+		religion = catholic
+		is_neighbor_of = NED
+		NED = {
+			is_subject = no
+			religion_group = ROOT
+			NOT = { religion = ROOT }
+		}
+		lowlands_superregion = {
+			owned_by = ROOT
+		}
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			NOT = { religion = catholic }
+			NOT = {
+				lowlands_superregion = {
+					owned_by = ROOT
+				}
+			}
+		}
+	}
+	success = {
+		NED = { religion = ROOT }
+	}
+	chance = {
+		factor = 2000
+	}
+	effect = {
+		add_prestige = 50
+		add_stability = 2
+	}	
+}
+
+spanish_netherlands_should_be_catholic = {
+
+	type = country
+	
+	category = ADM
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = SPA
+		is_at_war = no
+		religion = catholic
+		lowlands_superregion = {
+			owned_by = ROOT
+			religion_group = christian
+			NOT = { religion = catholic }
+		}
+	}
+	abort = {
+		OR = {
+			NOT = { religion = catholic }
+			NOT = {
+				lowlands_superregion = {
+					owned_by = ROOT
+				}
+			}
+		}
+	}
+	success = {
+		NOT = {
+			lowlands_superregion = {
+				owned_by = ROOT
+				NOT = { religion = catholic }
+			}
+		}	
+	}
+	chance = {
+		factor = 3000
+	}
+	effect = {
+		add_stability = 1
+		add_prestige = 5
+	}
+}
+
+mediterranean_christian_fleet = {
+
+	type = country
+	
+	category = ADM
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = SPA
+		NOT = { is_year = 1700 }
+		exists = TUR
+		2711 = {
+			OR = {
+				owned_by = ROOT
+				owned_by = KNI
+			}
+		}
+		TUR = {
+			num_of_galley = 10
+			num_of_ports = 10
+			num_of_galley = ROOT
+		}		
+	}
+	abort = {
+		NOT = { exists = TUR }
+	}
+	success = {
+		num_of_galley = TUR
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}	
+	}
+	effect = {
+		add_country_modifier = {
+			name = "mediterranean_ambition"
+			duration = 3650
+		}
+	}
+}
+
+no_territory_to_france = {
+
+	type = country
+	
+	category = MIL
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = SPA
+		iberia_superregion = { owned_by = FRA }
+		NOT = { alliance_with = FRA }
+		FRA = {
+			is_neighbor_of = ROOT
+			num_of_infantry = ROOT
+			num_of_cavalry = ROOT
+		}
+	}
+	abort = {
+		NOT = { iberia_superregion = { owned_by = FRA } }
+	}
+	success = {
+		NOT = { war_with = FRA }
+		NOT = { iberia_superregion = { owned_by = FRA } }
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}	
+	}
+	effect = {
+		add_prestige = 10
+		add_war_exhaustion = -5
+	}
+}

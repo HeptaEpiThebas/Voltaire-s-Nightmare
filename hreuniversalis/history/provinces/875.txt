@@ -1,0 +1,74 @@
+owner = CRV
+controller = CRV
+culture = low_elbish
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 4
+trade_goods = munitions
+base_manpower = 2
+capital = "Meppen"
+is_city = yes
+add_core = CRV
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+fort_14th = yes
+
+1088.7.27 = {
+	owner = ONB
+	controller = ONB
+}
+1093.1.1 = {
+	owner = CRV
+	controller = CRV
+}
+1252.1.1 = {
+	owner = MUN
+	controller = MUN
+	add_core = MUN
+	remove_core = CRV
+}
+1337.1.1 = { fort_14th = no fort_15th = yes }
+1534.2.1 = { unrest = 3 }
+1535.6.24 = { unrest = 0 }
+1723.1.1 = {
+ 	base_tax = 8 
+	base_production = 8
+}
+1803.2.25 = {
+	owner = ARB
+	controller = ARB
+	add_core = ARB
+	remove_core = MUN
+}
+1810.7.10 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	hre = no
+}
+1813.10.13 = {
+	owner = HAN
+	controller = HAN
+	add_core = HAN
+	remove_core = ARB
+	remove_core = FRA
+}
+1815.3.16 = { hre = yes }
+1866.9.20 = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+}
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	remove_core = PRU
+	hre = no
+	base_tax = 3
+	base_production = 3
+	base_manpower = 1
+}

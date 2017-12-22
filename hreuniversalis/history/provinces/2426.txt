@@ -1,0 +1,51 @@
+owner = TUS
+controller = TUS
+culture = emilian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 1
+trade_goods = livestock
+base_manpower = 1
+capital = "Correggio" 
+is_city = yes
+add_core = TUS	
+add_core = CGO
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1115.7.24 = {
+	owner = CGO
+	controller = CGO
+	remove_core = TUS
+}
+1495.1.1 = { hre = no }
+1635.1.1 = {
+	owner = MOD
+	controller = MOD
+	add_core = MOD
+	remove_core = CGO
+}
+1797.6.29 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+}
+1814.4.11 = { 
+	owner = MOD
+	controller = MOD
+	remove_core = ITA
+}
+1859.11.7 = {
+	owner = TUS
+	controller = TUS
+	add_core = TUS
+}
+1861.3.20 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = MOD
+}

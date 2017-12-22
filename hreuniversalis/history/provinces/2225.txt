@@ -1,0 +1,54 @@
+owner = HUN
+controller = HUN
+add_core = HUN
+add_core = RSZ
+culture = ruthenian
+religion = orthodox
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = wool
+base_manpower = 1
+capital = "Huszt"
+is_city = yes
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1301.1.14 = {
+	owner = RSZ
+	controller = RSZ
+}
+1315.11.1 = {
+	owner = HUN
+	controller = HUN
+	remove_core = RSZ
+}
+1510.1.1 = { trade_goods = corn }
+1526.8.30 = {
+	owner = TRA
+	controller = TRA
+	add_core = TRA
+}
+1699.1.16 = {
+	owner = HUN
+	controller = HUN
+	remove_core = TRA
+}
+1703.1.1 = { unrest = 6 }
+1711.1.1 = { unrest = 0 }
+1804.1.1 = {
+	owner = EAH
+	controller = EAH
+	add_core = EAH
+}
+1848.3.15 = {
+	owner = HUN
+	controller = HUN
+}
+1849.10.4 = {
+	owner = EAH
+	controller = EAH
+}
+1867.5.29 = { add_local_autonomy = 90 }

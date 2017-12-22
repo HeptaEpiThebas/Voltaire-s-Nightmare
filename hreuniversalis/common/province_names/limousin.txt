@@ -1,0 +1,2 @@
+825 = "Peirigòrd"
+2909 = "Lemosin"

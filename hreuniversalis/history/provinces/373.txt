@@ -1,0 +1,24 @@
+owner = SZZ
+controller = SZZ
+culture = thuringian
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 3
+trade_goods = beer
+base_manpower = 3
+capital = "Schwarzburg"
+is_city = yes
+add_core = SZZ
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1539.1.1 = { religion = protestant }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	hre = no
+}

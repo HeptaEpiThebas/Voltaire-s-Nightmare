@@ -1,0 +1,57 @@
+owner = BAV
+controller = BAV
+culture = austrian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 3
+trade_goods = wool
+base_manpower = 3
+capital = "Seefeld" 
+is_city = yes
+add_core = BAV	
+add_core = ESC
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1157.1.1 = {
+	owner = ESC
+	controller = ESC
+	remove_core = BAV
+}
+1284.1.1 = {
+	owner = TIR
+	controller = TIR
+	add_core = TIR
+	remove_core = ESC
+	base_tax = 4
+}
+1490.1.1 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	base_tax = 2
+}
+1525.3.1 = { unrest = 6 }
+1525.9.1 = { unrest = 0 }
+1804.1.1 = {
+	owner = EAH
+	controller = EAH
+	add_core = EAH
+	remove_core = HAB
+}
+1805.12.26 = {
+	owner = BAV
+	controller = BAV
+	add_core = BAV
+	remove_core = EAH
+}
+1814.5.30 = {
+	owner = EAH
+	controller = EAH
+	add_core = EAH
+	remove_core = BAV
+}
+1866.8.23 = { hre = no }

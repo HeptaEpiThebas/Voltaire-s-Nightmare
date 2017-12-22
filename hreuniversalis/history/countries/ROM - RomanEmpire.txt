@@ -1,0 +1,8 @@
+government = feudal_monarchy
+government_rank = 6
+primary_culture = roman
+religion = hellenic_pagan
+technology_group = western
+capital = 2235 # Rome
+
+1000.1.1 = { set_country_flag = unformable }

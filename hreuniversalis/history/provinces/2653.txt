@@ -1,0 +1,37 @@
+owner = BOO
+controller = BOO
+culture = moldovan
+religion = orthodox
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = livestock
+base_manpower = 1
+capital = "Briceni" 
+is_city = yes	
+add_core = BOO
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1346.1.1 = {
+	owner = MOL
+	controller = MOL
+	add_core = MOL
+	remove_core = BOO
+}
+1484.1.1 = { controller = TUR }
+1489.1.1 = { controller = MOL }
+1653.1.1 = { revolt = { type = noble_rebels size = 0 } controller = REB }
+1654.1.1 = { revolt = {} controller = MOL }
+1739.1.1 = { controller = RUS }
+1739.9.18 = { controller = MOL }
+1769.1.1 = { controller = RUS }
+1774.1.1 = { controller = MOL }
+1788.1.1 = { controller = RUS }
+1789.1.1 = { controller = MOL }
+1789.6.1 = { controller = HAB }
+1791.8.4 = { controller = MOL }
+1806.1.1 = { controller = RUS }
+1812.5.28 = { owner = RUS add_core = RUS }

@@ -1,0 +1,215 @@
+government = despotic_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = emilian
+capital = 2426
+
+1115.7.24 = {
+	monarch = {
+		name = "Matteo I"
+		dynasty = "da Correggio"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+1141.1.1 = {
+	monarch = {
+		name = "Gherardo II"
+		dynasty = "da Correggio"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1160.1.1 = {
+	monarch = {
+		name = "Alberto II"
+		dynasty = "da Correggio"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1200.1.1 = {
+	monarch = {
+		name = "Matteo II"
+		dynasty = "da Correggio"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1221.1.1 = {
+	monarch = {
+		name = "Frogerio II"
+		dynasty = "da Correggio"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1230.1.1 = {
+	monarch = {
+		name = "Guido II"
+		dynasty = "da Correggio"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1260.1.1 = {
+	monarch = {
+		name = "Matteo III"
+		dynasty = "da Correggio"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+1290.1.1 = {
+	monarch = {
+		name = "Guglielmo I"
+		dynasty = "da Correggio"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1300.1.1 = {
+	monarch = {
+		name = "Guglielmo II"
+		dynasty = "da Correggio"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1303.1.1 = {
+	monarch = {
+		name = "Gilberto III"
+		dynasty = "da Correggio"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1321.1.1 = {
+	monarch = {
+		name = "Giovanni"
+		dynasty = "da Correggio"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1370.1.1 = {
+	monarch = {
+		name = "Guido V"
+		dynasty = "da Correggio"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1389.1.1 = {
+	monarch = {
+		name = "Gherardo VI"
+		dynasty = "da Correggio"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+	heir = {
+		name = "Gilberto"
+		monarch_name = "Gilberto VI"
+		dynasty = "da Correggio"
+		birth_date = 1389.1.1
+		death_date = 1457.1.1
+		claim = 95
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+1430.1.1 = {
+	monarch = {
+		name = "Gilberto VI"
+		dynasty = "da Correggio"
+		birth_date = 1389.1.1
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+
+1420.1.1 = {
+	heir = {
+		name = "Niccolò I"
+		dynasty = "da Correggio"
+		birth_date = 1420.1.1
+		death_date = 1449.1.1
+		claim = 95
+		adm = 3
+		dip = 1
+		mil = 1
+	}
+}
+
+1452.1.1 = { government = feudal_monarchy }
+
+1457.1.1 = {
+	monarch = {
+		name = "Niccolò II"
+		dynasty = "da Correggio"
+		birth_date = 1450.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1508.1.1 = {
+	monarch = {
+		name = "Manfredo II"
+		dynasty = "da Correggio"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1546.1.1 = {
+	monarch = {
+		name = "Camillo"
+		dynasty = "da Correggio"
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+}
+
+1605.1.1 = {
+	monarch = {
+		name = "Gerolamo II"
+		dynasty = "da Correggio"
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+
+1612.1.1 = {
+	monarch = {
+		name = "Siro"
+		dynasty = "da Correggio"
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+
+1616.1.1 = { government_rank = 4 }
+
+#done 1634

@@ -1,0 +1,65 @@
+owner = CTH
+controller = CTH
+culture = austrian
+religion = catholic
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = wool
+base_manpower = 5
+capital = "Lienz" 
+is_city = yes	
+add_core = CTH
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1082.1.1 = { add_core = GRZ }
+1286.1.1 = {
+	owner = TIR
+	controller = TIR
+	add_core = TIR
+	remove_core = CTH
+}
+1363.1.13 = {
+	owner = GRZ
+	controller = GRZ
+	remove_core = TIR
+}
+1460.1.25 = {
+	owner = HAB
+	controller = HAB
+}
+1462.1.1 = {
+	owner = GRZ
+	controller = GRZ
+}
+1500.4.12 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	add_core = CTH
+	remove_core = GRZ
+}
+1525.3.1 = { unrest = 6 }
+1525.9.1 = { unrest = 0 }
+1804.1.1 = {
+	owner = EAH
+	controller = EAH
+	add_core = EAH
+	remove_core = HAB
+}
+1806.7.12 = { hre = no }
+1809.10.14 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+}
+1813.8.26 = { controller = EAH }
+1814.4.11 = {
+	owner = EAH
+	remove_core = FRA
+}
+1815.3.16 = { hre = yes }
+1866.8.23 = { hre = no }

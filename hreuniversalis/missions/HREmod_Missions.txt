@@ -1,0 +1,558 @@
+take_marches = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		area = ancona_area
+		NOT = { owned_by = ROOT }
+		NOT = { owned_by = PAP }
+		owner = {
+			NOT = { alliance_with = ROOT }
+			NOT = { is_subject_of = ROOT }
+			NOT = { overlord_of = ROOT }
+		}
+	}
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = FER
+		is_free_or_tributary_trigger = yes
+		ancona_area = {
+			NOT = { owned_by = ROOT }
+			NOT = { owned_by = PAP }
+			NOT = { owner = { alliance_with = ROOT } }
+			NOT = { owner = { is_subject_of = ROOT } }
+			NOT = { owner = { overlord_of = ROOT } }
+		}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 1500
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		every_target_province = {
+			add_province_modifier = {
+				name = "faster_integration"
+				duration = 3650
+			}
+		}
+	}
+}
+
+recover_apulia = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		superregion = italy_superregion
+		is_core = APL
+		owned_by = SIC
+	}
+
+	allow = {
+		normal_or_historical_nations = yes
+		is_free_or_tributary_trigger = yes
+		NOT = { has_country_modifier = military_victory }
+		tag = PAP
+		NOT = { exists = APL }
+		italy_superregion = {
+			is_core = APL
+			owned_by = SIC
+		}
+		is_at_war = no
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = {
+			OR = {
+				owned_by = ROOT
+				owned_by = APL
+			}
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+		modifier = {
+			factor = 2
+			mil = 6
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = military_victory
+			duration = 3650
+		}
+	}
+}
+
+angevin_naples = {
+	
+	type = country
+
+	category = MIL
+	
+	allow = {
+		normal_or_historical_nations = yes
+		tag = PRO
+		dynasty = "d'Anjou"
+		is_free_or_tributary_trigger = yes
+		exists = PAP
+		SIC = {
+			exists = yes
+			is_subject = no
+			NOT = { truce_with = PRO }
+			NOT = { war_with = PRO }
+			NOT = { alliance_with = PAP }
+		}
+		religion = catholic
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			NOT = { exists = SIC }
+			SIC = { is_subject = yes }
+		}
+	}
+	success = {
+		SIC = { junior_union_with = ROOT }
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+	}
+	immediate = {
+		add_casus_belli = {
+			type = cb_restore_personal_union
+			months = 240
+			target = SIC
+		}
+	}
+	abort_effect = {
+		remove_casus_belli = {
+			type = cb_restore_personal_union
+			target = SIC
+		}
+	}
+	effect = {
+		add_prestige = 10
+		hidden_effect = {
+			remove_casus_belli = {
+				type = cb_restore_personal_union
+				target = SIC
+			}
+		}
+	}
+}
+
+sicilian_albania = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		area = durres_area
+		NOT = { owned_by = ROOT }
+		owner = {
+			NOT = { alliance_with = ROOT }
+			NOT = { is_subject_of = ROOT }
+			NOT = { overlord_of = ROOT }
+		}
+	}
+	
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			tag = SIC
+			tag = NAP
+		}
+		is_free_or_tributary_trigger = yes
+		durres_area = {
+			NOT = { owned_by = ROOT }
+			NOT = { owner = { alliance_with = ROOT } }
+			NOT = { owner = { is_subject_of = ROOT } }
+			NOT = { owner = { overlord_of = ROOT } }
+		}
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 1500
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		every_target_province = {
+			add_province_modifier = {
+				name = "faster_integration"
+				duration = 3650
+			}
+		}
+	}
+}
+
+spa_conquer_siena = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		area = siena_area
+		owned_by = SIE
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		tag = SPA
+		NOT = { has_country_modifier = military_victory }
+		is_free_or_tributary_trigger = yes
+		SIE = {
+			exists = yes
+			NOT = { alliance_with = ROOT }
+			NOT = { is_subject_of = ROOT }
+		}
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			NOT = { exists = SIE }
+			any_target_province = {
+				NOT = { owned_by = ROOT }
+				NOT = { owned_by = SIE }
+			}
+		}
+	}
+	success = {
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = SIE value = 0 } }
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = military_victory
+			duration = 3650
+		}
+	}
+}
+
+recover_vaud = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		area = vaud_area
+		is_core = VDX
+		NOT = { owned_by = ROOT }
+		NOT = { owned_by = VDX }
+	}
+
+	allow = {
+		normal_or_historical_nations = yes
+		is_free_or_tributary_trigger = yes
+		NOT = { has_country_modifier = military_victory }
+		NOT = { tag = VDX }
+		OR = {
+			primary_culture = swiss
+			primary_culture = romansch
+		}
+		vaud_area = {
+			AND = {
+				is_core = VDX
+				owner = {
+					NOT = { tag = VDX }
+					NOT = {
+						OR = {
+							primary_culture = swiss
+							primary_culture = romansch
+						}
+					}
+				}
+			}
+		}
+		vaud_area = { any_neighbor_province = { owned_by = ROOT } }
+		is_at_war = no
+		government = canton_government
+	}
+	abort = {
+		is_subject_other_than_tributary_trigger = yes
+	}
+	success = {
+		all_target_province = {
+			OR = {
+				owned_by = ROOT
+				owned_by = VDX
+			}
+		}
+	}
+	chance = {
+		factor = 3000
+		modifier = {
+			factor = 2
+			mil = 4
+		}
+		modifier = {
+			factor = 2
+			mil = 6
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			remove_claim = ROOT
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = military_victory
+			duration = 3650
+		}
+	}
+}
+
+conquer_celje = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		owned_by = CLI
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			tag = STY
+			tag = HAB
+			tag = KRR
+		}
+		dynasty = "von Habsburg"
+		NOT = { has_country_modifier = military_victory }
+		is_free_or_tributary_trigger = yes
+		CLI = {
+			is_neighbor_of = ROOT
+			NOT = { alliance_with = ROOT }
+			NOT = { is_subject_of = ROOT }
+			NOT = { overlord_of = ROOT }
+		}
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			NOT = { exists = CLI }
+			any_target_province = {
+				NOT = { owned_by = ROOT }
+				NOT = { owned_by = CLI }
+			}
+		}
+	}
+	success = {
+		NOT = { exists = CLI }
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 2000
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = CLI value = 0 } }
+		}
+		modifier = {
+			factor = 2
+			is_emperor = yes
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = military_victory
+			duration = 3650
+		}
+	}
+}
+
+conquer_trento = {
+	
+	type = country
+
+	category = MIL
+	ai_mission = yes
+	
+	target_provinces = {
+		owned_by = TRN
+	}
+	allow = {
+		normal_or_historical_nations = yes
+		OR = {
+			tag = TIR
+			tag = STY
+			tag = HAB
+		}
+		dynasty = "von Habsburg"
+		NOT = { has_country_modifier = military_victory }
+		is_free_or_tributary_trigger = yes
+		TRN = {
+			is_neighbor_of = ROOT
+			NOT = { alliance_with = ROOT }
+			NOT = { is_subject_of = ROOT }
+			NOT = { overlord_of = ROOT }
+		}
+	}
+	abort = {
+		OR = {
+			is_subject_other_than_tributary_trigger = yes
+			NOT = { exists = TRN }
+			any_target_province = {
+				NOT = { owned_by = ROOT }
+				NOT = { owned_by = TRN }
+			}
+		}
+	}
+	success = {
+		NOT = { exists = TRN }
+		all_target_province = {
+			owned_by = ROOT
+		}
+	}
+	chance = {
+		factor = 2000
+		modifier = {
+			factor = 2
+			NOT = { has_opinion = { who = TRN value = 0 } }
+		}
+		modifier = {
+			factor = 2
+			is_emperor = yes
+		}
+	}
+	immediate = {
+		every_target_province = {
+			add_claim = ROOT
+		}
+	}
+	abort_effect = {
+		every_target_province = {
+			if = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+					}
+				}
+				remove_claim = ROOT
+			}
+		}
+	}
+	effect = {
+		add_country_modifier = {
+			name = military_victory
+			duration = 3650
+		}
+	}
+}

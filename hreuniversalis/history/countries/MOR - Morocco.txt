@@ -1,0 +1,182 @@
+government = iqta
+government_rank = 5
+primary_culture = moroccan
+religion = sunni
+technology_group = muslim
+capital = 761
+add_accepted_culture = andalucian
+religious_school = maliki_school
+
+1072.1.1 = {
+	monarch = {
+		name = "Yusuf ibn Tashfin"
+		dynasty = "al-Murabit"
+		birth_date = 1019.1.1
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+	add_piety = 0.4
+}
+1084.1.1 = {
+	heir = {
+		name = "Ali"
+		monarch_name = "Ali ibn Yusuf"
+		dynasty = "al-Murabit"
+		birth_date = 1084.1.1
+		death_Date = 1143.1.26
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1106.1.1 = {
+	monarch = {
+		name = "Ali ibn Yusuf"
+		dynasty = "al-Murabit"
+		birth_date = 1084.1.1
+		adm = 2
+		dip = 2
+		mil = 1
+	}
+}
+1143.1.26 = {
+	monarch = {
+		name = "Tashfin ibn Ali"
+		dynasty = "al-Murabit"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+#collapse
+1145.3.25 = {
+	monarch = {
+		name = "Abd al-Mumin"
+		dynasty = "al-Muwahhid"
+		birth_date = 1094.1.1
+		adm = 5
+		dip = 5
+		mil = 6
+	}
+	heir = {
+		name = "Abu Yaqub Yusuf"
+		monarch_name = "Abu Yaqub Yusuf I"
+		dynasty = "al-Muwahhid"
+		birth_date = 1135.1.1
+		death_Date = 1184.10.24
+		claim = 85
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+}
+1152.1.1 = { capital = 2854 }
+1163.1.1 = {
+	monarch = {
+		name = "Abu Yaqub Yusuf I"
+		dynasty = "al-Muwahhid"
+		birth_date = 1135.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Abu Yusuf Yaqub"
+		monarch_name = "Abu Yusuf Yaqub"
+		dynasty = "al-Muwahhid"
+		birth_date = 1160.1.1
+		death_Date = 1199.1.23
+		claim = 95
+		adm = 5
+		dip = 2
+		mil = 5
+	}
+}
+1184.10.24 = {
+	monarch = {
+		name = "Abu Yusuf Yaqub"
+		dynasty = "al-Muwahhid"
+		birth_date = 1160.1.1
+		adm = 5
+		dip = 2
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architectural_visionary_personality
+	add_ruler_personality = scholar_personality
+}
+1199.1.23 = {
+	monarch = {
+		name = "Muhammad al-Nasir"
+		dynasty = "al-Muwahhid"
+		birth_date = 1160.1.1
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}
+1203.1.1 = {
+	heir = {
+		name = "Abu Yaqub Yusuf II"
+		dynasty = "al-Muwahhid"
+		birth_date = 1203.1.1
+		death_date = 1224.1.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1213.1.1 = {
+	monarch = {
+		name = "Abu Yaqub Yusuf II"
+		dynasty = "al-Muwahhid"
+		birth_date = 1203.1.1
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = sinner_personality
+}
+1224.1.1 = {
+	monarch = {
+		name = "Abdallah al-Adil"
+		dynasty = "al-Muwahhid"
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}
+1227.10.4 = {
+	monarch = {
+		name = "Yahya al-Mutasim"
+		dynasty = "al-Muwahhid"
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1229.1.1 = {
+	monarch = {
+		name = "Abu al-Ala Idris"
+		dynasty = "al-Muwahhid"
+		adm = 2
+		dip = 0
+		mil = 2
+	}
+}
+1232.10.17 = {
+	monarch = {
+		name = "Abu Muhammad ar-Rashid"
+		dynasty = "al-Muwahhid"
+		adm = 1
+		dip = 1
+		mil = 1	
+	}
+}
+1236.1.1 = { capital = 761 }

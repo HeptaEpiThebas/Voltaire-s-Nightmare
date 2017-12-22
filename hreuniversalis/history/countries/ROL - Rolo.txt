@@ -1,0 +1,156 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = emilian
+capital = 1241
+
+1380.1.1 = {
+	monarch = {
+      	name = "Ugolino I"
+		dynasty = "da Sesso"
+		birth_date = 1379.1.1 
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1395.1.1 = {
+	monarch = {
+      	name = "Nicolò I"
+		dynasty = "da Sesso"
+		birth_date = 1379.1.1 
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+
+1430.1.1 = {
+	heir = {
+      	name = "Giacomo"
+		monarch_name = "Giacomo I"
+		dynasty = "da Sesso"
+		birth_date = 1430.1.1 
+		death_date = 1497.1.1
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1446.1.1 = {
+	monarch = {
+      	name = "Giacomo I"
+		dynasty = "da Sesso"
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+
+1499.1.1 = {
+	monarch = {
+      	name = "Francesco I"
+		dynasty = "da Sesso"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1513.1.1 = {
+	monarch = {
+      	name = "Carlo I"
+		dynasty = "da Sesso"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1530.1.1 = {
+	monarch = {
+      	name = "Nicolò II"
+		dynasty = "da Sesso"
+		adm = 4
+		dip = 4
+		mil = 1
+	}
+}
+
+1575.1.1 = {
+	monarch = {
+      	name = "Ferdinand I"
+		dynasty = "da Sesso"
+		adm = 3
+		dip = 1
+		mil = 2
+	}
+}
+
+1606.1.1 = {
+	monarch = {
+      	name = "Ferdinand II"
+		dynasty = "da Sesso"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1618.1.1 = {
+	monarch = {
+      	name = "Horatio II"
+		dynasty = "da Sesso"
+		adm = 5
+		dip = 1
+		mil = 2
+	}
+}
+
+1627.1.1 = {
+	monarch = {
+      	name = "Ferdinand III"
+		dynasty = "da Sesso"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+
+1648.4.17 = { government_rank = 2 }
+
+1683.1.1 = {
+	monarch = {
+      	name = "Horatio III"
+		dynasty = "da Sesso"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1695.1.1 = {
+	monarch = {
+      	name = "Francesco Antonio I"
+		dynasty = "da Sesso"
+		adm = 5
+		dip = 3
+		mil = 5
+	}
+}
+
+1746.1.1 = {
+	monarch = {
+      	name = "Geatano I"
+		dynasty = "da Sesso"
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}
+
+#done 1776

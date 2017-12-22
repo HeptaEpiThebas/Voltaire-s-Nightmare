@@ -1,0 +1,48 @@
+owner = ORA
+controller = ORA
+culture = provencal
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 3
+trade_goods = wine
+base_manpower = 3
+capital = "Orange"
+is_city = yes
+add_core = ORA
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1559.1.1 = {
+	owner = NED
+	controller = NED
+	add_core = NED
+}
+1584.7.10 = {
+	owner = ORA
+	controller = ORA
+	remove_core = NED
+}
+1618.2.20 = {
+	owner = NED
+	controller = NED
+	add_core = NED
+}
+1702.3.8 = {
+	owner = ORA
+	controller = ORA
+	remove_core = NED
+}
+1713.4.11 = { owner = FRA controller = FRA add_core = FRA }
+1800.1.1 = {
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1814.1.1 = {
+	base_tax = 4
+	base_production = 3
+	base_manpower = 3
+}

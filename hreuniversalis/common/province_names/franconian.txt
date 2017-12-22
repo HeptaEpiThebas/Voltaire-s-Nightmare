@@ -1,0 +1,5 @@
+2967 = "Närmberch"
+621 = "Erlang"
+2544 = "Bambärch"
+2523 = "Wörtzburch"
+1945 = "Weisseburch"

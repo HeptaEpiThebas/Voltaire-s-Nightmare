@@ -1,0 +1,60 @@
+government = principality
+government_rank = 4
+technology_group = eastern
+primary_culture = ruthenian
+religion = orthodox
+capital = 604
+
+#princes of terebovl
+1085.1.1 = {
+	monarch = {
+		name = "Vasylko I"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1124.1.1 = {
+	monarch = {
+		name = "Ihor I"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1141.1.1 = { government_rank = 3 }
+1349.1.1 = {
+	monarch = {
+		name = "Koriat"
+		dynasty = "Gediminai"
+		culture = lithuanian
+		birth_date = 1308.1.1
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+1366.1.1 = {
+	monarch = {
+		name = "Aleksandr"
+		dynasty = "Gediminai"
+		culture = lithuanian
+		religion = catholic
+		adm = 3
+		dip = 2
+		mil = 2
+	}	
+}
+1378.1.1 = {
+	monarch = {
+		name = "Fyodor"
+		dynasty = "Gediminai"
+		culture = lithuanian
+		religion = catholic
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}

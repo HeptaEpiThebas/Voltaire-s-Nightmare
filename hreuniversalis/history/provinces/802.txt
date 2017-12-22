@@ -1,0 +1,22 @@
+owner = SWE
+controller = SWE
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 4
+base_production = 4
+trade_goods = fish
+base_manpower = 3
+capital = "Ålem"
+is_city = yes	
+add_core = SWE
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1527.6.1 = { religion = protestant}
+1598.8.15 = { controller = PLC }
+1598.12.15 = { controller = SWE }
+1612.5.24 = { controller = DAN }
+1613.1.20 = { controller = SWE }

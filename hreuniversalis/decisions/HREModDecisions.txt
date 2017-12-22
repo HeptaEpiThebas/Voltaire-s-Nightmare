@@ -1,0 +1,452 @@
+country_decisions = {
+
+	elevate_canton = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				primary_culture = swiss
+				primary_culture = arpitan
+				primary_culture = romansch
+			}
+			capital_scope = { superregion = switzerland_superregion }
+			NOT = { has_global_flag = swi_formed_flag }
+			NOT = { exists = SWI }
+			NOT = { tag = SAV }
+			NOT = { tag = ARP }
+			NOT = { government = canton_government }
+			NOT = { has_country_flag = unformable }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+		}
+		allow = {
+			is_at_war = no
+			is_subject = no
+			adm_power = 200
+			stability = 2
+			OR = {
+				full_idea_group = economic_ideas
+				full_idea_group = innovativeness_ideas
+				full_idea_group = administrative_ideas
+				any_ally = {
+					government = canton_government
+				}
+			}
+		}
+		effect = {
+			change_government = canton_government
+			add_adm_power = -200
+			if = {
+				limit = {
+					government = theocracy
+				}
+				add_stability = -1
+			}
+			hidden_effect = {
+				every_country = {
+					limit = {
+						government = canton_government
+						NOT = { tag = ROOT }
+					}
+					country_event = { id = hremodevents.12 }
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	switch_italian = {
+		major = yes
+		potential = {
+			government = italian_monarchy
+		}
+		allow = {
+			is_at_war = no
+			stability = 1
+			adm_tech = 46
+			is_orangists_in_power = yes
+		}
+		effect = {
+			change_government = administrative_monarchy
+			add_stability = -1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	end_kilkennystatutes = {
+		major = yes
+		potential = {
+			has_country_modifier = kilkennystatutesmod
+		}
+		allow = {
+			OR = {
+				AND = {
+					prestige = 15
+					stability = 1
+					is_subject = no
+				}
+				NOT = { primary_culture = hiberno_norman }
+			}
+		}
+		effect = {
+			remove_country_modifier = "kilkennystatutesmod"
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	albanian_kingdom = {
+		potential = {
+			NOT = { exists = DRZ }
+			OR = {
+				culture_group = latin
+				culture_group = french
+			}
+			arbanon_area = {
+				owned_by = ROOT
+			}
+			government = monarchy
+			NOT = { has_country_flag = formed_albania }
+			normal_or_historical_nations = yes
+		}
+		allow = {
+			arbanon_area = {
+				type = all
+				owned_by = ROOT
+			}
+			is_subject = no
+			is_at_war = no
+		}
+		effect = {
+			set_country_flag = formed_albania
+			every_owned_province = {
+				limit = {
+					area = arbanon_area
+				}
+				add_core = DRZ
+				remove_core = ROOT
+				cede_province = DRZ
+			}
+			DRZ = {
+				set_government_rank = 5
+				define_ruler = {
+					dynasty = ROOT
+				}
+				add_opinion = { who = ROOT modifier = supported_independence }
+			}
+			add_prestige = 25
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	end_eng_isolation = {
+		major = yes
+		potential = {
+			has_country_modifier = edwardian_isolation
+		}
+		allow = {
+			OR = {
+				adm = 5
+				adm_tech = 4
+			}
+		}
+		effect = {
+			remove_country_modifier = "edwardian_isolation"
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	stop_free_beyliks = {
+		major = yes
+		potential = {
+			always = no #not in yet
+			ai = no
+			NOT = { has_global_flag = beyliks_finished_off }
+			any_owned_province = {
+				OR = {
+					region = bithynia_region
+					region = ephesian_region
+				}
+			}
+			NOT = { is_year = 1290 }
+		}
+		allow = {
+			bithynia_region = {
+				type = all
+				owned_by = ROOT
+			}
+			ephesian_region = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+		effect = {
+			hidden_effect = { set_global_flag = beyliks_finished_off }
+			custom_tooltip = disable_beyliks_tooltip
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	end_frankish_monarchy = {
+		major = yes
+		potential = { government = celestial_empire }
+		allow = {
+			OR = {
+				current_age = age_of_absolutism
+				custom_trigger_tooltip = {
+					tooltip = howtoendframo.tt
+					calc_true_if = {
+						all_province = {  
+							OR = {
+								superregion = french_superregion
+								superregion = burgundian_superregion
+							}
+							owned_by = ROOT
+						}
+						amount = 175
+					}
+				}
+			}
+		}
+		effect = {
+			change_government = feudal_monarchy
+			dismantle_empire_of_china = yes
+			custom_tooltip = end_framo.tt
+			hidden_effect = {
+				every_subject_country = {
+					limit = { is_subject_of_type = tributary_state }
+					overlord = { free_vassal = PREV }
+					every_owned_province = {
+    					limit = { NOT = { is_core = ROOT } }
+    					add_core = ROOT
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	conquer_russian_lith = {
+		potential = {
+			tag = LIT
+			NOT = { exists = RUS }
+			NOT = { exists = UKR }
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { has_country_modifier = lithuanianconquests }
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			has_institution = feudalism
+			owns = 1152 #Vilna
+			is_at_war = no
+			is_tribal = no
+			adm_power = 200
+			dip_power = 200
+			mil_power = 200
+			mil_tech = 24
+			manpower = 5
+		}
+		effect = {
+			add_manpower = -2.5
+			add_adm_power = -200
+			add_dip_power = -200
+			add_mil_power = -200
+			add_country_modifier = {
+				name = "lithuanianconquests"
+				duration = -1
+			}		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	assize_of_arms_act = {
+		potential = {
+			NOT = { has_country_modifier = assize_of_arms }
+		}
+		allow = {
+			mil_tech = 20
+		}
+		effect = {
+			add_country_modifier = {
+				name = "assize_of_arms"
+				duration = -1
+			}		
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	donate_to_holy_order = {
+		potential = {
+			religion = catholic
+			NOT = { government = theocracy }
+			NOT = { has_country_modifier = donated_ho }
+			normal_or_historical_nations = yes
+			TEU = {
+				exists = yes
+				is_free_or_tributary_trigger = yes
+				government = crusader_order_government
+				religion = catholic
+				NOT = { war_with = ROOT }
+			}
+		}
+		allow = { treasury = 100 }
+		effect = {
+			add_treasury = -100
+			TEU = { country_event = { id = hremodevents.47 } }
+			add_country_modifier = {
+				name = "donated_ho"
+				duration = 3650
+			}		
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					NOT = { treasury = 200 }
+					is_at_war = yes
+					is_enemy = TEU
+					is_rival = TEU
+					TEU = { num_of_cities = 33 }
+					AND = {
+						is_defender_of_faith = no
+						NOT = { ruler_has_personality = zealot_personality }
+					}
+				}
+			}
+		}
+	}
+
+	all_graviates_titles = {
+        major = yes
+        potential = {
+            OR = {
+            	tag = REI
+            	tag = SXM
+            	tag = WGR
+            	tag = PAL
+            }
+            NOT = { has_country_modifier = all_graviates_titles_acquired }
+            NOT = { has_global_flag = graves_united }
+            normal_or_historical_nations = yes
+        }
+        allow = {
+            is_at_war = no
+            #Rheingrave
+            OR = {  tag = REI
+                REI = { is_subject_of = ROOT }
+                AND = { NOT = { exists = REI } owns_or_vassal_of = 1104 }
+            }
+            #Wildgrave
+            OR = {  tag = WGR
+                WGR = { is_subject_of = ROOT }
+                AND = { NOT = { exists = WGR } owns_or_vassal_of = 18 }
+            }
+            #Raugrave
+            OR = {  tag = SXM
+                SXM = { is_subject_of = ROOT }
+                AND = { NOT = { exists = SXM } owns_or_vassal_of = 2752 }
+            }
+            #Pfalzgrave
+            OR = {  tag = PAL
+                PAL = { is_subject_of = ROOT }
+                AND = { NOT = { exists = PAL } owns_or_vassal_of = 2732 }
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = all_graviates_titles_acquired
+                duration = -1
+            }
+            add_prestige = 25
+            add_legitimacy = 25
+            hidden_effect = {
+            	set_global_flag = graves_united
+                if = {
+                	limit = { tag = WGR }
+                	inherit = PAL
+                	inherit = REI
+                	inherit = SXM 
+                	every_province = { limit = {} remove_core = PAL remove_core = REI remove_core = SXM }
+                }
+                if = {
+                	limit = { tag = PAL }
+                	inherit = WGR
+                	inherit = REI
+                	inherit = SXM
+                	every_province = { limit = {} remove_core = WGR remove_core = REI remove_core = SXM }
+                }
+                if = {
+                	limit = { tag = REI }
+                	inherit = PAL
+                	inherit = WGR
+                	inherit = SXM
+                	every_province = { limit = {} remove_core = PAL remove_core = WGR remove_core = SXM }
+                }
+                if = {
+                	limit = { tag = SXM }
+                	inherit = PAL
+                	inherit = REI
+                	inherit = WGR
+                	every_province = { limit = {} remove_core = PAL remove_core = REI remove_core = WGR }
+                }
+            }
+        }
+        ai_importance = 350
+    }
+
+    make_turin_capital = {
+		potential = {
+			tag = SAV
+			normal_or_historical_nations = yes
+			owns = 1009
+			NOT = { capital = 1009 }
+			NOT = { primary_culture = piedmontese }
+			NOT = { has_country_flag = relocated_capital_turin }
+		}
+		allow = {
+			is_core = 1009
+			OR = {
+				adm_tech = 46
+				stability = 3
+			}
+			is_at_war = no
+		}
+		effect = {
+			change_primary_culture = piedmontese
+			set_capital = 1009
+			1009 = {
+				add_base_tax = 2
+				add_base_production = 2
+				add_base_manpower = 2
+			}
+			set_country_flag = relocated_capital_turin
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

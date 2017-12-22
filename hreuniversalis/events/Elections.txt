@@ -1,0 +1,630 @@
+namespace = elections
+
+# Election!
+country_event = {
+	id = 700
+	title = "EVTNAME700"
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	desc = {
+		trigger = { NOT = { has_ruler_flag = leader_has_been_pushed_out } }
+		desc = EVTDESC700
+	}
+	
+	desc = {
+		trigger = { has_ruler_flag = leader_has_been_pushed_out }
+		desc = elections.700.d
+	}
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { government = dutch_republic }
+		NOT = { government = italian_monarchy }
+	}
+
+	option = {
+		name = "EVTOPTA700"	# Current ruler stays
+		trigger = {
+			has_regency = no
+			NOT = { has_ruler_flag = leader_has_been_pushed_out }
+		}
+		ai_chance = { 
+			factor = 60
+			modifier = {
+				factor = 0
+				NOT = { republican_tradition = 25 }
+			}	
+			modifier = {
+				factor = 0.5
+				NOT = { republican_tradition = 50 }
+			}				
+			modifier = {
+				factor = 0.5
+				NOT = { republican_tradition = 75 }
+			}	
+			modifier = {
+				factor = 2.0
+				republican_tradition = 90
+			}		
+		}
+		custom_tooltip = remains_ruler
+		change_adm = 1
+		change_dip = 1
+		change_mil = 1
+		if = {
+			limit = { 
+				is_tribal = yes
+				government = republic
+				NOT = { republican_tradition = 20 }	
+			}	
+			change_government = tribal_despotism
+		}
+		if = {
+			limit = {
+				is_tribal = no 
+				government = republic
+				NOT = { republican_tradition = 20 }				
+				has_dlc = "Res Publica"
+			}
+			change_government = republican_dictatorship	
+		}
+		if = {
+			limit = {
+				is_tribal = no  
+				government = republic
+				NOT = { republican_tradition = 20 }
+				NOT = { has_dlc = "Res Publica" }
+			}
+			change_government = despotic_monarchy
+		}	
+		add_scaled_republican_tradition = -10
+		random_list = {
+			10 = {
+				add_adm_power = 50
+			}
+			10 = {
+				add_dip_power = 50
+			}
+			10 = {
+				add_mil_power = 50
+			}
+		}
+		add_karma = -5
+	}
+	option = {
+		name = "EVTOPTB700"	# An administrator type
+		ai_chance = { factor = 20 }
+		define_ruler = {
+			mil = 1
+			adm = 4
+			dip = 1					
+			fixed = yes
+		}
+		if = {
+			limit = { 
+				has_faction = mr_guilds 
+			}
+			add_faction_influence = {
+				faction = mr_guilds
+				influence = 20
+			}				
+		}
+		add_karma = 10
+	}
+	option = {
+		name = "EVTOPTC700"	# A diplomat
+		ai_chance = { factor = 20 }
+		define_ruler = {
+			dip = 4
+			adm = 1
+			mil = 1					
+			fixed = yes
+		}
+		if = {
+			limit = { 
+				has_faction = mr_traders 
+			}
+			add_faction_influence = {
+				faction = mr_traders
+				influence = 20
+			}				
+		}
+		add_karma = 10		
+	}
+	option = {
+		name = "EVTOPTD700"	# A military man
+		ai_chance = { factor = 20 }
+		define_ruler = {
+			mil = 4
+			adm = 1
+			dip = 1					
+			fixed = yes
+		}
+		if = {
+			limit = { 
+				has_faction = mr_aristocrats 
+			}
+			add_faction_influence = {
+				faction = mr_aristocrats
+				influence = 20
+			}				
+		}
+		add_karma = 10
+	}
+}
+
+# Election!
+country_event = {
+	id = 701
+	title = "EVTNAME700"
+	desc = "EVTDESC701"
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { government = dutch_republic }
+		NOT = { government = italian_monarchy }
+	}
+	
+	option = {
+		name = "EVTOPTB700"	# An administrator type
+		ai_chance = { factor = 40 }
+		define_ruler = {
+			mil = 1
+			adm = 4
+			dip = 1					
+			fixed = yes
+		}
+		if = {
+			limit = { 
+				has_faction = mr_guilds 
+			}
+			add_faction_influence = {
+				faction = mr_guilds
+				influence = 20
+			}				
+		}
+	}
+	option = {
+		name = "EVTOPTC700"	# A diplomat
+		ai_chance = { factor = 30 }
+		define_ruler = {
+			dip = 4
+			adm = 1
+			mil = 1					
+			fixed = yes
+		}
+		if = {
+			limit = { 
+				has_faction = mr_traders 
+			}
+			add_faction_influence = {
+				faction = mr_traders
+				influence = 20
+			}				
+		}			
+	}
+	option = {
+		name = "EVTOPTD700"	# A military man
+		ai_chance = { factor = 30 }
+		define_ruler = {
+			mil = 4
+			adm = 1
+			dip = 1					
+			fixed = yes
+		}
+		if = {
+			limit = { 
+				has_faction = mr_aristocrats 
+			}
+			add_faction_influence = {
+				faction = mr_aristocrats
+				influence = 20
+			}				
+		}		
+	}
+}
+
+########################################
+# Colonial Nations                     #
+########################################
+
+# Election!
+country_event = {
+	id = elections.707
+	title = "elections.EVTNAME707"
+	desc = "elections.EVTDESC707"
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "elections.EVTOPTB707"	# Bureaucrat Candidate
+		ai_chance = { factor = 20 }
+		FROM = {
+			define_ruler = {
+				adm = 4
+				mil = 2
+				dip = 2
+				fixed = yes
+			}
+			set_ruler_flag = appointed_by_overlord
+		}
+	}
+	option = {
+		name = "elections.EVTOPTC707"	# Diplomat Candidate
+		ai_chance = { factor = 20 }
+		FROM = {
+			define_ruler = {
+				adm = 2
+				dip = 4
+				mil = 2
+				fixed = yes
+			}
+			set_ruler_flag = appointed_by_overlord
+		}
+	}
+	option = {
+		name = "elections.EVTOPTD707"	# Military Candidate
+		ai_chance = { factor = 20 }
+		FROM = {
+			define_ruler = {
+				adm = 2
+				dip = 2
+				mil = 4
+				fixed = yes
+			}	
+			set_ruler_flag = appointed_by_overlord
+		}
+	}
+}
+
+# Colonial Assembly
+country_event = {
+	id = elections.711
+	title = "elections.EVTNAME711"
+	desc = "elections.EVTDESC711"
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "elections.EVTOPTB711"	# Suspicious indeed...
+		tooltip = {
+			FROM = {
+				add_liberty_desire = 10
+			}
+		}
+	}
+}
+
+
+# Dutch Republic
+country_event = {
+	id = elections.720
+	title = elections.720.t
+	desc = elections.720.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		government = dutch_republic
+	}
+	
+	option = {
+		name = elections.720.a
+		define_ruler = {
+		}
+		change_statists_vs_orangists = -0.33
+	
+	}
+	option = {
+		name = elections.720.b
+		define_ruler = {
+		}
+		change_statists_vs_orangists = 0.33
+	}
+}
+
+country_event = {
+	id = elections.721
+	title = elections.720.t
+	desc = elections.721.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		government = dutch_republic
+	}
+	
+	option = {
+		name = elections.720.a
+		define_ruler = {
+		}
+		change_statists_vs_orangists = -0.33
+	
+	}
+	option = {
+		name = elections.720.b
+		define_ruler = {
+		}
+		change_statists_vs_orangists = 0.33
+	}
+}
+
+# Italian Republic
+country_event = {
+	id = elections.722
+	title = elections.720.t
+	desc = elections.722.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		government = italian_monarchy
+	}
+	
+	option = {
+		name = elections.722.a
+		define_ruler = {
+		}
+		change_statists_vs_orangists = -0.33
+	
+	}
+	option = {
+		name = elections.722.b
+		define_ruler = {
+		}
+		change_statists_vs_orangists = 0.33
+	}
+}
+
+country_event = {
+	id = elections.723
+	title = elections.720.t
+	desc = elections.723.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		government = italian_monarchy
+	}
+	
+	option = {
+		name = elections.722.a
+		define_ruler = {
+		}
+		change_statists_vs_orangists = -0.33
+	
+	}
+	option = {
+		name = elections.722.b
+		define_ruler = {
+		}
+		change_statists_vs_orangists = 0.33
+	}
+}
+
+country_event = {
+	id = elections.724
+	title = elections.724.t
+	desc = elections.724.d
+	picture = HRE_eventPicture
+	
+	trigger = {
+		OR = {
+			government = monarchy
+			government = republic
+		}
+		religion = catholic
+		NOT = { has_ruler_modifier = guelph_ruler }
+		NOT = { has_ruler_modifier = ghib_ruler }
+		NOT = { government_rank = 5 }
+		NOT = { tag = PAP }
+		culture_group = latin
+		capital_scope = {
+			OR = {
+				superregion = lombardy_superregion
+				superregion = italy_superregion
+			}
+		}
+		OR = {
+			papacy_active = yes
+			exists = PAP
+		}
+		is_elector = no
+		is_emperor = no
+		is_papal_controller = no
+		has_global_flag = guelph_ghib_enabled
+		NOT = { has_global_flag = italy_out_of_HRE }
+		NOT = { is_year = 1550 }
+		NOT = {
+			any_country = {
+				is_papal_controller = yes
+				is_emperor = yes
+			}
+		}
+		OR = {
+			lombardy_superregion = { is_part_of_hre = yes }
+			italy_superregion = { is_part_of_hre = yes }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = elections.724.a
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 0.1
+				any_country = {
+					war_with = ROOT
+					war_with = emperor
+				}
+				NOT = { war_with = emperor }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { has_opinion = { who = PAP value = -100 } }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { has_opinion = { who = PAP value = -50 } }
+			}
+			modifier = {
+				factor = 1.25
+				has_opinion = { who = PAP value = 50 }
+			}	
+			modifier = {
+				factor = 1.25
+				has_opinion = { who = PAP value = 100 }
+			}
+			modifier = {
+				factor = 1.5
+				alliance_with = PAP
+			}
+			modifier = {
+				factor = 1.5
+				is_subject_of = PAP
+			}
+			modifier = {
+				factor = 1.25
+				invested_papal_influence = 25
+			}
+			modifier = {
+				factor = 1.25
+				invested_papal_influence = 50
+			}
+			modifier = {
+				factor = 1.1
+				num_of_cardinals = 1
+			}
+			modifier = {
+				factor = 1.1
+				num_of_cardinals = 2
+			}
+			modifier = {
+				factor = 1.1
+				num_of_cardinals = 3
+			}
+			modifier = {
+				factor = 1.1
+				num_of_cardinals = 4
+			}
+			modifier = {
+				factor = 1.1
+				num_of_cardinals = 5
+			}
+			modifier = {
+				factor = 1.1
+				is_statists_in_power = yes
+			}
+			modifier = {
+				factor = 1.25
+				NOT = { hre_size = 100 }
+			}
+			modifier = {
+				factor = 2.0
+				dynasty = "von Welf"
+			}		
+		}
+		add_ruler_modifier = { name = guelph_ruler }
+		every_country = {
+			limit = { is_papal_controller = yes }
+			add_opinion = {
+				who = ROOT
+				modifier = opinion_guelph_ghib
+			}
+		}
+	}
+	option = {
+		name = elections.724.b
+		ai_chance = { 
+			factor = 50
+			modifier = {
+				factor = 0.1
+				any_country = {
+					war_with = ROOT
+					war_with = PAP
+				}
+				NOT = { war_with = PAP }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { has_opinion = { who = emperor value = -100 } }
+			}
+			modifier = {
+				factor = 0.5
+				NOT = { has_opinion = { who = emperor value = -50 } }
+			}	
+			modifier = {
+				factor = 1.25
+				has_opinion = { who = emperor value = 50 }
+			}
+			modifier = {
+				factor = 1.25
+				has_opinion = { who = emperor value = 100 }
+			}
+			modifier = {
+				factor = 1.5
+				alliance_with = emperor
+			}
+			modifier = {
+				factor = 1.5
+				is_subject_of = emperor
+			}
+			modifier = {
+				factor = 1.25
+				is_part_of_hre = yes
+			}
+			modifier = {
+				factor = 1.1
+				hre_reform_level = 2
+			}
+			modifier = {
+				factor = 1.1
+				hre_reform_level = 4
+			}
+			modifier = {
+				factor = 1.1
+				hre_reform_level = 6
+			}
+			modifier = {
+				factor = 1.1
+				hre_reform_level = 8
+			}
+			modifier = {
+				factor = 1.1
+				hre_reform_level = 10
+			}
+			modifier = {
+				factor = 1.1
+				is_orangists_in_power = yes
+			}
+			modifier = {
+				factor = 1.25
+				hre_size = 300
+			}
+			modifier = {
+				factor = 2.0
+				dynasty = "von Hohenstaufen"
+			}		
+		}
+		add_ruler_modifier = { name = ghib_ruler }
+		emperor = {
+			add_opinion = {
+				who = ROOT
+				modifier = opinion_guelph_ghib
+			}
+		}
+	}
+}

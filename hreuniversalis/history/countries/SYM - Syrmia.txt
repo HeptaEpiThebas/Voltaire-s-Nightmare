@@ -1,0 +1,50 @@
+government = feudal_monarchy
+government_rank = 1
+technology_group = eastern
+primary_culture = croatian
+add_accepted_culture = hungarian
+religion = catholic
+capital = 2069
+
+1301.1.14 = {
+	monarch = {
+		name = "Ugrin"
+		dynasty = "Csák"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1526.8.30 = {
+	primary_culture = serbian
+	religion = orthodox
+	government_rank = 3
+	capital = 1075
+	monarch = {
+		name = "Jovan"
+		dynasty = "Nenad"
+		birth_date = 1492.1.1
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+1527.7.26 = {
+	capital = 2427
+	add_accepted_culture = croatian
+	remove_accepted_culture = hungarian
+	monarch = {
+		name = "Radoslav"
+		dynasty = "Celnik"
+		adm = 1
+		dip = 2
+		mil = 4
+	}
+}
+1532.1.1 = {
+	remove_accepted_culture = croatian
+	primary_culture = croatian
+	capital = 2069
+	government_rank = 1
+	religion = catholic
+}

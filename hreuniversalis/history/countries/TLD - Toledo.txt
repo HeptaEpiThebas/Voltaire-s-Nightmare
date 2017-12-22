@@ -1,0 +1,59 @@
+government = iqta
+government_rank = 5
+technology_group = muslim
+primary_culture = andalucian
+religion = sunni
+capital = 1208
+religious_school = maliki_school
+
+1044.1.1 = {
+	monarch = {
+		name = "Yahya al-Mamun"
+		dynasty = "Dhunnunid"
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+	heir = {
+		name = "Yahya al-Qadir"
+		monarch_name = "Yahya al-Qadir"
+		dynasty = "Dhunnunid"
+		birth_date = 1042.1.1
+		death_date = 1092.1.1
+		claim = 95
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+1075.1.1 = {
+	monarch = {
+		name = "Yahya al-Qadir"
+		dynasty = "Dhunnunid"
+		birth_date = 1042.1.1
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+#badajoz 1080-81
+1080.1.1 = { capital = 2792 }
+1081.1.1 = { capital = 1208 }
+#anarchy, its unclear what happened to the muslim lands
+1085.1.1 = {
+	capital = 2792
+	monarch = {
+		name = "(Interregnum)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1091.1.1 = {
+	capital = 1208
+	government = feudal_monarchy
+	primary_culture = castillian
+	technology_group = western
+	religion = catholic
+}

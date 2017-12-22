@@ -1,0 +1,67 @@
+owner = TUS
+controller = TUS
+culture = emilian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = linen
+base_manpower = 2
+capital = "Reggio" 
+is_city = yes
+add_core = TUS
+add_core = RGO
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+fort_14th = yes
+
+1115.7.24 = {
+	owner = RGO
+	controller = RGO
+	remove_core = TUS
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+}
+1337.1.1 = { fort_14th = no fort_15th = yes }
+1348.1.1 = { #black death
+	base_tax = 4
+	base_production = 3
+	base_manpower = 3
+}
+1371.1.1 = {
+	owner = MLO
+	controller = MLO
+	add_core = MLO
+}
+1405.1.1 = {
+	owner = MOD
+	controller = MOD
+	add_core = MOD
+	remove_core = MLO
+}
+1495.1.1 = { hre = no }
+1797.6.29 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+}
+1814.4.11 = { 
+	owner = MOD
+	controller = MOD
+	remove_core = ITA
+}
+1859.11.7 = {
+	owner = TUS
+	controller = TUS
+	add_core = TUS
+}
+1861.3.20 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = MOD
+	remove_core = RGO
+}

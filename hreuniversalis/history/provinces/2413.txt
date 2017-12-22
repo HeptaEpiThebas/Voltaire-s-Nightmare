@@ -1,0 +1,41 @@
+owner = HSC
+controller = HSC
+add_core = HSC
+culture = highland_scottish
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+capital = "Arisaig"
+is_city = yes
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1266.7.2 = {
+	owner = GLY
+	controller = GLY
+	add_core = GLY
+	remove_core = HSC
+}
+1490.1.1 = {
+	owner = SCO
+	controller = SCO
+	add_core = SCO
+	add_core = HSC
+	remove_core = GLY
+}
+1644.1.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
+1647.1.1 = { revolt = {} controller = SCO }
+1689.3.1 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
+1689.11.1 = { revolt = {} controller = SCO }
+1707.5.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	remove_core = SCO
+	remove_core = HSC
+}

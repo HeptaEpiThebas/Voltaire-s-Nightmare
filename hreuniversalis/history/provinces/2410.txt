@@ -1,0 +1,23 @@
+owner = SWE
+controller = SWE
+culture = swedish
+religion = catholic
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = amber
+base_manpower = 3
+capital = "Älmhult"
+is_city = yes	
+add_core = SWE
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+estate = estate_church
+
+1527.6.1 = { religion = protestant}
+1598.8.15 = { controller = PLC }
+1598.12.15 = { controller = SWE }
+1612.5.24 = { controller = DAN }
+1613.1.20 = { controller = SWE }

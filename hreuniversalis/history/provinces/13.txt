@@ -1,0 +1,88 @@
+owner = KIL
+controller = KIL
+culture = bremer_platt
+religion = slavic_pagan
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Lübeck" 
+is_city = yes	
+add_core = KIL
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+extra_cost = 25
+add_permanent_province_modifier = {
+	name = center_of_trade_modifier
+	duration = -1
+}
+add_permanent_province_modifier = {
+	name = important_natural_harbor
+	duration = -1
+}
+
+1139.1.1 = {
+	owner = SHL
+	controller = SHL
+	add_core = SHL
+	remove_core = KIL
+	fort_15th = yes
+	religion = catholic
+	hre = yes
+}
+1147.8.1 = {
+	owner = BML
+	controller = BML
+	add_core = BML
+	add_core = HSA
+	remove_core = SHL
+	base_tax = 5
+	base_production = 5
+	trade_goods = beer
+	base_manpower = 3
+	culture = low_elbish
+}
+1226.1.1 = {
+	owner = HSA
+	controller = HSA
+	remove_core = BML
+	base_tax = 7
+	base_production = 7
+}
+1350.1.1 = { #black death
+	base_tax = 4
+	base_production = 4
+	base_manpower = 2
+}
+1399.1.1 = {
+	base_tax = 7
+	base_production = 7
+	base_manpower = 3
+}
+1531.1.1 = { religion = protestant }
+1583.1.1 = { fort_15th = no fort_16th = yes }
+1600.1.1 = { base_tax = 10 base_production = 10 }
+1617.1.1 = { base_tax = 8 base_production = 8 }
+1648.1.1 = { fort_16th = no fort_17th = yes }
+1715.1.1 = { fort_17th = no fort_18th = yes } 
+1810.12.13 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	hre = no
+}
+1813.10.13 = {
+	owner = HSA
+	controller = HSA
+	remove_core = FRA
+}
+1815.3.16 = { hre = yes }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	hre = no
+}

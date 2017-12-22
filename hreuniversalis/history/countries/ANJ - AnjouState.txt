@@ -1,0 +1,341 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = angevin_culture
+religion = catholic
+technology_group = western
+capital = 2163
+
+1040.6.21 = {
+	monarch = {
+		name = "Geoffrey II"
+		dynasty = "Ingelger"
+		adm = 4
+		dip = 1
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = inspiring_leader_personality
+}
+1060.1.1 = {
+	monarch = {
+		name = "Geoffrey III"
+		dynasty = "d'Anjou"
+		birth_date = 1040.1.1
+		adm = 0
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Foulques"
+		monarch_name = "Foulques IV"
+		dynasty = "d'Anjou"
+		birth_date = 1043.1.1
+		death_date = 1109.4.14
+		claim = 85
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = sinner_personality
+	add_ruler_personality = drunkard_personality
+}
+1067.1.1 = {
+	monarch = {
+		name = "Foulques IV"
+		dynasty = "d'Anjou"
+		birth_date = 1043.1.1
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+1070.1.1 = {
+	heir = {
+		name = "Geoffrey"
+		monarch_name = "Geoffrey IV"
+		dynasty = "d'Anjou"
+		birth_date = 1070.1.1
+		death_date = 1106.5.19
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1089.1.1 = {
+	queen = {
+		country_of_origin = FRA
+		name = "Bertrade"
+		dynasty = "de Montfort"
+		birth_date = 1070.1.1
+		death_date = 1092.1.1 #france
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1106.5.19 = {
+	heir = {
+		name = "Foulques"
+		monarch_name = "Foulques V"
+		dynasty = "d'Anjou"
+		birth_date = 1089.1.1
+		death_date = 1143.11.13
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}
+1109.4.14 = { #crusader king
+	monarch = {
+		name = "Foulques V"
+		dynasty = "d'Anjou"
+		birth_date = 1089.1.1
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+	queen = {
+		country_of_origin = MNE
+		name = "Ermengarde"
+		dynasty = "de la Flèche"
+		birth_date = 1096.1.1
+		death_date = 1126.10.12
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1113.4.24 = {
+	heir = {
+		name = "Geoffrey"
+		monarch_name = "Geoffrey V Plantagenet"
+		dynasty = "d'Anjou"
+		birth_date = 1113.4.24
+		death_date = 1151.9.7
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+1129.6.2 = {
+	monarch = {
+		name = "Geoffrey V Plantagenet"
+		dynasty = "d'Anjou"
+		birth_date = 1113.4.24
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = righteous_personality
+	add_ruler_personality = well_connected_personality
+	queen = {
+		country_of_origin = ENG
+		name = "Matilda"
+		dynasty = "de Normandie"
+		birth_date = 1102.2.7
+		death_date = 1167.9.10
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1133.3.5 = {
+	heir = {
+		name = "Henri"
+		monarch_name = "Henri I"
+		dynasty = "d'Anjou"
+		birth_date = 1133.3.5
+		death_date = 1189.7.6
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = silver_tongue_personality
+}
+1151.9.7 = {
+	monarch = {
+		name = "Henri I"
+		dynasty = "d'Anjou"
+		birth_date = 1133.3.5
+		adm = 4
+		dip = 5
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = silver_tongue_personality
+}
+1152.5.18 = {
+	queen = {
+		country_of_origin = AQT
+		name = "Eleanor"
+		dynasty = "de Poitiers"
+		female = yes
+		birth_date = 1122.1.1
+		death_date = 1204.3.1
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}
+#1154.10.25 done
+#1246 PU under Provence
+1285.1.7 = {
+	monarch = {
+		name = "Marguerite"
+		dynasty = "d'Anjou"
+		birth_date = 1272.1.1
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#under several states
+1356.1.1 = {
+	government_rank = 3
+	monarch = {
+		name = "Louis I"
+		dynasty = "d'Anjou"
+		birth_date = 1339.7.23
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1377.10.5 = {
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis II"
+		dynasty = "d'Anjou"
+		birth_date = 1377.10.5
+		death_date = 1403.9.25
+		claim = 95
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+1384.9.20 = {
+	monarch = {
+		name = "Louis II"
+		dynasty = "d'Anjou"
+		birth_date = 1377.10.5
+		adm = 0
+		dip = 2
+		mil = 2
+	}
+}
+1403.9.25 = {
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis III"
+		dynasty = "d'Anjou"
+		birth_date = 1403.9.25
+		death_date = 1434.11.12
+		claim = 95
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}
+1417.4.29 = {
+	monarch = {
+		name = "Louis III"
+		dynasty = "d'Anjou"
+		birth_date = 1403.9.25
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+	heir = {
+		name = "René"
+		monarch_name = "René I"
+		dynasty = "d'Anjou"
+		birth_date = 1409.1.16
+		death_date = 1430.6.26 #to bar
+		claim = 95
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+}
+1434.11.16 = {
+	monarch = {
+		name = "René I"
+		dynasty = "d'Anjou"
+		birth_date = 1409.1.16
+		adm = 3
+		dip = 5
+		mil = 2
+	}
+	queen = {
+		country_of_origin = LOR
+		name = "Isabella"
+		dynasty = "de Metz"
+		birth_date = 1400.1.1
+		death_date = 1453.2.28
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1446.1.1 = {
+	heir = {
+		name = "Charles"
+		monarch_name = "Charles III"
+		dynasty = "d'Anjou"
+		birth_date = 1446.1.1
+		death_date = 1481.1.1
+		claim = 95
+		adm = 0
+		dip = 2
+		mil = 1
+	}
+}
+1454.9.10 = {
+	queen = {
+		country_of_origin = MNE
+		name = "Jeanne"
+		dynasty = "de Laval"
+		birth_date = 1433.11.10
+		death_date = 1498.12.19
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 1
+	}
+}
+1480.7.10 = {
+	monarch = {
+		name = "Charles III"
+		dynasty = "d'Anjou"
+		birth_date = 1446.1.1
+		adm = 0
+		dip = 2
+		mil = 1
+	}
+	queen = {
+		country_of_origin = LOR
+		name = "Jeanne"
+		dynasty = "de Vaudémont"
+		birth_date = 1458.1.1
+		death_date = 1480.12.1
+		female = yes
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+
+}
+1589.8.3 = { government = administrative_monarchy }

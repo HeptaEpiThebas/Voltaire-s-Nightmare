@@ -1,0 +1,63 @@
+owner = KLT
+controller = KLT
+culture = swiss
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = beer
+base_manpower = 2
+capital = "Klettgau" 
+is_city = yes	
+add_core = KLT
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1067.1.1 = {
+	owner = WWS
+	controller = WWS
+	add_core = WWS
+}
+1202.1.1 = {
+	owner = KLT
+	controller = KLT
+	remove_core = WWS
+}
+1282.1.1 = {
+	owner = LFB
+	controller = LFB
+}
+1325.1.1 = { add_core = LFB }
+1386.1.1 = {
+	owner = TIR
+	controller = TIR
+	add_core = TIR
+	remove_core = LFB
+}
+1490.1.1 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	add_core = BGA
+	remove_core = KLT
+}
+1797.10.18 = {
+	owner = BGA
+	controller = BGA
+	remove_core = HAB
+	remove_core = TIR
+}
+1805.12.26 = {
+	owner = BAD
+	controller = BAD
+	add_core = BAD
+	remove_core = BGA
+}
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+}

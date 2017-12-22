@@ -1,0 +1,55 @@
+government = tribal_kingdom
+government_rank = 5
+technology_group = muslim
+primary_culture = kabyle
+religion = sunni
+capital = 789
+religious_school = maliki_school
+
+1509.1.6 = {
+	monarch = {
+		name = "Sidi Ahmed"
+		dynasty = "ben el-Kadhi"
+		dip = 4
+		mil = 4
+		adm = 4
+	}
+}
+1527.1.1 = {
+	monarch = {
+		name = "Elhocine"
+		dynasty = "ben el-Kadhi"
+		dip = 3
+		mil = 3
+		adm = 2
+	}
+}
+1546.1.1 = {
+	monarch = {
+		name = "Amar"
+		dynasty = "ben el-Kadhi"
+		dip = 2
+		mil = 2
+		adm = 3
+	}
+}
+1618.1.1 = {
+	monarch = {
+		name = "Mohammed"
+		dynasty = "ben el-Kadhi"
+		dip = 0
+		mil = 3
+		adm = 0
+	}
+}
+
+1638.1.1 = {
+	monarch = {
+		name = "Ahmed Atounsi"
+		dynasty = "Boukhetouche"
+		dip = 1
+		mil = 2
+		adm = 4
+	}
+}
+#1696 collapse

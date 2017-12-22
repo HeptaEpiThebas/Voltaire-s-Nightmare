@@ -1,0 +1,35 @@
+government = feudal_monarchy
+government_rank = 4
+technology_group = eastern
+primary_culture = bulgarian
+religion = orthodox
+capital = 676
+
+1340.1.1 = {
+	monarch = {
+		name = "Balik"
+		dynasty = "Terter"
+		dip = 4
+		mil = 2
+		adm = 2
+	}
+}
+1340.1.1 = {
+	monarch = {
+		name = "Dobrotitsa"
+		dynasty = "Terter"
+		dip = 3
+		mil = 2
+		adm = 4
+	}
+}
+1357.1.1 = { government = despotic_monarchy government_rank = 3 }
+1386.1.1 = {
+	monarch = {
+		name = "Ivanko"
+		dynasty = "Terter"
+		dip = 2
+		mil = 1
+		adm = 2
+	}
+}

@@ -1,0 +1,163 @@
+government = tribal_despotism
+government_rank = 3
+primary_culture = kashubian
+religion = slavic_pagan
+technology_group = eastern
+capital = 1858
+historical_neutral = POL
+
+1054.1.1 = {
+	monarch = {
+		name = "Swietobor"
+		dynasty = "Gryf"
+		birth_date = 1044.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1091.1.1 = {
+	heir = {
+		name = "Wartislaw"
+		monarch_name = "Wartislaw I"
+		dynasty = "Gryf"
+		birth_date = 1091.1.1
+		death_date = 1135.8.9
+		claim = 90
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+1106.1.1 = {
+	monarch = {
+		name = "Wartislaw I"
+		dynasty = "Gryf"
+		birth_date = 1091.1.1
+		adm = 5
+		dip = 5
+		mil = 3
+	}
+}
+1122.1.1 = { capital = 2417 }
+1124.1.1 = {
+	heir = {
+		name = "Racibor"
+		monarch_name = "Racibor I"
+		dynasty = "Gryf"
+		birth_date = 1124.1.1
+		death_date = 1156.1.1
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1128.4.19 = {
+	religion = catholic
+	government = feudal_monarchy
+	technology_group = western
+}
+1135.8.9 = {
+	monarch = {
+		name = "Racibor I"
+		dynasty = "Gryf"
+		birth_date = 1124.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#split 1156
+1178.12.30 = { primary_culture = pommeranian }
+1264.5.17 = {
+	monarch = {
+		name = "Barnim I"
+		dynasty = "Gryf"
+		birth_date = 1218.1.1
+		adm = 6
+		dip = 4
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = architectural_visionary_personality
+	heir = {
+		name = "Boguslaw"
+		monarch_name = "Boguslaw IV"
+		dynasty = "Gryf"
+		birth_date = 1248.1.1
+		death_date = 1309.3.24
+		claim = 85
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}
+1278.11.13 = {
+	monarch = {
+		name = "Boguslaw IV"
+		dynasty = "Gryf"
+		birth_date = 1248.1.1
+		adm = 2
+		dip = 5
+		mil = 3
+	}
+}
+#split 1295.7.12
+1478.12.17 = {
+	capital = 2417
+	monarch = {
+		name = "Boguslaw X"
+		dynasty = "Gryf"
+		birth_date = 1454.6.3
+		adm = 4
+		dip = 3
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = entrepreneur_personality
+}
+1493.4.11 = {
+	heir = {
+		name = "Georg"
+		monarch_name = "Georg I"
+		dynasty = "Gryf"
+		birth_date = 1493.4.11
+		death_date = 1531.5.10
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1523.10.6 = {
+	monarch = {
+		name = "Georg I"
+		dynasty = "Gryf"
+		birth_date = 1493.4.11
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1534.12.15 = { religion = protestant }
+#split
+1625.2.6 = {
+	monarch = {
+		name = "Boguslaw XIV"
+		dynasty = "Gryf"
+		birth_date = 1580.3.31
+		adm = 3
+		dip = 1
+		mil = 0
+	}
+}
+1637.3.10 = {
+	monarch = {
+		name = "(Interregnum)"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

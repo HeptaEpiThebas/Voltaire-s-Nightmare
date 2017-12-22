@@ -1,0 +1,54 @@
+owner = NRM
+controller = NRM
+culture = normand
+religion = catholic
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = fish
+base_manpower = 1
+capital = "Archirondel"
+is_city = yes	
+add_core = NRM
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1106.9.28 = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+	culture = english
+}
+1139.1.1 = { controller = ANJ }
+1144.1.1 = {
+	owner = ANJ
+	add_core = ANJ
+	remove_core = ENG
+}
+1204.3.6 = { 
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+	remove_core = ANJ
+	remove_core = NRM
+}
+1551.1.1 = { religion = reformed }
+1603.1.1 = { religion = anglican }
+1650.1.1 = {
+	base_tax = 2
+	base_production = 2
+	base_manpower = 2
+}
+1700.1.1 = {
+	base_tax = 3
+	base_production = 3
+	base_manpower = 3
+}
+1707.5.1 = {
+	owner = GBR
+	controller = GBR
+	add_core = GBR
+	remove_core = ENG
+}

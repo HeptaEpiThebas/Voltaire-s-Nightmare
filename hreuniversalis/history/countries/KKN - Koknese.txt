@@ -1,0 +1,18 @@
+government = tribal_despotism
+government_rank = 4
+technology_group = eastern
+religion = animism
+primary_culture = latvian
+capital = 2121
+
+1180.1.1 = {
+	monarch = {
+		name = "Vetseke"
+		dynasty = "Rurikovich"
+		religion = orthodox
+		dip = 3
+		mil = 5
+		adm = 1
+	}
+}
+#1206 done

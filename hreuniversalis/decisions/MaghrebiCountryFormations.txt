@@ -1,0 +1,183 @@
+country_decisions = {
+	
+	algiers_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = MOR }
+			NOT = { tag = TUN }
+			NOT = { tag = TLC }
+			NOT = { tag = ALG }
+			NOT = { has_country_flag = unformable }
+			OR = {
+				primary_culture = algerian
+				AND = {
+					primary_culture = berber
+					capital_scope = { region = algeria_region }
+				}
+				AND = {
+					primary_culture = kabyle
+					capital_scope = { region = algeria_region }
+				}
+			}
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = ALG }
+					ai = yes
+					num_of_cities = 5
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = ALG }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 1946 #Algiers
+			owns_core_province = 2854 #Tenes
+			OR = {
+				owns_core_province = 2570 #Bourmedes
+				owns_core_province = 423 #Kabylia
+			}
+		}
+		effect = {
+			change_tag = ALG
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 5 }
+				}
+				set_government_rank = 5
+			}
+			change_primary_culture = algerian
+			algeria_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ALG
+			}
+			bougie_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ALG
+			}
+			if = {
+				limit = {
+					is_tribal = yes	#Desert tribes settling down.
+				}
+				change_government = despotic_monarchy
+			}
+			add_prestige = 25
+			set_capital = 1946 #Algiers
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+	tunisian_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { tag = MOR }
+			NOT = { tag = TUN }
+			NOT = { tag = TLC }
+			NOT = { tag = ALG }
+			NOT = { has_country_flag = unformable }
+			OR = {
+				primary_culture = tunisian
+				AND = {
+					primary_culture = berber
+					capital_scope = { region = tunisia_region }
+				}
+				AND = {
+					primary_culture = kabyle
+					capital_scope = { region = tunisia_region }
+				}
+			}
+			OR = {
+				ai = no
+				AND = {
+					NOT = { exists = TUN }
+					ai = yes
+					num_of_cities = 5
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		allow = {
+			NOT = { exists = TUN }
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			owns_core_province = 586 #Tunis
+			owns_core_province = 697 #Kelibia
+			OR = {
+				owns_core_province = 1153 #Bizerte
+				owns_core_province = 692 #Beja
+			}
+		}
+		effect = {
+			change_tag = TUN
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 5 }
+				}
+				set_government_rank = 5
+			}
+			change_primary_culture = tunisian
+			tunisia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = TUN
+			}
+			if = {
+				limit = {
+					is_tribal = yes
+				}
+				change_government = despotic_monarchy #Desert tribes settling down.
+			}
+			add_prestige = 25
+			set_capital = 586
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+	
+}

@@ -1,0 +1,21 @@
+government = iqta
+government_rank = 1
+primary_culture = maltese
+religion = sunni
+technology_group = muslim
+capital = 2711
+religious_school = maliki_school
+
+1054.1.1 = {
+	monarch = {
+		name = "Yusuf ibn Abdallah"
+		dynasty = "Mdinid"
+		adm = 2
+		dip = 3
+		mil = 1
+	}
+}
+1091.1.1 = {
+	government = feudal_monarchy
+	religion = catholic
+}

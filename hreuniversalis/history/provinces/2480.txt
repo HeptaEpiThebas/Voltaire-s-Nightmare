@@ -1,0 +1,51 @@
+owner = BAR
+controller = BAR
+culture = lorrainian
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 3
+trade_goods = carpet
+base_manpower = 3
+capital = "Lamarche"
+is_city = yes
+add_core = BAR
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+fort_14th = yes
+
+1301.1.1 = {
+	hre = no
+}
+1337.1.1 = { fort_14th = no fort_15th = yes }
+1474.8.1 = { controller = FRA }
+1476.1.1 = { controller = BAR }
+1480.8.10 = {
+	owner = LOR
+	controller = LOR
+	add_core = LOR
+}
+1635.5.1 = { controller = FRA }
+1636.8.15 = { controller = LOR }
+1636.10.20 = { controller = FRA }
+1641.1.1 = { controller = LOR }
+1670.1.1 = { owner = FRA controller = FRA add_core = FRA }
+1697.9.20 = { owner = LOR controller = LOR }
+1702.1.1 = { controller = FRA }
+1714.1.1 = { controller = LOR }
+1766.1.1 = { owner = FRA controller = FRA remove_core = LOR }
+1800.1.1 = {
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1814.1.1 = {
+	base_tax = 4
+	base_production = 3
+	base_manpower = 3
+}
+1870.9.18 = { controller = PRU }
+1871.1.18 = { controller = GER }
+1871.5.10 = { controller = FRA }

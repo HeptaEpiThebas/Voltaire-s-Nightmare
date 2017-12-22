@@ -1,0 +1,190 @@
+namespace = ni_province_event_on_capture
+# Salzburg Ambition
+country_event = {
+	id = ni_province_event_on_capture.1
+	title = "report_this_please"
+	desc = "report_this_please"
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		has_idea = SLZ_idea_7
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}	
+
+	option = {
+		name = "report_this_please"
+		ai_chance = { factor = 1 }
+		every_owned_province = {
+    		limit = {   }
+			add_province_modifier = {
+    				name = "slz_ambition_num_of_buildings"
+    				duration = -1
+			}
+		}
+		
+	}
+}
+
+# Wied Idea 7
+country_event = {
+	id = ni_province_event_on_capture.3
+	title = "report_this_please"
+	desc = "report_this_please"
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		has_idea = WDX_idea_7
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}	
+
+	option = {
+		name = "report_this_please"
+		ai_chance = { factor = 1 }
+		every_owned_province = {
+    		limit = {   }
+			add_province_modifier = {
+    				name = "wdx_idea_7_goods_produced"
+    				duration = -1
+			}
+		}
+		
+	}
+}
+# Passau Idea 1
+country_event = {
+	id = ni_province_event_on_capture.4
+	title = "report_this_please"
+	desc = "report_this_please"
+	picture = DIPLOMACY_eventPicture
+	fire_only_once = yes
+	hidden = yes
+
+	trigger = {
+		has_idea = PAA_idea_1
+	}
+	
+	mean_time_to_happen = {
+		months = 2
+	}	
+
+	option = {
+		name = "report_this_please"
+		ai_chance = { factor = 1 }
+		every_owned_province = {
+    		limit = {   }
+			add_province_modifier = {
+    				name = "paa_idea_1_max_attrition"
+    				duration = -1
+			}
+		}
+		
+	}
+}
+# on_province_owner_change, the unique modifier must go away or be added
+province_event = {
+	id = ni_province_event_on_capture.2
+	title = "report_this_please"
+	desc = "report_this_please"
+	picture = DIPLOMACY_eventPicture
+	hidden = yes
+	is_triggered_only = yes
+
+	immediate = {
+		remove_province_modifier = "wdx_idea_7_goods_produced"
+		remove_province_modifier = "slz_ambition_num_of_buildings"
+		remove_province_modifier = "paa_idea_1_max_attrition"
+		# Salzburg Idea 7	
+		if = {
+			limit = { owner = { has_idea = SLZ_idea_7 } }
+			add_province_modifier = {
+    				name = "slz_ambition_num_of_buildings"
+    				duration = -1
+			}
+		}
+		# Wied Idea 7
+		if = {
+			limit = { owner = { has_idea = WDX_idea_7 } }
+			add_province_modifier = {
+    				name = "wdx_idea_7_goods_produced"
+    				duration = -1
+			}
+		}
+		# Passau Idea 1
+		if = {
+			limit = { owner = { has_idea = PAA_idea_1 } }
+			add_province_modifier = {
+    				name = "paa_idea_1_max_attrition"
+    				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "report_this_please"
+		ai_chance = { factor = 1 }
+	}
+}
+
+# on_siege_won_province, the controller gains/loses the unique modifier fe: if Passau has been sieged down, Passau should not suffer from it's higher attrition on his own capital
+# used for: Passau
+province_event = {
+	id = ni_province_event_on_capture.5
+	title = "report_this_please"
+	desc = "report_this_please"
+	picture = DIPLOMACY_eventPicture
+	hidden = yes
+	is_triggered_only = yes
+	immediate = {
+		remove_province_modifier = "paa_idea_1_max_attrition"
+		# Passau Idea 1
+		if = {
+			limit = { controller = { has_idea = PAA_idea_1 } }
+			add_province_modifier = {
+    				name = "paa_idea_1_max_attrition"
+    				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "report_this_please"
+		ai_chance = { factor = 1 }
+	}
+}
+
+# on war end, there are no sieges done, but controll still changes. So the modifier has to be checked
+# affected countries: Passau
+country_event = {
+	id = ni_province_event_on_capture.6
+	title = "report_this_please"
+	desc = "report_this_please"
+	picture = DIPLOMACY_eventPicture
+	hidden = yes
+	is_triggered_only = yes	
+
+	immediate = {
+		every_owned_province = {
+    		limit = { }
+			remove_province_modifier = "paa_idea_1_max_attrition"
+		}
+		every_owned_province = {
+    		limit = { controller = { has_idea = PAA_idea_1 } }
+			add_province_modifier = {
+    				name = "paa_idea_1_max_attrition"
+    				duration = -1
+			}
+		}
+	}
+	option = {
+		name = "report_this_please"
+		ai_chance = { factor = 1 }
+	}
+}

@@ -1,0 +1,471 @@
+organised_through_bishops_aspect = {
+	effect = {
+		development_cost = -0.05
+	}
+	ai_will_do = {
+		factor = 15
+		modifier = {
+			factor = 1
+			is_at_war = no
+		}
+	}
+}
+
+priests_may_marry_aspect = {
+	effect = {
+		stability_cost_modifier = -0.10
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+		modifier = {
+			factor = 2
+			unrest = 4
+			NOT = { stability = 0 }
+		}
+	}
+}
+
+adult_baptism_aspect = {
+	effect = { 
+		global_missionary_strength = 0.01
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+	}
+}
+
+holy_sacraments_aspect = {
+	effect = { 
+		discipline = 0.025
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+saints_accept_prayers_aspect = {
+	effect = { 
+		land_morale = 0.05
+		naval_morale = 0.05
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+icons_images_aspect = {
+	effect = { 
+		prestige = 0.5
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 2
+			NOT = { prestige = -40 }
+		}
+	}
+}
+
+legalised_divorces_aspect = {
+	effect = {
+		legitimacy = 0.25
+		devotion = 0.25
+		republican_tradition = 0.1
+	}
+	ai_will_do = {
+		factor = 6
+		modifier = {
+			factor = 2
+			NOT = { legitimacy_equivalent = 80 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { legitimacy_equivalent = 60 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { legitimacy_equivalent = 40 }
+		}
+		modifier = {
+			factor = 0
+			legitimacy_equivalent = 95
+		}
+	}
+}
+
+heretics_deported_aspect = {
+	effect = {
+		global_colonial_growth = 15
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			num_of_colonies = 1
+		}
+		modifier = {
+			factor = 2
+			num_of_colonists = 2
+		}
+	}
+}
+
+parish_registers_aspect = {
+	effect = {
+		manpower_recovery_speed = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			is_at_war = yes
+			NOT = { manpower_percentage = 0.9 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { manpower_percentage = 0.5 }
+		}
+	}
+}
+
+individual_creeds_aspect = {
+	effect = { 
+		idea_cost = -0.05
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+allow_usury_aspect = {
+	effect = { 
+		production_efficiency = 0.1
+	}
+	ai_will_do = {
+		factor = 17
+		modifier = {
+			factor = 0.5
+			treasury = 500
+		}
+		modifier = {
+			factor = 0
+			treasury = 2500
+		}
+	}
+}
+
+translated_bibles_aspect = {
+	effect = {
+		global_unrest = -1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			unrest = 2
+		}
+		modifier = {
+			factor = 2
+			num_of_rebel_controlled_provinces = 1
+		}	
+	}
+}
+
+piety_works_aspect = {
+	effect = {
+		global_spy_defence = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+pentecostalism_aspect = {
+	effect = {
+		years_of_nationalism = -2
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+millenarianism_aspect = {
+	effect = {
+		reinforce_speed = 0.075
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+#Anabaptist
+
+biblical_literalism_aspect = {
+	effect = {
+		tolerance_own = 1
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+banned_oaths_aspect = {
+	effect = {
+		inflation_reduction = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			inflation = 5
+		}
+		modifier = {
+			factor = 2
+			inflation = 20
+		}
+	}
+}
+
+conscientious_objectors_aspect = {
+	effect = {
+		war_exhaustion_cost = -0.075
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			is_at_war = yes
+			war_exhaustion = 5
+		}
+	}
+}
+
+charismatic_manifestations_aspect = {
+	effect = {
+		culture_conversion_cost = -0.075
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			NOT = { dominant_culture = capital }
+		}
+	}
+}
+
+nonconformity_world_aspect = {
+	effect = {
+		yearly_corruption = -0.05
+	}
+	ai_will_do = {
+		factor = 12
+	}
+}
+
+church_and_state_aspect = {
+	effect = {
+		religious_unity = 0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.4 }
+		}
+	}
+}
+
+restricted_communion_aspect = {
+	effect = {
+		hostile_attrition = 1
+	}
+	ai_will_do = {
+		factor = 14
+	}
+}
+
+communion_symbolism_aspect = {
+	effect = {
+		land_maintenance_modifier = -0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+polygamy_aspect = {
+	effect = {
+		global_tax_modifier = 0.05
+		heir_chance = 0.1
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 0.5
+			treasury = 500
+		}
+		modifier = {
+			factor = 0
+			treasury = 2500
+		}
+	}
+}
+
+ban_property_aspect = {
+	effect = {
+		build_cost = -0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+celestial_flesh_aspect = {
+	effect = {
+		siege_ability = 0.05
+		province_warscore_cost = -0.05
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+#Anglican
+
+prosecute_recusants_aspect = {
+	effect = {
+		global_sailors_modifier = 0.075
+	}
+	ai_will_do = {
+		factor = 12
+		modifier = {
+			factor = 0
+			NOT = { num_of_ports = 1 }
+		}
+	}
+}
+
+state_supremacy_aspect = {
+	effect = {
+		global_own_trade_power = 0.05
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+election_doctrine_aspect = {
+	effect = {
+		infantry_power = 0.05
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+vernacular_services_aspect = {
+	effect = {
+		global_institution_spread = 0.05
+	}
+	ai_will_do = {
+		factor = 12
+	}
+}
+
+prayer_books_aspect = {
+	effect = {
+		global_autonomy = -0.02
+	}
+	ai_will_do = {
+		factor = 10
+	}
+}
+
+episcopate_aspect = {
+	effect = {
+		diplomatic_reputation = 1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			is_at_war = no
+		}
+	}
+}
+
+state_homilies_aspect = {
+	effect = {
+		state_maintenance_modifier = -0.1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 0.5
+			NOT = { num_of_states = 10 }
+		}
+	}
+}
+
+incarnationalism_aspect = {
+	effect = {
+		army_tradition_decay = -0.01
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			is_at_war = yes
+		}
+	}
+}
+
+via_media_aspect = {
+	effect = {
+		ae_impact = -0.05
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+predestination_aspect = {
+	effect = {
+		tolerance_heretic = 1
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			NOT = { religious_unity = 0.8 }
+		}
+	}
+}

@@ -1,0 +1,43 @@
+government = iqta
+government_rank = 5
+technology_group = muslim
+primary_culture = andalucian
+religion = sunni
+capital = 1867
+religious_school = maliki_school
+
+1042.1.1 = {
+	monarch = {
+		name = "Abbad al-Mutadid"
+		dynasty = "Abbadid"
+		dip = 4
+		mil = 6
+		adm = 1
+	}
+}
+1069.1.1 = {
+	monarch = {
+		name = "Abbad al-Mutamid"
+		dynasty = "Abbadid"
+		dip = 2
+		mil = 5
+		adm = 2
+	}
+}
+#done 1091 to MOR
+1238.1.1 = {
+	capital = 1867
+	monarch = {
+		name = "Abu al-Hasan"
+		dynasty = "Axataf"
+		dip = 2
+		mil = 1
+		adm = 1
+	}
+}
+
+1248.11.23 = {
+	government = feudal_monarchy
+	religion = catholic
+	technology_group = western
+}

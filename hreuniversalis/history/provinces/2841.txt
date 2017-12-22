@@ -1,0 +1,76 @@
+owner = UPA
+controller = UPA
+culture = bavarian
+religion = catholic
+hre = yes
+base_tax = 1
+base_production = 1
+trade_goods = grain
+base_manpower = 1
+capital = "Cheb"
+is_city = yes
+add_core = UPA	
+add_core = EGE
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+fort_14th = yes
+
+1105.1.1 = {
+	owner = NUO
+	controller = NUO
+	add_core = NUO
+	remove_core = UPA
+}
+1213.1.1 = {
+	owner = EGE
+	controller = EGE
+	remove_core = NUO
+	base_tax = 5
+	base_production = 5
+	base_manpower = 5
+}
+1265.1.1 = {
+	owner = BOH
+	controller = BOH
+	add_core = BOH
+}
+1276.1.1 = {
+	owner = EGE
+	controller = EGE
+}
+1322.1.1 = {
+	owner = BOH
+	controller = BOH
+	remove_core = EGE
+	base_tax = 4
+	base_production = 3
+	base_manpower = 3
+}
+1337.1.1 = { fort_14th = no fort_15th = yes }
+1526.8.30 = {
+	owner = HAB
+	controller = HAB
+	add_core = HAB
+	base_tax = 2
+	base_production = 2
+	base_manpower = 2
+}
+1618.5.23 = {
+	owner = BOH
+	controller = BOH
+}
+1620.11.8 = {
+	owner = HAB
+	controller = HAB
+}
+1804.1.1 = {
+	owner = EAH
+	controller = EAH
+	add_core = EAH
+	remove_core = HAB
+}
+1806.7.12 = { hre = no }
+1815.3.16 = { hre = yes }
+1866.8.23 = { hre = no }

@@ -1,0 +1,64 @@
+owner = ALS
+controller = ALS
+culture = boden_alemannic
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = carpet
+base_manpower = 2
+capital = "Murbach"
+is_city = yes	
+add_core = ALS
+add_core = MBC
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1228.1.1 = {
+	owner = MBC
+	controller = MBC
+	remove_core = ALS
+	base_tax = 2
+	base_manpower = 2
+	base_production = 2
+}
+1587.1.1 = {
+	owner = SSS
+	controller = SSS
+}
+1600.11.12 = {
+	owner = MBC
+	controller = MBC
+}
+1614.1.1 = {
+	owner = SSS
+	controller = SSS
+}
+1670.1.1 = { add_core = FRA }
+1679.1.26 = {
+	owner = FRA
+	controller = FRA
+	remove_core = MBC
+	add_core = ALS
+}
+1685.10.18 = { unrest = 8 } 
+1686.1.17 = { unrest = 0 }
+1697.9.29 = { hre = no }
+1800.1.1 = {
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1814.1.1 = {
+	base_tax = 2
+	base_production = 2
+	base_manpower = 2
+}
+1870.9.18 = { controller = PRU }
+1871.1.18 = { controller = GER }
+1871.5.10 = {
+	owner = GER
+	add_core = GER
+}

@@ -1,0 +1,52 @@
+government = feudal_monarchy
+government_rank = 1
+primary_culture = angevin_culture
+religion = catholic
+technology_group = western
+capital = 2177
+fixed_capital = 2177
+
+1063.1.1 = {
+	monarch = { #later duke of NRM
+		name = "Robert I"
+		dynasty = "de Normandie"
+		culture = normand
+		birth_date = 1051.1.1
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}
+1069.1.1 = {
+	monarch = {
+		name = "Hughes V"
+		dynasty = "d'Este"
+		culture = lombard
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+}
+1093.1.1 = {
+	monarch = {
+		name = "Hélie I"
+		dynasty = "de la Flèche"
+		adm = 2
+		dip = 1
+		mil = 2
+	}
+}
+#1110 done
+1424.8.17 = { capital = 2913 }
+1441.1.1 = {
+	monarch = {
+		name = "Charles IV"
+		dynasty = "d'Anjou"
+		birth_date = 1414.10.14
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+}
+1450.4.15 = { capital = 2177 }
+#1472

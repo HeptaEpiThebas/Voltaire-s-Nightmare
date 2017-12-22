@@ -1,0 +1,95 @@
+owner = NRM
+controller = NRM
+culture = normand
+religion = catholic
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = salt
+base_manpower = 2
+capital = "Aumale"
+is_city = yes
+add_core = NRM
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1106.9.28 = {
+	owner = ENG
+	controller = ENG
+	add_core = ENG
+}
+1139.1.1 = { controller = ANJ }
+1144.1.1 = {
+	owner = ANJ
+	add_core = ANJ
+	remove_core = ENG
+}
+1204.3.6 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = ANJ
+}
+1208.1.1 = {
+	owner = PIC
+	controller = PIC
+	add_core = PIC
+	remove_core = NRM
+	remove_core = FRA
+}
+1260.1.1 = {
+	owner = EUU
+	controller = EUU
+	add_core = EUU
+	remove_core = PIC
+}
+1350.11.19 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+}
+1352.1.1 = {
+	owner = EUU
+	controller = EUU
+	remove_core = FRA
+}
+1415.10.25 = { controller = ENG }
+1420.5.12 = { owner = ENG add_core = ENG add_core = FRA }
+1438.1.1 = {
+	owner = EUU
+	controller = EUU
+	remove_core = ENG
+	remove_core = FRA
+}
+1472.7.25 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+}
+1495.1.1 = {
+	owner = LOR
+	controller = LOR
+	add_core = LOR
+	remove_core = FRA
+}
+1508.12.10 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+	remove_core = LOR
+}
+1618.1.1 = {
+	owner = NEM
+	controller = NEM
+	add_core = NEM
+}
+1652.7.30 = {
+	owner = FRA
+	controller = FRA
+	remove_core = NEM
+}
+1870.9.15 = { controller = PRU }
+1871.1.18 = { controller = GER }
+1871.5.10 = { controller = FRA }

@@ -1,0 +1,16 @@
+government = oligarchic_republic
+government_rank = 2
+technology_group = western
+primary_culture = emilian
+religion = catholic
+capital = 1025
+
+1115.7.24 = {
+	monarch = {
+		name = "Oligarchic Council"
+		regent = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}

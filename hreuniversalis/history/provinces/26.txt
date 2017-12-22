@@ -1,0 +1,36 @@
+owner = ZGN
+controller = ZGN
+culture = hessian
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = copper
+base_manpower = 2
+capital = "Vohulen"
+is_city = yes
+add_core = ZGN
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1356.1.1 = {
+	owner = HES
+	controller = HES
+	add_core = HES
+	remove_core = ZGN
+}
+1526.10.22 = { religion = protestant }
+1567.3.31 = {
+	owner = DSD
+	controller = DSD
+	add_core = DSD
+	remove_core = HES
+}
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	hre = no
+}

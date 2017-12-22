@@ -1,0 +1,42 @@
+government = bohemian_monarchy
+government_rank = 5
+primary_culture = czech
+religion = hussite
+technology_group = western
+capital = 781
+add_army_professionalism = 0.2
+
+1420.2.5 = {
+	monarch = {
+		name = "Jan Zelivsky"
+		birth_date = 1380.1.1
+		adm = 4
+		dip = 2
+		mil = 5
+		leader = {
+			name = "Jan Zelivsky"
+			type = general
+			fire = 3
+			shock = 3
+			manuever = 2
+			siege = 4
+		}
+	}
+}
+1422.3.9 = {
+	monarch = {
+		name = "Jan Rokycana"
+		birth_date = 1396.1.1
+		adm = 4
+		dip = 5
+		mil = 3
+		leader = {
+			name = "Jan Rokycana"
+			type = general
+			fire = 1
+			shock = 1
+			manuever = 1
+			siege = 1
+		}
+	}
+}

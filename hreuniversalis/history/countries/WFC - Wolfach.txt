@@ -1,0 +1,27 @@
+government = despotic_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = boden_alemannic
+religion = catholic
+capital = 2751
+
+1204.1.1 = {
+	monarch = {
+		name = "Friedrich II"
+		dynasty = "von Sulz"
+		birth_date = 1191.1.1
+		dip = 1
+		mil = 2
+		adm = 2
+	}
+}
+1249.1.1 = {
+	monarch = {
+		name = "Udilhild"
+		dynasty = "von Sulz"
+		female = yes
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}

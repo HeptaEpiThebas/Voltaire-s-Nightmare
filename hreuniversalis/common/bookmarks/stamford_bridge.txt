@@ -1,0 +1,11 @@
+bookmark =
+{
+	name = "STAMFORD_BRIDGE"
+	desc = "STAMFORD_BRIDGE_DESC"
+	date = 1066.9.15
+	
+	country = NRM
+	country = ASE
+
+	easy_country = NRM
+}

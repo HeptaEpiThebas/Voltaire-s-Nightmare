@@ -1,0 +1,31 @@
+name = "Polish-Teutonic War"
+war_goal = {
+	type = take_capital_throne
+	casus_belli = cb_claim_throne
+	tag = LIT
+}
+
+
+1432.1.1 = {
+	add_attacker = ZMG
+	add_attacker = TEU
+	add_attacker = WRM
+	add_attacker = LIV
+	add_attacker = RIG
+	add_attacker = KUR
+	add_defender = LIT
+	add_defender = POL
+	add_defender = MAZ
+}
+
+1435.12.31 = {
+	rem_attacker = ZMG
+	rem_attacker = TEU
+	rem_attacker = WRM
+	rem_attacker = LIV
+	rem_attacker = RIG
+	rem_attacker = KUR
+	rem_defender = LIT
+	rem_defender = POL
+	rem_defender = MAZ
+}

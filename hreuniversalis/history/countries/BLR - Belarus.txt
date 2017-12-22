@@ -1,0 +1,116 @@
+government = principality
+government_rank = 4
+technology_group = eastern
+religion = orthodox
+primary_culture = byelorussian
+capital = 2840
+
+#Princes of Polotsk
+1044.1.1 = {
+	monarch = {
+		name = "Vseslav"
+		dynasty = "Rurikovich"
+		birth_date = 1039.1.1
+		adm = 2
+		dip = 3
+		mil = 4
+	}
+}
+1054.1.1 = {
+	heir = {
+		name = "Davyd"
+		monarch_name = "Davyd"
+		dynasty = "Rurikovich"
+		birth_date = 1054.1.1
+		death_date = 1112.5.25
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1071.1.1 = {
+	monarch = {
+		name = "Davyd"
+		dynasty = "Rurikovich"
+		birth_date = 1054.1.1
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+#Princes of Grodno
+1112.5.25 = {
+	monarch = {
+		name = "Vsevolodko"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 4
+		mil = 2
+	}
+}
+1142.2.1 = {
+	monarch = {
+		name = "Boris"
+		dynasty = "Rurikovich"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+1166.1.1 = {
+	monarch = {
+		name = "Gleb"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+1170.2.1 = {
+	monarch = {
+		name = "Mstislav"
+		dynasty = "Rurikovich"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#1204 done
+1341.1.1 = {
+	monarch = {
+		name = "Kestutis"
+		dynasty = "Gediminai"
+		birth_date = 1297.1.1
+		religion = animism
+		culture = lithuanian
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+1362.1.1 = {
+	monarch = {
+		name = "Vaidotas"
+		dynasty = "Gediminai"
+		religion = animism
+		culture = lithuanian
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1376.1.1 = {
+	monarch = {
+		name = "Vytautas"
+		dynasty = "Gediminai"
+		birth_date = 1350.1.1
+		religion = catholic
+		culture = lithuanian
+		adm = 2
+		dip = 3
+		mil = 0
+		leader = { name = "Vytautas"	type = general	fire = 2	shock = 4	manuever = 3	siege = 0 }
+	}
+}
+#1392 to LIT

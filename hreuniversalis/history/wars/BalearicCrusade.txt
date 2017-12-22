@@ -1,0 +1,37 @@
+name = "Balearic Crusade"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1113.9.1 = {
+	add_attacker = PIS
+	add_attacker = PRO
+	add_attacker = GEV
+	add_attacker = CAT
+	add_attacker = URG
+	add_attacker = CDY
+	add_attacker = EMP
+	add_attacker = PLL
+	add_attacker = LGU
+	add_attacker = PAP
+	add_attacker = RMG
+	add_defender = MLL
+	add_defender = MOR
+}
+
+1116.1.1 = {
+	rem_attacker = PIS
+	rem_attacker = PRO
+	rem_attacker = GEV
+	rem_attacker = CAT
+	rem_attacker = URG
+	rem_attacker = CDY
+	rem_attacker = EMP
+	rem_attacker = PLL
+	rem_attacker = LGU
+	rem_attacker = PAP
+	rem_attacker = RMG
+	rem_defender = MLL
+	rem_defender = MOR
+}

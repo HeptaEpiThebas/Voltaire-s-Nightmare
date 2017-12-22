@@ -1,0 +1,56 @@
+owner = ANH
+controller = ANH
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 3
+base_production = 2
+trade_goods = munitions
+base_manpower = 2
+capital = "Zerbst"
+is_city = yes
+add_core = ANH
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1139.10.20 = {
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+}
+1142.1.1 = {
+	owner = ANH
+	controller = ANH
+	remove_core = SAX
+}
+1148.8.25 = {
+	owner = BRA
+	controller = BRA
+	add_core = BRA
+}
+1170.11.18 = {
+	owner = ANH
+	controller = ANH
+	remove_core = BRA
+}
+1180.1.1 = {
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+}
+1212.2.2 = {
+	owner = ANH
+	controller = ANH
+	remove_core = SAX
+}
+1529.1.1 = { religion = protestant }
+1547.1.1 = { unrest = 2 }
+1552.1.1 = { unrest = 0 }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	hre = no
+}

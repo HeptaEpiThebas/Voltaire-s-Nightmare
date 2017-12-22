@@ -1,0 +1,28 @@
+government = iqta
+government_rank = 1
+technology_group = muslim
+primary_culture = andalucian
+religion = sunni
+capital = 1202
+religious_school = maliki_school
+
+1053.1.1 = {
+	monarch = {
+		name = "Al-Aziz"
+		dynasty = "Birzalid"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}
+#1066 done
+1143.1.1 = {
+	monarch = {
+		name = "Darddus"
+		dynasty = "Darddusid"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+#1150 done

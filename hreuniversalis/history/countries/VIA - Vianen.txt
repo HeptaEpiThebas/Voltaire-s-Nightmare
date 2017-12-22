@@ -1,0 +1,115 @@
+government = despotic_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = dutch
+religion = catholic
+capital = 1056
+
+1318.12.16 = {
+	monarch = {
+		name = "Dirk III"
+		dynasty = "van Brederode"
+		birth_date = 1308.1.1
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+}
+1336.1.1 = {
+	heir = {
+		name = "Reinoud"
+		monarch_name = "Reinoud I"
+		dynasty = "van Brederode"
+		birth_date = 1336.1.1
+		death_date = 1390.1.1
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1377.11.11 = {
+	monarch = {
+		name = "Reinoud I"
+		dynasty = "van Brederode"
+		birth_date = 1336.1.1
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+	heir = {
+		name = "Jan"
+		monarch_name = "Jan I"
+		dynasty = "van Brederode"
+		birth_date = 1370.1.1
+		death_date = 1402.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1390.1.1 = {
+	monarch = {
+		name = "Jan I"
+		dynasty = "van Brederode"
+		birth_date = 1370.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1402.1.1 = {
+	monarch = {
+		name = "Walraven I"
+		dynasty = "van Brederode"
+		birth_date = 1370.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1415.1.1 = {
+	heir = {
+		name = "Reinoud"
+		monarch_name = "Reinoud II"
+		dynasty = "van Brederode"
+		birth_date = 1415.1.1
+		death_date = 1473.10.16
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+1438.1.1 = {
+	monarch = {
+		name = "Reinoud II"
+		dynasty = "van Brederode"
+		birth_date = 1415.1.1
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+1462.1.8 = {
+	heir = {
+		name = "Walraven"
+		monarch_name = "Walraven II"
+		dynasty = "van Brederode"
+		birth_date = 1462.1.8
+		death_date = 1531.1.14
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+1473.10.16 = {
+	monarch = {
+		name = "Walraven II"
+		dynasty = "van Brederode"
+		birth_date = 1462.1.8
+		adm = 1
+		dip = 3
+		mil = 1
+	}
+}
+1572.1.1 = { religion = reformed }

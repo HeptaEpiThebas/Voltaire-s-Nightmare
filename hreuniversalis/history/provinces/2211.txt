@@ -1,0 +1,56 @@
+owner = SKL
+controller = SKL
+culture = pruthenian
+religion = animism
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = cheese
+base_manpower = 1
+capital = "Tylza"
+is_city = yes
+add_core = SKL
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1276.1.1 = { 
+	owner = TEU
+	controller = TEU
+	add_core = TEU
+	capital = "Tilsit"
+	unrest = 5
+}
+1299.1.1 = {
+	culture = prussian
+	remove_core = SKL
+	religion = catholic
+	unrest = 0
+}
+1454.2.10 = { revolt = { type = revolutionary_rebels size = 0 } controller = REB }
+1466.10.19 = {	
+	revolt = {}
+	controller = TEU
+} 
+1525.4.10 = {
+	owner = PTH
+	controller = PTH
+	add_core = PTH
+	remove_core = TEU
+	religion = protestant
+}
+1701.1.18 = {
+	owner = PRU
+	controller = PRU
+	add_core = PRU
+	remove_core = PTH
+}
+1757.9.1 = { controller = RUS }
+1762.1.5 = { controller = PRU }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	remove_core = PRU
+}

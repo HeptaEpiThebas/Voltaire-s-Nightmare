@@ -1,0 +1,16 @@
+government = oligarchic_republic
+government_rank = 1
+primary_culture = swiss
+religion = catholic
+technology_group = western
+capital = 1154
+
+1218.2.18 = {
+	monarch = {
+		name = "Patriziat"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

@@ -1,0 +1,11 @@
+bookmark =
+{
+	name = "OLD_ZURICH_WAR"
+	desc = "OLD_ZURICH_WAR_DESC"
+	date = 1440.11.2
+	
+	country = TIR
+	country = SCH
+	country = BRN
+	country = ZUR
+}

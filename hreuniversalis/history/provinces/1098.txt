@@ -1,0 +1,69 @@
+owner = RMG
+controller = RMG
+culture = romagnan
+religion = catholic
+hre = yes
+base_tax = 2
+base_production = 2
+trade_goods = peaches
+base_manpower = 2
+capital = "Tredozio"
+is_city = yes
+add_core = RMG
+add_core = TDZ
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1140.1.1 = {
+	owner = PRT
+	controller = PRT
+	add_core = PRT
+	remove_core = RMG
+}
+1164.8.29 = {
+	owner = TDZ
+	controller = TDZ
+	remove_core = PRT
+}
+1428.10.1 = {
+	owner = LAN
+	controller = LAN
+	add_core = LAN
+	remove_Core = TDZ
+}
+1495.1.1 = { hre = no }
+1527.1.1 = { controller = SPA }
+1529.8.3 = { controller = LAN }
+1569.8.1 = {
+	owner = TUS
+	controller = TUS
+	add_core = TUS
+	remove_core = LAN
+}
+1801.2.9 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+}
+1801.3.21 = {
+	owner = ETR
+	controller = ETR
+	add_core = ETR
+}
+1807.12.10 = {
+	owner = FRA
+	controller = FRA
+	remove_core = ETR
+}
+1814.4.11 = {
+	owner = TUS
+	controller = TUS
+	remove_core = FRA
+}
+1861.3.20 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+}

@@ -1,0 +1,84 @@
+government = despotic_monarchy
+government_rank = 1
+technology_group = western
+primary_culture = dutch
+religion = catholic
+capital = 635
+
+1175.1.1 = {
+	monarch = {
+		name = "Hubert I"
+		dynasty = "van Bosinchem"
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1195.1.1 = {
+	heir = {
+		name = "Steven"
+		monarch_name = "Steven I"
+		dynasty = "van Bosinchem"
+		birth_date = 1195.1.1
+		death_date = 1248.1.1
+		claim = 90
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1210.1.1 = {
+	monarch = {
+		name = "Steven I"
+		dynasty = "van Bosinchem"
+		birth_date = 1195.1.1
+		dip = 2
+		mil = 2
+		adm = 2
+	}
+}
+1224.1.1 = {
+	heir = {
+		name = "Hubert"
+		monarch_name = "Hubert II"
+		dynasty = "van Bosinchem"
+		birth_date = 1224.1.1
+		death_date = 1271.1.1
+		claim = 90
+		dip = 4
+		mil = 3
+		adm = 3
+	}
+}
+1248.1.1 = {
+	monarch = {
+		name = "Hubert II"
+		dynasty = "van Bosinchem"
+		birth_date = 1224.1.1
+		dip = 4
+		mil = 3
+		adm = 3
+	}
+	heir = {
+		name = "Hubert"
+		monarch_name = "Hubert III"
+		dynasty = "van Bosinchem"
+		birth_date = 1240.1.1
+		death_date = 1309.3.20
+		claim = 95
+		dip = 3
+		mil = 2
+		adm = 2
+	}
+}
+1271.1.1 = {
+	monarch = {
+		name = "Hubert III"
+		dynasty = "van Bosinchem"
+		birth_date = 1240.1.1
+		dip = 3
+		mil = 2
+		adm = 2
+	}
+}
+#1281.11.21 pawned

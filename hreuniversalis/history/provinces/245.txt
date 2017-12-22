@@ -1,0 +1,43 @@
+owner = MEI
+controller = MEI
+culture = saxon
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+capital = "Stollberg"
+is_city = yes
+add_core = MEI
+add_core = SWG
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1165.1.1 = {
+	owner = SWG
+	controller = SWG
+	remove_core = MEI
+}
+1472.1.1 = {
+	owner = SAX
+	controller = SAX
+	add_core = SAX
+	add_core = MEI
+	remove_core = SWG
+}
+1531.1.1 = { religion = protestant }
+1715.1.1 = { trade_goods = chinaware }
+1790.8.1 = { unrest = 5 }
+1791.1.1 = { unrest = 0 }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	hre = no
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}

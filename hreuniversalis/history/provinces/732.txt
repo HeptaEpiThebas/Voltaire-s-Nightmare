@@ -1,0 +1,79 @@
+owner = PAP
+controller = PAP
+culture = tuscan
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+capital = "Scansano"
+is_city = yes	
+add_core = PAP
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1074.1.1 = {
+	owner = SOV
+	controller = SOV
+	add_core = SOV
+	remove_core = PAP
+}
+1348.1.1 = {
+	base_tax = 3
+	base_production = 2
+	base_manpower = 2
+} #black death
+1419.1.1 = {
+	owner = SIE
+	controller = SIE
+	add_core = SIE
+}
+1495.1.1 = { hre = no }
+1555.4.21 = { controller = SPA }
+1559.4.3 = {
+	controller = LAN
+	owner = LAN
+	add_core = LAN
+}
+1569.8.1 = {
+	owner = TUS
+	controller = TUS
+	add_core = TUS
+	remove_core = LAN
+	remove_core = SOV
+}
+1801.2.9 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+}
+1801.3.21 = {
+	owner = ETR
+	controller = ETR
+	add_core = ETR
+}
+1807.12.10 = {
+	owner = FRA
+	controller = FRA
+	remove_core = ETR
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}
+1814.4.11 = {
+	owner = TUS
+	controller = TUS
+	remove_core = FRA
+	base_tax = 3
+	base_production = 2
+	base_manpower = 2
+}
+1861.3.20 = {
+	owner = ITA
+	controller = ITA
+	add_core = ITA
+	remove_core = SIE
+}

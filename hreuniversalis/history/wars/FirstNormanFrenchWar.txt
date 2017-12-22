@@ -1,0 +1,16 @@
+name = "First Henrican Invasion"
+war_goal = {
+	type = take_border
+	casus_belli = cb_border_war
+	province = 4081
+}
+
+1054.1.1 = {
+	add_attacker = FRA
+	add_defender = NRM
+}
+
+1054.7.15 = {
+	rem_attacker = FRA
+	rem_defender = NRM
+}

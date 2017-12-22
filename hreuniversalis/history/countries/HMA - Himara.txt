@@ -1,0 +1,34 @@
+government = tribal_democracy
+government_rank = 1
+primary_culture = arvanite
+religion = orthodox
+technology_group = eastern
+capital = 595
+historical_friend = ARI
+historical_friend = SCR
+historical_friend = PNI
+historical_friend = MII
+historical_friend = KST
+historical_friend = ZDR
+historical_friend = DKG
+historical_friend = BRT
+historical_friend = MON
+
+1417.1.1 = {
+	monarch = {
+		name = "Tribal Council"
+		regent = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1473.8.1 = {
+	monarch = {
+		name = "Ioannes Blasis"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}
+#1478 dome

@@ -1,0 +1,15 @@
+name = "Livonian Crusade"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1236.2.19 = {
+	add_attacker = LIV
+	add_defender = ZMG
+}
+
+1236.9.22 = {
+	rem_attacker = LIV
+	rem_defender = ZMG
+}

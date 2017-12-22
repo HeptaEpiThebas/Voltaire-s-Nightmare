@@ -1,0 +1,57 @@
+government = feudal_monarchy
+government_rank = 3
+technology_group = eastern
+primary_culture = serbian
+religion = orthodox
+capital = 2038
+
+1054.1.1 = {
+	monarch = {
+		name = "Petrislav I"
+		dynasty = "Vojislavljevic"
+		dip = 2
+		adm = 3
+		mil = 5
+	}
+	heir = {
+		name = "Vukan"
+		monarch_name = "Vukan I"
+		dynasty = "Vukanovic"
+		birth_date = 1050.1.1
+		death_date = 1115.1.1
+		claim = 95
+		dip = 4
+		adm = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_heir_personality = conqueror_personality
+	add_heir_personality = midas_touched_personality
+	add_heir_personality = lawgiver_personality
+}
+1083.1.1 = {
+	monarch = {
+		name = "Vukan I"
+		dynasty = "Vukanovic"
+		birth_date = 1050.1.1
+		dip = 4
+		adm = 4
+		mil = 4
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = midas_touched_personality
+	add_ruler_personality = lawgiver_personality
+}
+#1091 to SER
+1091.1.1 = { capital = 2060 }
+1371.12.4 = {
+	monarch = {
+		name = "Vuk"
+		dynasty = "Brakovic"
+		birth_date = 1345.1.1
+		dip = 3
+		mil = 4
+		adm = 3
+	}
+}

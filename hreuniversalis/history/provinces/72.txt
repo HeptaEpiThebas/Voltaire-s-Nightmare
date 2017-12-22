@@ -1,0 +1,27 @@
+owner = BAD
+controller = BAD
+culture = franconian
+religion = catholic
+hre = yes
+base_tax = 4
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+capital = "Durlach" 
+is_city = yes	
+add_core = BAD
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = western
+discovered_by = muslim
+
+1556.1.1 = { religion = protestant }
+1866.8.23 = { hre = no }
+1871.1.18 = {
+	owner = GER
+	controller = GER
+	add_core = GER
+	base_tax = 1
+	base_production = 1
+	base_manpower = 1
+}

@@ -1,0 +1,33 @@
+government = iqta
+government_rank = 5
+technology_group = muslim
+primary_culture = andalucian
+religion = sunni
+capital = 2670
+religious_school = maliki_school
+
+1043.1.1 = {
+	government = oligarchic_republic
+	government_rank = 3
+	monarch = {
+		name = "Abu Walid Banu Jwahar"
+		adm = 1
+		dip = 4
+		mil = 4
+	}
+}
+1060.1.1 = {
+	monarch = {
+		name = "Abd al-Malik Banu Jwahar"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+#1070 under SEV
+1236.1.1 = {
+	government = feudal_monarchy
+	government_rank = 5
+	religion = catholic
+	technology_group = western
+}
