@@ -4,6 +4,7 @@ primary_culture = turkish
 religion = sunni
 technology_group = ottoman
 capital = 2472
+religious_school = hanafi_school
 
 1088.1.1 = {
 	capital = 355
@@ -16,7 +17,6 @@ capital = 2472
 		leader = {
 			name = "Tzachas"
 			type = general
-			rank = 0
 			fire = 3
 			shock = 3
 			manuever = 1

@@ -1,0 +1,93 @@
+namespace = fbievents
+
+country_event = {
+	id = fbievents.1
+	title = "FBIT1"
+	desc = "FBID1"
+	picture = DEBATE_REPUBLICAN_eventPicture
+
+	trigger = {
+		OR = {
+			tag = HAB
+			tag = STY
+		}
+		has_regency = yes
+		has_consort_regency = no
+		is_lesser_in_union = no
+		NOT = { is_year = 1253 }
+		started_in = 1246.6.15
+		NOT = { started_in = 1251.1.1 }
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "FBIA1" #Bohemia
+		ai_chance = { factor = 70 }
+		define_ruler = { dynasty = "Premyslovci" }
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		hidden_effect = {
+			BOH = { country_event = { id = fbievents.2 } }
+		}
+		tooltip = {
+			reverse_add_opinion = {
+				who = BOH
+				modifier = opinion_choose_heir
+			}
+		}
+	}
+	option = {
+		name = "FBIB1"
+		ai_chance = { factor = 25 }
+		define_ruler = { dynasty = "von Zähringen" }
+		add_prestige = 10
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -15
+		}
+		hidden_effect = {
+			BAD = { country_event = { id = fbievents.2 } }
+		}
+		tooltip = {
+			reverse_add_opinion = {
+				who = BAD
+				modifier = opinion_choose_heir
+			}
+		}
+	}
+	option = {
+		name = "FBIC1"
+		ai_chance = { factor = 5 }
+		trigger = { tag = STY }
+		define_ruler = { dynasty = "von Karnstein" }
+		add_legitimacy = -5
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 15
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.2
+	title = "FBIT2"
+	desc = "FBID2"
+	picture = NEW_HEIR_eventPicture
+
+	is_triggered_only = yes
+	mean_time_to_happen = { days = 1 }
+	
+	option = {
+		name = "FBIA2"
+		add_prestige = 5
+		add_opinion = {
+			who = FROM
+			modifier = opinion_choose_heir
+		}
+	}
+}

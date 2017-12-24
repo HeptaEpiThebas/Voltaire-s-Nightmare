@@ -81,7 +81,6 @@ country_event = {
 				loyalty = 10
 			}
 		}
-		add_piety = 0.15
 		add_devotion = 10
 	}
 }
@@ -1002,7 +1001,7 @@ province_event = {
 			if = {
 				limit = {
 					has_dlc = "The Cossacks"
-					has_estate = estate_burghers
+					has_estate = estate_church
 				}
 				add_estate_loyalty = {
 					estate = estate_church
@@ -2553,7 +2552,7 @@ country_event = {
 					unrest = 2
 				}
 			}
-			add_country_modifier = {
+			add_province_modifier = {
 				name = add_unrest_5_modifier
 				duration = 3650
 			}

@@ -261,6 +261,7 @@ fixed_capital = 668
 	monarch = {
 		name = "Rodrigo"
 		dynasty = "Borgia"
+		culture = valencian
 		birth_date = 1431.1.1
 		adm = 2
 		dip = 3

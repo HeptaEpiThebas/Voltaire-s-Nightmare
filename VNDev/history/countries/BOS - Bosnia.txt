@@ -148,7 +148,7 @@ historical_friend = SER
 		mil = 2
 	}
 	queen = {
-		county_of_origin = BOS
+		country_of_origin = BOS
 		name = "Jelena"
 		dynasty = "Nikolic"
 		birth_date = 1345.1.1

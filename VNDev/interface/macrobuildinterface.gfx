@@ -96,7 +96,59 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_culture_selection_bg"
 		texturefile = "gfx//interface//culture_selection_bg.dds"
+	}	
+
+
+
+
+
+
+	spriteType = {
+		name = "GFX_exploit_button_manpower"
+		texturefile = "gfx//interface//exploit_button_manpower.dds"
 	}		
+
+	spriteType = {
+		name = "GFX_exploit_button_production"
+		texturefile = "gfx//interface//exploit_button_production.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_exploit_button_tax"
+		texturefile = "gfx//interface//exploit_button_tax.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_exploit_bg"
+		texturefile = "gfx//interface//exploit_bg.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_sort_exploit_manpower_64"
+		texturefile = "gfx//interface//sort_exploit_manpower_64.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_sort_exploit_production_64"
+		texturefile = "gfx//interface//sort_exploit_production_64.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_sort_exploit_tax_64"
+		texturefile = "gfx//interface//sort_exploit_tax_64.dds"
+	}		
+
+	spriteType = {
+		name = "GFX_sort_total_49"
+		texturefile = "gfx//interface//sort_total_49.dds"
+	}
+
+
+
+
+
+
+
 		
 	spriteType = {
 		name = "GFX_close_gold"
@@ -108,62 +160,62 @@ spriteTypes = {
 		texturefile = "gfx//interface//close_gold2.dds"
 	}		
 	
-		spriteType = {
+	spriteType = {
 		name = "GFX_obsolete_building_icon"
 		texturefile = "gfx//interface//obsolete_building_icon.dds"
 	}	
 
-		spriteType = {
+	spriteType = {
 		name = "GFX_built_building_icon"
 		texturefile = "gfx//interface//built_building_icon.dds"
 	}	
 	
-		spriteType = {
+	spriteType = {
 		name = "GFX_building_upgrade_icon"
 		texturefile = "gfx//interface//building_upgrade_icon.dds"
 	}
-			spriteType = {
+	spriteType = {
 		name = "GFX_banner_left_3"
 		texturefile = "gfx//interface//banner_left_3.dds"
 	}
-			spriteType = {
+	spriteType = {
 		name = "GFX_banner_left_4"
 		texturefile = "gfx//interface//banner_left_4.dds"
 	}
-			spriteType = {
+	spriteType = {
 		name = "GFX_banner_left_5"
 		texturefile = "gfx//interface//banner_left_5.dds"
 	}
-			spriteType = {
+	spriteType = {
 		name = "GFX_banner_left_6"
 		texturefile = "gfx//interface//banner_left_6.dds"
 	}
-			spriteType = {
+	spriteType = {
 		name = "GFX_banner_right_1"
 		texturefile = "gfx//interface//banner_right_1.dds"
 	}
-			spriteType = {
+	spriteType = {
 		name = "GFX_banner_right_2"
 		texturefile = "gfx//interface//banner_right_2.dds"
 	}
-			spriteType = {
+	spriteType = {
 		name = "GFX_banner_right_3"
 		texturefile = "gfx//interface//banner_right_3.dds"
 	}	
-			spriteType = {
+	spriteType = {
 		name = "GFX_macro_buildings_category_strip"
 		texturefile = "gfx//interface//macro_buildings_category_strip.dds"
 		noOfFrames = 10
 	}
 	
-			spriteType = {
+	spriteType = {
 		name = "GFX_build_interface_development_tab"
 		texturefile = "gfx//interface//build_interface_development_tab.dds"
 		noOfFrames = 2
 		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
 	}
 
-			spriteType = {
+	spriteType = {
 		name = "GFX_build_interface_estates_tab"
 		texturefile = "gfx//interface//build_interface_estates_tab.dds"
 		noOfFrames = 2

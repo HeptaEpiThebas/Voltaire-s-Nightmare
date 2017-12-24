@@ -1214,7 +1214,7 @@ country_event = {
 		ai_chance = {
 			factor = 90
 		}
-		add_devotion = 10
+		add_devotion = 2
 		FROM = {
 			country_event = {
 				id = papacy_events.27
@@ -1228,7 +1228,7 @@ country_event = {
 		ai_chance = {
 			factor = 10
 		}
-		add_reform_desire = -0.1
+		add_reform_desire = -0.01
 		FROM = {
 			country_event = {
 				id = papacy_events.28

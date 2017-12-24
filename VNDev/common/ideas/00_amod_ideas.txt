@@ -776,7 +776,7 @@ AVI_ideas = {
     }
     AVI_idea_2 = {
         embargo_efficiency = 0.2
-        interest = -1
+        interest = -0.5
     }
     AVI_idea_3 = {
         years_of_nationalism = -5
@@ -1572,7 +1572,7 @@ BLL_ideas = {
         infantry_power = 0.1
     }
     BLL_idea_2 = {
-        interest = -1
+        interest = -0.5
     }
     BLL_idea_3 = {
         defensiveness = 0.25
@@ -3441,7 +3441,7 @@ AUG_ideas = {
     free = yes
  
     AUG_fugger_bank = {
-        interest = -1
+        interest = -0.5
     }
     AUG_fuggerei = {
         global_unrest = -1
@@ -4495,7 +4495,7 @@ BDI_ideas = {
         global_trade_goods_size_modifier = 0.05
     }
     BDI_idea_3 = {
-        interest = -1
+        interest = -0.5
     }
     BDI_idea_4 = {
         religious_unity = 0.1
@@ -5500,7 +5500,7 @@ PAA_ideas = {
 DDD_ideas = {
     start = {
         shock_damage_received = -0.1
-        interest = -1
+        interest = -0.5
     }
     bonus = {
         fire_damage_received = -0.1

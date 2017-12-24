@@ -4,6 +4,7 @@ technology_group = western
 primary_culture = tuscan
 religion = catholic
 capital = 976
+add_army_professionalism = 0.05
 
 1115.7.24 = {
 	monarch = {

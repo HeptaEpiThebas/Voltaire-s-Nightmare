@@ -409,7 +409,7 @@ capital = 1754
 		adm = 4
 		dip = 1
 		mil = 1
-		leader = {	name = "Charles de Bourbon"   	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0 }
+		leader = {	name = "Charles de Bourbon"   	type = general	fire = 2	shock = 3	manuever = 3	siege = 0 }
 	}
 }
 1521.4.29 = {
@@ -420,7 +420,7 @@ capital = 1754
 		adm = 4
 		dip = 1
 		mil = 1
-		leader = {	name = "Charles III"   	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0 }
+		leader = {	name = "Charles III"   	type = general	fire = 2	shock = 3	manuever = 3	siege = 0 }
 	}
 }
 

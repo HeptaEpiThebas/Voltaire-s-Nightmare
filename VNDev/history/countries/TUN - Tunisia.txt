@@ -4,6 +4,7 @@ government_rank = 5
 religion = sunni
 technology_group = muslim
 capital = 586	# Tunis
+religious_school = maliki_school
 
 1016.1.1 = {
 	monarch = {
@@ -386,8 +387,7 @@ capital = 586	# Tunis
 		mil = 2
 		leader = { 
 			name = "Ahmad III"	
-			type = general	
-			rank = 0	
+			type = general
 			fire = 3	
 			shock = 2	
 			manuever = 3	
@@ -402,7 +402,7 @@ capital = 586	# Tunis
 		adm = 2
 		dip = 2
 		mil = 2
-		leader = { name = "Ahmad III"	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 0 }
+		leader = { name = "Ahmad III"	type = general	fire = 3	shock = 2	manuever = 3	siege = 0 }
 	}
 	heir = {
 		name = "Muhammad"

@@ -52,6 +52,7 @@ country_event = {
 		define_advisor = {
 		type = natural_scientist
 			name = "Paracelsus"
+			culture = swiss
 			discount = yes
 			skill = 2
 		}

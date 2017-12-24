@@ -4,6 +4,7 @@ primary_culture = tuscan
 religion = catholic
 technology_group = western
 capital = 640 # Firenze
+add_army_professionalism = 0.05
 
 1115.7.24 = {
 	monarch = {
@@ -130,8 +131,8 @@ capital = 640 # Firenze
 	}
 }
 1490.1.1 = {
-	leader = {	name = "Uffreducci"	type = general	rank = 1	fire = 2	shock = 2	manuever = 3	siege = 1 death_date = 1503.1.1 }
-	leader = {	name = "Vitellozzo Vitelli"     type = general	rank = 1	fire = 1	shock = 2	manuever = 4	siege = 0 death_date = 1502.12.31 }
+	leader = {	name = "Uffreducci"				type = general	fire = 2	shock = 2	manuever = 3	siege = 1 death_date = 1503.1.1 }
+	leader = {	name = "Vitellozzo Vitelli"     type = general	fire = 1	shock = 2	manuever = 4	siege = 0 death_date = 1502.12.31 }
 }
 1492.4.11 = {
 	monarch = {
@@ -152,7 +153,7 @@ capital = 640 # Firenze
 		mil = 3
 	}
 }
-1498.1.1 = { leader = {	name = "Machiavelli"           	type = general	rank = 2	fire = 1	shock = 1	manuever = 3	siege = 2 death_date = 1512.8.1 }}
+1498.1.1 = { leader = {	name = "Machiavelli"           	type = general	fire = 1	shock = 1	manuever = 3	siege = 2 death_date = 1512.8.1 }}
 1498.5.1 = {
 	monarch = {
 		name = "Piero Soderini"

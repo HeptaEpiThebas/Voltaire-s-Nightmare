@@ -4,6 +4,7 @@ primary_culture = kabyle
 religion = sunni
 technology_group = muslim
 capital = 423 # Kabylia
+religious_school = maliki_school
 
 #Hammadids
 1046.1.1 = {

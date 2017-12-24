@@ -92,8 +92,7 @@ capital = 2165 # Tîrgoviste
 1406.1.1 = { 
 	leader = {	
 		name = "Mûsa Osmanoglu"	
-		type = general	
-		rank = 1
+		type = general
 		fire = 3
 		shock = 3	
 		manuever = 2	
@@ -169,7 +168,7 @@ capital = 2165 # Tîrgoviste
 		adm = 2
 		dip = 1
 		mil = 1
-		leader = { name = "Vlad II"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0 }
+		leader = { name = "Vlad II"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0 }
 
 	}
 }
@@ -237,7 +236,7 @@ capital = 2165 # Tîrgoviste
 		adm = 1
 		dip = 0
 		mil = 5
-		leader = { name = "Vlad III Tepes"	type = general	rank = 0	fire = 3	shock = 4	manuever = 4	siege = 0}
+		leader = { name = "Vlad III Tepes"	type = general	fire = 3	shock = 4	manuever = 4	siege = 0}
 	}
 }
 
@@ -364,7 +363,7 @@ capital = 2165 # Tîrgoviste
 		adm = 4
 		dip = 6
 		mil = 6
-		leader = { name = "Mihai II Viteazul"	type = general	rank = 0	fire = 3	shock = 4	manuever = 4	siege = 0}
+		leader = { name = "Mihai II Viteazul"	type = general	fire = 3	shock = 4	manuever = 4	siege = 0}
 	}
 }
 
@@ -698,6 +697,7 @@ capital = 2165 # Tîrgoviste
 	monarch = {
 		name = "Carol I"
 		dynasty = "von Hohenzollern"
+		culture = prussian
 		birth_date = 1839.4.20
 		adm = 3
 		dip = 4

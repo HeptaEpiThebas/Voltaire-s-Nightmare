@@ -221,35 +221,26 @@ country_event = {
 			}
 			tag = GBR
 		}
-		any_owned_province = {
-			num_free_building_slots = 1
-		}
 	}
 	
 	mean_time_to_happen = {
-		months = 180
+		months = 72
 	}
 
 	option = {			# Yes we need them
 		name = "flavor_eng.EVTOPTA9105"
 		ai_chance = { factor = 75 }
-		add_stability = -2
+		reduce_estate_nobles_loyalty_effect = yes
 		add_years_of_income = -0.5
 		add_country_modifier = {
 			name = justices_of_peace
 			duration = -1
 		}
-		random_owned_province = {
-			limit = {
-				NOT = { has_building = courthouse }
-				num_free_building_slots = 1
-			}
-			add_building = courthouse
-		}
 	}
 	option = {			# No that is the Noblemens job
 		name = "flavor_eng.EVTOPTB9105"
 		ai_chance = { factor = 25 }
+		add_estate_nobles_loyalty_effect = yes
 		add_stability_or_adm_power = yes
 	}
 }
@@ -535,6 +526,7 @@ country_event = {
 	option = {			# Let us institute the Royal Army
 		name = "flavor_eng.EVTOPTA9112"
 		ai_chance = { factor = 90 }
+		add_army_professionalism = 0.02
 		add_country_modifier = {
 			name = the_royal_army
 			duration = -1
@@ -735,6 +727,7 @@ country_event = {
 			define_advisor = {
 				type = spymaster
 				name = "Francis Walsingham"
+				culture = english
 				location = 498
 				skill = 3
 				discount = yes
@@ -748,6 +741,7 @@ country_event = {
 			define_advisor = {
 				type = spymaster
 				name = "Francis Walsingham"
+				culture = english
 				location = 2268
 				skill = 3
 				discount = yes
@@ -791,6 +785,7 @@ country_event = {
 		define_advisor = {
 			type = treasurer
 			name = "Thomas Gresham"
+			culture = english
 			discount = yes
 			location = 2268
 			skill = 3
@@ -814,6 +809,7 @@ country_event = {
 			religion = protestant
 			religion = anglican
 		}
+		NOT = { has_country_modifier = aristocracy_modifier }
 		OR = {
 			AND = {
 				tag = ENG
@@ -889,9 +885,14 @@ country_event = {
 				}
 			}
 		}
-		add_country_modifier = {
-			name = narrowminded_modifier
-			duration = 1825
+		if = {
+			limit = {
+				NOT = { has_country_modifier = narrowminded_modifier }
+			}
+			add_country_modifier = {
+				name = narrowminded_modifier
+				duration = 1825
+			}
 		}
 	}
 	option = {		# Keep Norfolk in the Tower and start to negotiate
@@ -1452,8 +1453,9 @@ country_event = {
 					region = scotland_region
 				}
 				spawn_rebels = {
+					culture = scottish
 					type = pretender_rebels
-					size = 3
+					size = 2
 					leader = "James Stuart"
 				}
 			}
@@ -1468,8 +1470,9 @@ country_event = {
 					superregion = british_isles_superregion
 				}
 				spawn_rebels = {
+					culture = scottish
 					type = pretender_rebels
-					size = 3
+					size = 2
 					leader = "James Stuart"
 				}
 			}
@@ -1518,6 +1521,7 @@ country_event = {
 			define_advisor = {
 				type = statesman
 				name = "Robert Walpole"
+				culture = english
 				discount = yes
 				location = 2188
 				skill = 3
@@ -1531,6 +1535,7 @@ country_event = {
 			define_advisor = {
 				type = statesman
 				name = "Robert Walpole"
+				culture = english
 				discount = yes
 				location = 2268
 				skill = 3
@@ -1629,8 +1634,9 @@ country_event = {
 					region = scotland_region
 				}
 				spawn_rebels = {
+					culture = scottish
 					type = pretender_rebels
-					size = 3
+					size = 2
 					leader = "James Stuart"
 				}
 			}
@@ -1645,8 +1651,9 @@ country_event = {
 					superregion = british_isles_superregion
 				}
 				spawn_rebels = {
+					culture = scottish
 					type = pretender_rebels
-					size = 3
+					size = 2
 					leader = "James Stuart"
 				}
 			}
@@ -1689,6 +1696,7 @@ country_event = {
 			define_advisor = {
 				type = statesman
 				name = "W. Pitt the Elder"
+				culture = english
 				discount = yes
 				location = 2268
 				skill = 3
@@ -1753,6 +1761,7 @@ country_event = {
 			define_advisor = {
 				type = statesman
 				name = "W. Pitt the Younger"
+				culture = english
 				discount = yes
 				location = 498
 				skill = 3
@@ -1766,6 +1775,7 @@ country_event = {
 			define_advisor = {
 				type = statesman
 				name = "W. Pitt the Younger"
+				culture = english
 				discount = yes
 				location = 2268
 				skill = 3
@@ -2185,6 +2195,7 @@ country_event = {
 		define_advisor = {
 			name = "William Shakespeare" #The greatest writer of all   
 			location = 2268 #London
+			culture = english
 			skill = 2
 			type = artist
 			discount = yes
@@ -2207,7 +2218,7 @@ country_event = {
 		has_heir = no
 		is_lesser_in_union = no
 		NOT = { ruler_has_personality = infertile_personality }
-		NOT = { has_country_flag = war_of_the_roses_ended }
+		NOT = { has_country_flag = war_of_the_roses }
 		NOT = { has_disaster = war_of_the_roses }
 		NOT = { is_year = 1500 }
 		current_age = age_of_discovery
@@ -2296,6 +2307,7 @@ country_event = {
 			claim = 100
 			name = "Henry #0"
 			dynasty = "Tudor"
+			culture = english
 			adm = 3
 			dip = 4
 			mil = 2

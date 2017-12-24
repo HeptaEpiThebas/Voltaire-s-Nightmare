@@ -261,33 +261,30 @@ fixed_capital = 2523
 	monarch = {
 		name = "Gerhard"
 		dynasty = "von Schwarzburg"
-		birth_date = 1400.11.9
 		adm = 0
 		dip = 3
 		mil = 3
 	}
 }
-1400.1.1 = {
+1400.11.9 = {
 	monarch = {
 		name = "Johann I"
 		dynasty = "von Egloffstein"
-		birth_date = 1411.11.22
 		adm = 1
 		dip = 1
 		mil = 2
 	}
 }
-1411.1.1 = {
+1411.11.22 = {
 	monarch = {
 		name = "Johann II"
 		dynasty = "von Brunn"
-		birth_date = 1440.1.9
 		adm = 3
 		dip = 0
 		mil = 2
 	}
 }
-1440.1.1 = {
+1440.1.9 = {
 	monarch = {
 		name = "Sigmund"
 		dynasty = "von Wettin"
@@ -313,7 +310,6 @@ fixed_capital = 2523
 	monarch = {
 		name = "Johann III"
 		dynasty = "von Grumbach"
-		birth_date = 1466.4.11
 		adm = 1
 		dip = 0
 		mil = 3
@@ -359,7 +355,7 @@ fixed_capital = 2523
 		dip = 1
 		mil = 0
 	}
-	leader = {	name = "Thomas Müntzer"		type = general	rank = 0	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1525.5.15 }
+	leader = {	name = "Thomas Müntzer"		type = general	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1525.5.15 }
 }
 1525.5.15 = {
 	government = theocratic_government
@@ -424,7 +420,7 @@ fixed_capital = 2523
 		mil = 1
 	}
 }
-1630.1.1 = { leader = {	name = "J.P. Saxe-Altenburg"           	type = general	rank = 0	fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 1639.4.1 } }
+1630.1.1 = { leader = {	name = "J.P. Saxe-Altenburg"           	type = general	fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 1639.4.1 } }
 1631.7.17 = {
 	monarch = {
 		name = "Franz"

@@ -22,11 +22,9 @@ government_rank = 6
 	add_ruler_personality = silver_tongue_personality
 }
 
-1700.1.1 = { leader = {	name = "Fyodor M. Apraxine"	type = admiral		rank = 0	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1728.11.10 } }
-
-1700.1.1 = { leader = {	name = "Aleksandr Menshikov"	type = general		rank = 1	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1729.1.1 } }
-
-1705.1.1 = { leader = {	name = "Spiridof"              	type = admiral		rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1715.1.1 } }
+1700.1.1 = { leader = {	name = "Fyodor M. Apraxine"		type = admiral		fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1728.11.10 } }
+1700.1.1 = { leader = {	name = "Aleksandr Menshikov"	type = general		fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1729.1.1 } }
+1705.1.1 = { leader = {	name = "Spiridof"              	type = admiral		fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1715.1.1 } }
 
 1707.1.1 = {
 	heir = {
@@ -47,9 +45,8 @@ government_rank = 6
 
 1721.1.1 = { decision = church_tax decision = dissolution_of_the_monasteries }
 1721.8.30 = { add_accepted_culture = latvian }
-1725.1.1 = { leader = {	name = "Minih" type = general	rank = 3	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1739.1.1 } }
-
-1725.1.1 = { leader = {	name = "Tottleben" type = general	rank = 2	fire = 2	shock = 4	manuever = 2	siege = 0	death_date = 1765.1.1 } }
+1725.1.1 = { leader = {	name = "Minih" type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1739.1.1 } }
+1725.1.1 = { leader = {	name = "Tottleben" type = general	fire = 2	shock = 4	manuever = 2	siege = 0	death_date = 1765.1.1 } }
 
 1725.1.30 = {
 	monarch = {
@@ -121,7 +118,7 @@ government_rank = 6
 	}
 }
 
-1741.1.1 = { leader = {	name = "P. Soltikov"           	type = general	rank = 4	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1760.1.1 } }
+1741.1.1 = { leader = {	name = "P. Soltikov"           	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1760.1.1 } }
 
 1741.11.27 = {
 	monarch = {
@@ -187,10 +184,8 @@ government_rank = 6
 	}
 }
 
-1770.1.1 = { leader = {	name = "Orlov"                 	type = admiral		rank = 0	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1795.1.1 } }
-
-1770.1.1 = { leader = {	name = "Alexander Suvorov"	type = general		rank = 0	fire = 5	shock = 6	manuever = 6	siege = 1	death_date = 1800.5.18 } }
-
+1770.1.1 = { leader = {	name = "Orlov"                 	type = admiral		fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1795.1.1 } }
+1770.1.1 = { leader = {	name = "Alexander Suvorov"	type = general		fire = 5	shock = 6	manuever = 6	siege = 1	death_date = 1800.5.18 } }
 1795.10.24 = { add_accepted_culture = lithuanian }
 
 1796.11.7 = {
@@ -218,7 +213,7 @@ government_rank = 6
 	}
 }
 
-1797.1.1 = { leader = {	name = "A. Osterman-Tolstoy"      	type = general	rank = 3	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1857.2.12 } }
+1797.1.1 = { leader = {	name = "A. Osterman-Tolstoy"      	type = general	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1857.2.12 } }
 
 1801.3.13 = {
 	monarch = {
@@ -245,19 +240,13 @@ government_rank = 6
 	}
 }
 
-1805.1.1 = { leader = {	name = "Michael A. de Tolly"	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1818.5.26 } }
-
-1805.1.1 = { leader = {	name = "Mikhail Kutuzov"	type = general	rank = 1	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1813.4.28 } }
-
-1805.1.1 = { leader = {	name = "Pyotr Bagration"	type = general	rank = 1	fire = 4	shock = 4	manuever = 3	siege = 2	death_date = 1812.9.12 } }
-
-1806.1.1 = { leader = {	name = "Dmitry Senyavin"	type = admiral	rank = 0	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1831.4.5 } }
-
-1808.1.1 = { leader = {	name = "Tomasov"               	type = general	rank = 3	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1814.1.1 } }
-
-1811.1.1 = { leader = {	name = "Aleksey Ermolov"	type = general	rank = 3	fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 1861.4.23 } }
-
-1812.1.1 = { leader = {	name = "Peter Wittgenstein"	type = general	rank = 3	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1843.6.11 } }
+1805.1.1 = { leader = {	name = "Michael de Tolly"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1818.5.26 } }
+1805.1.1 = { leader = {	name = "Mikhail Kutuzov"	type = general	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1813.4.28 } }
+1805.1.1 = { leader = {	name = "Pyotr Bagration"	type = general	fire = 4	shock = 4	manuever = 3	siege = 2	death_date = 1812.9.12 } }
+1806.1.1 = { leader = {	name = "Dmitry Senyavin"	type = admiral	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1831.4.5 } }
+1808.1.1 = { leader = {	name = "Tomasov"           	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1814.1.1 } }
+1811.1.1 = { leader = {	name = "Aleksey Ermolov"	type = general	fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 1861.4.23 } }
+1812.1.1 = { leader = {	name = "Peter Wittgenstein"	type = general	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1843.6.11 } }
 
 1812.5.28 = { add_accepted_culture = moldovan }
 1814.4.11 = { add_accepted_culture = polish }

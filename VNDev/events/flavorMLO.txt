@@ -281,6 +281,7 @@ country_event = {
 			type = philosopher
 			name = "Niccolò Machiavelli"
 			discount = yes
+			culture = tuscan
 			location = 640
 			skill = 2
 		}	
@@ -292,6 +293,7 @@ country_event = {
 			type = statesman
 			name = "Niccolò Machiavelli"
 			discount = yes
+			culture = tuscan
 			location = 640
 			skill = 2
 		}	
@@ -392,6 +394,7 @@ country_event = {
 				type = natural_scientist
 				name = "Leonardo da Vinci"
 				location = 1818
+				culture = tuscan
 				discount = yes
 				skill = 3
 			}

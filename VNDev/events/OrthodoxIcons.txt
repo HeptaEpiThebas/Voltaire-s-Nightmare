@@ -254,6 +254,11 @@ country_event = {
 				}
 				save_event_target_as = nicholas_icon_was_here
 			}
+			set_saved_name = {
+				key = advisor_from_afar
+				type = advisor
+				scope = event_target:benevolent_if_distant_neighbor
+			}
 		}
 	}
 
@@ -282,11 +287,17 @@ country_event = {
 			type = artist
 			skill = 2
 			discount = yes
+			name = advisor_from_afar
+			religion = orthodox
+			culture = event_target:benevolent_if_distant_neighbor
 		}
 	}
 	option = {
 		name = orthodox_icon_events.5.c
 		add_years_of_income = 0.5
+	}
+	after = {
+		clear_saved_name = advisor_from_afar
 	}
 }
 

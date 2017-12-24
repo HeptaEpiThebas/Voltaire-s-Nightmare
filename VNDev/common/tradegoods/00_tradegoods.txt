@@ -457,7 +457,7 @@ bananas = {
 }
 honey = { 
 	color = { 0.6 0.4 0.1 }
-	modifier = { inflation_reduction = 0.1 }
+	modifier = { inflation_reduction = 0.05 }
 	province = { province_trade_power_modifier = 0.10 }
 	chance = { factor = 4 }
 }

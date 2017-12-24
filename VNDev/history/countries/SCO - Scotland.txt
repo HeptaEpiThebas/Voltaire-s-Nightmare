@@ -19,8 +19,7 @@ capital = 1777
 1297.5.1 = { 
 	leader = {	
 		name = "William Wallace"
-		type = general	
-		rank = 1	
+		type = general
 		fire = 5	
 		shock = 5	
 		manuever = 2	
@@ -38,8 +37,7 @@ capital = 1777
 		mil = 6
 		leader = { 
 			name = "Robert the Bruce"
-			type = general	
-			rank = 0	
+			type = general
 			fire = 3	
 			shock = 5	
 			manuever = 5
@@ -64,8 +62,7 @@ capital = 1777
 1315.5.23 = {
 	leader = {	
 		name = "Edward the Bruce"
-		type = general	
-		rank = 1	
+		type = general
 		fire = 4	
 		shock = 3
 		manuever = 1	
@@ -195,7 +192,7 @@ capital = 1777
 		mil = 2
 	}
 }
-1400.12.24 = { leader = { name = "Archibald Douglas"	type = general	rank = 1	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1424.8.17 } }
+1400.12.24 = { leader = { name = "Archibald Douglas"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1424.8.17 } }
 1406.1.1 = {
 	monarch = {
 		name = "James I"
@@ -306,7 +303,7 @@ capital = 1777
 		adm = 3
 		dip = 4
 		mil = 1
-		leader = { name = "James IV"		type = general	rank = 0	fire = 1	shock = 3	manuever = 2	siege = 0 }
+		leader = { name = "James IV"		type = general	fire = 1	shock = 3	manuever = 2	siege = 0 }
 	}
 }	
 1488.6.12 = {
@@ -317,7 +314,7 @@ capital = 1777
 		adm = 3
 		dip = 4
 		mil = 1
-		leader = { name = "James IV"		type = general	rank = 0	fire = 1	shock = 3	manuever = 2	siege = 0 }
+		leader = { name = "James IV"		type = general	fire = 1	shock = 3	manuever = 2	siege = 0 }
 	}
 }
 1503.8.8 = {
@@ -394,8 +391,8 @@ capital = 1777
 		female = yes
 	}
 }
-1546.1.1 = { leader = {	name = "James Hamilton"     	type = general	rank = 1	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1569.1.1 } }
-1550.1.1 = { leader = {	name = "Malcolm"               	type = general	rank = 1	fire = 2	shock = 4	manuever = 2	siege = 0	death_date = 1595.1.1 } }
+1546.1.1 = { leader = {	name = "James Hamilton"     	type = general	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1569.1.1 } }
+1550.1.1 = { leader = {	name = "Malcolm"               	type = general	fire = 2	shock = 4	manuever = 2	siege = 0	death_date = 1595.1.1 } }
 1565.7.9 = {
 	queen = {
 		country_of_origin = SCO
@@ -455,8 +452,8 @@ capital = 1777
 		death_date = 1649.1.30
 		claim = 95
 		adm = 2
-		dip = 1
-		mil = 4
+		dip = 3
+		mil = 2
 	}
 }
 1635.1.1 = {
@@ -469,8 +466,7 @@ capital = 1777
 		mil = 5
 		leader = { 
 			name = "Alexander Leslie"
-			type = general	
-			rank = 1
+			type = general
 			fire = 2	
 			shock = 2	
 			manuever = 2
@@ -478,6 +474,6 @@ capital = 1777
 		}
 	}
 }
-1644.1.1 = { leader = {	name = "David Leslie"		type = general	rank = 2	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1650.1.1 } }
-1678.1.1 = { leader = {	name = "Dundee"            	type = general	rank = 0	fire = 1	shock = 3	manuever = 3	siege = 0	death_date = 1689.1.1 } }
-1694.1.1 = { leader = {	name = "Berwick"           	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1723.1.1 } }
+1644.1.1 = { leader = {	name = "David Leslie"		type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1650.1.1 } }
+1678.1.1 = { leader = {	name = "Dundee"            	type = general	fire = 1	shock = 3	manuever = 3	siege = 0	death_date = 1689.1.1 } }
+1694.1.1 = { leader = {	name = "Berwick"           	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1723.1.1 } }

@@ -838,6 +838,7 @@ country_event = {
 		random_province = {
 			limit = {
 				sieged_by = ROOT
+				fort_level = 1
 				NOT = { owned_by = ROOT }
 				OR = {
 					has_winter = normal_winter

@@ -4,6 +4,7 @@ technology_group = western
 primary_culture = umbrian
 religion = catholic
 capital = 1787
+add_army_professionalism = 0.05
 
 1130.1.1 = {
 	monarch = {

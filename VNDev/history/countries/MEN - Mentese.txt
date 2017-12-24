@@ -4,6 +4,7 @@ primary_culture = turkish
 religion = sunni
 technology_group = ottoman
 capital = 2453
+religious_school = hanafi_school
 
 1261.1.1 = {
 	monarch = {

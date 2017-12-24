@@ -165,7 +165,6 @@ capital = 533
 		leader = {	
 			name = "Stjepan Kosaca"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 5
 			manuever = 0

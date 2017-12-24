@@ -1466,6 +1466,7 @@ printing_press = {
 		OR = {
 			development = 15
 			is_capital = yes
+			trade_goods = books
 		}
 		OR = {
 			religion = protestant
@@ -1906,6 +1907,7 @@ manufactories = {
 			has_building = textile
 			has_building = plantations
 			has_building = tradecompany
+			has_building = mills
 		}
 	}
 	start_chance = 10		#in 100 for when a province can_start

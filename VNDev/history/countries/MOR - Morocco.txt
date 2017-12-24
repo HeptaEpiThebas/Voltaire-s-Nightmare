@@ -5,6 +5,7 @@ religion = sunni
 technology_group = muslim
 capital = 761
 add_accepted_culture = andalucian
+religious_school = maliki_school
 
 1072.1.1 = {
 	monarch = {

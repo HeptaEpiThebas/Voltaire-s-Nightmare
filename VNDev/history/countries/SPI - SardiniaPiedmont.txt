@@ -13,7 +13,7 @@ capital = 1009 # Piedomont
 		adm = 4
 		dip = 6
 		mil = 5
-		leader = { name = "Vittorio Amedeo II"	type = general	rank = 0	fire = 4	shock = 4	manuever = 2	siege = 2 }
+		leader = { name = "Vittorio Amedeo II"	type = general	fire = 4	shock = 4	manuever = 2	siege = 2 }
 	}
 	heir = {
 		name = "Carlo Emanuele"
@@ -25,7 +25,7 @@ capital = 1009 # Piedomont
 		adm = 4
 		dip = 5
 		mil = 6
-		leader = { name = "Carlo Emanuele III"	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0 }
+		leader = { name = "Carlo Emanuele III"	type = general	fire = 2	shock = 3	manuever = 3	siege = 0 }
 	}
 }
 1730.9.4 = {
@@ -35,7 +35,7 @@ capital = 1009 # Piedomont
 		adm = 4
 		dip = 5
 		mil = 6
-		leader = { name = "Carlo Emanuele III"	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0 }
+		leader = { name = "Carlo Emanuele III"	type = general	fire = 2	shock = 3	manuever = 3	siege = 0 }
 	}
 	heir = {
 		name = "Vittorio Amedeo"
@@ -47,10 +47,10 @@ capital = 1009 # Piedomont
 		adm = 1
 		dip = 0
 		mil = 2
-		leader = { name = "Vittorio Amedeo III"	type = general	rank = 0	fire = 2	shock = 2	manuever = 3	siege = 0 }
+		leader = { name = "Vittorio Amedeo III"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0 }
 	}
 }		
-1743.2.8 = { leader = {	name = "Carlo S. Leutrum"	type = general	rank = 3	fire = 5	shock = 4	manuever = 4	siege = 1	death_date = 1755.5.16 } }
+1743.2.8 = { leader = {	name = "Carlo S. Leutrum"	type = general	fire = 5	shock = 4	manuever = 4	siege = 1	death_date = 1755.5.16 } }
 1773.2.21 = {
 	monarch = {
 		name = "Vittorio Amedeo III"
@@ -58,7 +58,7 @@ capital = 1009 # Piedomont
 		adm = 1
 		dip = 0
 		mil = 2
-		leader = { name = "Vittorio Amedeo III"	type = general	rank = 0	fire = 2	shock = 2	manuever = 3	siege = 0 }
+		leader = { name = "Vittorio Amedeo III"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0 }
 	}
 	heir = {
 		name = "Carlo Emanuele"
@@ -72,7 +72,7 @@ capital = 1009 # Piedomont
 		mil = 1
 	}
 }
-1785.1.1 = { leader = {	name = "Michel Colli"		type = general	rank = 1	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1796.4.28 } }
+1785.1.1 = { leader = {	name = "Michel Colli"		type = general	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1796.4.28 } }
 1792.11.27 = { capital = 651 }
 1796.10.14 = {
 	government = enlightened_despotism

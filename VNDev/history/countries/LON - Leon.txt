@@ -6,6 +6,7 @@ technology_group = western
 capital = 844 #Leon
 historical_friend = CAS
 historical_friend = GAL
+add_army_professionalism = 0.1
 
 1037.9.4 = {
 	monarch = {
@@ -18,7 +19,6 @@ historical_friend = GAL
 		leader = {	
 			name = "Fernando el Magno"
 			type = general
-			rank = 0
 			fire = 2
 			shock = 6
 			manuever = 0

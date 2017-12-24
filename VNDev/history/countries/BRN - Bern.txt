@@ -9,6 +9,7 @@ fixed_capital = 2281
 
 1125.5.23 = {
 	government = administrative_republic
+	add_army_professionalism = 0.1
 	monarch = {
 		name = "Patriziat"
 		adm = 2

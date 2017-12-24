@@ -4,6 +4,7 @@ technology_group = muslim
 primary_culture = andalucian
 religion = sunni
 capital = 2670
+religious_school = maliki_school
 
 1043.1.1 = {
 	government = oligarchic_republic

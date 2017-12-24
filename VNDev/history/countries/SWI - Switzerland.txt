@@ -9,6 +9,7 @@ capital = 2281 # Bern
 	add_accepted_culture = arpitan
 	add_accepted_culture = romansch
 	add_accepted_culture = lombard
+	add_army_professionalism = 0.1
 	monarch = {
 		name = "Die Tagsatzung"
 		adm = 2

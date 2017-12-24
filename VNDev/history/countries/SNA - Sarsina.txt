@@ -4,6 +4,7 @@ technology_group = western
 primary_culture = romagnan
 religion = catholic
 capital = 1031
+add_army_professionalism = 0.05
 
 1100.1.1 = {
 	monarch = {

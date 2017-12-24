@@ -988,7 +988,7 @@ country_event = {
 		add_years_of_income = 0.1
 		add_prestige = 5
 		112 = {
-			add_province_modifier = {
+			add_permanent_province_modifier = {
 				name = ven_murano_glass_industry
 				duration = -1
 			}
@@ -999,7 +999,7 @@ country_event = {
 		add_faction_influence = { faction = mr_guilds influence = 30 }
 		add_mercantilism = 2
 		112 = {
-			add_province_modifier = {
+			add_permanent_province_modifier = {
 				name = ven_murano_glass_industry
 				duration = -1
 			}

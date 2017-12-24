@@ -90,6 +90,7 @@ capital = 247
 1291.1.1 = {
 	monarch = {
 		name = "Turlough I"
+		dynasty = "Mac Suibhne"
 		adm = 1
 		dip = 2
 		mil = 1

@@ -26,6 +26,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SCO
+			remove_non_electors_emperors_from_empire_effect = yes
 			scotland_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -49,11 +50,11 @@ country_decisions = {
 				change_culture = scottish
 			}
 			random_owned_province = {
-				limit = { culture = highland_scottish }
+				limit = { culture = highland_scottish } 
 				change_culture = scottish
 			}
 			random_owned_province = {
-				limit = { culture = highland_scottish }
+				limit = { culture = highland_scottish } 
 				change_culture = scottish
 			}
 			add_adm_power = 100
@@ -94,6 +95,7 @@ country_decisions = {
 		effect = {
 			change_tag = MGF
 			set_country_flag = unformable
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -172,6 +174,16 @@ country_decisions = {
 				}
 				set_government_rank = 4
 			}
+			if = {
+				limit = {
+					NOT = { is_part_of_hre = yes }
+				}
+				hidden_effect = {
+					every_owned_province = {
+						set_in_empire = no
+					}
+				}
+			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -206,6 +218,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = LBV
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -317,6 +330,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = LTH
+			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
 					NOT = { government = monarchy }
@@ -340,16 +354,6 @@ country_decisions = {
 					NOT = { government_rank = 5 }
 				}
 				set_government_rank = 5
-			}
-			if = {
-				limit = {
-					NOT = { is_part_of_hre = yes }
-				}
-				hidden_effect = {
-					every_owned_province = {
-						set_in_empire = no
-					}
-				}
 			}
 		}
 		ai_will_do = {
@@ -624,23 +628,7 @@ country_decisions = {
 			}
 		}
 		effect = {
-			if = {
-				limit = {
-					is_part_of_hre = yes
-					is_elector = no
-					is_emperor = no
-				}
-				emperor = {
-					add_opinion = {
-						who = root
-						modifier = opinion_left_empire
-					}
-				}
-				set_in_empire = no
-				emperor = {
-					country_event = { id = hre_event.5 }
-				}
-			}
+			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
 					NOT = { government_rank = 5 }
@@ -750,6 +738,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = BGU
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -785,16 +774,6 @@ country_decisions = {
 				}
 				set_government_rank = 5
 			}
-			if = {
-				limit = {
-					NOT = { is_part_of_hre = yes }
-				}
-				hidden_effect = {
-					every_owned_province = {
-						set_in_empire = no
-					}
-				}
-			}
 		}
 		ai_will_do = {
 			factor = 0
@@ -825,6 +804,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SLV
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -836,16 +816,6 @@ country_decisions = {
 				add_permanent_claim = SLV
 			}
 			add_prestige = 15
-			if = {
-				limit = {
-					NOT = { is_part_of_hre = yes }
-				}
-				hidden_effect = {
-					every_owned_province = {
-						set_in_empire = no
-					}
-				}
-			}
 		}
 		ai_will_do = {
 			factor = 1
@@ -885,6 +855,7 @@ country_decisions = {
 		effect = {
 			change_tag = SGC
 			set_country_flag = unformable
+			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { has_dlc = "Rights of Man" }
 				change_government = prussian_monarchy
@@ -909,16 +880,6 @@ country_decisions = {
 					NOT = { government_rank = 5 }
 				}
 				set_government_rank = 5
-			}
-			if = {
-				limit = {
-					NOT = { is_emperor = yes }
-				}
-				hidden_effect = {
-					every_owned_province = {
-						set_in_empire = no
-					}
-				}
 			}
 		}
 		ai_will_do = {
@@ -947,7 +908,7 @@ country_decisions = {
 			is_at_war = no
 			owns_or_vassal_of = 2652 #berlin
 			owns_or_vassal_of = 2803 #dresden
-			owns_or_vassal_of = 81 #kassel
+			owns_or_vassal_of = 81 #kassel			
 			owns_or_vassal_of = 2511 #trier
 			owns_or_vassal_of = 1951 #koln
 			owns_or_vassal_of = 2973 #muntser
@@ -959,6 +920,7 @@ country_decisions = {
 		effect = {
 			change_tag = NGC
 			set_country_flag = unformable
+			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { has_dlc = "Rights of Man" }
 				change_government = prussian_monarchy
@@ -983,16 +945,6 @@ country_decisions = {
 					NOT = { government_rank = 5 }
 				}
 				set_government_rank = 5
-			}
-			if = {
-				limit = {
-					NOT = { is_emperor = yes }
-				}
-				hidden_effect = {
-					every_owned_province = {
-						set_in_empire = no
-					}
-				}
 			}
 		}
 		ai_will_do = {
@@ -1638,7 +1590,7 @@ country_decisions = {
 			custom_trigger_tooltip = {
 				tooltip = cantonnum.tt
 				calc_true_if = {
-					all_province = {
+					all_province = {  
 						superregion = switzerland_superregion
 						owner = { government = canton_government }
 					}
@@ -1686,18 +1638,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = AQT
-			if = {
-				limit = {
-					is_part_of_hre = yes
-					is_elector = no
-				}
-				every_owned_province = {
-					limit = {
-						is_part_of_hre = yes
-					}
-					set_in_empire = no
-				}
-			}
+			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
 					NOT = { government_rank = 5 }
@@ -1768,7 +1709,7 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+			is_free_or_tributary_trigger = yes	
 			government = monarchy
 			owns_core_province = 1955		# Barcelona
 			owns_core_province = 2324		# Bordeaux
@@ -1897,6 +1838,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = WLS
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -1950,6 +1892,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SAR
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -2011,6 +1954,7 @@ country_decisions = {
 				}
 				change_government = feudal_monarchy
 			}
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -2066,6 +2010,7 @@ country_decisions = {
 				}
 				change_government = feudal_monarchy
 			}
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -2120,6 +2065,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = SER
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -2162,7 +2108,7 @@ country_decisions = {
 			NOT = { exists = ALB }
 			NOT = { tag = DRZ }
 		}
-		allow = {
+		allow = {	
 			adm_tech = 14
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
@@ -2179,6 +2125,7 @@ country_decisions = {
 		effect = {
 			change_tag = ALB
 			change_government = feudal_monarchy
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -2229,6 +2176,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = MXD
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -2275,6 +2223,7 @@ country_decisions = {
 				change_government = feudal_monarchy
 			}
 			change_tag = HUN
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -2347,6 +2296,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = DLM
+			remove_non_electors_emperors_from_empire_effect = yes
 			add_country_modifier = {
 				name = "centralization_modifier"
 				duration = 7300
@@ -2389,6 +2339,7 @@ country_decisions = {
 		effect = {
 			custom_tooltip = normand_english_tooltip
 			hidden_effect = {
+				remove_non_electors_emperors_from_empire_effect = yes
 				every_country = {
 					limit = { overlord_of = NRM }
 					free_vassal = NRM
@@ -2458,7 +2409,7 @@ country_decisions = {
 		allow = {
 			adm_tech = 56
 			is_at_war = no
-			is_free_or_tributary_trigger = yes
+			is_free_or_tributary_trigger = yes	
 			government = monarchy
 			owns_core_province = 2172		# Vienna
 			owns_core_province = 781		# Praha
@@ -2469,7 +2420,7 @@ country_decisions = {
 			OR = {
 				owns_core_province = 507		# Split
 				owns_core_province = 112		# Venice
-			}
+			}		
 		}
 		effect = {
 			if = {
@@ -2481,16 +2432,7 @@ country_decisions = {
 			}
 			change_tag = EAH
 			set_country_flag = unformable
-			if = {
-				limit = {
-					NOT = { is_emperor = yes }
-				}
-				hidden_effect = {
-					every_owned_province = {
-						set_in_empire = no
-					}
-				}
-			}
+			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = {
 					NOT = { government_rank = 6 }

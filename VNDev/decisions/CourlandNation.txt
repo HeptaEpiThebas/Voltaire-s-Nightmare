@@ -34,6 +34,7 @@ country_decisions = {
 		effect = {
 			change_tag = KUR
 			add_prestige = 10
+			remove_non_electors_emperors_from_empire_effect = yes
 			set_capital = 2946		# Semigallia
 			if = {
 				limit = { has_custom_ideas = no }

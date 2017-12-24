@@ -4,3 +4,4 @@ primary_culture = andalucian
 religion = sunni
 technology_group = western
 capital = 1236
+religious_school = maliki_school

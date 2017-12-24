@@ -9,6 +9,7 @@ capital = 507
 	monarch = {
 		name = "Adriano"
 		dynasty = "di Treviso"
+		culture = venetian
 		dip = 4
 		adm = 2
 		mil = 4

@@ -9,6 +9,7 @@ capital = 1862
 #1151 under BAD
 1164.1.1 = {
 	government = italian_monarchy
+	add_army_professionalism = 0.05
 	government_rank = 1
 	monarch = {
 		name = "Repubblica"
@@ -29,7 +30,6 @@ capital = 1862
 		leader = {
 			name = "Ezzelino Romano"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 2
 			manuever = 1

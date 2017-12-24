@@ -191,6 +191,7 @@ kind_hearted_personality = {
 	}
 	
 	gift_chance = 65
+	alliance_acceptance = 10
 	
 	war_exhaustion = -0.05
 	nation_designer_cost = 5
@@ -1677,8 +1678,6 @@ inspiring_leader_personality = {
 	chance = {
 	}
 	
-	alliance_acceptance = 10
-	
 	land_morale = 0.05
 	nation_designer_cost = 5
 } #1 better
@@ -2213,7 +2212,6 @@ drunkard_personality = {
 	chance = {
 	}
 	
-	random_troop_moves = yes
 	wants_loans = yes
 	
 	trade_efficiency = -0.10
@@ -2428,6 +2426,7 @@ greedy_personality = {
 		}
 	}
 	
+	trade_league_acceptance = -10
 	global_tax_modifier = -0.1
 	nation_designer_cost = -2
 } #2 better
@@ -2511,6 +2510,7 @@ cruel_personality = {
 		}
 	}
 	
+	wants_betray_allies = yes
 	razing = yes
 	lower_autonomy = yes
 	

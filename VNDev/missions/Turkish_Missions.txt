@@ -20,7 +20,7 @@ defeat_the_byzantine_empire = {
 		owns = 2233
 	}
 	chance = {
-		factor = 5000
+		factor = 8000
 		modifier = {
 			factor = 2
 			is_monarch_leader = yes

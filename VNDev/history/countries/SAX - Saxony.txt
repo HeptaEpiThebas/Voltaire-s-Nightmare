@@ -484,7 +484,7 @@ capital = 629
 		dip = 2
 		mil = 1
 	}
-	leader = {	name = "Mauritz"               	type = general	rank = 0	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1532.1.1 }
+	leader = {	name = "Mauritz"               	type = general	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1532.1.1 }
 }
 1531.1.1 = { religion = protestant }
 1539.4.17 = {
@@ -506,7 +506,7 @@ capital = 629
 		adm = 1
 		dip = 1
 		mil = 4
-		leader = { name = "Moritz von Wettin"	type = general	rank = 0	fire = 3	shock = 3	manuever = 4	siege = 1 }
+		leader = { name = "Moritz von Wettin"	type = general	fire = 3	shock = 3	manuever = 4	siege = 1 }
 	}
 }		
 1541.8.18 = {
@@ -517,7 +517,7 @@ capital = 629
 		dip = 1
 		adm = 1
 		mil = 4
-		leader = { name = "Moritz von Wettin"	type = general	rank = 0	fire = 3	shock = 3	manuever = 4	siege = 1 }
+		leader = { name = "Moritz von Wettin"	type = general	fire = 3	shock = 3	manuever = 4	siege = 1 }
 	}
 	heir = {
 		name = "August"
@@ -532,7 +532,7 @@ capital = 629
 	}
 }
 1547.5.19 = { elector = yes }
-1550.1.1 = { leader = {	name = "F. von Leignitz"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1570.12.15 } }
+1550.1.1 = { leader = {	name = "F. von Leignitz"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1570.12.15 } }
 1553.7.11 = {
 	monarch = {
 		name = "August"
@@ -621,12 +621,12 @@ capital = 629
 		mil = 3
 	}
 }
-1624.1.1 = { leader = {	name = "Hans Georg von Arnim"		type = general	rank = 1	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1641.4.28 } }
+1624.1.1 = { leader = {	name = "Hans Georg von Arnim"		type = general	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1641.4.28 } }
 1631.8.30 = { join_league = protestant }
 1635.1.1 = { leave_league = protestant }
 1635.10.16 = { join_league = catholic }
 1646.4.14 = { leave_league = catholic }
-1650.1.1 = { leader = {	name = "Augustus von Wettin"           	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1680.6.4 } }
+1650.1.1 = { leader = {	name = "Augustus von Wettin"           	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1680.6.4 } }
 1656.10.9 = {
 	monarch = {
 		name = "Johann Georg II"
@@ -648,9 +648,9 @@ capital = 629
 		mil = 0
 	}
 }
-1670.1.1 = { leader = {	name = "Schönfeld"             	type = general	rank = 1	fire = 2	shock = 3	manuever = 2	siege = 1	death_date = 1690.1.1 } }
-1675.1.1 = { leader = {	name = "Toppauer"              	type = general	rank = 2	fire = 3	shock = 2	manuever = 2	siege = 1	death_date = 1699.1.1 } }
-1680.1.1 = { leader = {	name = "von Saxe-Merseburg"	type = general	rank = 3	fire = 3	shock = 3	manuever = 2	siege = 1	death_date = 1694.10.20 } }
+1670.1.1 = { leader = {	name = "Schönfeld"             	type = general	fire = 2	shock = 3	manuever = 2	siege = 1	death_date = 1690.1.1 } }
+1675.1.1 = { leader = {	name = "Toppauer"              	type = general	fire = 3	shock = 2	manuever = 2	siege = 1	death_date = 1699.1.1 } }
+1680.1.1 = { leader = {	name = "von Saxe-Merseburg"		type = general	fire = 3	shock = 3	manuever = 2	siege = 1	death_date = 1694.10.20 } }
 1680.8.23 = {
 	monarch = {
 		name = "Johann Georg III"
@@ -737,8 +737,8 @@ capital = 629
 		mil = 1
 	}
 }
-1737.1.1 = { leader = {	name = "F.A. von Cosel"		type = general	rank = 4	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1770.1.1 } }
-1745.1.1 = { leader = {	name = "F.A. Rutowski"		type = general	rank = 1	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1764.3.16 } }
+1737.1.1 = { leader = {	name = "F.A. von Cosel"		type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1770.1.1 } }
+1745.1.1 = { leader = {	name = "F.A. Rutowski"		type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1764.3.16 } }
 1763.10.6 = {
 	monarch = {
 		name = "Friedrich Christian"

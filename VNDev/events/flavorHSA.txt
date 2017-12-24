@@ -34,6 +34,7 @@ country_event = {
 		define_advisor = {
 			type = trader
 			name = "Georg Giese"
+			culture = prussian
 			discount = yes
 			skill = 3
 			location = 402
@@ -150,7 +151,7 @@ country_event = {
 		
 		modifier = {
 			factor = 0.8
-			owns = 85 #Köln
+			owns = 1951 #Köln
 		}
 	}
 	
@@ -160,6 +161,7 @@ country_event = {
 		define_advisor = {
 			type = trader
 			name = "Heinrich Sudermann"
+			culture = ripuarian
 			discount = yes
 			skill = 3
 		}

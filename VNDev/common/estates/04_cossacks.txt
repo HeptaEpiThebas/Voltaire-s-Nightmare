@@ -41,7 +41,7 @@ estate_cossacks =
 	
 	# Estate cancels out the following multiplicative local autonomy effects:
 	autonomy_does_not_affect = local_manpower_modifier
-	autonomy_does_not_affect = land_forcelimit
+	autonomy_does_not_affect = land_forcelimit_modifier
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
@@ -137,7 +137,15 @@ estate_cossacks =
 		modifier = {
 			factor = 0.1
 			NOT = { fort_level = 1 }
-		}	
+		}
+		modifier = {
+			factor = 4
+			local_autonomy = 25
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { local_autonomy = 25 }
+		}
 	}	
 	
 	# Does the AI want to give any extra territory beyond the minimum?
@@ -283,125 +291,147 @@ estate_cossacks =
 				estate = estate_cossacks
 				influence = 40
 			}
-			num_of_owned_provinces_with = {
-				value = 4
-				has_estate = estate_cossacks
+			custom_trigger_tooltip = {
+				tooltip = tooltip_own_cossack_province
+				any_owned_province = {
+					has_estate = estate_cossacks
+				}
 			}
 		}
 		
 		effect = {
-			if = {
-				limit = {
-					NOT = {
-						num_of_owned_provinces_with = {
-							value = 6
-							has_estate = estate_cossacks
+			random_owned_province = {
+				limit = { has_estate = estate_cossacks }
+				cossack_cavalry = ROOT
+				if = {
+					limit = {
+						owner = {
+							num_of_owned_provinces_with = {
+								value = 2
+								has_estate = estate_cossacks
+							}
 						}
 					}
+					cossack_cavalry = ROOT
 				}
-				random_owned_province = {
-					limit = { has_estate = estate_cossacks }
-					add_unit_construction = {
-						type = cavalry
-						amount = 2
-						speed = 0.5
-						cost = 0
-					}
-					add_unit_construction = {
-						type = infantry
-						amount = 2
-						speed = 0.5
-						cost = 0
-					}
-				}
-			}
-			if = {
-				limit = {
-					num_of_owned_provinces_with = {
-						value = 6
-						has_estate = estate_cossacks
-					}
-					NOT = {
-						num_of_owned_provinces_with = {
-							value = 8
-							has_estate = estate_cossacks
+				if = {
+					limit = {
+						owner = {
+							num_of_owned_provinces_with = {
+								value = 3
+								has_estate = estate_cossacks
+							}
 						}
 					}
+					cossack_cavalry = ROOT
 				}
-				random_owned_province = {
-					limit = { has_estate = estate_cossacks }
-					add_unit_construction = {
-						type = cavalry
-						amount = 3
-						speed = 0.5
-						cost = 0
-					}
-					add_unit_construction = {
-						type = infantry
-						amount = 2
-						speed = 0.5
-						cost = 0
-					}
-				}
-			}
-			if = {
-				limit = {
-					num_of_owned_provinces_with = {
-						value = 8
-						has_estate = estate_cossacks
-					}
-					NOT = {
-						num_of_owned_provinces_with = {
-							value = 10
-							has_estate = estate_cossacks
+				if = {
+					limit = {
+						owner = {
+							num_of_owned_provinces_with = {
+								value = 4
+								has_estate = estate_cossacks
+							}
 						}
 					}
+					cossack_cavalry = ROOT
 				}
-				random_owned_province = {
-					limit = { has_estate = estate_cossacks }
-					add_unit_construction = {
-						type = cavalry
-						amount = 3
-						speed = 0.5
-						cost = 0
+				if = {
+					limit = {
+						owner = {
+							num_of_owned_provinces_with = {
+								value = 5
+								has_estate = estate_cossacks
+							}
+						}
 					}
-					add_unit_construction = {
-						type = infantry
-						amount = 3
-						speed = 0.5
-						cost = 0
+					cossack_cavalry = ROOT
+				}
+				if = {
+					limit = {
+						owner = {
+							num_of_owned_provinces_with = {
+								value = 6
+								has_estate = estate_cossacks
+							}
+							estate_influence = {
+								estate = estate_cossacks
+								influence = 60
+							}
+						}
 					}
+					cossack_cavalry = ROOT
+				}
+				if = {
+					limit = {
+						owner = {
+							num_of_owned_provinces_with = {
+								value = 7
+								has_estate = estate_cossacks
+							}
+							estate_influence = {
+								estate = estate_cossacks
+								influence = 60
+							}
+						}
+					}
+					cossack_cavalry = ROOT
+				}
+				if = {
+					limit = {
+						owner = {
+							num_of_owned_provinces_with = {
+								value = 8
+								has_estate = estate_cossacks
+							}
+							estate_influence = {
+								estate = estate_cossacks
+								influence = 60
+							}
+						}
+					}
+					cossack_cavalry = ROOT
+				}
+				if = {
+					limit = {
+						owner = {
+							num_of_owned_provinces_with = {
+								value = 9
+								has_estate = estate_cossacks
+							}
+							estate_influence = {
+								estate = estate_cossacks
+								influence = 60
+							}
+						}
+					}
+					cossack_cavalry = ROOT
+				}
+				if = {
+					limit = {
+						owner = {
+							num_of_owned_provinces_with = {
+								value = 10
+								has_estate = estate_cossacks
+							}
+							estate_influence = {
+								estate = estate_cossacks
+								influence = 60
+							}
+						}
+					}
+					cossack_cavalry = ROOT
 				}
 			}
-			if = {
-				limit = {
-					num_of_owned_provinces_with = {
-						value = 10
-						has_estate = estate_cossacks
-					}
-				}
-				random_owned_province = {
-					limit = { has_estate = estate_cossacks }
-					add_unit_construction = {
-						type = cavalry
-						amount = 3
-						speed = 0.5
-						cost = 0
-					}
-					add_unit_construction = {
-						type = infantry
-						amount = 4
-						speed = 0.5
-						cost = 0
-					}
-				}
+			add_estate_loyalty = {
+				estate = estate_cossacks
+				loyalty = -15
 			}
-			
 			add_estate_influence_modifier = {
 				estate = estate_cossacks
 				desc = EST_VAL_RAISED_COSSACK_HOST
-				influence = 15
-				duration = 10950
+				influence = 5
+				duration = 1825
 			}
 		}
 		
@@ -411,17 +441,13 @@ estate_cossacks =
 				factor = 0
 				estate_influence = {
 					estate = estate_cossacks
-					influence = 60
+					influence = 70
 				}				
 			}
 			modifier = {
 				factor = 0
-				army_size_percentage = 0.5				
+				ai_wants_raise_cossack = no
 			}	
-			modifier = {
-				factor = 0
-				is_at_war = no		
-			}				
 		}
 	}
 	interaction = {
@@ -482,9 +508,32 @@ estate_cossacks =
 		}
 		
 		effect = {
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						has_estate = estate_cossacks
+					}
+					save_event_target_as = estate_estate_province
+				}
+			}
 			if = {
 				limit = {
 					monthly_income = 25
+					has_saved_event_target = estate_estate_province
+				}
+				define_advisor = {
+					type = army_reformer
+					skill = 3
+					culture = event_target:estate_estate_province
+					religion = event_target:estate_estate_province
+					location = event_target:estate_estate_province
+					discount = yes
+				}
+			}
+			else_if = {
+				limit = {
+					monthly_income = 25
+					NOT = { has_saved_event_target = estate_estate_province }
 				}
 				define_advisor = {
 					type = army_reformer
@@ -492,14 +541,32 @@ estate_cossacks =
 					discount = yes
 				}
 			}
-			if = {
-				limit = { NOT = { monthly_income = 25 } }
+			else_if = {
+				limit = {
+					NOT = { monthly_income = 25 }
+					has_saved_event_target = estate_estate_province
+				}
+				define_advisor = {
+					type = army_reformer
+					skill = 2
+					discount = yes
+					culture = event_target:estate_estate_province
+					religion = event_target:estate_estate_province
+					location = event_target:estate_estate_province
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { monthly_income = 25 }
+					NOT = { has_saved_event_target = estate_estate_province }
+				}
 				define_advisor = {
 					type = army_reformer
 					skill = 2
 					discount = yes
 				}
 			}
+			
 			add_estate_influence_modifier = {
 				estate = estate_cossacks
 				desc = EST_VAL_COSSACKS_MINISTER

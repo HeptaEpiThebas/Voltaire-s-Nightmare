@@ -37,6 +37,17 @@
  OLD_ROMUVA: "Old Baltic"
  OLD_SLAVIC: "Old Slavic"
  SIROTCI: "Sirotci"
+ #CoRs
+ protestant_center_of_reformation: "Center of Reformation"
+ reformed_center_of_reformation: "Center of Reformation" 
+ zwinglianist_center_of_reformation: "Center of Reformation"
+ anabaptist_center_of_reformation: "Center of Reformation"
+ lollardy_center_of_reformation: "Center of Reformation"
+ cathar_center_of_reformation: "Center of Reformation"
+ waldensian_center_of_reformation: "Center of Reformation"
+ fraticelli_center_of_reformation: "Center of Reformation"
+ hussite_center_of_reformation: "Center of Reformation"
+ bogomilist_center_of_reformation: "Center of Reformation"
  #Deities
  zeus: "Zeus"
  zeus_desc: "Zeus is the high god of the Greek pantheon, lord of thunder. He is the equivalent of Roman 'Jupiter'."

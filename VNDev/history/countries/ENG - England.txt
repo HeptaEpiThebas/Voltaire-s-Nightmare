@@ -18,6 +18,7 @@ national_focus = DIP
 	monarch = {
 		name = "William I"
 		dynasty = "de Normandie"
+		culture = normand
 		birth_date = 1028.12.31
 		adm = 5
 		dip = 4
@@ -25,7 +26,6 @@ national_focus = DIP
 		leader = {	
 			name = "William the Conqueror"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 4
 			manuever = 1
@@ -120,6 +120,7 @@ national_focus = DIP
 	monarch = {
 		name = "Stephen I"
 		dynasty = "de Blois"
+		culture = orleanais
 		birth_date = 1096.1.1
 		adm = 2
 		dip = 1
@@ -141,6 +142,7 @@ national_focus = DIP
 	monarch = {
 		name = "Henry II"
 		dynasty = "d'Anjou"
+		culture = angevin_culture
 		birth_date = 1133.3.5
 		adm = 4
 		dip = 5
@@ -188,7 +190,6 @@ national_focus = DIP
 		leader = {	
 			name = "Richard the Lionheart"
 			type = general
-			rank = 0
 			fire = 5
 			shock = 4
 			manuever = 6
@@ -449,7 +450,6 @@ national_focus = DIP
 	leader = {
 		name = "The Black Prince"
 		type = general	
-		rank = 0	
 		fire = 5	
 		shock = 5	
 		manuever = 3	
@@ -461,7 +461,6 @@ national_focus = DIP
 	leader = {	
 		name = "Earl of Derby"
 		type = general	
-		rank = 1	
 		fire = 4
 		shock = 4
 		manuever = 1
@@ -470,8 +469,7 @@ national_focus = DIP
 	} 
 	leader = {	
 		name = "John Chandos"
-		type = general	
-		rank = 1
+		type = general
 		fire = 2
 		shock = 6
 		manuever = 0
@@ -519,8 +517,7 @@ national_focus = DIP
 1387.5.1 = { 
 	leader = {	
 		name = "Edward of Norwich"
-		type = general	
-		rank = 1	
+		type = general
 		fire = 6
 		shock = 3
 		manuever = 2
@@ -573,8 +570,7 @@ national_focus = DIP
 		mil = 6
 		leader = {	
 			name = "Henry V"             	
-			type = general	
-			rank = 0	
+			type = general
 			fire = 6	
 			shock = 6	
 			manuever = 2	
@@ -586,8 +582,7 @@ national_focus = DIP
 	add_ruler_personality = fierce_negotiator_personality
 	leader = {	
 		name = "Humphrey Lancaster"
-		type = general	
-		rank = 1
+		type = general
 		fire = 3
 		shock = 3
 		manuever = 2
@@ -632,7 +627,7 @@ national_focus = DIP
 	clear_scripted_personalities = yes
 	add_ruler_personality = infertile_personality
 }
-1435.1.1 = { leader = {	name = "Richard Plantagenet"	type = general	rank = 1	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1460.12.30 } }
+1435.1.1 = { leader = {	name = "Richard Plantagenet"	type = general	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1460.12.30 } }
 1445.4.23 = {
 	queen = {
 		country_of_origin = ANJ
@@ -646,7 +641,7 @@ national_focus = DIP
 		mil = 4
 	}
 }
-1450.1.1 = { leader = {	name = "John Mowbray"		type = general	rank = 1	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1461.3.4 } }
+1450.1.1 = { leader = {	name = "John Mowbray"		type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1461.3.4 } }
 1453.10.13 = { # Edward of Westminster
 	heir = {
 		name = "Edward"
@@ -660,8 +655,8 @@ national_focus = DIP
 		mil = 4
 	}
 }
-1455.1.1 = { leader = {	name = "Edmund Beaufort"	type = general	rank = 1	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1461.3.4 } }
-1455.1.1 = { leader = {	name = "John Clifford"		type = general	rank = 3	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1461.3.4 } }
+1455.1.1 = { leader = {	name = "Edmund Beaufort"	type = general	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1461.3.4 } }
+1455.1.1 = { leader = {	name = "John Clifford"		type = general	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1461.3.4 } }
 1461.3.4 = {
 	monarch = {
 		name = "Edward IV"
@@ -670,7 +665,7 @@ national_focus = DIP
 		adm = 3
 		dip = 2
 		mil = 4
-		leader = {	name = "Edward IV"             	type = general	rank = 0	fire = 2	shock = 4	manuever = 4	siege = 0 }
+		leader = {	name = "Edward IV"             	type = general	fire = 2	shock = 4	manuever = 4	siege = 0 }
 	}
 	heir = {
 		name = "George"
@@ -683,8 +678,8 @@ national_focus = DIP
 		dip = 2
 		mil = 3
 	}
-	leader = {	name = "Richard Neville"	type = general	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1471.4.14 }
-	leader = {	name = "William Hastings"	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1483.6.13 }
+	leader = {	name = "Richard Neville"	type = general	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1471.4.14 }
+	leader = {	name = "William Hastings"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1483.6.13 }
 }
 1465.5.1 = {
 	queen = {
@@ -728,7 +723,7 @@ national_focus = DIP
 		adm = 4
 		dip = 3
 		mil = 4
-		leader = {	name = "Edward IV"             	type = general	rank = 0	fire = 2	shock = 4	manuever = 4	siege = 0 }
+		leader = {	name = "Edward IV"             	type = general	fire = 2	shock = 4	manuever = 4	siege = 0 }
 	}
 	heir = {
 		name = "Edward"
@@ -741,13 +736,13 @@ national_focus = DIP
 		dip = 2
 		mil = 2
 	}
-	leader = {	name = "Richard Plantagenet"	type = general	rank = 0	fire = 2	shock = 4	manuever = 4	siege = 1	death_date = 1483.6.25 }
+	leader = {	name = "Richard Plantagenet"	type = general	fire = 2	shock = 4	manuever = 4	siege = 1	death_date = 1483.6.25 }
 }
 1475.8.29 = {
 	remove_accepted_culture = normand
 	set_global_flag = eng_had_end_of_hundred_years_war
 } # Treaty of Picuigny
-1478.1.18 = { leader = {	name = "Thomas Howard"	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1513.10.1 } }
+1478.1.18 = { leader = {	name = "Thomas Howard"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1513.10.1 } }
 1483.4.9 = {
 	monarch = {
 		name = "Edward V"
@@ -777,7 +772,7 @@ national_focus = DIP
 		adm = 3
 		dip = 2
 		mil = 4
-		leader = {	name = "Richard III"             	type = general	rank = 0	fire = 2	shock = 4	manuever = 4	siege = 1 }
+		leader = {	name = "Richard III"             	type = general	fire = 2	shock = 4	manuever = 4	siege = 1 }
 	}
 	queen = {
 		country_of_origin = ENG
@@ -814,7 +809,7 @@ national_focus = DIP
 		mil = 2
 	}
 }
-1485.8.23 = { leader = {	name = "Jasper Tudor"	type = general	rank = 1	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1495.12.21 } }
+1485.8.23 = { leader = {	name = "Jasper Tudor"	type = general	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1495.12.21 } }
 1486.1.18 = {
 	queen = {
 		country_of_origin = ENG
@@ -877,8 +872,8 @@ national_focus = DIP
 		mil = 4
 	}
 }
-1512.1.1 = { leader = {	name = "Charles Brandon"               	type = general	rank = 0	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1545.8.24 } }
-1513.1.1 = { leader = {	name = "Edward Howard"                	type = admiral	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1513.4.25 } }
+1512.1.1 = { leader = {	name = "Charles Brandon"               	type = general	fire = 3	shock = 2	manuever = 2	siege = 0	death_date = 1545.8.24 } }
+1513.1.1 = { leader = {	name = "Edward Howard"                	type = admiral	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1513.4.25 } }
 1516.2.18 = {
 	heir = {
 		name = "Mary"
@@ -1019,6 +1014,7 @@ national_focus = DIP
 	}
 }
 1553.7.19 = {
+	religion = catholic
 	monarch = {
 		name = "Mary I"
 		dynasty = "Tudor"
@@ -1028,23 +1024,11 @@ national_focus = DIP
 		mil = 0
 		female = yes
 	}
-	heir = {
-		name = "Elizabeth"
-		monarch_name = "Elizabeth I"
-		dynasty = "Tudor"
-		birth_date = 1533.9.7
-		death_date = 1603.3.24
-		claim = 95
-		adm = 6
-		dip = 6
-		mil = 5
-		female = yes
-	}
 }
-1553.7.19 = { religion = catholic } # Reinstate Papal power over Church of England
 1556.1.1 = { leader = {	name = "William Fitzwilliam"           	type = admiral	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1599.2.6 } }
 1558.1.1 = { leader = {	name = "Edward Clinton"               	type = admiral	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1585.1.16 } }
 1558.11.17 = {
+	religion = anglican
 	monarch = {
 		name = "Elizabeth I"
 		dynasty = "Tudor"
@@ -1055,20 +1039,6 @@ national_focus = DIP
 		female = yes
 	}
 }
-1558.11.17 = { religion = anglican }
-1566.6.19 = {
-	heir = {
-		name = "James"
-		monarch_name = "James I"
-		dynasty = "Stuart"
-		birth_date = 1566.6.19
-		death_date = 1625.3.27
-		claim = 95
-		adm = 2
-		dip = 3
-		mil = 1
-	}
-}
 1580.1.1 = { decision = enlist_privateers }
 1585.1.1 = { leader = {	name = "Charles Howard" 	type = admiral		rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1624.12.14 } }
 1598.1.1 = { mercantilism = 10 }
@@ -1076,10 +1046,11 @@ national_focus = DIP
 	monarch = {
 		name = "James I"
 		dynasty = "Stuart"
+		culture = scottish
 		birth_date = 1566.6.19
 		adm = 2
 		dip = 3
-		mil = 1
+		mil = 4
 	}
 	queen = {
 		country_of_origin = DAN
@@ -1104,7 +1075,7 @@ national_focus = DIP
 		mil = 2
 	}
 }
-1610.1.1 = { leader = {	name = "Dudd Dudley"                	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1684.3.3 } }
+1610.1.1 = { leader = {	name = "Dudd Dudley"                	type = general	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1684.3.3 } }
 1612.11.6 = {
 	heir = {
 		name = "Charles"
@@ -1118,7 +1089,7 @@ national_focus = DIP
 		mil = 2
 	}
 }
-1623.1.1 = { leader = {	name = "George Villiers"            	type = general	rank = 0	fire = 3	shock = 1	manuever = 2	siege = 0	death_date = 1624.8.23 } }
+1623.1.1 = { leader = {	name = "George Villiers"            	type = general	fire = 3	shock = 1	manuever = 2	siege = 0	death_date = 1624.8.23 } }
 1625.3.27 = {
 	monarch = {
 		name = "Charles I"
@@ -1155,7 +1126,7 @@ national_focus = DIP
 		mil = 0
 	}
 }
-1642.1.1 = { leader = {	name = "Prince Rupert"         	type = general	rank = 2	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1646.5.5 } }
+1642.1.1 = { leader = {	name = "Prince Rupert"         	type = general	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1646.5.5 } }
 1646.5.5 = {
 	monarch = {
 		name = "Oliver"
@@ -1164,15 +1135,15 @@ national_focus = DIP
 		adm = 5
 		dip = 5
 		mil = 6
-		leader = { name = "Oliver Cromwell"	type = general	rank = 0	fire = 5	shock = 5	manuever = 4	siege = 1 }
+		leader = { name = "Oliver Cromwell"	type = general	fire = 5	shock = 5	manuever = 4	siege = 1 }
 	}
 	government = republican_dictatorship
 	religion = reformed
 }
-1649.1.29 = { leader = { name = "Robert Blake"		type = admiral	rank = 0	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1657.8.17 } }	
-1649.1.29 = { leader = { name = "George Monck"		type = general	rank = 2	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1670.1.3 } }
-1649.1.29 = { leader = { name = "Thomas Fairfax"	type = general	rank = 0	fire = 4	shock = 4	manuever = 3	siege = 1	death_date = 1671.11.12 } }
-1650.1.1 = { leader = {	name = "George Ayscue"		type = admiral	rank = 5	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1671.7.19 } }
+1649.1.29 = { leader = { name = "Robert Blake"		type = admiral	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1657.8.17 } }	
+1649.1.29 = { leader = { name = "George Monck"		type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1670.1.3 } }
+1649.1.29 = { leader = { name = "Thomas Fairfax"	type = general	fire = 4	shock = 4	manuever = 3	siege = 1	death_date = 1671.11.12 } }
+1650.1.1 = { leader = {	name = "George Ayscue"		type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1671.7.19 } }
 1651.12.30 = { mercantilism = 25 decision = establish_british_merchant_navy } # The Act of Navigation
 1658.9.3 = {
 	monarch = {
@@ -1215,7 +1186,7 @@ national_focus = DIP
 		adm = 2
 		dip = 2
 		mil = 3
-		leader = {	name = "James Stuart"             	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 0 }
+		leader = {	name = "James Stuart"             	type = general	fire = 3	shock = 2	manuever = 3	siege = 0 }
 	}
 }
 1662.4.23 = {
@@ -1231,11 +1202,11 @@ national_focus = DIP
 		mil = 1
 	}
 }
-1660.5.29 = { leader = { name = "Prince Rupert"		type = admiral		rank = 2	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1682.11.19 } }
-1672.1.1 = { leader = {	name = "John Alden"		type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1687.9.22 } }
+1660.5.29 = { leader = { name = "Prince Rupert"		type = admiral		fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1682.11.19 } }
+1672.1.1 = { leader = {	name = "John Alden"		type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1687.9.22 } }
 1673.1.1 = { decision = test_act }
-1678.1.1 = { leader = {	name = "Arthur Herbert"		type = admiral	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1688.3.11 } }
-1685.1.1 = { leader = {	name = "John Churchill"		type = general	rank = 0	fire = 6	shock = 6	manuever = 5	siege = 2	death_date = 1722.6.27 } }
+1678.1.1 = { leader = {	name = "Arthur Herbert"		type = admiral	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1688.3.11 } }
+1685.1.1 = { leader = {	name = "John Churchill"		type = general	fire = 6	shock = 6	manuever = 5	siege = 2	death_date = 1722.6.27 } }
 1685.2.6 = {
 	monarch = {
 		name = "James II"
@@ -1244,7 +1215,7 @@ national_focus = DIP
 		adm = 2
 		dip = 2
 		mil = 3
-		leader = {	name = "James II"             	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 0 }
+		leader = {	name = "James II"             	type = general	fire = 3	shock = 2	manuever = 3	siege = 0 }
 	}
 	queen = {
 		country_of_origin = MOD
@@ -1273,7 +1244,7 @@ national_focus = DIP
 	}
 }
 1685.2.6 = { religion = catholic }
-1686.1.1 = { leader = {	name = "James FitzJames"	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1688.12.11 } }
+1686.1.1 = { leader = {	name = "James FitzJames"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1688.12.11 } }
 1688.6.10 = { # 'The Old Chevalier'
 	heir = {
 		name = "James"
@@ -1301,11 +1272,12 @@ national_focus = DIP
 	monarch = {
 		name = "William III"
 		dynasty = "van Oranje"
+		culture = dutch
 		birth_date = 1650.11.4
 		adm = 3
 		dip = 5
 		mil = 5
-		leader = {	name = "William III"		type = general	rank = 0	fire = 4	shock = 4	manuever = 4	siege = 1 }
+		leader = {	name = "William III"		type = general	fire = 4	shock = 4	manuever = 4	siege = 1 }
 	}
 	queen = {
 		country_of_origin = ENG
@@ -1332,9 +1304,9 @@ national_focus = DIP
 		female = yes
 	}
 }
-1690.1.1 = { leader = {	name = "John Benbow"		type = admiral	rank = 1	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1702.11.4 } }
-1694.1.1 = { leader = {	name = "Thomas Mathews"		type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1751.7.19 } }
-1700.1.1 = { leader = {	name = "George Rooke"		type = admiral	rank = 0	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1709.1.24 } }
+1690.1.1 = { leader = {	name = "John Benbow"		type = admiral	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1702.11.4 } }
+1694.1.1 = { leader = {	name = "Thomas Mathews"		type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1751.7.19 } }
+1700.1.1 = { leader = {	name = "George Rooke"		type = admiral	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1709.1.24 } }
 1702.3.8 = {
 	monarch = {
 		name = "Anne I"
@@ -1376,6 +1348,7 @@ national_focus = DIP
 		name = "George Louis"
 		monarch_name = "George I"
 		dynasty = "von Hannover"
+		culture = eastphalian
 		birth_date = 1660.5.28
 		death_date = 1727.6.11
 		claim = 95

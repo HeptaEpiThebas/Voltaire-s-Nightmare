@@ -46,7 +46,6 @@ capital = 414
 		leader = {
 			name = "Focko Ukena"
 			type = general
-			rank = 1
 			fire = 1
 			shock = 3
 			manuever = 3

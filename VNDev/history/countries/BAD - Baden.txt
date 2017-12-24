@@ -438,7 +438,7 @@ capital = 2459	# Baden
 	}
 }
 
-1519.1.1 = { leader = {	name = "Georg Truchsess"       	type = general	rank = 0	fire = 1	shock = 2	manuever = 3	siege = 1	death_date = 1531.5.29 } }
+1519.1.1 = { leader = {	name = "Georg Truchsess"       	type = general	fire = 1	shock = 2	manuever = 3	siege = 1	death_date = 1531.5.29 } }
 
 1536.1.22 = {
 	heir = {
@@ -596,7 +596,6 @@ capital = 2459	# Baden
 		leader = { 
 			name = "Ludwig-Wilhelm I"
 			type = general
-			rank = 0
 			fire = 2
 			shock = 3
 			manuever = 2
@@ -612,7 +611,7 @@ capital = 2459	# Baden
 		adm = 2
 		dip = 4
 		mil = 4
-		leader = { name = "Ludwig-Wilhelm I"	type = general	rank = 0	fire = 2	shock = 3	manuever = 2	siege = 0}
+		leader = { name = "Ludwig-Wilhelm I"	type = general	fire = 2	shock = 3	manuever = 2	siege = 0}
 		dynasty = "von Zähringen"
 	}
 }

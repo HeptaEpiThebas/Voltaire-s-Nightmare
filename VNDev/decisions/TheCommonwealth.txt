@@ -50,19 +50,7 @@ country_decisions = {
 				limit = { NOT = { accepted_culture = lithuanian } }
 				add_accepted_culture = lithuanian
 			}
-			if = {
-				limit = {
-					is_part_of_hre = yes
-					is_elector = no
-					is_emperor = no
-				}
-				every_owned_province = {
-					limit = {
-						is_part_of_hre = yes
-					}
-					set_in_empire = no
-				}
-			}
+			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 5 } }
 				set_government_rank = 5
@@ -150,19 +138,7 @@ country_decisions = {
 				limit = { NOT = { accepted_culture = polish } }
 				add_accepted_culture = polish
 			}
-			if = {
-				limit = {
-					is_part_of_hre = yes
-					is_elector = no
-					is_emperor = no
-				}
-				every_owned_province = {
-					limit = {
-						is_part_of_hre = yes
-					}
-					set_in_empire = no
-				}
-			}
+			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 5 } }
 				set_government_rank = 5
@@ -248,19 +224,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = PLC
-			if = {
-				limit = {
-					is_part_of_hre = yes
-					is_elector = no
-					is_emperor = no
-				}
-				every_owned_province = {
-					limit = {
-						is_part_of_hre = yes
-					}
-					set_in_empire = no
-				}
-			}
+			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
 				limit = { NOT = { government_rank = 5 } }
 				set_government_rank = 5

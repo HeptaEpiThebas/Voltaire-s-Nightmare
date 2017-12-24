@@ -1,5 +1,5 @@
 # Rum
-government = iqta
+government = ottoman_government
 government_rank = 5
 technology_group = ottoman
 primary_culture = turkish
@@ -7,6 +7,7 @@ religion = sunni
 capital = 57
 historical_rival = NKA
 historical_rival = BYZ
+religious_school = hanafi_school
 
 1077.1.1 = {
 	monarch = {
@@ -18,7 +19,6 @@ historical_rival = BYZ
 		leader = {
 			name = "Suleyman ibn Qutalmish"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 4
 			manuever = 0

@@ -16,7 +16,6 @@ capital = 2619
 		leader = {	
 			name = "Dairmait mac Máel"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 4
 			manuever = 1
@@ -145,7 +144,7 @@ capital = 2619
 	clear_scripted_personalities = yes
 	add_ruler_personality = intricate_web_weaver_personality
 	add_ruler_personality = greedy_personality
-	heir = = {
+	heir = {
 		name = "Donal"
 		monarch_name = "Donal V"
 		dynasty = "Mac Murchada"

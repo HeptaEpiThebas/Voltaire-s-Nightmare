@@ -1334,7 +1334,7 @@ the_banking_system = {
 		full_idea_group = trade_ideas
 	}
 
-	interest = -1
+	interest = -0.25
 	trade_efficiency = 0.1
 
 

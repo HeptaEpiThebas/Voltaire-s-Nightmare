@@ -6,19 +6,98 @@ religion = catholic
 capital = 655
 fixed_capital = 655
 
-#NOT DONE FILL OUT
-
 1038.1.1 = {
 	monarch = {
 		name = "Barisone I"
 		dynasty = "di Torres"
-		birth_date = 1210.1.1 #est
+		birth_date = 1020.1.1 #est
 		adm = 5
 		dip = 4
 		mil = 6
 	}
-} #done 1060
-
+}
+1060.1.1 = {
+	monarch = {
+		name = "Mariano I"
+		dynasty = "di Torres"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1070.1.1 = {
+	monarch = {
+		name = "Orzocorre I"
+		dynasty = "di Torres"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1100.1.1 = {
+	monarch = {
+		name = "Orzocorre II"
+		dynasty = "di Torres"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1116.1.1 = {
+	monarch = {
+		name = "Gonario II"
+		dynasty = "de Serra"
+		birth_date = 1090.1.1
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+}
+1118.1.1 = {
+	monarch = {
+		name = "Constantino"
+		dynasty = "de Serra"
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}
+1133.1.1 = {
+	monarch = {
+		name = "Comita II"
+		dynasty = "de Serra"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1147.1.1 = {
+	monarch = {
+		name = "Barisone II"
+		dynasty = "de Serra"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+1185.1.1 = {
+	monarch = {
+		name = "Pietro I"
+		dynasty = "de Serra"
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}
+1211.1.1 = {
+	monarch = {
+		name = "Pietro II"
+		dynasty = "de Serra"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
 1241.1.1 = {
 	monarch = {
 		name = "Mariano II"

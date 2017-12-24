@@ -420,8 +420,7 @@ capital = 2173	# Nantes
 1354.1.1 = {
 	leader = {
 		name = "Bertrand du Guesclin"
-		type = general	
-		rank = 0	
+		type = general
 		fire = 	3
 		shock = 3
 		manuever = 5 	
@@ -596,7 +595,7 @@ capital = 2173	# Nantes
 		adm = 3
 		dip = 2
 		mil = 4
-		leader = { name = "Arthur de Dreux"	type = general	rank = 0	fire = 4	shock = 4	manuever = 4	siege = 1 }
+		leader = { name = "Arthur de Dreux"	type = general	fire = 4	shock = 4	manuever = 4	siege = 1 }
 	}
 	heir = {
 		name = "François"

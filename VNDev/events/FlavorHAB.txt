@@ -286,7 +286,7 @@ country_event = {
 		random_owned_province = {
 			spawn_rebels = {
 				type = anti_tax_rebels
-				size = 3
+				size = 2
 			}
 		}
 	}
@@ -578,7 +578,7 @@ country_event = {
 			change_culture = hungarian
 			spawn_rebels = {
 				type = nationalist_rebels
-				size = 5
+				size = 4
 				leader = "István Bocskay"
 				friend = HUN
 			}
@@ -1302,6 +1302,7 @@ country_event = {
 				}
 				define_heir = {
 					dynasty = "von Habsburg"
+					culture = austrian
 					ADM = 5
 					DIP = 1
 					MIL = 1					
@@ -1315,6 +1316,7 @@ country_event = {
 				}
 				define_heir = {
 					dynasty = "von Habsburg"
+					culture = austrian
 					DIP = 5
 					ADM = 1
 					MIL = 1
@@ -1328,6 +1330,7 @@ country_event = {
 				}
 				define_heir = {
 					dynasty = "von Habsburg"
+					culture = austrian
 					MIL = 5
 					ADM = 1
 					DIP = 1
@@ -1348,6 +1351,7 @@ country_event = {
 				}
 				define_heir = {
 					dynasty = "von Habsburg"
+					culture = austrian
 					female = yes
 					ADM = 5
 					DIP = 1
@@ -1362,6 +1366,7 @@ country_event = {
 				}
 				define_heir = {
 					dynasty = "von Habsburg"
+					culture = austrian
 					female = yes
 					DIP = 5
 					ADM = 1
@@ -1376,6 +1381,7 @@ country_event = {
 				}
 				define_heir = {
 					dynasty = "von Habsburg"
+					culture = austrian
 					female = yes
 					MIL = 5
 					ADM = 1

@@ -28,7 +28,7 @@ country_event = {
 	
 	option = {		# Issue it
 		name = "flavor_fra.EVTOPTA9100"
-		548 = {
+		capital_scope = {
 			add_base_tax = 1
 			add_province_modifier = {
 				name = permanent_tax_system
@@ -339,6 +339,7 @@ country_event = {
 		define_advisor = {
 			type = army_reformer
 			name = "Le Tellier"
+			culture = cosmopolitan_french
 			discount = yes
 			skill = 2
 		}
@@ -350,6 +351,7 @@ country_event = {
 		define_advisor = {
 			type = army_reformer
 			name = "Louvois"
+			culture = cosmopolitan_french
 			discount = yes
 			skill = 2
 		}
@@ -418,7 +420,7 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = noble_rebels
-				size = 4
+				size = 3
 			}
 		}
 	}
@@ -452,7 +454,7 @@ country_event = {
 		2910 = {
 			spawn_rebels = {
 				type = huguenot_rebels
-				size = 3
+				size = 2
 			}
 		}
 	}
@@ -487,7 +489,9 @@ country_event = {
 		add_dip_power = 100
 		define_advisor = {
 			type = statesman
-			name = "Cardinal Richelieu"
+			name = "Armand Jean Richelieu"
+			culture = cosmopolitan_french
+			religion = catholic
 			discount = yes
 			skill = 3
 		}
@@ -528,7 +532,7 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = noble_rebels
-				size = 3
+				size = 2
 			}
 		}
 	}
@@ -618,7 +622,8 @@ country_event = {
 		add_mil_power = 25
 		define_advisor = {
 			type = treasurer
-			name = "Colbert"
+			name = "Jean-Baptiste Colbert"
+			culture = champenois
 			discount = yes
 			skill = 3
 		}
@@ -1046,7 +1051,8 @@ country_event = {
 		add_adm_power = 50
 		define_advisor = {
 			type = statesman
-			name = "de Broglie"
+			name = "Charles François de Broglie"
+			culture = gascon
 			discount = yes
 			skill = 2
 		}
@@ -1076,7 +1082,9 @@ country_event = {
 		add_adm_power = 50
 		define_advisor = {
 			type = statesman
-			name = "de Fleury"
+			name = "André Hercule de Fleury"
+			culture = occitan
+			religion = catholic
 			discount = yes
 			skill = 2
 		}
@@ -1481,6 +1489,7 @@ country_event = {
 	option = {
 		name = "flavor_fra.EVTOPTA5"
 		add_treasury = -300
+		add_army_professionalism = 0.05
 		548 = { # Ile-de-France
 			add_province_modifier = {
 				name = mousquetaires_du_roi
@@ -1504,7 +1513,12 @@ country_event = {
 	
 	trigger = {
 		tag = ENG
-		NOT = { war_with = FRA }
+		FRA = {
+			exists = yes
+			NOT = { alliance_with = ENG }
+			NOT = { war_with = ENG }
+			is_subject = no
+		}
 		NOT = { is_year = 1450 }
 		started_in = 1444.5.22
 		2177 = { owned_by = ENG }

@@ -6,10 +6,10 @@ primary_culture = bremer_platt
 capital = 854	# Mecklenburg
 
 1030.1.1 = {
-	religion = catholic
 	monarch = {
 		name = "Gottschalk"
 		dynasty = "Nakonice"
+		religion = catholic
 		birth_date = 1010.1.1
 		adm = 4
 		dip = 5
@@ -19,7 +19,6 @@ capital = 854	# Mecklenburg
 	add_ruler_personality = conqueror_personality
 }
 1066.6.7 = {
-	religion = slavic_pagan
 	monarch = {
 		name = "Kruto"
 		dynasty = "Nakonice"
@@ -29,17 +28,16 @@ capital = 854	# Mecklenburg
 	}
 }
 1090.1.1 = {
-	religion = catholic
 	monarch = {
 		name = "Heinrich"
 		dynasty = "Nakonice"
+		religion = catholic
 		adm = 2
 		dip = 1
 		mil = 2
 	}
 }
 1127.3.22 = {
-	religion = slavic_pagan
 	monarch = {
 		name = "Niklot"
 		dynasty = "von Mecklenburg"

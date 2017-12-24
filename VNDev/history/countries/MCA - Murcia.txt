@@ -4,6 +4,7 @@ technology_group = muslim
 primary_culture = andalucian
 religion = sunni
 capital = 267
+religious_school = maliki_school
 
 1065.1.1 = {
 	monarch = {

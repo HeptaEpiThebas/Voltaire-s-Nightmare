@@ -519,7 +519,7 @@ country_event = {
 		add_war_exhaustion = 3
 		change_government = constitutional_monarchy
 		kill_ruler = yes 
-		set_revolution_target = xxx
+		set_revolution_target = ---
 		capital_scope = {
 			controller = {
 				country_event = { id = revolution.14 }
@@ -609,7 +609,7 @@ country_event = {
 		add_prestige = -50
 		add_war_exhaustion = 3
 		change_government = constitutional_monarchy
-		set_revolution_target = xxx
+		set_revolution_target = ---
 		hidden_effect = {
 			FRA = {
 				country_event = { id = revolution.18 }

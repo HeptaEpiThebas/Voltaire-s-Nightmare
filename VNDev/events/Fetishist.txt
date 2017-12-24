@@ -184,7 +184,7 @@ country_event = {
 					NOT = {
 						has_opinion = {
 							who = ROOT
-							value = 10
+							value = 50
 						}
 					}
 				}
@@ -2227,6 +2227,13 @@ country_event = {
 		NOT = { has_adopted_cult = central_african_ancestor_cult }
 		has_country_flag = has_ancestral_lands
 		has_dlc = "Rights of Man"
+		any_owned_province = {
+			OR = {
+				has_province_modifier = ancestral_tomb
+				has_province_modifier = grand_ancestral_tomb
+				has_province_modifier = crumbling_ancestral_tomb
+			}
+		}
 	}
 
 	immediate = {
@@ -2868,6 +2875,7 @@ country_event = {
 
 		define_heir = {
 			adm = 4
+			religion = norse_pagan_reformed
 			female = yes
 			age = 0
 			name = "Hnoss"
@@ -2886,6 +2894,7 @@ country_event = {
 			female = yes
 			age = 0
 			name = "Gersemi"
+			religion = norse_pagan_reformed
 			dynasty = ROOT
 		}
 	}
@@ -3160,6 +3169,7 @@ province_event = {
 				}
 				define_advisor = {
 					name = "Isaiah"
+					religion = jewish
 					type = trader
 					skill = 3
 					discount = yes
@@ -3169,6 +3179,7 @@ province_event = {
 				limit = { NOT = { monthly_income = 25 } }
 				define_advisor = {
 					name = "Isaiah"
+					religion = jewish
 					type = trader
 					skill = 2
 					discount = yes

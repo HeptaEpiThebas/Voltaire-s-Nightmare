@@ -3,6 +3,17 @@ graphical_culture = easterngfx
 
 color = { 167 10 100 }
 
+historical_idea_groups = {
+	offensive_ideas
+	defensive_ideas
+	trade_ideas
+	administrative_ideas
+	spy_ideas
+	economic_ideas
+	innovativeness_ideas
+	diplomatic_ideas
+}
+
 army_names = {
 	"Legio I Herculia" "Legio II Rapax" "Legio III Liberatrix" "Legio IV Apollonaris" "Legio V Alaudae"
 	"Legio VI Victrix" "Legio VII Ferrata" "Legio VIII Augusta" "Legio IX Triumphalis" "Legio X Italica" 

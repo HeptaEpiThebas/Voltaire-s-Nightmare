@@ -40,6 +40,7 @@ capital = 713
 	monarch = {
 		name = "Komnena"
 		dynasty = "Nemanjic"
+		culture = serbian
 		birth_date = 1196.1.1
 		female = yes
 		adm = 2

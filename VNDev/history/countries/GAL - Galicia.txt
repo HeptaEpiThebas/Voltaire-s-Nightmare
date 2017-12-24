@@ -6,6 +6,7 @@ technology_group = western
 capital = 2723
 historical_friend = CAS
 historical_friend = LON
+add_army_professionalism = 0.1
 
 1065.12.24 = {
 	monarch = {

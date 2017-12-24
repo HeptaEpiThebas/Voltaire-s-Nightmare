@@ -1,0 +1,45 @@
+# Event to get a heir killed and pretender rising
+country_event = {
+	id = 9203
+	title = "EVTNAME9203"
+	desc = "EVTDESC9203"
+	picture = CIVIL_WAR_eventPicture
+	
+	trigger = {
+		government = tribal_federation
+		is_year = 1060
+		NOT = { has_dlc = "The Cossacks" }
+		num_of_cities = 15
+		is_at_war = no
+		NOT = { war_exhaustion = 1 }
+		has_regency = no
+		has_heir = yes
+		NOT = { num_of_rebel_controlled_provinces = 1 }
+		NOT = { had_recent_war = 15 }
+		has_truce = no
+		NOT = { has_spawned_rebels = pretender_rebels }		
+	}
+	
+	mean_time_to_happen = {
+		months = 60
+		modifier = {
+			factor = 0.5
+			mil = 4
+		}
+		modifier = {
+			factor = 10
+			ai = yes
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA9203"
+		kill_heir = yes
+	}
+	option = {
+		name = "EVTOPTB9203"
+		random_owned_province = {
+			pretender_rebels = 2
+		}
+	}	
+}

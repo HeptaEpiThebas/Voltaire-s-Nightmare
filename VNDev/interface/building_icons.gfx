@@ -1651,6 +1651,12 @@ spriteTypes = {
 		texturefile = "gfx//interface//buildings//manufactory_farm_estate.tga"
 		loadType = "INGAME"
 	}
+
+	spriteType = {
+		name = "GFX_mills"
+		texturefile = "gfx//interface//buildings//manufactory_mill.dds"
+		loadType = "INGAME"
+	}
 	
 	spriteType = {
 		name = "GFX_plantations"

@@ -132,5 +132,5 @@ ship_names = {
 	Unicorn Union
 	Venture "Phoenix of Glasgow"
 	Wemyss "William and George" "William and Mary"
-	"Yellow Carvel" "Phoenix of Glasgow"
+	"Yellow Carvel"
 }

@@ -17,7 +17,6 @@ country_event = {
 			government = tribal_federation
 			government = tribal_kingdom
 			government = tribal_despotism
-			government = tribal_democracy
 		}
 	}
 
@@ -144,11 +143,7 @@ country_event = {
 	option = {
 		name = "randomeventsstapehordes.20.EVTOPTA"
 		ai_chance = { factor = 100 }
-		add_prestige = -5
-		random = {
-			chance = 15
-			add_stability = -1
-		}
+		add_prestige = -10
 		if = {
 			limit = { has_estate = estate_nomadic_tribes }
 			add_estate_loyalty = {
@@ -184,17 +179,13 @@ country_event = {
 	option = {
 		name = "randomeventsstapehordes.21.EVTOPTA"
 		ai_chance = { factor = 100 }
-		add_horde_unity = -5
+		add_prestige = 10
 		if = {
 			limit = { has_estate = estate_nomadic_tribes }
 			add_estate_loyalty = {
 				estate = estate_nomadic_tribes
 				loyalty = -10
 			}
-		}
-		random = {
-			chance = 25
-			add_stability = -1
 		}		
 	}
 }

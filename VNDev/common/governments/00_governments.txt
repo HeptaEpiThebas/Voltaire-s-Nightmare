@@ -25,7 +25,7 @@ despotic_monarchy = {
 	color = { 179 25 25 }
 		
 	ai_will_do = {
-		factor = 0
+		factor = 1
 	}
 	ai_importance = 1
 	max_states = 5
@@ -122,11 +122,12 @@ feudal_monarchy = {
 	color = { 179 51 51 }
 	
 	ai_will_do = {
-		factor = 1
+		factor = 2
 		modifier = {
 			factor = 0
 			NOT = {
 				has_idea_group = aristocracy_ideas
+				government = feudal_monarchy
 			}
 		}
 	}
@@ -176,18 +177,12 @@ administrative_monarchy = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 0
-			NOT = { 
-				government = despotic_monarchy 
-				government = feudal_monarchy
-			}
+			factor = 3
+			has_idea_group = economic_ideas
 		}
 		modifier = {
-			factor = 0
-			NOT = {
-				has_idea_group = economic_ideas
-				has_idea_group = trade_ideas
-			}
+			factor = 3
+			has_idea_group = trade_ideas
 		}		
 	}
 	ai_importance = 3
@@ -237,8 +232,12 @@ constitutional_monarchy = {
 	ai_will_do = {
 		factor = 1
 		modifier = {
-			factor = 0
-			NOT = { government = administrative_monarchy }
+			factor = 2
+			has_idea_group = humanist_ideas
+		}
+		modifier = {
+			factor = 2
+			has_idea_group = innovativeness_ideas
 		}
 	}
 	ai_importance = 4
@@ -295,7 +294,7 @@ enlightened_despotism = {
 	valid_for_new_country = yes
 
 	ai_will_do = {
-		factor = 0
+		factor = 5
 	}
 	ai_importance = 5
 
@@ -1161,6 +1160,10 @@ tribal_federation = {
 	monarchy = yes
 
 	unique_government = yes
+
+	government_abilities = {
+		tribal_federation_mechanic
+	}
 	
 	color = { 185 175 45 }
 	
@@ -1182,6 +1185,7 @@ tribal_federation = {
 			global_institution_spread = -0.10
 			reinforce_cost_modifier = -0.5
 			cav_to_inf_ratio = 0.25
+			movement_speed = 0.2
 		}
 		2 = {
 			land_forcelimit_modifier = 0.1
@@ -1190,6 +1194,7 @@ tribal_federation = {
 			global_institution_spread = -0.10
 			reinforce_cost_modifier = -0.5
 			cav_to_inf_ratio = 0.25
+			movement_speed = 0.2
 		}
 		3 = {
 			land_forcelimit_modifier = 0.15
@@ -1198,6 +1203,7 @@ tribal_federation = {
 			global_institution_spread = -0.10
 			reinforce_cost_modifier = -0.5
 			cav_to_inf_ratio = 0.25
+			movement_speed = 0.2
 		}
 		4 = {
 			land_forcelimit_modifier = 0.2
@@ -1206,6 +1212,7 @@ tribal_federation = {
 			global_institution_spread = -0.10
 			reinforce_cost_modifier = -0.5
 			cav_to_inf_ratio = 0.25
+			movement_speed = 0.2
 		}
 		5 = {
 			land_forcelimit_modifier = 0.25
@@ -1214,6 +1221,7 @@ tribal_federation = {
 			global_institution_spread = -0.10
 			reinforce_cost_modifier = -0.5
 			cav_to_inf_ratio = 0.25
+			movement_speed = 0.2
 		}
 		6 = {
 			land_forcelimit_modifier = 0.3
@@ -1222,6 +1230,7 @@ tribal_federation = {
 			global_institution_spread = -0.10
 			reinforce_cost_modifier = -0.5
 			cav_to_inf_ratio = 0.25
+			movement_speed = 0.2
 		}
 	}
 }
@@ -1759,6 +1768,7 @@ ottoman_government = {
 	maintain_dynasty = yes
 	unique_government = yes
 	has_harem = yes
+	has_pashas = yes
 	valid_for_new_country = no
 	allow_convert = no
 	valid_for_nation_designer = yes
@@ -1911,6 +1921,10 @@ iqta = {
 	color = { 65 160 60 }
 	
 	unique_government = yes
+
+	government_abilities = {
+		iqta_mechanic
+	}
 
 	valid_for_new_country = no
 	allow_convert = no
@@ -2076,7 +2090,9 @@ principality = {
 	}
 	fixed_rank = 4
 	
-	has_russian_abilities = yes
+	government_abilities = {
+		russian_mechanic
+	}
 }
 
 
@@ -2108,6 +2124,22 @@ tsardom = {
 	}
 	fixed_rank = 6
 	
-	has_russian_abilities = yes
+	government_abilities = {
+		russian_mechanic
+	}
 	claim_states = yes
+}
+
+all_mechanics = {
+	monarchy = yes
+	valid_for_new_country = no
+	valid_for_nation_designer = no
+
+	government_abilities = {
+		russian_mechanic
+		feudal_theocracy_mechanic
+		tribal_federation_mechanic
+		mamluk_mechanic
+		iqta_mechanic
+	}
 }

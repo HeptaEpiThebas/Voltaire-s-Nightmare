@@ -5,6 +5,7 @@ add_accepted_culture = berber
 technology_group = muslim
 capital = 443	# Granada
 government_rank = 3
+religious_school = maliki_school
 
 1038.1.1 = {
 	monarch = {
@@ -365,7 +366,7 @@ government_rank = 3
 		mil = 1
 	}
 }
-1470.1.1 = { leader = {	name = "Ibrahim Ali al-Attar"	type = general	rank = 2	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1483.1.1 } }
+1470.1.1 = { leader = {	name = "Ibrahim Ali al-Attar"	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1483.1.1 } }
 1482.1.1 = {
 	monarch = {
 		name = "Muhammad XII Boabdil"
@@ -394,7 +395,7 @@ government_rank = 3
 		adm = 0
 		dip = 0
 		mil = 0
-		 leader = { name = "Muhammad El Zagal"	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0 }
+		 leader = { name = "Muhammad El Zagal"	type = general	fire = 2	shock = 3	manuever = 3	siege = 0 }
 	}
 }
 1489.1.1 = {

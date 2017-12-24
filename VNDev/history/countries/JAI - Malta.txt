@@ -4,6 +4,7 @@ primary_culture = maltese
 religion = sunni
 technology_group = muslim
 capital = 2711
+religious_school = maliki_school
 
 1054.1.1 = {
 	monarch = {

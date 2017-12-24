@@ -29,7 +29,7 @@ fort_14th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+		factor = 1
 	} 
 }
 
@@ -42,7 +42,7 @@ road_network = {
 	}
 	
 	ai_will_do = {
-		factor = 5000
+		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { province_trade_power = 10 }
@@ -62,7 +62,7 @@ post_office = {
 	}
 	
 	ai_will_do = {
-		factor = 5000
+		factor = 1
 		modifier = {
 			factor = 0
 			NOT = { province_trade_power = 10 }
@@ -83,69 +83,8 @@ canal = {
 	}
 	
 	ai_will_do = {
-		factor = 1250
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 10 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 20 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 40 
-			NOT = { has_estate = estate_burghers}
-		}	
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 50 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 60 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 80 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 90 
-			NOT = { has_estate = estate_burghers}
-		}	
-		modifier = {
-			owner = { navy_size_percentage = .75 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { navy_size_percentage = .90 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { navy_size_percentage = 1.00 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { navy_size_percentage = 1.10 }
-			factor = 1.2
-		}
-	}
+		factor = 1
+	} 
 }
 
 armory = {
@@ -157,106 +96,7 @@ armory = {
 	}
 	
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 0
-			NOT = { base_manpower = 2 }
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 3
-		}	
-		modifier = {
-			factor = 1.10
-			base_manpower = 4
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 5
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 6
-		}		
-		modifier = {
-			factor = 1.10
-			base_manpower = 7
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 8
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 9
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 10
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 10 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 20 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 40 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}	
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 50 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 60 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 70 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 80 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 90 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
+		factor = 1
 	}
 }
 
@@ -269,56 +109,8 @@ college = {
 	}
 	
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 2
-			is_capital = yes
-		}
-		modifier = {
-			factor = 1.1
-			NOT = { development = 20 }
-		}
-		modifier = {
-			factor = 1.2
-			NOT = { development = 10 }
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 10
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 20
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 40
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 50
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 60
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 80
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 90
-		}
-	}	
+		factor = 1
+	} 	
 }
 
 customs_house = {
@@ -330,48 +122,8 @@ customs_house = {
 	}
 	
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 2
-			is_capital = yes
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 10
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 20
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 40
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 50
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 60
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 80
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 90
-		}
-	}	
+		factor = 1
+	} 	
 }
 
 arsenal = {
@@ -385,48 +137,8 @@ arsenal = {
 	make_obsolete = customs_house
 	
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 2
-			is_capital = yes
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 10
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 20
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 40
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 50
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 60
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 80
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 90
-		}
-	}	
+		factor = 1
+	} 	
 }
 
 ################################################
@@ -441,11 +153,7 @@ marketplace = {
 	}
 	
 	ai_will_do = {
-		factor = 5000
-		modifier = {
-			factor = 0
-			NOT = { province_trade_power = 10 }
-		}
+		factor = 1.5
 	}
 }
 
@@ -459,93 +167,7 @@ workshop = {
 	allow_in_gold_provinces = no
 
 	ai_will_do = {
-		factor = 1900
-		
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 15 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 14 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 13 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 12 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 11 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 10 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 9 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 8 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 7 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 6 }
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 10 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 20 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 30 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 40 
-			NOT = { has_estate = estate_burghers}
-		}	
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 50 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 60 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 70 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 80 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 90 
-			NOT = { has_estate = estate_burghers} 
-		}		
+		factor = 1	
 	}
 }
 
@@ -557,117 +179,7 @@ temple = {
 	}
 	
 	ai_will_do = {
-		factor = 2500
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 15 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 14 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 13 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 12 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 11 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 10 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 9 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 8 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 7 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 6 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 5 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 4 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 3 }
-		}	
-		modifier = {
-			factor = 0
-			NOT = { base_tax = 2 }
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 10 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 20 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 40 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}	
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 50 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 60 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}
-		modifier = {
-			factor = 0.95 
-			local_autonomy = 80 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 90 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}			
+		factor = 1		
 	}
 }
 
@@ -679,106 +191,7 @@ barracks = {
 	}
 	
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 0
-			NOT = { base_manpower = 2 }
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 3
-		}	
-		modifier = {
-			factor = 1.10
-			base_manpower = 4
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 5
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 6
-		}		
-		modifier = {
-			factor = 1.10
-			base_manpower = 7
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 8
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 9
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 10
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 10 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 20 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 40 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}	
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 50 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 60 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 70 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 80 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 90 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
+		factor = 1	
 	}
 }		
 
@@ -795,67 +208,14 @@ shipyard = {
 	}
 	
 	ai_will_do = {
-		factor = 1250
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 10 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 20 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 40 
-			NOT = { has_estate = estate_burghers}
-		}	
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 50 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 60 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70 
-			NOT = { has_estate = estate_burghers}
+		factor = 1
+		modifier = {
+			factor = 105 # Little above build cost
+			FROM = { navy_size_percentage = 0.95 }
 		}
 		modifier = {
-			factor = 0.95
-			local_autonomy = 80 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 90 
-			NOT = { has_estate = estate_burghers}
-		}	
-		modifier = {
-			owner = { navy_size_percentage = .75 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { navy_size_percentage = .90 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { navy_size_percentage = 1.00 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { navy_size_percentage = 1.10 }
-			factor = 1.2
+			factor = 1.1
+			local_autonomy = 50
 		}
 	}
 }
@@ -872,7 +232,7 @@ fort_15th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+		factor = 1
 	} 
 }
 
@@ -889,19 +249,7 @@ courthouse = {
 	}
 	
 	ai_will_do = {
-		factor = 1500
-		modifier = {
-			factor = 0
-			nationalism = 1
-		}
-		modifier = {
-			factor = 0
-			is_state = no
-		}
-		modifier = {
-			factor = 0.1
-			NOT = { development = 10 }
-		}
+		factor = 1
 	}
 }
 
@@ -916,7 +264,7 @@ dock = {
 	}
 	
 	ai_will_do = {
-		factor = 2000
+		factor = 1
 	}
 }
 
@@ -928,85 +276,14 @@ regimental_camp = {
 	}
 	
 	ai_will_do = {
-		factor = 1250
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 10 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 20 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 40 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}	
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 50 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 60 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
+		factor = 1
+		modifier = {
+			factor = 215 # Little above build cost
+			FROM = { army_size_percentage = 0.95 }
 		}
 		modifier = {
-			factor = 0.95
-			local_autonomy = 80 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 90 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = {
-			owner = { army_size_percentage = 0.75 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { army_size_percentage = 0.90 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { army_size_percentage = 1.00 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { army_size_percentage = 1.10 }
-			factor = 1.2
+			factor = 1.1
+			local_autonomy = 50
 		}
 	}
 }
@@ -1024,7 +301,7 @@ fort_16th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+		factor = 1
 	} 
 }
 
@@ -1042,117 +319,7 @@ cathedral = {
 	}
 	
 	ai_will_do = {
-		factor = 2500
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 15 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 14 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 13 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 12 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 11 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 10 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 9 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 8 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 7 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 6 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 5 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 4 }
-		}
-		modifier = {
-			factor = 0.95
-			NOT = { base_tax = 3 }
-		}	
-		modifier = {
-			factor = 0
-			NOT = { base_tax = 2 }
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 10 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 20 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 40 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}	
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 50 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 60 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}
-		modifier = {
-			factor = 0.95 
-			local_autonomy = 80 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 90 
-			NOT = { has_estate = estate_church}
-			NOT = { has_estate = estate_dhimmi}
-		}			
+		factor = 1			
 	}
 }
 
@@ -1169,56 +336,25 @@ university = {
 	make_obsolete = college
 	
 	ai_will_do = {
-		factor = 1000
+		# Hard coded AI sees no value in this above the 0.01 ducats base. Let's multiply that
+		factor = 1
+		modifier = {
+			factor = 250
+			development = 20
+			is_state = yes
+		}
 		modifier = {
 			factor = 2
-			is_capital = yes
+			OR = {
+				has_terrain = grasslands
+				has_terrain = drylands
+			}
 		}
 		modifier = {
-			factor = 1.1
-			NOT = { development = 20 }
+			factor = 3
+			has_terrain = farmlands
 		}
-		modifier = {
-			factor = 1.2
-			NOT = { development = 10 }
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 10
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 20
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 40
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 50
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 60
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 80
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 90
-		}
-	}	
+	}
 }
 
 trade_depot = {
@@ -1232,11 +368,7 @@ trade_depot = {
 	}
 	
 	ai_will_do = {
-		factor = 5000
-		modifier = {
-			factor = 0
-			NOT = { province_trade_power = 10 }
-		}
+		factor = 1.5
 	}
 }
 
@@ -1256,67 +388,14 @@ grand_shipyard = {
 	}
 	
 	ai_will_do = {
-		factor = 1250
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 10 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 20 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 40 
-			NOT = { has_estate = estate_burghers}
-		}	
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 50 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 60 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70 
-			NOT = { has_estate = estate_burghers}
+		factor = 1
+		modifier = {
+			factor = 320 # Little above build cost
+			FROM = { navy_size_percentage = 0.95 }
 		}
 		modifier = {
-			factor = 0.95
-			local_autonomy = 80 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 90 
-			NOT = { has_estate = estate_burghers}
-		}	
-		modifier = {
-			owner = { navy_size_percentage = .75 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { navy_size_percentage = .90 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { navy_size_percentage = 1.00 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { navy_size_percentage = 1.10 }
-			factor = 1.2
+			factor = 1.1
+			local_autonomy = 50
 		}
 	}
 }
@@ -1332,106 +411,7 @@ training_fields = {
 	}
 	
 	ai_will_do = {
-		factor = 1200
-		modifier = {
-			factor = 0
-			NOT = { base_manpower = 2 }
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 3
-		}	
-		modifier = {
-			factor = 1.10
-			base_manpower = 4
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 5
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 6
-		}		
-		modifier = {
-			factor = 1.10
-			base_manpower = 7
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 8
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 9
-		}
-		modifier = {
-			factor = 1.10
-			base_manpower = 10
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 10 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 20 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 40 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}	
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 50 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 60 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 70 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 80 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 90 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
+		factor = 1		
 	}
 }
 
@@ -1451,7 +431,7 @@ fort_17th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+		factor = 1
 	} 
 }
 
@@ -1471,11 +451,7 @@ stock_exchange = {
 	}
 	
 	ai_will_do = {
-		factor = 5000
-		modifier = {
-			factor = 0
-			NOT = { province_trade_power = 10 }
-		}
+		factor = 1.5
 	}
 }
 
@@ -1491,93 +467,7 @@ counting_house = {
 	allow_in_gold_provinces = no
 	
 	ai_will_do = {
-		factor = 1900
-		
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 15 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 14 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 13 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 12 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 11 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 10 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 9 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 8 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 7 }
-		}
-		modifier = { 
-			factor = 0.95
-			NOT = { base_production = 6 }
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 10 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 20 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 30 
-			NOT = { has_estate = estate_burghers}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 40 
-			NOT = { has_estate = estate_burghers}
-		}	
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 50 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 60 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 70 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = {
-			factor = 0.95
-			local_autonomy = 80 
-			NOT = { has_estate = estate_burghers}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 90 
-			NOT = { has_estate = estate_burghers} 
-		}		
+		factor = 1	
 	}
 }
 
@@ -1596,20 +486,7 @@ town_hall = {
 	}
 	
 	ai_will_do = {
-		factor = 1500
-		modifier = {
-			factor = 0
-			nationalism = 1
-		}
-		modifier = {
-			factor = 0
-			is_state = no
-		}		
-	
-		modifier = {
-			factor = 0.1
-			NOT = { development = 10 }
-		}
+		factor = 1
 	}
 }
 
@@ -1628,7 +505,7 @@ drydock = {
 	}	
 	
 	ai_will_do = {
-		factor = 2000
+		factor = 1
 	}
 }
 
@@ -1644,85 +521,14 @@ conscription_center = {
 	}
 	
 	ai_will_do = {
-		factor = 1250
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 10 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 20 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}		
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 40 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}	
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 50 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 60 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
+		factor = 1
+		modifier = {
+			factor = 435 # Little above build cost
+			FROM = { army_size_percentage = 0.95 }
 		}
 		modifier = {
-			factor = 0.95
-			local_autonomy = 80 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = { 
-			factor = 0.95
-			local_autonomy = 90 
-			NOT = { has_estate = estate_nobles}
-			NOT = { has_estate = estate_nomadic_tribes}
-			NOT = { has_estate = estate_cossacks}
-		}
-		modifier = {
-			owner = { army_size_percentage = .75 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { army_size_percentage = .90 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { army_size_percentage = 1.00 }
-			factor = 1.2
-		}
-		modifier = {
-			owner = { army_size_percentage = 1.10 }
-			factor = 1.2
+			factor = 1.1
+			local_autonomy = 50
 		}
 	}
 }
@@ -1745,7 +551,7 @@ fort_18th = {
 	influencing_fort = yes
 	
 	ai_will_do = {
-		factor = 3000 #Lots of logic in code instead, that multiplies with this value
+		factor = 1
 	} 
 }
 
@@ -1772,42 +578,19 @@ wharf = {
 	onmap = yes
 	
 	ai_will_do = {
-		factor = 1000
-		modifier = {
-			factor = 0.95 
-			local_autonomy = 10
+		factor = 1750
+		
+		modifier = { 
+			factor = 0.4
+			NOT = { base_production = 6 }
+		}
+		modifier = { 
+			factor = 1.5
+			base_production = 10
 		}
 		modifier = {
-			factor = 0.95 
-			local_autonomy = 20
-		}
-		modifier = {
-			factor = 0.95 
-			local_autonomy = 30
-		}
-		modifier = {
-			factor = 0.95 
-			local_autonomy = 40
-		}
-		modifier = {
-			factor = 0.95 
-			local_autonomy = 50
-		}
-		modifier = {
-			factor = 0.95 
-			local_autonomy = 60
-		}
-		modifier = {
-			factor = 0.95 
-			local_autonomy = 70
-		}	
-		modifier = {
-			factor = 0.95 
-			local_autonomy = 80
-		}	
-		modifier = {
-			factor = 0.95 
-			local_autonomy = 90
+			factor = 1.5
+			base_production = 15
 		}
 		modifier = {
 			NOT = { num_free_building_slots  = 3 }
@@ -1835,47 +618,7 @@ weapons = {
 	onmap = yes	
 	
 	ai_will_do = {
-		factor = 1000
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 10
-		}			
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 20
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30
-		}			
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 40
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 50
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 60
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 80
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 90
-		}
-		modifier = {
-			NOT = { num_free_building_slots  = 3 }
-			factor = 1.5
-		}
+		factor = 1
 	}
 }
 
@@ -1898,47 +641,7 @@ textile = {
 	onmap = yes
 	
 	ai_will_do = {
-		factor = 1000
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 10
-		}			
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 20
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30
-		}			
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 40
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 50
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 60
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 80
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 90
-		}
-		modifier = {
-			NOT = { num_free_building_slots  = 3 }
-			factor = 1.5
-		}
+		factor = 1
 	}
 }
 
@@ -1963,47 +666,7 @@ plantations = {
 	onmap = yes
 	
 	ai_will_do = {
-		factor = 1000
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 10
-		}			
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 20
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30
-		}			
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 40
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 50
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 60
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 80
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 90
-		}	
-		modifier = {
-			NOT = { num_free_building_slots  = 3 }
-			factor = 1.5
-		}
+		factor = 1
 	}
 }
 
@@ -2026,46 +689,6 @@ tradecompany = {
 	onmap = yes
 
 	ai_will_do = {
-		factor = 1000
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 10
-		}			
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 20
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 30
-		}			
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 40
-		}		
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 50
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 60
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 70
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 80
-		}	
-		modifier = { 
-			factor = 0.95 
-			local_autonomy = 90
-		}	
-		modifier = {
-			NOT = { num_free_building_slots  = 3 }
-			factor = 1.5
-		}
+		factor = 1
 	}
 }

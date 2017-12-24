@@ -54,7 +54,6 @@ capital = 2712
 		leader = {
 			name = "Crovan"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 4
 			manuever = 0

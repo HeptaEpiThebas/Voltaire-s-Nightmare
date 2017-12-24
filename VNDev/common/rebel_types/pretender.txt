@@ -297,15 +297,21 @@ pretender_rebels = {
 						government = elective_monarchy
 						government = english_monarchy
 						government = ottoman_government
+						government = tribal_federation
 					}
 				}
 			}
 			change_government = REB
 		}
+		set_country_flag = no_new_succession_crisis_if_pretender_rebels
 		define_ruler = {
 			rebel = yes
 		}
-		kill_heir = yes
+		clr_country_flag = no_new_succession_crisis_if_pretender_rebels
+		if = {
+			limit = { has_heir = yes }
+			kill_heir = yes
+		}
 		if = {
 			limit = { has_disaster = counts_feud }
 			end_disaster = counts_feud

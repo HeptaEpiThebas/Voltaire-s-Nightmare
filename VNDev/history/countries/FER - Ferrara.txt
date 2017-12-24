@@ -4,6 +4,7 @@ technology_group = western
 religion = catholic
 primary_culture = emilian
 capital = 113
+add_army_professionalism = 0.05
 
 #Free commune
 1115.7.24 = {

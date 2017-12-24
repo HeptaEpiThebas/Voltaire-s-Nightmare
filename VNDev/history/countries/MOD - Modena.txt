@@ -25,6 +25,7 @@ capital = 972	# Modena
 1135.1.1 = {
 	government = italian_monarchy
 	government_rank = 1
+	add_army_professionalism = 0.05
 	monarch = {
 		name = "Repubblica"
 		adm = 2

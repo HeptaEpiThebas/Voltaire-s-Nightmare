@@ -13,8 +13,9 @@
  building_arsenal: "Hospice"
  building_college: "College"
 #Misc
- high_king_revolter_ally: "Ally of an Irish Revolter"
- high_king_revolter_ally_desc: "This nation is helping an Irish revolting nation ovethrow the High King of Ireland."
+ ire_trib_state: "Irish Tributary State"
+ ire_trib_state_title: "Irish Tributary State"
+ ire_trib_state_is_our: "Our Irish Tributary State"
  disgraced_nation: "Disgraced Nation"
  disgraced_nation_desc: "Your nation was recently humiliated and defeated by its enemies. Your people are in revolt and view you as illegitimate."
  high_king_revolter: "Irish Revolter"

@@ -4,6 +4,7 @@ technology_group = western
 primary_culture = ligurian
 religion = catholic
 capital = 2992
+add_army_professionalism = 0.05
 
 1098.1.1 = {
 	government = italian_monarchy

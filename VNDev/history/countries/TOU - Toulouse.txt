@@ -51,7 +51,6 @@ fixed_capital = 2423
 		leader = {
 			name = "Raimond de Toulouse"
 			type = general
-			rank = 0
 			shock = 3
 			fire = 3
 			manuever = 3

@@ -1495,7 +1495,7 @@ province_event = {
 		set_province_flag = dutch_revolt
 		spawn_rebels = {
 			type = nationalist_rebels
-			size = 3
+			size = 2
 			friend = NED
 		}
 	}
@@ -2070,8 +2070,9 @@ country_event = {
 					}
 				}
 				define_ruler = {
-					name = "Mary"
+					name = "Marie"
 					dynasty = "de Bourgogne"
+					culture = burgundian
 					age = 20
 					claim = 95
 					female = yes

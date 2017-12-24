@@ -192,7 +192,6 @@ fixed_capital = 251
 	monarch = {
 		name = "Gerhard I"
 		dynasty = "von Schwarzburg"
-		birth_date = 1400.11.9
 		adm = 0
 		dip = 3
 		mil = 3

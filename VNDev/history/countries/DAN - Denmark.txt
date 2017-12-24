@@ -489,16 +489,18 @@ capital = 411
 	monarch = {
 		name = "Erik VII"
 		dynasty = Gryf
+		culture = pommeranian
 		birth_date = 1381.1.1
 		adm = 1
 		dip = 2
 		mil = 3
 	}
 }
-1440.4.9 = {
+1439.9.24 = {
 	monarch = {
 		name = "Christopher III"
 		dynasty = "von Wittelsbach"
+		culture = bavarian
 		birth_date = 1416.2.26
 		adm = 3
 		dip = 2

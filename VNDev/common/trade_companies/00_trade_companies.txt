@@ -1,6 +1,4 @@
 trade_company_north_china = {
-	color = { 60 60 255 }
-	
-	provinces = {
-	}
+	color = { 1 1 1 }
+	provinces = {}
 }

@@ -153,7 +153,6 @@ capital = 773
 		leader = {	
 			name = "Brian Ó Néill"
 			type = general
-			rank = 0
 			fire = 2
 			shock = 4
 			manuever = 0

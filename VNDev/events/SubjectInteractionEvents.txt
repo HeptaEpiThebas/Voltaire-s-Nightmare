@@ -97,7 +97,7 @@ country_event = {
 				id = subject_interaction_events.3
 			}
 			tooltip = {
-				add_years_of_income = 0.1
+				add_treasury = 100
 				add_manpower = 1
 			}
 		}
@@ -217,6 +217,8 @@ country_event = {
 			}
 			define_ruler = {
 				dynasty = ROOT
+				culture = ROOT
+				religion = ROOT
 			}
 		}
 	}
@@ -347,6 +349,8 @@ country_event = {
 			}
 			define_ruler = {
 				dynasty = ROOT
+				culture = ROOT
+				religion = ROOT
 			}
 			random_province = {
 				limit = {
@@ -665,7 +669,11 @@ country_event = {
 		add_treasury = -25
 		FROM = {
 			tooltip = {
-				create_advisor = army_reformer
+				define_advisor = {
+					type = army_reformer
+					skill = 2
+					discount = yes
+				}
 			}
 			set_country_flag = si_sent_advisor_flag
 			country_event = {
@@ -742,7 +750,13 @@ country_event = {
 		trigger = {
 			has_country_flag = si_sent_advisor_flag
 		}
-		create_advisor = army_reformer
+		define_advisor = {
+			type = army_reformer
+			skill = 2
+			discount = yes
+			culture = FROM
+			religion = FROM
+		}
 		tooltip = {
 			add_opinion = {
 				who = FROM
@@ -1870,6 +1884,7 @@ country_event = {
   
 	immediate = {
 		random_subject_country = {
+			limit = { is_at_war = no }
 			set_country_flag = targeted_subject_turning_against_overlord_si
 		}
 	}

@@ -51,7 +51,6 @@ capital = 841
 		leader = {	
 			name = "Magnus Ó Catháin"
 			type = general
-			rank = 0
 			fire = 1
 			shock = 1
 			manuever = 2

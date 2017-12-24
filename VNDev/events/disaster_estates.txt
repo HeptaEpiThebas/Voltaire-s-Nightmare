@@ -26,21 +26,13 @@ country_event = {
 		if = {
 			limit = {
 				is_tribal = no
-				NOT = {
-					government = elective_monarchy
-				}
-				NOT = {
-					government = prussian_monarchy
-				}
-				NOT = {
-					government = ottoman_government
-				}
-				NOT = {
-					government = principality
-				}
-				NOT = {
-					government = tsardom
-				}
+				NOT = { government = elective_monarchy }
+				NOT = { government = prussian_monarchy }
+				NOT = { government = ottoman_government }
+				NOT = { government = principality }
+				NOT = { government = tsardom }
+				NOT = { government = iqta }
+				NOT = { government = tribal_federation }
 			}
 			change_government = noble_republic
 		}
@@ -53,7 +45,7 @@ country_event = {
 				duration = -1
 			}
 		}
-		if = {
+		else_if = {
 			limit = {
 				government = prussian_monarchy
 			}
@@ -62,12 +54,36 @@ country_event = {
 				duration = -1
 			}
 		}
-		if = {
+		else_if = {
 			limit = {
 				government = ottoman_government
 			}
 			add_country_modifier = {
 				name = umera_dominance_ottoman_government
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					government = tsardom
+					government = principality
+				}
+			}
+			add_country_modifier = {
+				name = boyar_dominance
+				duration = -1
+			}
+		}
+		else_if = {
+			limit = {
+				OR = {
+					government = iqta
+					government = tribal_federation
+				}
+			}
+			add_country_modifier = {
+				name = amir_dominance
 				duration = -1
 			}
 		}

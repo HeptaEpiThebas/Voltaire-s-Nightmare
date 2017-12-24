@@ -59,7 +59,7 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 6
+				size = 4
 			}
 		}
 	}
@@ -76,7 +76,7 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 6
+				size = 4
 				leader = "Oliver Cromwell"
 			}
 		}

@@ -5,7 +5,7 @@ add_accepted_culture = piedmontese
 religion = catholic
 technology_group = western
 capital = 1087 # Chambéry
-
+add_army_professionalism = 0.05
 
 1052.1.1 = {
 	monarch = {
@@ -253,7 +253,6 @@ capital = 1087 # Chambéry
 		leader = {	
 			name = "Tommaso di Savoia"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 4
 			manuever = 0
@@ -768,7 +767,6 @@ capital = 1087 # Chambéry
 		leader = {	
 			name = "Emanuele Filiberto"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 3
 			manuever = 3
@@ -787,7 +785,6 @@ capital = 1087 # Chambéry
 		leader = {	
 			name = "Emanuele Filiberto"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 3
 			manuever = 3
@@ -807,7 +804,7 @@ capital = 1087 # Chambéry
 		adm = 2
 		dip = 3
 		mil = 3
-		leader = {	name = "Carlo Emanuele"      	type = general	rank = 0	fire = 2	shock = 4	manuever = 3	siege = 0}
+		leader = {	name = "Carlo Emanuele"      	type = general	fire = 2	shock = 4	manuever = 3	siege = 0}
 	}
 }
 1563.2.7 = {
@@ -822,7 +819,7 @@ capital = 1087 # Chambéry
 		adm = 2
 		dip = 3
 		mil = 3
-		leader = {	name = "Carlo Emanuele"      	type = general	rank = 0	fire = 2	shock = 4	manuever = 3	siege = 0}
+		leader = {	name = "Carlo Emanuele"      	type = general	fire = 2	shock = 4	manuever = 3	siege = 0}
 	}
 }
 1587.5.8 = {
@@ -836,7 +833,7 @@ capital = 1087 # Chambéry
 		adm = 4
 		dip = 4
 		mil = 2
-		leader = {	name = "Vittorio Amedeo I"        	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0}
+		leader = {	name = "Vittorio Amedeo I"        	type = general	fire = 3	shock = 3	manuever = 3	siege = 0}
 	}
 }	
 1630.7.27 = {
@@ -846,7 +843,7 @@ capital = 1087 # Chambéry
 		adm = 4
 		dip = 4
 		mil = 2
-		leader = {	name = "Vittorio Amedeo I"        	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0}
+		leader = {	name = "Vittorio Amedeo I"        	type = general	fire = 3	shock = 3	manuever = 3	siege = 0}
 	}
 }
 1632.9.14 = {
@@ -882,7 +879,7 @@ capital = 1087 # Chambéry
 		mil = 3
 	}
 }
-1638.1.1 = { leader = {	name = "Tommaso di Savoia"     	type = general	rank = 1	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1656.1.1 } }
+1638.1.1 = { leader = {	name = "Tommaso di Savoia"     	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1656.1.1 } }
 1638.10.5 = {
 	monarch = {
 		name = "Carlo Emanuele II"
@@ -903,7 +900,7 @@ capital = 1087 # Chambéry
 		adm = 4
 		dip = 6
 		mil = 5
-		leader = { name = "Vittorio Amedeo II"	type = general	rank = 0	fire = 4	shock = 4	manuever = 2	siege = 2 }
+		leader = { name = "Vittorio Amedeo II"	type = general	fire = 4	shock = 4	manuever = 2	siege = 2 }
 	}
 }
 1675.1.1 = {
@@ -913,6 +910,6 @@ capital = 1087 # Chambéry
 		adm = 4
 		dip = 6
 		mil = 5
-		leader = { name = "Vittorio Amedeo II"	type = general	rank = 0	fire = 4	shock = 4	manuever = 2	siege = 2 }
+		leader = { name = "Vittorio Amedeo II"	type = general	fire = 4	shock = 4	manuever = 2	siege = 2 }
 	}
 }

@@ -1,4 +1,4 @@
-1.1.1 = { emperor = xxx }
+1.1.1 = { emperor = --- }
 1014.2.14 = { emperor = DIE }
 1125.5.23 = { emperor = SAX }
 1137.12.4 = { emperor = WWS }
@@ -28,4 +28,4 @@
 1807.7.9 = { emperor = WES }
 1813.10.13 = { emperor = EAH }
 1866.8.23 = { emperor = PRU }
-1871.1.18 = { emperor = xxx }
+1871.1.18 = { emperor = --- }

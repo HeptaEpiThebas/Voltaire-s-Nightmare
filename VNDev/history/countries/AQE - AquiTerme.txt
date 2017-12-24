@@ -4,6 +4,7 @@ technology_group = western
 religion = catholic
 primary_culture = piedmontese
 capital = 966
+add_army_professionalism = 0.05
 
 1033.1.1 = {
 	monarch = {

@@ -29,6 +29,15 @@ estate_church =
 		value = 5
 	}
 	wanted_territory_modifier = {
+		desc = EST_VAL_NEO_SUFISM
+		trigger = {
+			has_dlc = "Cradle of Civilization"
+			has_global_flag = neo_sufism
+			religion_group = muslim
+		}	
+		value = 5
+	}
+	wanted_territory_modifier = {
 		desc = EST_VAL_THEOCRACY
 		trigger = {
 			government = theocracy
@@ -293,7 +302,15 @@ estate_church =
 		modifier = {
 			factor = 0.75
 			province_trade_power = 10
-		}			
+		}	
+		modifier = {
+			factor = 4
+			local_autonomy = 25
+		}
+		modifier = {
+			factor = 0.25
+			NOT = { local_autonomy = 25 }
+		}		
 	}
 	
 	# Does the AI want to give any extra territory beyond the minimum?
@@ -513,9 +530,32 @@ estate_church =
 		}
 		
 		effect = {
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						has_estate = estate_church
+					}
+					save_event_target_as = church_estate_province
+				}
+			}
 			if = {
 				limit = {
 					monthly_income = 25
+					has_saved_event_target = church_estate_province
+				}
+				define_advisor = {
+					type = theologian
+					skill = 3
+					culture = event_target:church_estate_province
+					religion = event_target:church_estate_province
+					location = event_target:church_estate_province
+					discount = yes
+				}
+			}
+			else_if = {
+				limit = {
+					monthly_income = 25
+					NOT = { has_saved_event_target = church_estate_province }
 				}
 				define_advisor = {
 					type = theologian
@@ -523,8 +563,25 @@ estate_church =
 					discount = yes
 				}
 			}
-			if = {
-				limit = { NOT = { monthly_income = 25 } }
+			else_if = {
+				limit = {
+					NOT = { monthly_income = 25 }
+					has_saved_event_target = church_estate_province
+				}
+				define_advisor = {
+					type = theologian
+					skill = 2
+					discount = yes
+					culture = event_target:church_estate_province
+					religion = event_target:church_estate_province
+					location = event_target:church_estate_province
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { monthly_income = 25 }
+					NOT = { has_saved_event_target = church_estate_province }
+				}
 				define_advisor = {
 					type = theologian
 					skill = 2
@@ -562,9 +619,32 @@ estate_church =
 		}
 		
 		effect = {
+			hidden_effect = {
+				random_owned_province = {
+					limit = {
+						has_estate = estate_church
+					}
+					save_event_target_as = church_estate_province
+				}
+			}
 			if = {
 				limit = {
 					monthly_income = 25
+					has_saved_event_target = church_estate_province
+				}
+				define_advisor = {
+					type = inquisitor
+					skill = 3
+					culture = event_target:church_estate_province
+					religion = event_target:church_estate_province
+					location = event_target:church_estate_province
+					discount = yes
+				}
+			}
+			else_if = {
+				limit = {
+					monthly_income = 25
+					NOT = { has_saved_event_target = church_estate_province }
 				}
 				define_advisor = {
 					type = inquisitor
@@ -572,8 +652,25 @@ estate_church =
 					discount = yes
 				}
 			}
-			if = {
-				limit = { NOT = { monthly_income = 25 } }
+			else_if = {
+				limit = {
+					NOT = { monthly_income = 25 }
+					has_saved_event_target = church_estate_province
+				}
+				define_advisor = {
+					type = inquisitor
+					skill = 2
+					discount = yes
+					culture = event_target:church_estate_province
+					religion = event_target:church_estate_province
+					location = event_target:church_estate_province
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { monthly_income = 25 }
+					NOT = { has_saved_event_target = church_estate_province }
+				}
 				define_advisor = {
 					type = inquisitor
 					skill = 2

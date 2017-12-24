@@ -14,16 +14,17 @@ capital = 2828
 		dip = 2
 		mil = 2
 	}
-	leader = { name = "Konstantinos Kanaris"	type = admiral	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 3	death_date = 1877.9.2 }
-	leader = { name = "Theodoros Kolokotronis"	type = general	rank = 0	fire = 5	shock = 5	manuever = 3	siege = 0	death_date = 1843.2.4 }
-	leader = { name = "Alexandros Ypsilantes"	type = general	rank = 0	fire = 4	shock = 3	manuever = 0	siege = 4	death_date = 1828.1.31 }
-	leader = { name = "Andreas Vokos"			type = admiral	rank = 0	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1835.6.24 }
+	leader = { name = "Konstantinos Kanaris"	type = admiral	fire = 3	shock = 3	manuever = 2	siege = 3	death_date = 1877.9.2 }
+	leader = { name = "Theodoros Kolokotronis"	type = general	fire = 5	shock = 5	manuever = 3	siege = 0	death_date = 1843.2.4 }
+	leader = { name = "Alexandros Ypsilantes"	type = general	fire = 4	shock = 3	manuever = 0	siege = 4	death_date = 1828.1.31 }
+	leader = { name = "Andreas Vokos"			type = admiral	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1835.6.24 }
 }
 1832.8.30 = {
 	government = administrative_monarchy
 	monarch = {
 		name = "Othon I"
 		dynasty = "von Wittelsbach"
+		culture = saxon
 		birth_date = 1815.6.1
 		adm = 0
 		dip = 3
@@ -48,6 +49,7 @@ capital = 2828
 	monarch = {
 		name = "Giorgios I"
 		dynasty = "von Holstein-Glücksburg"
+		culture = danish
 		birth_date = 1845.12.24
 		adm = 5
 		dip = 5

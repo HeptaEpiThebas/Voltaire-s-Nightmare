@@ -78,12 +78,12 @@ capital = 2840
 }
 #1204 done
 1341.1.1 = {
-	primary_culture = lithuanian
-	religion = animism
 	monarch = {
 		name = "Kestutis"
 		dynasty = "Gediminai"
 		birth_date = 1297.1.1
+		religion = animism
+		culture = lithuanian
 		adm = 3
 		dip = 3
 		mil = 3
@@ -93,6 +93,8 @@ capital = 2840
 	monarch = {
 		name = "Vaidotas"
 		dynasty = "Gediminai"
+		religion = animism
+		culture = lithuanian
 		adm = 2
 		dip = 2
 		mil = 2
@@ -103,15 +105,12 @@ capital = 2840
 		name = "Vytautas"
 		dynasty = "Gediminai"
 		birth_date = 1350.1.1
+		religion = catholic
+		culture = lithuanian
 		adm = 2
 		dip = 3
 		mil = 0
-		leader = { name = "Vytautas"	type = general	rank = 0	fire = 2	shock = 4	manuever = 3	siege = 0 }
+		leader = { name = "Vytautas"	type = general	fire = 2	shock = 4	manuever = 3	siege = 0 }
 	}
 }
-1383.1.1 = { religion = catholic }
 #1392 to LIT
-1392.1.1 = {
-	primary_culture = byelorussian
-	religion = orthodox
-}

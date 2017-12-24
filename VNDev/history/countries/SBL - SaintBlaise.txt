@@ -125,7 +125,6 @@ capital = 2954
 1247.1.1 = {
 	monarch = {
 		name = "Arnold"
-		dynasty = ""
 		dip = 2
 		mil = 2
 		adm = 2

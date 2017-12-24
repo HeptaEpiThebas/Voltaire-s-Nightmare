@@ -79,7 +79,6 @@ country_decisions = {
 			if = {
 				limit = {
 					is_part_of_hre = yes
-					is_elector = no
 				}
 				every_owned_province = {
 					limit = {
@@ -87,6 +86,12 @@ country_decisions = {
 					}
 					set_in_empire = no
 				}
+			}
+			if = {
+				limit = { has_global_flag = hagia_sophia_now_mosque }
+				clr_global_flag = hagia_sophia_now_mosque
+				show_ambient_object = hagia_sophia
+				hide_ambient_object = hagia_sophia_minarets
 			}
 			set_government_rank = 6
 			set_country_flag = unformable

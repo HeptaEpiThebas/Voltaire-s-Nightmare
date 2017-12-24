@@ -24,6 +24,7 @@ country_event = {
 			}
 			spawn_rebels = {
 				type = 	pretender_rebels
+				religion = ROOT
 				size = 2
 				win = yes
 			}
@@ -96,6 +97,7 @@ country_event = {
 			limit = { is_core = ROOT }
 			spawn_rebels = {
 				type = 	pretender_rebels
+				religion = ROOT
 				size = 1
 				win = yes
 			}

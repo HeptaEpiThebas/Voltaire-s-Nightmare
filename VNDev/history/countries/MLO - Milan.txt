@@ -76,6 +76,7 @@ capital = 1818
 1117.1.1 = {
 	government = italian_monarchy
 	government_rank = 1
+	add_army_professionalism = 0.05
 	monarch = {
 		name = "Consoli"
 		regent = yes
@@ -325,7 +326,7 @@ capital = 1818
 		mil = 1
 	}
 }
-1418.1.1 = { leader = {	 name = "Carmagnola"     	type = general	rank = 1	fire = 4	shock = 5	manuever = 5	siege = 1	death_date = 1432.5.5 } }
+1418.1.1 = { leader = {	 name = "Carmagnola"     	type = general	fire = 4	shock = 5	manuever = 5	siege = 1	death_date = 1432.5.5 } }
 1427.12.2 = {
 	queen = {
 		country_of_origin = SAV 
@@ -404,7 +405,7 @@ capital = 1818
 		adm = 5
 		dip = 5
 		mil = 4
-		leader = { name = "Ludovico Sforza"       	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 1}
+		leader = { name = "Ludovico Sforza"       	type = general	fire = 3	shock = 2	manuever = 3	siege = 1}
 	}
 }		
 1494.10.23 = {
@@ -415,7 +416,7 @@ capital = 1818
 		adm = 5
 		dip = 5
 		mil = 4
-		leader = { name = "Ludovico Sforza"       	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 1}
+		leader = { name = "Ludovico Sforza"       	type = general	fire = 3	shock = 2	manuever = 3	siege = 1}
 	}
 	heir = {
 		name = "Massimiliano"
@@ -427,7 +428,7 @@ capital = 1818
 		adm = 2
 		dip = 4
 		mil = 1
-		leader = { name = "Massimiliano Sforza"       	type = general	rank = 1	fire = 1	shock = 1	manuever = 2	siege = 0 }
+		leader = { name = "Massimiliano Sforza"       	type = general	fire = 1	shock = 1	manuever = 2	siege = 0 }
 	}	
 }	
 1508.1.1 = {
@@ -438,7 +439,7 @@ capital = 1818
 		adm = 2
 		dip = 4
 		mil = 1
-		leader = { name = "Massimiliano Sforza"       	type = general	rank = 1	fire = 1	shock = 1	manuever = 2	siege = 0 }
+		leader = { name = "Massimiliano Sforza"       	type = general	fire = 1	shock = 1	manuever = 2	siege = 0 }
 	}
 }
 1515.10.6 = {
@@ -449,10 +450,10 @@ capital = 1818
 		adm = 4
 		dip = 2
 		mil = 1
-		leader = { name = "Francesco Sforza"       	type = general	rank = 0	fire = 1	shock = 1	manuever = 2	siege = 0 }
+		leader = { name = "Francesco Sforza"       	type = general	fire = 1	shock = 1	manuever = 2	siege = 0 }
 	}
 }
-1535.1.1 = { leader = {	 name = "Marquis del Vasto"     	type = general	rank = 1	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1546.3.31 } }
+1535.1.1 = { leader = {	 name = "Marquis del Vasto"     	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1546.3.31 } }
 
 1555.5.30 = { government = administrative_monarchy }
 1796.11.15 = {

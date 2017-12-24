@@ -527,7 +527,7 @@ country_event = {
 		capital_scope = {
 			spawn_rebels = {
 				type = catholic_rebels
-				size = 3
+				size = 2
 			}
 		}
 		add_republican_tradition = -20
@@ -750,6 +750,10 @@ country_event = {
 	picture = LIBERUM_VETO_eventPicture
 
 	trigger = {
+		OR = {
+			tag = TUS
+			tag = LAN
+		}
 		NOT = { government = celestial_empire }
 		had_country_flag = {
 			flag = tus_savonarola_seized_power
@@ -811,6 +815,10 @@ country_event = {
 	is_triggered_only = yes
 
 	trigger = {
+		OR = {
+			tag = TUS
+			tag = LAN
+		}
 		has_country_flag = tus_savonarola_seized_power
 	}
 

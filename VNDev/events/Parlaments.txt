@@ -1514,7 +1514,6 @@ country_event = {
 			government = oligarchic_republic
 			government = administrative_republic
 			government = bureaucratic_despotism
-			government = peasants_republic
 		}
 	}
 	
@@ -1702,7 +1701,6 @@ province_event = {
 				government = oligarchic_republic
 				government = administrative_republic
 				government = bureaucratic_despotism
-				government = peasants_republic
 			}
 			NOT = { has_ruler_flag = minorities_denied_representation }
 		}

@@ -144,6 +144,7 @@ country_event = {
 	option = {		# Great Army Reform
 		name = "flavor_tur.EVTOPTA3354"
 		ai_chance = { factor = 50 }
+		add_army_professionalism = 0.02
 		add_country_modifier = {
 			name = tur_army_reform
 			duration = 7300
@@ -152,6 +153,7 @@ country_event = {
 	option = {		# Reform Army and Navy
 		name = "flavor_tur.EVTOPTB3354"
 		ai_chance = { factor = 25 }
+		add_army_professionalism = 0.02
 		add_country_modifier = {
 			name = tur_army_and_navy_reform
 			duration = 7300
@@ -160,6 +162,7 @@ country_event = {
 	option = {		# Great Navy Reform
 		name = "flavor_tur.EVTOPTC3354"
 		ai_chance = { factor = 25 }
+		add_army_professionalism = 0.02
 		add_country_modifier = {
 			name = tur_navy_reform
 			duration = 7300
@@ -191,6 +194,7 @@ country_event = {
 	option = {		# Found the Enderun
 		name = "flavor_tur.EVTOPTA3357"
 		add_years_of_income = -0.10
+		add_army_professionalism = 0.02
 		add_country_modifier = {
 			name = enderun_academy
 			duration = 3650
@@ -198,6 +202,7 @@ country_event = {
 	}
 	option = {		# Expand the Timariot System instead
 		name = "flavor_tur.EVTOPTB3357"
+		add_army_professionalism = 0.02
 		add_country_modifier = {
 			name = expanded_timariot_system
 			duration = 3650
@@ -230,10 +235,14 @@ country_event = {
 	option = {		# Codify the 'Laws of the Forefathers'
 		name = "flavor_tur.EVTOPTA3358"
 		add_piety = -0.25
+		add_estate_nobles_loyalty_effect = yes
+		reduce_estate_church_loyalty_effect = yes
 	}
 	option = {		# Islamic and Roman laws are enough
 		name = "flavor_tur.EVTOPTB3358"
 		add_piety = 0.25
+		reduce_estate_nobles_loyalty_effect = yes
+		add_estate_church_loyalty_effect = yes
 	}
 }
 
@@ -392,6 +401,8 @@ country_event = {
 			spawn_rebels = {
 				type = pretender_rebels
 				size = 3
+				culture = ROOT
+				religion = ROOT
 			}
 		}
 	}
@@ -489,7 +500,6 @@ country_event = {
 		total_development = 800
 		
 		religion_group = muslim
-		NOT = { adm_power = 599 }
 	}
 	
 	mean_time_to_happen = {
@@ -578,6 +588,7 @@ country_event = {
 	option = {		# Codify the Ottoman Laws
 		name = "flavor_tur.EVTOPTA3375"
 		ai_chance = { factor = 75 }
+		add_piety = 0.25
 		every_owned_province = {
 			add_local_autonomy = -10
 		}
@@ -585,6 +596,7 @@ country_event = {
 	option = {		# Leave it be
 		name = "flavor_tur.EVTOPTB3375"
 		ai_chance = { factor = 25 }
+		add_piety = -0.10
 		add_stability_or_adm_power = yes
 
 	}
@@ -619,6 +631,23 @@ country_event = {
 		ai_chance = { factor = 90 }
 		add_ruler_modifier = {
 			name = kosem_sultana
+		}
+		if = {
+			limit = {
+				has_dlc = "Rights of Man"
+				has_consort = no
+			}
+			define_consort = {
+				name = "Kösem Sultan"
+				culture = greek
+				adm = 5
+				dip = 4
+				mil = 5
+				female = yes
+			}
+			hidden_effect = {
+				add_queen_personality = incorruptible_personality
+			}
 		}
 	}
 	option = {		# Choose another wife
@@ -895,7 +924,6 @@ country_event = {
 	option = {		# Allow the Patriarchate to exist and keep the current Patriarch
 		name = "flavor_tur.EVTOPTA3750"
 		ai_chance = { factor = 50 }
-		add_piety = -0.5
 		capital_scope = {
 			add_base_manpower = 3
 		}
@@ -921,7 +949,6 @@ country_event = {
 				}
 			}
 		}
-		add_piety = 0.5
 		add_years_of_income = 0.5
 		capital_scope = {
 			add_base_tax = 1
@@ -1094,19 +1121,9 @@ country_event = {
 	desc = "flavor_tur.EVTDESC100"
 	picture = MILITARY_CAMP_eventPicture
 	
-	
 	fire_only_once = yes
 	major = yes
-	
-	trigger ={
-		tag = TUR
-		army_tradition = 50
-		OR = {
-			adm = 5
-			dip = 5
-			mil = 5
-		}		
-	}
+	is_triggered_only = yes
 	
 	mean_time_to_happen = {
 		months = 32
@@ -1121,11 +1138,6 @@ country_event = {
 		}
 		custom_tooltip = janissary_disaster_notifier
 		set_country_flag = janissary_timer
-	}
-	option = {		# Disband them
-		name = "flavor_tur.EVTOPTB100"
-		ai_chance = { factor = 0 }
-		add_prestige = -5
 	}
 }
 
@@ -1142,24 +1154,24 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger ={
-		has_country_modifier = tur_janissary
-		has_country_modifier = the_provincial_system
 		NOT = { has_disaster = janissary_decadence }
+		OR = {
+			has_country_modifier = tur_janissary
+			AND = {
+				num_of_janissaries = 10
+				janissary_percentage = 0.1
+			}
+		}
 	}
 	
 	mean_time_to_happen = {
-		months = 300
+		months = 500
 	}
 	
 	
-	option = {		# Increase recruiting through the devsirme system
+	option = {		#
 		name = "flavor_tur.EVTOPTA101"
-		add_army_tradition = 50
-		
-	}
-	option = {		# Our military focus should be elsehwere
-		name = "flavor_tur.EVTOPTB101"
-		add_mil_power = 200
+		add_piety = -0.10
 	}
 }
 
@@ -1171,8 +1183,17 @@ country_event = {
 	picture = MILITARY_CAMP_eventPicture
 	
 	trigger ={
-		has_country_modifier = tur_janissary
+		government = ottoman_government
 		NOT = { has_disaster = janissary_decadence }
+		if = {
+			limit = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+			}
+			has_country_modifier = tur_janissary
+			else = {
+				num_of_janissaries = 3
+			}
+		}
 		has_regency = no
 	}
 	
@@ -1199,7 +1220,10 @@ country_event = {
 	picture = LAND_MILITARY_eventPicture
 
 	trigger = {
-		has_country_modifier = tur_janissary
+		OR = {
+			has_country_modifier = tur_janissary
+			num_of_janissaries = 10
+		}
 		NOT = { has_disaster = janissary_decadence }
 		NOT = {
 			has_country_modifier = tur_janissaries_timer
@@ -1221,7 +1245,7 @@ country_event = {
 	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 700
 	}
 	
 	immediate = {
@@ -1262,30 +1286,63 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		has_country_modifier = tur_janissary
+		if = {
+			limit = { has_dlc = "Cradle of Civilization" }
+			num_of_janissaries = 10
+			janissary_percentage = 0.1
+		}
+		if = {
+			limit = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+			}
+			has_country_modifier = tur_janissary
+		}
+		is_year = 1500
+		NOT = { has_country_flag = had_janissary_civilianization }
+		NOT = { has_ruler_modifier = janissaries_disciplined }
 		NOT = { has_disaster = janissary_decadence }
-    	}
 	
 	mean_time_to_happen = {
-		months = 1000
+		months = 500
 		
 	}
 	
-	immediate = {
-		set_country_flag = TUR_had_event_105
-	}
-	
-	option = {		# Allow them to hold land 
+	option = {		# Everyone needs to make a living.
 		name = "flavor_tur.EVTOPTA105"
-		add_ruler_modifier = {
-			name = janissary_landholders
+		if = {
+			limit = { NOT = { has_dlc = "Cradle of Civilization" } }
+			add_ruler_modifier = {
+				name = janissary_landholders
+			}
 		}
+		else = {
+			add_ruler_modifier = {
+				name = janissary_landholders
+				duration = 3650
+			}
+		}
+		add_mercantilism = 1
+		add_estate_burghers_loyalty_effect = yes
 	}
-	option = {		# They should know their place
+	option = {		# Let us increase drilling and salaries instead.
 		name = "flavor_tur.EVTOPTB105"
-		add_ruler_modifier = {
-			name = janissaries_upset
+		if = {
+			limit = {
+				NOT = { has_dlc = "Cradle of Civilization" }
+			}
+			add_ruler_modifier = {
+				name = janissaries_upset
+			}
+			set_country_flag = had_janissary_civilianization
 		}
+		else = {
+			add_ruler_modifier = {
+				name = janissaries_disciplined
+				duration = 3650
+			}
+		}
+		add_mercantilism = -1
+		reduce_estate_burghers_loyalty_effect = yes
 	}
 }
 
@@ -1299,8 +1356,9 @@ country_event = {
 	
 	trigger = {
 		has_country_modifier = tur_janissary
-		NOT = { tag = TUR }
-    }
+		NOT = { has_disaster = janissary_decadence }
+		NOT = { government = ottoman_government }
+  	}
 	
 	mean_time_to_happen = {
 		months = 10
@@ -1313,5 +1371,86 @@ country_event = {
 	
 	option = {		# Ok.
 		name = "flavor_tur.106.a"
+	}
+}
+
+# Muslims in the Janissary rolls
+country_event = {
+	id = flavor_tur.107
+	title = "flavor_tur.107.t"
+	desc = "flavor_tur.107.d"
+	picture = MILITARY_CAMP_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1500
+		NOT = { has_disaster = janissary_decadence }
+		OR = {
+			has_country_modifier = tur_janissary
+			AND = {
+				num_of_janissaries = 10
+				janissary_percentage = 0.1
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+	}
+	
+	immediate = {
+		hidden_effect = {
+			if = { 
+				limit = { NOT = { has_country_flag = had_muslim_janissaries } }
+				set_country_flag = had_muslim_janissaries
+			}
+		}
+	}
+	
+	
+	option = {		# 
+		name = "flavor_tur.107.a"
+		add_country_modifier = {
+			name = "strictly_enforced_janissary_discipline"
+			duration = 3650
+		}
+	}
+	option = {		# 
+		name = "flavor_tur.107.b"
+		add_country_modifier = {
+			name = "non_christian_janissaries"
+			duration = 3650
+		}
+	}
+}
+
+# Lapse of the Devshirme
+country_event = {
+	id = flavor_tur.108
+	title = "flavor_tur.108.t"
+	desc = "flavor_tur.108.d"
+	picture = MILITARY_CAMP_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1600
+		NOT = { has_disaster = janissary_decadence }
+		has_country_modifier = the_devshirme_system
+		num_of_cities = 100
+		has_country_flag = had_muslim_janissaries
+		NOT = { has_country_flag = lapse_of_devshirme }
+	}
+	
+	mean_time_to_happen = {
+		months = 500
+	}
+	
+	
+	option = {		# 
+		name = "flavor_tur.108.a"
+		remove_country_modifier = the_devshirme_system
+		set_country_flag = lapse_of_devshirme
 	}
 }

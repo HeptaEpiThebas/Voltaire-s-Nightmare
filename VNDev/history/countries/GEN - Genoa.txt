@@ -7,6 +7,7 @@ technology_group = western
 capital = 2560	#Genoa
 fixed_capital = 2560
 national_focus = DIP
+add_army_professionalism = 0.05
 
 1054.1.1 = {
 	monarch = {
@@ -1531,7 +1532,7 @@ national_focus = DIP
 }
 
 ###################GENERALS#####################
-1480.1.1 = { leader = {	name = "Paolo Fregoso"         	type = general	rank = 2	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1487.1.1 } }
-1513.1.1 = { leader = {	name = "Frederigo Fregoso"     	type = admiral	rank = 1	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1522.1.1 } }
-1520.1.1 = { leader = {	name = "Andrea Doria"          	type = admiral	rank = 0	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1565.1.1 } }
-1565.1.1 = { leader = {	name = "G. Doria"              	type = admiral	rank = 1	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1590.1.1 } }
+1480.1.1 = { leader = {	name = "Paolo Fregoso"         	type = general	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1487.1.1 } }
+1513.1.1 = { leader = {	name = "Frederigo Fregoso"     	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1522.1.1 } }
+1520.1.1 = { leader = {	name = "Andrea Doria"          	type = admiral	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1565.1.1 } }
+1565.1.1 = { leader = {	name = "G. Doria"              	type = admiral	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1590.1.1 } }

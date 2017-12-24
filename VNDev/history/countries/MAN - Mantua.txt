@@ -4,6 +4,7 @@ primary_culture = emilian
 religion = catholic
 technology_group = western
 capital = 109	# Mantova
+add_army_professionalism = 0.05
 
 1115.7.24 = {
 	monarch = {

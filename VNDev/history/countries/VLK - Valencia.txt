@@ -137,7 +137,7 @@ capital = 2024
 }
 #1238 to ARA
 1238.10.9 = {
-	primary_culture = valencia
+	primary_culture = valencian
 	government = feudal_monarchy
 	religion = catholic
 	technology_group = western

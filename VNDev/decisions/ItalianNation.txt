@@ -45,6 +45,14 @@ country_decisions = {
 		effect = {
 			if = {
 				limit = {
+					NOT = { government_rank = 5 }
+				}
+				set_government_rank = 5
+			}
+			change_tag = ITA
+			set_country_flag = unformable
+			if = {
+				limit = {
 					is_part_of_hre = yes
 					is_elector = no
 					is_emperor = no
@@ -60,14 +68,6 @@ country_decisions = {
 					country_event = { id = hre_event.5 }
 				}
 			}
-			if = {
-				limit = {
-					NOT = { government_rank = 5 }
-				}
-				set_government_rank = 5
-			}
-			change_tag = ITA
-			set_country_flag = unformable
 			lombardy_superregion = {
 				limit = {
 					NOT = { owned_by = ROOT }
@@ -132,23 +132,7 @@ country_decisions = {
 			owns_core_province = 1784	# Pesaro
 		}
 		effect = {
-			if = {
-				limit = {
-					is_part_of_hre = yes
-					is_elector = no
-					is_emperor = no
-				}
-				emperor = {
-					add_opinion = {
-						who = root
-						modifier = opinion_left_empire
-					}
-				}
-				set_in_empire = no
-				emperor = {
-					country_event = { id = hre_event.5 }
-				}
-			}
+			remove_non_electors_emperors_from_empire_effect = yes
 			change_tag = KOG
 			change_government = feudal_monarchy
 			set_country_flag = unformable

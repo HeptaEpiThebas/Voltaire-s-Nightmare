@@ -45,7 +45,7 @@ country_event = {
 	trigger = {
 		NOT = { corruption = 1 }
 		NOT = { yearly_corruption_increase = 0.001 }
-		NOT = { has_country_modifier = honest_neighbors }		
+		NOT = { has_country_modifier = honest_administrators }		
 		stability = 3
 	}
 	

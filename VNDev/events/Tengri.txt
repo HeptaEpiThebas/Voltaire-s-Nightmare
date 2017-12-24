@@ -1010,6 +1010,7 @@ country_event = {
 			DIP = 3		
 			ADM = 3
 			MIL = 2
+			religion = sunni
 		}
 	}
 	
@@ -1542,11 +1543,13 @@ country_event = {
 		add_meritocracy_effect = yes
 		define_advisor = {
 			type = master_of_mint
+			religion = jewish
 			skill = 2
 			discount = yes
 		}
 		define_advisor = {
 			type = treasurer
+			religion = jewish
 			skill = 3
 			discount = yes
 		}
@@ -1750,6 +1753,7 @@ country_event = {
 		add_meritocracy_effect = yes
 		define_advisor = {
 			type = trader
+			religion = sunni
 			skill = 2
 			discount = yes
 		}

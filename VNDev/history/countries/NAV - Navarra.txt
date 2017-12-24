@@ -137,7 +137,6 @@ capital = 2160	# Pamplona
 		leader = {	
 			name = "Sancho the Strong"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 4
 			manuever = 2
@@ -166,6 +165,7 @@ capital = 2160	# Pamplona
 	monarch = {
 		name = "Teobaldo I"
 		dynasty = "de Blois"
+		culture = orleanais
 		birth_date = 1201.5.30
 		adm = 3
 		dip = 3
@@ -515,11 +515,11 @@ capital = 2160	# Pamplona
 		adm = 5
 		dip = 5
 		mil = 5
-		leader = { 	name = "Enrique III"		type = general	rank = 0	fire = 4	shock = 4	manuever = 2	siege = 0 }
+		leader = { 	name = "Enrique III"		type = general	fire = 4	shock = 4	manuever = 2	siege = 0 }
 	}
 }
 1560.1.1 = { religion = huguenot government = administrative_monarchy }
-1562.1.1 = { leader = {	name = "Louis I de Condé"	type = general	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 3	death_date = 1569.1.1 } }
+1562.1.1 = { leader = {	name = "Louis I de Condé"	type = general	fire = 2	shock = 3	manuever = 4	siege = 3	death_date = 1569.1.1 } }
 1572.6.9 = {
 	monarch = {
 		name = "Enrique III"
@@ -528,6 +528,6 @@ capital = 2160	# Pamplona
 		adm = 5
 		dip = 5
 		mil = 5
-		leader = { 	name = "Enrique III"		type = general	rank = 0	fire = 4	shock = 4	manuever = 2	siege = 0 }
+		leader = { 	name = "Enrique III"		type = general	fire = 4	shock = 4	manuever = 2	siege = 0 }
 	}
 }

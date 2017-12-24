@@ -4,6 +4,7 @@ technology_group = western
 primary_culture = tuscan
 religion = catholic
 capital = 2022
+add_army_professionalism = 0.05
 
 1115.7.24 = {
 	monarch = {
@@ -42,8 +43,7 @@ capital = 2022
 	}
 	leader = {
 		name = "Tolosao degli Uberti"           	
-		type = general	
-		rank = 0	
+		type = general
 		fire = 3	
 		shock = 3	
 		manuever = 3	

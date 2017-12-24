@@ -26,10 +26,8 @@ country_event = {
 			ai = yes
 			was_player = no
 			NOT = { num_of_subjects = 1 }
-			OR = {
-				has_opinion = { who = BRA value = 100 }
-				vassal_of = BRA
-			}
+			has_opinion = { who = BRA value = 100 }
+			NOT = { vassal_of = BRA }
 		}
 	}
 	
@@ -68,6 +66,7 @@ country_event = {
 		name = "flavor_brapru.EVTOPTA3518"
 		add_army_tradition = 20
 		add_mil_power = 150
+		add_army_professionalism = 0.02
 	}
 }
 
@@ -137,6 +136,7 @@ country_event = {
 		define_advisor = {
 			type = philosopher
 			name = "Immanuel Kant"
+			culture = prussian
 			skill = 3
 			discount = yes
 		}
@@ -195,6 +195,7 @@ country_event = {
 	option = {
 		name = "flavor_brapru.EVTOPTA3526"
 		add_army_tradition = 20
+		add_army_professionalism = 0.05
 		if = {
 			limit = { has_dlc = "Rights of Man" }
 			add_militarised_society = 20
@@ -445,6 +446,7 @@ country_event = {
 		define_advisor = {
 			type = natural_scientist
 			name = "Leonhard Thurneysser"
+			culture = swiss
 			skill = 2
 			discount = yes
 		}
@@ -688,9 +690,7 @@ country_event = {
 			tag = BRA
 			tag = PRU
 		}
-		2652 = {
-			is_capital = yes
-		}
+		capital = 2652
 		is_year = 1650
 		NOT = { is_year = 1710 }
 		adm_tech = 55
@@ -966,6 +966,8 @@ country_event = {
 		define_advisor = {
 			type = statesman
 			name = "Samuel von Cocceji"
+			culture = eastphalian
+			culture = pfalzish
 			discount = yes
 			skill = 3
 		}
@@ -1634,6 +1636,7 @@ country_event = {
 		custom_tooltip = flavor_brapru.36.a.tt
 		ai_chance = { factor = 100 }
 		add_stability = -1 #Administrative Friction
+		add_army_professionalism = 0.05
 		if = {
 			limit = { has_dlc = "Rights of Man" }
 			add_militarised_society = 40
@@ -1687,6 +1690,8 @@ country_event = {
 		define_advisor = {
 			type = philosopher
 			name = "Moses Mendelssohn"
+			religion = jewish
+			culture = saxon
 			skill = 3
 			discount = yes
 		}
@@ -1760,6 +1765,8 @@ country_event = {
 		name = "flavor_brapru.39.a" #Bring him here
 		define_advisor = {
 			name = "Johannes Agricola"
+			culture = saxon
+			religion = protestant
 			type = theologian
 			skill = 2
 			discount = yes

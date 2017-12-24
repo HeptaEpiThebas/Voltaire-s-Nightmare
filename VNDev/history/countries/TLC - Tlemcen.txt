@@ -4,6 +4,7 @@ government_rank = 5
 religion = sunni
 primary_culture = berber
 capital = 2854
+religious_school = maliki_school
 
 1236.1.1 = {
 	monarch = {
@@ -140,7 +141,7 @@ capital = 2854
 		adm = 4
 		dip = 1
 		mil = 2
-		leader = {	name = "Ahmad II"	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 0 }
+		leader = {	name = "Ahmad II"	type = general	fire = 3	shock = 2	manuever = 3	siege = 0 }
 	}
 }
 1462.2.2 = {

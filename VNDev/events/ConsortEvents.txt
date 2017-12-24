@@ -52,6 +52,7 @@ country_event = {
 		government = monarchy
 		NOT = { government = iqta }
 		NOT = { government = elective_monarchy }
+		NOT = { government = ottoman_government }
 		num_of_royal_marriages = 4
 		NOT = { has_ruler_flag = approached_by_leading_families_of_the_realm }
 		OR = {
@@ -144,6 +145,7 @@ country_event = {
 		has_foreign_consort = no
 		is_lesser_in_union = no
 		num_of_cities = 2
+		NOT = { government = ottoman_government }
 		NOT = { has_ruler_flag = has_lowborn_consort }
 		NOT = {
 			any_owned_province = {
@@ -424,6 +426,10 @@ country_event = {
 				limit = { has_ruler_flag = helped_spouses_family }
 				clr_ruler_flag = helped_spouses_family
 			}
+			random_owned_province = {
+				limit = { has_province_modifier = domain_of_spouses_family }
+				save_event_target_as = domain_of_spouses_family_province
+			}
 			random_list = {
 				15 = { set_country_flag = in_laws_fund_development }
 				15 = { set_country_flag = in_laws_provide_mil_advisor }
@@ -489,6 +495,8 @@ country_event = {
 					define_advisor = {
 						type = recruitmaster
 						skill = 3
+						culture = event_target:domain_of_spouses_family_province
+						religion = event_target:domain_of_spouses_family_province
 						discount = yes
 					}
 					add_meritocracy_effect = yes
@@ -497,6 +505,8 @@ country_event = {
 					limit = { NOT = { monthly_income = 35 } }
 					define_advisor = {
 						type = recruitmaster
+						culture = event_target:domain_of_spouses_family_province
+						religion = event_target:domain_of_spouses_family_province
 						skill = 2
 						discount = yes
 					}
@@ -512,6 +522,8 @@ country_event = {
 					}
 					define_advisor = {
 						type = trader
+						culture = event_target:domain_of_spouses_family_province
+						religion = event_target:domain_of_spouses_family_province
 						skill = 3
 						discount = yes
 					}
@@ -521,6 +533,8 @@ country_event = {
 					limit = { NOT = { monthly_income = 35 } }
 					define_advisor = {
 						type = trader
+						culture = event_target:domain_of_spouses_family_province
+						religion = event_target:domain_of_spouses_family_province
 						skill = 2
 						discount = yes
 					}
@@ -559,6 +573,8 @@ country_event = {
 					}
 					define_advisor = {
 						type = natural_scientist
+						culture = event_target:domain_of_spouses_family_province
+						religion = event_target:domain_of_spouses_family_province
 						skill = 3
 						discount = yes
 					}
@@ -568,6 +584,8 @@ country_event = {
 					limit = { NOT = { monthly_income = 35 } }
 					define_advisor = {
 						type = natural_scientist
+						culture = event_target:domain_of_spouses_family_province
+						religion = event_target:domain_of_spouses_family_province
 						skill = 2
 						discount = yes
 					}
@@ -751,6 +769,7 @@ country_event = {
 		has_regency = no
 		num_of_cities = 2
 		government = monarchy
+		NOT = { government = ottoman_government }
 		NOT = { government = iqta }
 		NOT = { government = elective_monarchy }
 		NOT = { has_ruler_flag = turned_down_marriage_offer_for_love }
@@ -866,6 +885,7 @@ country_event = {
 		is_lesser_in_union = no
 		has_consort = yes
 		has_foreign_consort = yes
+		NOT = { government = ottoman_government }
 		any_country = {
 			has_given_consort_to = ROOT
 			exists = yes
@@ -917,6 +937,7 @@ country_event = {
 		is_lesser_in_union = no
 		NOT = { has_country_modifier = heretic_royalty }
 		NOT = { religion = tengri_pagan_reformed }
+		NOT = { government = ottoman_government }
 		any_country = {
 			has_given_consort_to = ROOT
 			NOT = { religion = ROOT }
@@ -970,6 +991,7 @@ country_event = {
 		has_regency = no
 		has_consort = yes
 		is_lesser_in_union = no
+		NOT = { government = ottoman_government }
 		any_country = {
 			has_given_consort_to = ROOT
 			OR = {
@@ -1066,6 +1088,7 @@ country_event = {
 		has_dlc = "Rights of Man"
 		has_consort = yes
 		is_lesser_in_union = no
+		NOT = { government = ottoman_government }
 		OR = {
 			consort_dip = 5
 			consort_adm = 5
@@ -1356,6 +1379,7 @@ country_event = {
 		has_dlc = "Rights of Man"
 		has_consort = yes
 		is_lesser_in_union = no
+		NOT = { government = ottoman_government }
 		has_foreign_consort = yes
 		NOT = { has_consort_regency = yes }
 		ruler_consort_marriage_length = 2
@@ -1508,6 +1532,7 @@ country_event = {
 
 	trigger = {
 		has_dlc = "Rights of Man"
+		NOT = { government = ottoman_government }
 		any_country = {
 			marriage_with = ROOT
 			has_consort = yes 
@@ -2170,6 +2195,7 @@ country_event = {
 		has_consort = yes
 		has_foreign_consort = yes
 		is_lesser_in_union = no
+		NOT = { government = ottoman_government }
 		NOT = { has_country_modifier = heretic_royalty }
 		any_owned_province = {
 			is_capital = no
@@ -2244,6 +2270,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Rights of Man"
 		NOT = { government = elective_monarchy }
+		NOT = { government = ottoman_government }
 		has_heir = yes
 		has_consort = yes
 		is_lesser_in_union = no
@@ -2741,6 +2768,7 @@ country_event = {
 		has_dlc = "Rights of Man"
 		is_lesser_in_union = no
 		NOT = { government = elective_monarchy }
+		NOT = { government = ottoman_government }
 		has_consort = yes
 		has_consort_regency = no
 		ruler_consort_marriage_length = 3
@@ -3336,6 +3364,7 @@ country_event = {
 		has_dlc = "Rights of Man"
 		has_consort = yes
 		is_lesser_in_union = no
+		NOT = { government = ottoman_government }
 		NOT = { has_consort_regency = yes }
 		ruler_consort_marriage_length = 10
 		NOT = { ruler_consort_marriage_length = 12 }
@@ -3412,6 +3441,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Rights of Man"
 		has_consort = yes
+		NOT = { government = ottoman_government }
 		is_lesser_in_union = no
 		NOT = { has_consort_regency = yes }
 		ruler_consort_marriage_length = 20
@@ -4198,7 +4228,7 @@ country_event = {
 		NOT = { heir_adm = 3 }
 		NOT = { heir_dip = 3 }
 		NOT = { heir_mil = 3 }
-
+		NOT = { government = ottoman_government }
 		consort_dip = 3
 		consort_mil = 3
 		consort_adm = 3
@@ -4239,6 +4269,7 @@ country_event = {
 	trigger = {
 		has_dlc = "Rights of Man"
 		has_consort_regency = yes
+		NOT = { government = ottoman_government }
 	}
 
 	is_triggered_only = yes
@@ -4427,6 +4458,38 @@ country_event = {
 				}
 				set_ruler_flag = consort_dip_advisor
 			}
+			if = {
+				limit = {
+					has_foreign_consort = yes
+					any_country = {
+						has_given_consort_to = ROOT
+						exists = yes
+					}
+				}
+				set_country_flag = foreign_advisor_origin
+				random_country = {
+					limit = {
+						has_given_consort_to = ROOT
+						exists = yes
+					}
+					save_event_target_as = consort_from_here
+				}
+			}
+			else_if = {
+				limit = {
+					any_owned_province = {
+						has_province_modifier = domain_of_spouses_family
+					}
+				}
+				set_country_flag = internal_advisor_origin
+				random_owned_province = {
+					limit = { has_province_modifier = domain_of_spouses_family }
+					save_event_target_as = internal_origin_province
+				}
+			}
+			else = {
+				set_country_flag = no_foreign_advisor_origin
+			}
 		}	
 	}
 
@@ -4434,78 +4497,224 @@ country_event = {
 	option = {
 		name = consort_events.312.a
 		custom_tooltip = consort_events.312.a.tt
-
-		if = {
-			limit = { has_ruler_flag = consort_adm_advisor }
-			add_meritocracy_effect = yes
-			if = {
-				limit = {
-					monthly_income = 25
-				}
-				define_advisor = {
-					type = natural_scientist
-					skill = 3
-					discount = yes
-					female = yes
+		#has_foreign_consort
+		
+		trigger_switch = {
+			on_trigger = has_ruler_flag
+			consort_adm_advisor = {
+				add_meritocracy_effect = yes
+				trigger_switch = {
+					on_trigger = has_country_flag
+					foreign_advisor_origin = {
+						if = {
+							limit = { NOT = { monthly_income = 25 } }
+							define_advisor = {
+								type = natural_scientist
+								skill = 2
+								discount = yes
+								female = yes
+								culture = event_target:consort_from_here
+								religion = event_target:consort_from_here
+							}
+						}
+						else = {
+							define_advisor = {
+								type = natural_scientist
+								skill = 3
+								discount = yes
+								female = yes
+								culture = event_target:consort_from_here
+								religion = event_target:consort_from_here
+							}
+						}
+					}
+					internal_advisor_origin = {
+						if = {
+							limit = { NOT = { monthly_income = 25 } }
+							define_advisor = {
+								type = natural_scientist
+								skill = 2
+								discount = yes
+								female = yes
+								culture = event_target:internal_origin_province
+								religion = event_target:internal_origin_province
+							}
+						}
+						else = {
+							define_advisor = {
+								type = natural_scientist
+								skill = 3
+								discount = yes
+								female = yes
+								culture = event_target:internal_origin_province
+								religion = event_target:internal_origin_province
+							}
+						}
+					}
+					no_foreign_advisor_origin = {
+						if = {
+							limit = { NOT = { monthly_income = 25 } }
+							define_advisor = {
+								type = natural_scientist
+								skill = 2
+								discount = yes
+								female = yes
+							}
+						}
+						else = {
+							define_advisor = {
+								type = natural_scientist
+								skill = 3
+								discount = yes
+								female = yes
+							}
+						}
+					}
 				}
 			}
-			if = {
-				limit = { NOT = { monthly_income = 25 } }
-				define_advisor = {
-					type = natural_scientist
-					skill = 2
-					discount = yes
-					female = yes
+			consort_dip_advisor = {
+				add_meritocracy_effect = yes
+				trigger_switch = {
+					on_trigger = has_country_flag
+					foreign_advisor_origin = {
+						if = {
+							limit = { NOT = { monthly_income = 25 } }
+							define_advisor = {
+								type = statesman
+								skill = 2
+								discount = yes
+								female = yes
+								culture = event_target:consort_from_here
+								religion = event_target:consort_from_here
+							}
+						}
+						else = {
+							define_advisor = {
+								type = statesman
+								skill = 3
+								discount = yes
+								female = yes
+								culture = event_target:consort_from_here
+								religion = event_target:consort_from_here
+							}
+						}
+					}
+					internal_advisor_origin = {
+						if = {
+							limit = { NOT = { monthly_income = 25 } }
+							define_advisor = {
+								type = statesman
+								skill = 2
+								discount = yes
+								female = yes
+								culture = event_target:internal_origin_province
+								religion = event_target:internal_origin_province
+							}
+						}
+						else = {
+							define_advisor = {
+								type = statesman
+								skill = 3
+								discount = yes
+								female = yes
+								culture = event_target:internal_origin_province
+								religion = event_target:internal_origin_province
+							}
+						}
+					}
+					no_foreign_advisor_origin = {
+						if = {
+							limit = { NOT = { monthly_income = 25 } }
+							define_advisor = {
+								type = statesman
+								skill = 2
+								discount = yes
+								female = yes
+							}
+						}
+						else = {
+							define_advisor = {
+								type = statesman
+								skill = 3
+								discount = yes
+								female = yes
+							}
+						}
+					}
+				}
+			}
+			consort_mil_advisor = {
+				add_meritocracy_effect = yes
+				trigger_switch = {
+					on_trigger = has_country_flag
+					foreign_advisor_origin = {
+						if = {
+							limit = { NOT = { monthly_income = 25 } }
+							define_advisor = {
+								type = commandant
+								skill = 2
+								discount = yes
+								female = yes
+								culture = event_target:consort_from_here
+								religion = event_target:consort_from_here
+							}
+						}
+						else = {
+							define_advisor = {
+								type = commandant
+								skill = 3
+								discount = yes
+								female = yes
+								culture = event_target:consort_from_here
+								religion = event_target:consort_from_here
+							}
+						}
+					}
+					internal_advisor_origin = {
+						if = {
+							limit = { NOT = { monthly_income = 25 } }
+							define_advisor = {
+								type = commandant
+								skill = 2
+								discount = yes
+								female = yes
+								culture = event_target:internal_origin_province
+								religion = event_target:internal_origin_province
+							}
+						}
+						else = {
+							define_advisor = {
+								type = commandant
+								skill = 3
+								discount = yes
+								female = yes
+								culture = event_target:internal_origin_province
+								religion = event_target:internal_origin_province
+							}
+						}
+					}
+					no_foreign_advisor_origin = {
+						if = {
+							limit = { NOT = { monthly_income = 25 } }
+							define_advisor = {
+								type = commandant
+								skill = 2
+								discount = yes
+								female = yes
+							}
+						}
+						else = {
+							define_advisor = {
+								type = commandant
+								skill = 3
+								discount = yes
+								female = yes
+							}
+						}
+					}
 				}
 			}
 		}
-		if = {
-			limit = { has_ruler_flag = consort_dip_advisor }
-			add_meritocracy_effect = yes
-			if = {
-				limit = {
-					monthly_income = 25
-				}
-				define_advisor = {
-					type = statesman
-					skill = 3
-					discount = yes
-				}
-			}
-			if = {
-				limit = { NOT = { monthly_income = 25 } }
-				define_advisor = {
-					type = statesman
-					skill = 2
-					discount = yes
-				}
-			}
-		}
-		if = {
-			limit = { has_ruler_flag = consort_mil_advisor }
-			add_meritocracy_effect = yes
-			if = {
-				limit = {
-					monthly_income = 25
-				}
-				define_advisor = {
-					type = commandant
-					skill = 3
-					discount = yes
-				}
-			}
-			if = {
-				limit = { NOT = { monthly_income = 25 } }
-				define_advisor = {
-					type = commandant
-					skill = 2
-					discount = yes
-				}
-			}
-		}
-		clr_ruler_flag = consort_adm_advisor
-		clr_ruler_flag = consort_dip_advisor
-		clr_ruler_flag = consort_mil_advisor
 	}
 
 	#No old advisor
@@ -4513,27 +4722,30 @@ country_event = {
 		trigger = { has_ruler_flag = consort_adm_advisor }
 		name = consort_events.312.b
 		custom_tooltip = consort_events.312.b.tt
-
-		add_adm_power = 50	
-		clr_ruler_flag = consort_adm_advisor	
+		add_adm_power = 50		
 	}
 
 	option = {
 		trigger = { has_ruler_flag = consort_dip_advisor }
 		name = consort_events.312.c
 		custom_tooltip = consort_events.312.c.tt
-
 		add_dip_power = 50		
-		clr_ruler_flag = consort_dip_advisor
 	}
 
 	option = {
 		trigger = { has_ruler_flag = consort_mil_advisor }
 		name = consort_events.312.d
 		custom_tooltip = consort_events.312.d.tt
-
 		add_mil_power = 50		
+	}
+	
+	after = {
+		clr_ruler_flag = consort_adm_advisor
+		clr_ruler_flag = consort_dip_advisor
 		clr_ruler_flag = consort_mil_advisor
+		clr_country_flag = no_foreign_advisor_origin
+		clr_country_flag = foreign_advisor_origin
+		clr_country_flag = internal_advisor_origin
 	}
 }
 
@@ -4548,6 +4760,7 @@ country_event = {
 		has_dlc = "Rights of Man"
 		is_lesser_in_union = no
 		has_heir = yes
+		NOT = { government = ottoman_government }
 		has_consort = yes
 		has_consort_regency = no
 		war_exhaustion = 2
@@ -4601,6 +4814,7 @@ country_event = {
 		is_lesser_in_union = no
 		has_consort = yes
 		has_consort_regency = no
+		NOT = { government = ottoman_government }
 		NOT = { capital_scope = { has_province_modifier = tyrannical_ruler } }
 
 	 	OR = {
@@ -4827,6 +5041,7 @@ country_event = {
 		is_lesser_in_union = no
 		has_consort_regency = no
 	 	has_female_consort = yes
+	 	NOT = { government = ottoman_government }
 		has_heir = yes
 	 	can_heir_be_child_of_consort = yes #Otherwise she won't really be suspected of adultery.
 	 	NOT = { has_heir_flag = suspected_bastard }
@@ -4846,7 +5061,7 @@ country_event = {
 
 
 	option = {
-		name = consort_events.314.a
+		name = consort_events.315.a
 
 		add_prestige = -10
 

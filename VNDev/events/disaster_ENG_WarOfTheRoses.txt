@@ -1173,7 +1173,7 @@ country_event = {
 	}
 	
 	option = {		# Long Live the X dynasty
-		name = war_of_the_roses.102.a
+		name = war_of_the_roses.106.a
 		add_stability = -1
 		add_prestige = -50
 		every_owned_province = {

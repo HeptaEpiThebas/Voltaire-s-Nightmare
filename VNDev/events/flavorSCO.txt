@@ -167,6 +167,7 @@ country_event = {
 		define_advisor = {
 			type = theologian
 			name = "Cardinal Beaton"
+			culture = scottish
 			discount = yes
 			skill = 3
 		}
@@ -385,6 +386,7 @@ country_event = {
 		define_advisor = {
 			type = natural_scientist
 			name = "George Bruce"
+			culture = scottish
 			discount = yes
 			skill = 3
 		}

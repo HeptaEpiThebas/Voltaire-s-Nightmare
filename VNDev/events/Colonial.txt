@@ -61,7 +61,11 @@ province_event = {
 		is_overseas = yes
 		is_colony = no
 		religion_group = christian
-		owner = { religion_group = christian }
+		owner = {
+			religion_group = christian
+			NOT = { has_country_modifier = narrowminded_modifier }
+			NOT = { has_country_modifier = serfdom_modifier }
+		}
 		NOT = { has_province_modifier = founding_father }
 		NOT = { has_province_modifier = loyalist_stronghold }
 	}

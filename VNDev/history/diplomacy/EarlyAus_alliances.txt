@@ -3,14 +3,8 @@
 union = {
 	first = BOH
 	second = STY
-	start_date = 1251.1.1
+	start_date = 1253.1.1
 	end_date = 1254.5.1
-}
-union = {
-	first = HUN
-	second = STY
-	start_date = 1254.5.1
-	end_date = 1260.7.12
 }
 union = {
 	first = BOH
@@ -21,7 +15,7 @@ union = {
 union = {
 	first = BOH
 	second = HAB
-	start_date = 1251.1.1
+	start_date = 1253.1.1
 	end_date = 1278.8.26
 }
 union = {
@@ -47,6 +41,12 @@ union = {
 	second = STY
 	start_date = 1192.5.8
 	end_date = 1246.6.15
+}
+union = {
+	first = HAB
+	second = STY
+	start_date = 1251.1.1
+	end_date = 1253.1.1
 }
 union = {
 	first = HAB

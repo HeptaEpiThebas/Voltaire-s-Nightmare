@@ -4,6 +4,7 @@ technology_group = muslim
 primary_culture = andalucian
 religion = sunni
 capital = 761
+religious_school = maliki_school
 
 #Taifa
 1048.1.1 = {

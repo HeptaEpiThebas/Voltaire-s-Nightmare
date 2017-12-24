@@ -99,6 +99,7 @@ country_event = {
 		define_advisor = {
 			type = artist
 			name = "Antonio Beccadelli"
+			culture = sicilian
 			skill = 2
 			discount = yes
 		}

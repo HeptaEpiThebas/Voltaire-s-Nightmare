@@ -4,6 +4,7 @@ technology_group = western
 primary_culture = lombard
 religion = catholic
 capital = 493
+add_army_professionalism = 0.05
 
 1029.1.1 = {
 	monarch = {

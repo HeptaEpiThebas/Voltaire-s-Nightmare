@@ -16,6 +16,7 @@ capital = 117
 1125.1.1 = {
 	government = oligarchic_republic
 	mercantilism = 25
+	add_army_professionalism = 0.05
 	monarch = {
 		name = "Manco"
 		dip = 3

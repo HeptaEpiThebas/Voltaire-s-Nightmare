@@ -112,7 +112,7 @@ ganga =
 shakti = 
 { 
 	#(Economic - Savings)
-	interest = -1
+	interest = -0.25
 	build_cost = -0.10
 	
 	allow = { 

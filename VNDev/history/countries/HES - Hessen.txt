@@ -282,7 +282,7 @@ capital = 2541	# Marburg
 		mil = 4
 	}
 }
-1510.1.1 = { leader = {	name = "Philipp"               	type = general	rank = 0	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1560.1.1 } }
+1510.1.1 = { leader = {	name = "Philipp"               	type = general	fire = 3	shock = 4	manuever = 4	siege = 0	death_date = 1560.1.1 } }
 1527.1.1 = { religion = protestant }
 1532.6.24 = {
 	heir = {
@@ -344,7 +344,7 @@ capital = 2541	# Marburg
 	}
 }
 1608.5.14 = { join_league = protestant }
-1621.1.1 = { leader = {	name = "Eberstein"             	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1651.1.1 } }
+1621.1.1 = { leader = {	name = "Eberstein"             	type = general	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1651.1.1 } }
 1627.3.18 = {
 	monarch = {
 		name = "Wilhelm V"
@@ -436,8 +436,8 @@ capital = 2541	# Marburg
 		mil = 4
 	}
 }
-1690.1.1 = { leader = {	name = "von Darmstadt"         	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 2	death_date = 1730.1.1 } }
-1740.1.1 = { leader = {	name = "Hesse"                 	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1755.1.1 } }
+1690.1.1 = { leader = {	name = "von Darmstadt"         	type = general	fire = 3	shock = 2	manuever = 3	siege = 2	death_date = 1730.1.1 } }
+1740.1.1 = { leader = {	name = "Hesse"                 	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1755.1.1 } }
 1751.3.26 = {
 	monarch = {
 		name = "Wilhem VIII"
@@ -459,7 +459,7 @@ capital = 2541	# Marburg
 		mil = 2
 	}
 }
-1760.1.1 = { leader = {	name = "W. von Knyphausen"        	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1800.1.1 } }
+1760.1.1 = { leader = {	name = "W. von Knyphausen"        	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1800.1.1 } }
 1760.2.1 = {
 	monarch = {
 		name = "Friedrich II"

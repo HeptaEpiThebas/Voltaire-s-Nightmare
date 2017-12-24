@@ -1,7 +1,7 @@
 # 00_prices.txt
 
 grain = {
-	base_price = 2
+	base_price = 2.5
 }
 
 peaches = {
@@ -29,7 +29,7 @@ honey = {
 }
 
 amber = {
-	base_price = 3
+	base_price = 3.5
 }
 
 wool = {
@@ -37,7 +37,7 @@ wool = {
 }
 
 books = {
-	base_price = 4
+	base_price = 3.5
 }
 
 silk = {

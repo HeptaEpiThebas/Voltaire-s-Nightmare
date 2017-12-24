@@ -18,6 +18,7 @@ elector = yes
 		name = "Konrad"
 		monarch_name = "Konrad II"
 		dynasty = "Salian"
+		culture = swabian
 		birth_date = 1052.10.1
 		death_date = 1055.4.10
 		claim = 80
@@ -31,6 +32,7 @@ elector = yes
 	monarch = {
 		name = "Otto II"
 		dynasty = "von Northeim"
+		culture = thuringian
 		birth_date = 1020.1.1
 		adm = 2
 		dip = 5
@@ -399,11 +401,11 @@ elector = yes
 		mil = 1
 	}
 }
-1609.1.1   = { leader = { name = "Tilly"	type = general	rank = 0	fire = 4	shock = 4	manuever = 3	siege = 1	death_date = 1632.4.30 } }
+1609.1.1   = { leader = { name = "Tilly"	type = general	fire = 4	shock = 4	manuever = 3	siege = 1	death_date = 1632.4.30 } }
 1609.7.1 = { join_league = catholic }
 1621.1.1   = { elector = yes }	
-1630.1.1   = { leader = { name = "Mercy"	type = general	rank = 0	fire = 3	shock = 3	manuever = 1	siege = 0	death_date = 1645.8.3 } }
-1635.1.1   = { leader = { name = "von Werth"	type = general	rank = 1	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1652.9.16 } }
+1630.1.1   = { leader = { name = "Mercy"	type = general	fire = 3	shock = 3	manuever = 1	siege = 0	death_date = 1645.8.3 } }
+1635.1.1   = { leader = { name = "von Werth"	type = general	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1652.9.16 } }
 1635.7.15 = {
 	queen = {
 		country_of_origin = HAB
@@ -430,7 +432,7 @@ elector = yes
 		mil = 3
 	}
 }
-1641.1.1   = { leader = { name = "Grönsfeld"	type = general	rank = 1	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1660.1.1 } }
+1641.1.1   = { leader = { name = "Grönsfeld"	type = general	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1660.1.1 } }
 1647.3.15 = { leave_league = catholic }
 
 1651.9.28  = {
@@ -465,7 +467,7 @@ elector = yes
 		adm  = 7
 		dip = 3
 		mil = 2
-		leader = { name = "Max II Emmanuel"	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0 }
+		leader = { name = "Max II Emmanuel"	type = general	fire = 2	shock = 3	manuever = 3	siege = 0 }
 	}
 }
 1679.5.27  = {
@@ -476,7 +478,7 @@ elector = yes
 		adm = 4
 		dip = 3
 		mil = 2
-		leader = { name = "Max II Emmanuel"	type = general	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0 }
+		leader = { name = "Max II Emmanuel"	type = general	fire = 2	shock = 3	manuever = 3	siege = 0 }
 	}
 }
 1685.7.15 = {
@@ -554,7 +556,7 @@ elector = yes
 		mil = 3
 	}
 }
-1740.1.1   = { leader = { name = "Seckendorf"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1763.11.23 } }
+1740.1.1   = { leader = { name = "Seckendorf"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1763.11.23 } }
 1745.1.21  = {
 	monarch = {
 		name = "Maximilian III Joseph"

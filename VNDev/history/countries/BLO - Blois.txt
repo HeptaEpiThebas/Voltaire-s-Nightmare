@@ -27,7 +27,6 @@ fixed_capital = 2088
 		leader = {
 			name = "Stephen of Blois"
 			type = general
-			rank = 0
 			shock = 3
 			fire = 4
 			manuever = 0

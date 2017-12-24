@@ -101,35 +101,46 @@ monarch_names = {
 	"Tugrul #0" = 1
 	"Moghis #0" = 1
 
-	"Gurcu #0" = -18
+	"Havva #0" = -1
+	"Gamze #0" = -1
+	"Hanife #0" = -1
+	"Melis #0" = -1
+	"Rabia #0" = -1
+	"Safiye #0" = -1
+	"Umut #0" = -1
+	"Ziynet #0" = -1
+	"Zübeyde #0" = -1
 }
 
 leader_names = {
-	"Gurcu" "Kaykaus" "Kilij Arslan" "Kayqubad" "Seljuk" "Arslan" "Mikail" "Chagri-Beg" "Qutalmish" "Tughril-Beg" 
-	"Alp Arslan" "Qawurd" "Uthman" "Kerman Shah" "Sultan Shah" "Ilyas" "Suleyman" "Yaquti" "Muhammad" "Malik Shah" 
-	"Mahmud" "Tutush" "Turan Shah" "Arslan Argun" "Ahmad" "Yaghi Sian" "Shams ed-Din" "Buldagis" "Ismail" "Toghan Shah" 
-	"Iran Shah" "Duqaq" "Baqtash" "Barkiarok" "Arslan Shah" "Radwan" "Mohammed" "Sultan Shah" "Dawud" "Togrul" 
-	"Seljuk Shah" "Mas'ud" "Masud" "Mehmed" "Sanjar" "Muhammed" "Togrul Shah" "Bahram Shah" "Shahanshah" "Sancar" 
-	"Melik" "Argun" "Kayser" "Kaykhusraw" "Berkyaruk" "Muhammad Shah" "Tugrul" "Moghis" "Çagri" "Çaka" 
-	"Afsin" "Ahmet" "Aksonqor" "Alaeddin" "Ali" "Alkan" "Alp Yurek" "Alptigin" "Artuk" "Ayaz" 
-	"Aydin" "Aydogan" "Aydogdu" "Aytekin" "Böru" "Bulend" "Bahadir" "Balaban" "Basbuga" "Batuhan" 
-	"Baturay" "Baybars" "Bayezid" "Baytas" "Belek" "Berkan" "Berkiyaruk" "Bozan" "Bugra" "Burak" 
-	"Cuneyd" "Dundar" "Danismend" "Davud" "Demir" "Dogan" "Dogukan" "Dukak" "Erdem" "Ertan" 
-	"Ertekin" "Ertugrul" "Gunduz" "Hasan" "Hizir" "Ibrahim" "Ilgazi" "Inal" "Iskender" "Kurboga" 
-	"Kaikaus" "Kaikhusraw" "Kaiqobad" "Kara" "Karatay" "Kasim" "Kaya" "Kaytun" "Kemal" "Kiliç" 
-	"Korkut" "Kutalmis" "Kutay" "Kutlug" "Mursel" "Meliksah" "Mengucek" "Mesud" "Murad" "Mustafa" 
-	"Orhan" "Osman" "Porsuk" "Rustem" "Ramazan" "Ridvan" "Söbuk" "Sökmen" "Sönmez" "Saim" 
-	"Saltuk" "Saruca" "Savtekin" "Savur" "Sehinsah" "Selçuk" "Selim" "Sencer" "Sinan" "Tanrivermis" 
-	"Tekin" "Timurtas" "Togay" "Togtekin" "Toktamis" "Tolun" "Toruntay" "Tunga" "Turgut" "Turhan" 
-	"Tutus" "Uluç" "Umur" "Yakut" "Yaman" "Yinal" "Yunus"
+	Alemdar Amasyali Ayas
+	Bali Barbaros Bayram
+	Cezzar Çandarli Çelebi Cerrah Çerkes Civan Çuhadar
+	Damad Dervis Defterdar
+	Gedik Gazi Gümülcineli Gürcü
+	Hadim Hekimoglu Hersekli
+	Köprülü Kemal Küçük Koca Karamanli Köse Kara Kanijeli Kemankes Kaymak Kavalali
+	Ishak Izzed
+	Lala Lefkeli
+	Malkoç Müezzinzade
+	Nevsehirli Nisanci
+	Oruç Uluç Osmancikli Ohrili Oflu
+	Rumi
+	Piri Pargali Piyale Pehlivan
+	Salih Sokullu Sari Silahdar Semiz Serdar
+	Topal Tayyar Turgut Tarhuncu
+	Veli
+	Yemisçi
 }
 
 ship_names = {
-	"$PROVINCE$ Gemisi"
+	"Nure Sufi" Sadaddin "Karaman Bey" Ermenek
+	Mut Gülnar Mer Silifke Cilicia Larande
+	Bunsuz "Zeynül-Hac" "Semseddin Mehmet" Göksu
 }
 
 army_names = {
-	"Anadolu Ordusu" "$PROVINCE$ Ordusu"
+	"$PROVINCE$ Ordusu"
 }
 
 fleet_names = {

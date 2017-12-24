@@ -51,13 +51,33 @@ country_event = {
 		ai_chance = {
 			factor = 0
 		}
-		add_patriarch_authority = -0.5
-
+		add_patriarch_authority = -0.25
 		every_province = {
 			limit = {
-				is_core = BYZ
+				OR = {
+					is_core = BYZ
+					province_id = 977 #Salonica (Mount Athos)
+					province_id = 2233 #Constantinople
+				}
 			}
 			add_claim = ROOT
+		}
+	}
+	option = {		# No we need Constantinople to lead the True Faith
+		name = "flavor_rus.EVTOPTC3415"
+		ai_chance = {
+			factor = 0
+		}
+		add_patriarch_authority = -0.5
+		every_province = {
+			limit = {
+				OR = {
+					is_core = BYZ
+					province_id = 977 #Salonica (Mount Athos)
+					province_id = 2233 #Constantinople
+				}
+			}
+			add_permanent_claim = ROOT
 		}
 	}
 }
@@ -251,17 +271,18 @@ country_event = {
 	
 	
 	option = {		# The reforms are necessary
-		name = "flavor_rus.EVTOPTA1006"
+		name = "flavor_rus.EVTOPTA1007"
 		ai_chance = {
 			factor = 100
 		}
+		add_army_professionalism = 0.05
 		add_ruler_modifier = {
 			name = western_reforms
 			duration = -1
 		}
 	}
 	option = {		# Avoid outside influence
-		name = "flavor_rus.EVTOPTB1006"
+		name = "flavor_rus.EVTOPTB1007"
 		ai_chance = { factor = 0 }
 		add_stability_or_adm_power = yes
 	}
@@ -311,7 +332,7 @@ country_event = {
 	}
 
 	option = {		# Crush the rebellion
-		name = "flavor_rus.EVTOPTA1006"
+		name = "flavor_rus.EVTOPTA1008"
 		ai_chance = { factor = 100 }
 		add_stability = -1
 		random_owned_province = {
@@ -336,7 +357,7 @@ country_event = {
 		}
 	}
 	option = {		# Revert some reforms
-		name = "flavor_rus.EVTOPTB1006"
+		name = "flavor_rus.EVTOPTB1008"
 		ai_chance = { factor = 0 }
 		remove_country_modifier = western_reforms
 		add_country_modifier = {
@@ -689,13 +710,8 @@ country_event = {
 
 	trigger = {
 		tag = RUS
-		
 		government = monarchy
-		
-		had_country_flag = {
-			flag = rus_pugachev_uprising
-			days = 730
-		}
+		is_year = 1755
 
 	}
 	
@@ -993,7 +1009,7 @@ country_event = {
 				capital_scope = {
 					continent = europe
 				}
-				tech_difference = 15
+				tech_difference = 5
 				has_opinion = { who = ROOT value = 50 }
 				NOT = { is_rival = ROOT }
 				NOT = { is_enemy = ROOT }
@@ -1211,7 +1227,7 @@ country_event = {
 				capital_scope = {
 					continent = europe
 				}
-				tech_difference = 15
+				tech_difference = 5
 				has_opinion = { who = RUS value = 50 }
 				NOT = { is_rival = ROOT }
 				NOT = { is_enemy = ROOT }
@@ -1246,7 +1262,7 @@ country_event = {
 			capital_scope = {
 				continent = europe
 			}
-			tech_difference = 15
+			tech_difference = 5
 			has_opinion = { who = RUS value = 50 }
 			NOT = { is_rival = ROOT }
 			NOT = { is_enemy = ROOT }
@@ -1264,7 +1280,7 @@ country_event = {
 				capital_scope = {
 					continent = europe
 				}
-				tech_difference = 15
+				tech_difference = 5
 				has_opinion = { who = RUS value = 50 }
 				NOT = { is_rival = ROOT }
 				NOT = { is_enemy = ROOT }
@@ -1401,7 +1417,7 @@ country_event = {
 			capital_scope = {
 				continent = europe
 			}
-			tech_difference = 15
+			tech_difference = 5
 			has_opinion = { who = ROOT value = 50 }
 			NOT = { is_rival = ROOT }
 			NOT = { is_enemy = ROOT }

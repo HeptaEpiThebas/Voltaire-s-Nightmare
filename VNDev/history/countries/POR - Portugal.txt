@@ -7,6 +7,7 @@ historical_friend = SPA
 historical_friend = CAS
 capital = 1234
 national_focus = DIP
+add_army_professionalism = 0.05
 
 1096.1.1 = {
 	monarch = {
@@ -344,7 +345,7 @@ national_focus = DIP
 	}
 }
 #house of aviz
-1384.1.1 = { leader = {	name = "Nuno Álvares Pereira"	type = general	rank = 1	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1423.1.1 } }
+1384.1.1 = { leader = {	name = "Nuno Álvares Pereira"	type = general	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1423.1.1 } }
 1385.4.6 = {
 	monarch = {
 		name = "João I"
@@ -368,7 +369,7 @@ national_focus = DIP
 	}
 }
 
-1415.4.1 = { leader = {	name = "Infantes"		type = general	rank = 1	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1449.1.1 } }
+1415.4.1 = { leader = {	name = "Infantes"		type = general	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1449.1.1 } }
 
 1433.1.1 = {
 	monarch = {
@@ -392,7 +393,7 @@ national_focus = DIP
 	}
 }
 
-1435.1.1 = { leader = {	name = "Earl of Avranches"	type = general	rank = 2	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1449.5.20 } }
+1435.1.1 = { leader = {	name = "Earl of Avranches"	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1449.5.20 } }
 
 1438.9.10 = {
 	monarch = {
@@ -412,7 +413,7 @@ national_focus = DIP
 		adm = 3
 		dip = 2
 		mil = 2
-		leader = {	name = "Afonso V"	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 1 }
+		leader = {	name = "Afonso V"	type = general	fire = 3	shock = 2	manuever = 3	siege = 1 }
 	}
 }
 
@@ -424,7 +425,7 @@ national_focus = DIP
 		adm = 3
 		dip = 2
 		mil = 2
-		leader = {	name = "Afonso V"	type = general	rank = 0	fire = 3	shock = 2	manuever = 3	siege = 1 }
+		leader = {	name = "Afonso V"	type = general	fire = 3	shock = 2	manuever = 3	siege = 1 }
 	}
 	queen = {
 		country_of_origin = POR
@@ -646,7 +647,7 @@ national_focus = DIP
 	}
 }
 
-1578.1.1 = { leader = {	name = "António, Prior do Crato"     	type = general		rank = 1	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1580.2.1 } }
+1578.1.1 = { leader = {	name = "António, Prior do Crato"     	type = general	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1580.2.1 } }
 
 1578.8.6 = {
 	monarch = {
@@ -670,7 +671,7 @@ national_focus = DIP
 		adm = 4
 		dip = 3
 		mil = 4
-		leader = {	name = "António I"   	type = general	rank = 1	fire = 3	shock = 2	manuever = 3	siege = 0 }
+		leader = {	name = "António I"   	type = general	fire = 3	shock = 2	manuever = 3	siege = 0 }
 	}
 }
 
@@ -682,7 +683,7 @@ national_focus = DIP
 		adm = 4
 		dip = 3
 		mil = 4
-		leader = {	name = "António I"   	type = general	rank = 1	fire = 3	shock = 2	manuever = 3	siege = 0 }
+		leader = {	name = "António I"   	type = general	fire = 3	shock = 2	manuever = 3	siege = 0 }
 	}
 	queen = {
 		country_of_origin = POR
@@ -697,11 +698,9 @@ national_focus = DIP
 	}
 }
 
-1585.1.1 = { leader = { name = "Afonso de Castro"		type = admiral		rank = 4	fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1607.6.3 } }
-
-1606.1.1 = { leader = {	name = "D. Álvaro de Meneses"   type = admiral		rank = 1	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1620.1.1 } }
-
-1624.1.1 = { leader = {	name = "Nuno Álvares Botelho"	type = admiral		rank = 1	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1650.1.1 } }
+1585.1.1 = { leader = { name = "Afonso de Castro"		type = admiral		fire = 4	shock = 4	manuever = 5	siege = 0	death_date = 1607.6.3 } }
+1606.1.1 = { leader = {	name = "D. Álvaro de Meneses"   type = admiral		fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1620.1.1 } }
+1624.1.1 = { leader = {	name = "Nuno Álvares Botelho"	type = admiral		fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1650.1.1 } }
 
 1640.12.1 = {
 	monarch = {
@@ -739,8 +738,7 @@ national_focus = DIP
 	}
 }
 		
-1655.1.1 = { leader = {	name = "Álvares Botelho"       	type = admiral		rank = 1	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1680.1.1 } }
-
+1655.1.1 = { leader = {	name = "Álvares Botelho"       	type = admiral		fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1680.1.1 } }
 1656.11.7 = { government = administrative_monarchy } 
 
 1656.11.7 = {
@@ -768,7 +766,7 @@ national_focus = DIP
 	}
 }
 
-1659.1.1 = { leader = {	name = "F. von Schomberg"	type = general		rank = 2	fire = 3	shock = 2	manuever = 5	siege = 1	death_date = 1668.1.1 } }
+1659.1.1 = { leader = {	name = "F. von Schomberg"	type = general		fire = 3	shock = 2	manuever = 5	siege = 1	death_date = 1668.1.1 } }
 
 1666.8.2 = {
 	queen = {
@@ -806,7 +804,7 @@ national_focus = DIP
 	}
 }
 
-1685.12.1 = { leader = { name = "Francisco da Silva"	type = admiral		rank = 3	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1720.2.29 } }
+1685.12.1 = { leader = { name = "Francisco da Silva"	type = admiral	fire = 3	shock = 2	manuever = 4	siege = 0	death_date = 1720.2.29 } }
 
 1687.8.11 = {
 	queen = {
@@ -836,7 +834,7 @@ national_focus = DIP
 	}
 }
 
-1700.1.1 = { leader = {	name = "António Luís de Sousa"	type = general		rank = 1	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1720.1.1 } }
+1700.1.1 = { leader = {	name = "António Luís de Sousa"	type = general		fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1720.1.1 } }
 
 1706.12.11 = {
 	monarch = {
@@ -927,7 +925,7 @@ national_focus = DIP
 	}
 }
 
-1761.1.1 = { leader = { name = "Conde de Lippe"  	type = general		rank = 0	fire = 2	shock = 2	manuever = 5	siege = 0	death_date = 1770.1.1 } }
+1761.1.1 = { leader = { name = "Conde de Lippe"  	type = general		fire = 2	shock = 2	manuever = 5	siege = 0	death_date = 1770.1.1 } }
 
 1777.2.23 = {
 	monarch = {
@@ -966,15 +964,11 @@ national_focus = DIP
 	}
 }
 
-1790.2.27 = { leader = { name = "B. Freire de Andrade"  	type = general		rank = 1	fire = 5	shock = 3	manuever = 4	siege = 1	death_date = 1809.3.17 } }
-
-1794.4.25 = { leader = { name = "M. Pereira Forjaz"  		type = general		rank = 1	fire = 4	shock = 5	manuever = 3	siege = 1	death_date = 1827.11.6 } }
-
-1800.5.4 = { leader = { name = "M.J. Dias Azedo"  		type = general		rank = 2	fire = 4	shock = 4	manuever = 4	siege = 1	death_date = 1821.2.11 } }
-
-1803.3.14 = { leader = { name = "Conde de Amarante"  		type = general		rank = 3	fire = 4	shock = 5	manuever = 4	siege = 1	death_date = 1821.5.27 } }
-
-1809.1.1 = { leader = { name = "F. Furtado de Castro"  		type = general		rank = 6	fire = 4	shock = 3	manuever = 3	siege = 1	death_date = 1854.3.11 } }
+1790.2.27 = { leader = { name = "B. Freire de Andrade"  	type = general	fire = 5	shock = 3	manuever = 4	siege = 1	death_date = 1809.3.17 } }
+1794.4.25 = { leader = { name = "M. Pereira Forjaz"  		type = general	fire = 4	shock = 5	manuever = 3	siege = 1	death_date = 1827.11.6 } }
+1800.5.4 = { leader = { name = "M.J. Dias Azedo"  			type = general	fire = 4	shock = 4	manuever = 4	siege = 1	death_date = 1821.2.11 } }
+1803.3.14 = { leader = { name = "Conde de Amarante"  		type = general	fire = 4	shock = 5	manuever = 4	siege = 1	death_date = 1821.5.27 } }
+1809.1.1 = { leader = { name = "F. Furtado de Castro"  		type = general	fire = 4	shock = 3	manuever = 3	siege = 1	death_date = 1854.3.11 } }
 
 1816.3.20 = {
 	monarch = {

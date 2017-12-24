@@ -6,10 +6,10 @@ religion = catholic
 capital = 2141	# Exeter
 
 1256.1.28 = {
-	primary_culture = english
 	monarch = {
 		name = "Richard I"
 		dynasty = "Plantagenet"
+		culture = english
 		birth_date = 1209.1.5
 		adm = 3
 		dip = 6
@@ -43,7 +43,4 @@ capital = 2141	# Exeter
 		dip = 2
 		mil = 2
 	}
-}
-1272.4.2 = {
-	primary_culture = cornish
 }

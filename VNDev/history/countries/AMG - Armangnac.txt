@@ -309,7 +309,7 @@ fixed_capital = 1222
 		adm = 2
 		dip = 0
 		mil = 1
-		leader = {	name = "Jean V"   	type = general	rank = 0	fire = 2	shock = 2	manuever = 2	siege = 0 }
+		leader = {	name = "Jean V"   	type = general	fire = 2	shock = 2	manuever = 2	siege = 0 }
 	}
 	heir = {
 		name = "Charles"

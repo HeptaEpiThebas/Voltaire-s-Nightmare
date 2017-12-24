@@ -264,6 +264,7 @@ country_event = {
 			}
 			spawn_rebels = {
    				type = pretender_rebels
+   				culture = anglosaxon
     			size = 4
     			leader = "Eadgar Cerdicing"
     			win = yes
@@ -356,6 +357,7 @@ country_event = {
 		random_owned_province = {
 			limit = { has_province_modifier = foreign_ruler }
 			spawn_rebels = {
+				culture = anglosaxon
    				type = pretender_rebels
    				leader = "Eadgar Cerdicing"
     			size = 2

@@ -19,6 +19,7 @@ country_decisions = {
 			change_government = despotic_monarchy
 			add_stability = -5
 			add_adm_power = -200
+			set_country_flag = recently_changed_government_flag
 		}
 		ai_will_do = {
 			factor = 1
@@ -45,15 +46,10 @@ country_decisions = {
 			change_government = feudal_monarchy
 			add_stability = -5
 			add_adm_power = -200
+			set_country_flag = recently_changed_government_flag
 			if = {
 				limit = {
-					NOT = { has_idea_group = irish_ideas }
-					NOT = { tag = MMU }
-					NOT = { tag = ULS }
-					NOT = { tag = LEI }
-					NOT = { tag = SLN }
-					NOT = { tag = DMS }
-					NOT = { tag = MNS }
+					has_idea_group = irishclan_ideas
 					is_playing_custom_nation = no
 				}
 				country_event = { id = ideagroups.1 } #Swap Ideas
@@ -80,9 +76,16 @@ country_decisions = {
 			}
 		}
 		effect = {
-			change_government = feudal_monarchy
+			if = {
+				limit = { religion_group = muslim }
+				change_government = iqta
+			}
+			else = {
+				change_government = despotic_monarchy
+			}
 			add_stability = -5
 			add_adm_power = -200
+			set_country_flag = recently_changed_government_flag
 		}
 		ai_will_do = {
 			factor = 1
@@ -108,6 +111,7 @@ country_decisions = {
 			change_government = oligarchic_republic
 			add_stability = -5
 			add_adm_power = -200
+			set_country_flag = recently_changed_government_flag
 		}
 		ai_will_do = {
 			factor = 1

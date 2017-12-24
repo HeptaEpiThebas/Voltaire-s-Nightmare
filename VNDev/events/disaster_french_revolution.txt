@@ -333,9 +333,10 @@ country_event = {
 		define_ruler = {
 			name = "Napoléon I"
 			dynasty = "Bonaparte" 
-			adm = 6
-			dip = 5
-			mil = 6
+			culture = corsican
+			adm = 9
+			dip = 9
+			mil = 9
 		}
 		if = {
 			limit = {

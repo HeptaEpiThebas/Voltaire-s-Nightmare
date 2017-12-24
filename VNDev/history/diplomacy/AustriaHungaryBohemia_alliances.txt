@@ -218,13 +218,36 @@ union = {
 }
 
 #BOH controls MRV
-union = {
+vassal = {
 	first = BOH
 	second = MRV
 	start_date = 1182.1.1
+	end_date = 1189.3.25
+}
+union = {
+	first = BOH
+	second = MRV
+	start_date = 1189.3.25
+	end_date = 1197.6.15
+}
+vassal = {
+	first = BOH
+	second = MRV
+	start_date = 1197.6.15
+	end_date = 1251.1.1
+}
+union = {
+	first = BOH
+	second = MRV
+	start_date = 1251.1.1
+	end_date = 1349.1.1
+}
+vassal = {
+	first = BOH
+	second = MRV
+	start_date = 1349.1.1
 	end_date = 1387.3.31
 }
-
 #Interlude with MRV ruling BRA
 union = {
 	first = MRV

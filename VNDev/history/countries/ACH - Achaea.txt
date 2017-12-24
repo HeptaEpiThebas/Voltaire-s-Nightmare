@@ -124,6 +124,7 @@ capital = 611 # Mystras
 	monarch = {
 		name = "Centurione I"
 		dynasty = "Zaccaria"
+		culture = ligurian
 		birth_date = 1380.1.1
 		dip = 1
 		adm = 0

@@ -31,8 +31,10 @@ province_event = {
 		}
 	}
 
+	is_mtth_scaled_to_size = 1
+
 	mean_time_to_happen = {
-		months = 5000 # Random Province Event
+		months = 600
 		
 		modifier = {
 			factor = 0.75
@@ -105,8 +107,10 @@ province_event = {
 		}
 	}
 
+	is_mtth_scaled_to_size = 1
+
 	mean_time_to_happen = {
-		months = 5000 # Random Province Event
+		months = 600
 
 		modifier = {
 			factor = 0.75
@@ -179,8 +183,10 @@ province_event = {
 		}
 	}
 
+	is_mtth_scaled_to_size = 1
+
 	mean_time_to_happen = {
-		months = 5000 # Random Province Event
+		months = 600
 
 		modifier = {
 			factor = 0.75
@@ -254,8 +260,10 @@ province_event = {
 		}
 	}
 
+	is_mtth_scaled_to_size = 1
+
 	mean_time_to_happen = {
-		months = 5000 # Random Province Event
+		months = 600
 
 		modifier = {
 			factor = 0.75
@@ -323,11 +331,13 @@ province_event = {
 		NOT = { has_province_modifier = improved_fortifications }
 	}
 
+	is_mtth_scaled_to_size = 1
+
 	mean_time_to_happen = {
-		months = 5000 # Random Province Event
+		months = 600
 		
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			owner = {
 				fortification_expert = 3
 			}
@@ -373,28 +383,14 @@ province_event = {
 		}
 	}
 
+	is_mtth_scaled_to_size = 1
+
 	mean_time_to_happen = {
-		months = 5000 # Random Province Event
+		months = 700
 		
 		modifier = {
-			factor = 0.5
+			factor = 0.8
 			owner = { luck = yes }
-		}
-		modifier = {
-			factor = 1.5
-			owner = { num_of_cities = 20 }
-		}
-		modifier = {
-			factor = 1.5
-			owner = { num_of_cities = 30 }
-		}
-		modifier = {
-			factor = 2.0
-			owner = { num_of_cities = 50 }
-		}
-		modifier = {
-			factor = 2.0
-			owner = { num_of_cities = 80 }
 		}
 	}
 
@@ -453,14 +449,14 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 2000 # Special Random Province Event
+		months = 600
 		
 		modifier = {
 			factor = 10
 			owner = { historical_friend_with = ROOT }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.9
 			owner = { historical_rival_with = ROOT }
 		}		
 		modifier = {
@@ -546,14 +542,14 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 2000 # Special Random Province Event
+		months = 600
 		
 		modifier = {
 			factor = 10
 			owner = { historical_friend_with = ROOT }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.9
 			owner = { historical_rival_with = ROOT }
 		}		
 		modifier = {
@@ -642,14 +638,14 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 2000 # Special Random Province Event
+		months = 600
 		
 		modifier = {
 			factor = 10
 			owner = { historical_friend_with = ROOT }
 		}
 		modifier = {
-			factor = 0.5
+			factor = 0.9
 			owner = { historical_rival_with = ROOT }
 		}		
 		modifier = {
@@ -901,7 +897,9 @@ province_event = {
 	trigger = {
 		owner = { 
 			has_idea_group = humanist_ideas
+			NOT = { has_country_modifier = narrowminded_modifier }
 		}
+		NOT = { has_province_modifier = heresy }
 		religion = ROOT
 		any_neighbor_province = {
 			NOT = { religion = ROOT }
@@ -910,8 +908,10 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 5000
+		months = 600
 	}
+
+	is_mtth_scaled_to_size = 1
 
 	option = {
 		name = "EVTOPTA6331"
@@ -956,6 +956,8 @@ province_event = {
 			}
 		}
 	}
+
+	is_mtth_scaled_to_size = 1
 	
 	mean_time_to_happen = {
 		months = 600

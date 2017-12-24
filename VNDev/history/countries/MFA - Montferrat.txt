@@ -4,6 +4,7 @@ primary_culture = piedmontese
 religion = catholic
 technology_group = western
 capital = 2585	# Montferrat
+add_army_professionalism = 0.05
 
 1042.1.1 = { 
 	monarch = {
@@ -209,6 +210,7 @@ capital = 2585	# Montferrat
 	monarch = {
 		name = "Teodoro"
 		dynasty = "Palaiologos"
+		culture = greek
 		adm = 4
 		dip = 3
 		mil = 3

@@ -424,6 +424,22 @@ guiTypes = {
 		}
 		
 	}
+
+	windowType = {
+		name = "supply_depot_mapicon"
+		position = { x=0 y=0 }
+		size = { x=32 y=32 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		iconType = {
+			name ="icon"
+			spriteType = "GFX_supply_depot_mapicon"
+			position = { x = 0 y = 0 }
+		}
+		
+	}
 	
 	windowType = {
 		name = "battle_mapicon"
@@ -471,8 +487,8 @@ guiTypes = {
 			scale = 1.5
 		}
 		iconType = {
-			name ="reformation_conversion_frame"
-			spriteType = "GFX_province_view_center_of_reformation"
+			name ="religious_conversion_center_frames"
+			spriteType = "GFX_religious_conversion_center_protestant" # changes based on "map_icon" in religious_conversions
 			position = { x= 25 y = 0 }
 		}
 		iconType = {
@@ -1247,9 +1263,20 @@ guiTypes = {
 		
 	}
 	
-	
-	
-	
-	
+	windowType = {
+		name = "religious_school_mapicon"
+		position = { x=0 y= 24 }
+		size = { x=64 y=64 }
+		moveable = 0
+		horizontalBorder = "0"
+		fullScreen = no
+		
+		iconType = {
+			name ="icon"
+			spriteType = "GFX_icon_religion_small"
+			position = { x= 0 y = 0 }
+			scale = 0.75
+		}	
+	}
 	
 }

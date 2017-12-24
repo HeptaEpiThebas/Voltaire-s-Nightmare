@@ -260,13 +260,12 @@ fixed_capital = 1959
 	monarch = {
 		name = "Wilhelm II"
 		dynasty = "van Diest"
-		birth_date = 1439.10.6
 		adm = 2
 		dip = 1
 		mil = 2
 	}
 }
-1439.1.1 = {
+1439.10.6 = {
 	monarch = {
 		name = "Konrad IV"
 		dynasty = "von Busnang"

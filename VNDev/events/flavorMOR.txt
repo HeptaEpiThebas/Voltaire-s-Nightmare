@@ -214,6 +214,8 @@ country_event = {
 			spawn_rebels = {
 				type = pretender_rebels
 				size = 5
+				culture = berber
+				religion = sunni
 				leader = "Muhammad ibn Yahya Wattasid"
 			}
 		}
@@ -246,6 +248,7 @@ country_event = {
 		define_ruler = {
 			name = "Muhammad I"
 			dynasty = "Wattasid"
+			culture = berber
 		}
 		if = {
 			limit = {
@@ -265,6 +268,8 @@ country_event = {
 			spawn_rebels = {
 				type = pretender_rebels
 				size = 5
+				religion = sunni
+				culture = berber
 				leader = "Muhammad ibn Yahya Wattasid"
 			}
 		}

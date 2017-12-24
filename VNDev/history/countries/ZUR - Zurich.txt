@@ -89,7 +89,7 @@ fixed_capital = 1123
 }
 1351.1.1 = { government = canton_government }
 1523.1.1 = { religion = zwinglianist }
-1523.12 = {
+1523.1.2 = {
 	monarch = {
 		name = "Huldrych Zwingli"
 		birth_date = 1484.1.1

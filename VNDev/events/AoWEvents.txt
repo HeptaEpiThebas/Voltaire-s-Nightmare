@@ -103,6 +103,7 @@ country_event = {
 	# Rein them in
 	option = {
 		name = "aow_events.12.a"
+		add_army_professionalism = 0.02
 		add_country_modifier = {
 			name = "curtailed_mercenaries"
 			duration = 1825
@@ -1531,6 +1532,14 @@ country_event = {
 		}
 	}
 
+	immediate = {
+		check_if_non_state_advisor_effect = { #Hidden, must be followed by erase_advisor_flags_effect
+			chance_of_primary = 75 #Not percentages!
+			chance_of_tertiary = 5
+			chance_of_secondary = 25
+		}
+	}
+
 	# 
 	option = {
 		name = "aow_events.43.a"
@@ -1581,7 +1590,16 @@ country_event = {
 
 	option = {
 		name = "aow_events.43.b"
-		create_advisor = spymaster
+		generate_advisor_of_type_and_semi_random_religion_effect = {
+			advisor_type=spymaster
+			advisor_type_if_not_state=spymaster
+			scaled_skill = yes
+			skill = 0
+			discount=yes
+		}
+	}
+	after = {
+		erase_advisor_flags_effect = yes
 	}
 }
 
@@ -1693,6 +1711,7 @@ province_event = {
 		any_neighbor_province = {
 			NOT = { religion_group = christian }
 		}
+		NOT = { owner = { has_country_modifier = distrusts_heathens } }
 	}
 
 	mean_time_to_happen = {
@@ -1787,6 +1806,12 @@ country_event = {
 			limit = {
 				has_dlc = "The Cossacks"
 				has_estate = estate_church
+				NOT = {
+					has_estate_influence_modifier = {
+						estate = estate_church
+						modifier = EST_VAL_CARDINAL_IN_ADMINISTRATION
+					}
+				}
 			}
 			add_estate_influence_modifier = {
 				estate = estate_church
@@ -1869,6 +1894,7 @@ country_event = {
 		any_neighbor_country = {
 			num_of_cardinals = 1
 		}
+		NOT = { has_country_modifier = blackmailing_cardinal }
 	}
 
 	mean_time_to_happen = {

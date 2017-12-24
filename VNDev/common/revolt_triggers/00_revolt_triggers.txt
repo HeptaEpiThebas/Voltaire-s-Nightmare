@@ -197,3 +197,8 @@ JMN = {
 ADU = {
 	always = no
 }
+
+# Sultanate of Rum
+RUM = {
+	always = no
+}

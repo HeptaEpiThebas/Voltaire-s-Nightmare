@@ -4,6 +4,7 @@ technology_group = western
 primary_culture = umbrian
 religion = catholic
 capital = 2019
+add_army_professionalism = 0.05
 
 1157.1.1 = {
 	monarch = {

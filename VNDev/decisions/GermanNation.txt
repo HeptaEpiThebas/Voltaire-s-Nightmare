@@ -65,15 +65,18 @@ country_decisions = {
 		effect = {
 			change_tag = GER
 			set_country_flag = unformable
-			emperor = {
-				add_opinion = {
-					who = root
-					modifier = opinion_left_empire
+			if = {
+				limit = { is_part_of_hre = yes }
+				emperor = {
+					add_opinion = {
+						who = root
+						modifier = opinion_left_empire
+					}
 				}
-			}
-			set_in_empire = no
-			emperor = {
-				country_event = { id = hre_event.5 }
+				set_in_empire = no
+				emperor = {
+					country_event = { id = hre_event.5 }
+				}
 			}
 			set_government_rank = 6
 			germanynorth_superregion = {

@@ -8,6 +8,7 @@ capital = 519
 national_focus = MIL
 historical_friend = GAL
 historical_friend = LON
+add_army_professionalism = 0.1
 
 1065.12.24 = {
 	monarch = {
@@ -44,7 +45,7 @@ historical_friend = LON
 	}
 
 }
-1072.10.8 = { leader = {	name = "El Cid"	type = general	rank = 0	fire = 4	shock = 5	manuever = 2	siege = 0	death_date = 1094.5.1 } }
+1072.10.8 = { leader = {	name = "El Cid"	type = general	fire = 4	shock = 5	manuever = 2	siege = 0	death_date = 1094.5.1 } }
 1085.1.1 = { capital = 1208 }
 1109.7.1 = {
 	monarch = {
@@ -151,7 +152,6 @@ historical_friend = LON
 		leader = {
 			name = "Alfonso d'Ivrea"
 			type = general
-			rank = 0
 			shock = 3
 			fire = 2
 			manuever = 0
@@ -604,7 +604,7 @@ historical_friend = LON
 	}
 }
 
-1422.1.1 = { leader = {	name = "Álvaro de Luna"	type = general	rank = 1	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1453.6.2 } }
+1422.1.1 = { leader = {	name = "Álvaro de Luna"	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1453.6.2 } }
 
 
 1425.1.5 = {
@@ -725,9 +725,9 @@ historical_friend = LON
 	}
 }
 
-1491.1.1 = { leader = {	name = "Fadrique Álv. de Toledo"	type = general	rank = 1	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1516.1.23 } }
+1491.1.1 = { leader = {	name = "Fadrique Álv. de Toledo"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1516.1.23 } }
 
-1495.1.1 = { leader = {	name = "El Gran Capitán"       	type = general	rank = 1	fire = 6	shock = 5	manuever = 5	siege = 0	death_date = 1515.12.2 } }
+1495.1.1 = { leader = {	name = "El Gran Capitán"       	type = general	fire = 6	shock = 5	manuever = 5	siege = 0	death_date = 1515.12.2 } }
 
 1504.11.26 = {
 	monarch = {

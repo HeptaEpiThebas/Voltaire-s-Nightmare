@@ -216,7 +216,6 @@ capital = 2668
 		leader = {	
 			name = "Edmund Butler"
 			type = general
-			rank = 0
 			fire = 3
 			shock = 0
 			manuever = 0

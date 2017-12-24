@@ -4,6 +4,7 @@ technology_group = muslim
 primary_culture = kabyle
 religion = sunni
 capital = 789
+religious_school = maliki_school
 
 1509.1.6 = {
 	monarch = {

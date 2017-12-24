@@ -139,6 +139,18 @@ capital = 703	# Graz
 	}
 }
 #1251 done
+1254.5.1 = {
+	monarch = {
+		name = "Stephan"
+		dynasty = "Árpád"
+		culture = hungarian
+		birth_date = 1239.10.18
+		adm = 1
+		dip = 2
+		mil = 2
+	}
+}
+#1260.7.12 done
 1379.9.25 = {
 	add_accepted_culture = slovenian
 	monarch = {
@@ -219,5 +231,3 @@ capital = 703	# Graz
 		mil = 1
 	}
 }
-
-

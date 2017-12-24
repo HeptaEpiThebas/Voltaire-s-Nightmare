@@ -145,7 +145,6 @@ cb_trade_war_triggered = {
 	war_goal = superiority_trade
 
 	attacker_disabled_po = {
-		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -166,7 +165,6 @@ cb_trade_conflict = {
 	war_goal = blockade_ports
 
 	attacker_disabled_po = {
-		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -190,7 +188,6 @@ cb_trade_league_conflict = {
 	war_goal = blockade_ports
 
 	attacker_disabled_po = {
-		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -564,7 +561,6 @@ cb_trade_war = {
 	war_goal = superiority_trade_mutual
 
 	attacker_disabled_po = {
-		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -589,7 +585,6 @@ cb_trade_league_dispute = {
 	war_goal = superiority_trade_mutual
 
 	attacker_disabled_po = {
-		po_annex
 		po_demand_provinces
 		po_revoke_cores
 		po_release_vassals
@@ -871,7 +866,6 @@ cb_humiliate_rotw = {
 	}
 
 	attacker_disabled_po = {
-		po_annex
 		po_demand_provinces
 		po_release_vassals
 		po_release_annexed
@@ -933,7 +927,7 @@ cb_forced_break_alliance = {
 	attacker_disabled_po = {
 		po_become_tributary_state
 	}
-
+	
 	war_goal = superiority_insult
 }
 
@@ -956,6 +950,6 @@ cb_force_tributary = {
 			}
 		}
 	}
-
+	
 	war_goal = take_capital_force_tributary
 }

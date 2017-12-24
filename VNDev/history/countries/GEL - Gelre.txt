@@ -299,6 +299,7 @@ capital = 291	#Gelderen not Coevorde
 	monarch = {
 		name = "Maria I"
 		dynasty = "de Bourgogne"
+		culture = burgundian
 		birth_date = 1457.2.13
 		adm = 3
 		dip = 4
@@ -317,5 +318,5 @@ capital = 291	#Gelderen not Coevorde
 		mil = 3
 	}
 }
-1520.1.1 = { leader = { name = "Maarten van Rossum" type = general rank = 1 fire = 2 shock = 3 manuever = 3 siege = 0 death_date = 1555.6.7 } }
+1520.1.1 = { leader = { name = "Maarten van Rossum" type = general fire = 2 shock = 3 manuever = 3 siege = 0 death_date = 1555.6.7 } }
 #1538.6.30 to KLE

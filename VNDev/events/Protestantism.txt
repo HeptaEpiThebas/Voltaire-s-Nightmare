@@ -742,11 +742,11 @@ country_event = {
 		is_religion_enabled = protestant
 		OR = {
 			employed_advisor = {
-				home_religion = catholic
+				religion = catholic
 				type = natural_scientist
 			}
 			employed_advisor = {
-				home_religion = catholic
+				religion = catholic
 				type = philosopher
 			}
 		}
@@ -835,27 +835,27 @@ country_event = {
 		is_religion_enabled = protestant
 		OR = {
 			employed_advisor = {
-				home_religion = reformed
+				religion = reformed
 				type = treasurer
 			}
 			employed_advisor = {
-				home_religion = reformed
+				religion = reformed
 				type = philosopher
 			}
 			employed_advisor = {
-				home_religion = reformed
+				religion = reformed
 				type = artist
 			}
 			employed_advisor = {
-				home_religion = reformed
+				religion = reformed
 				type = theologian
 			}
 			employed_advisor = {
-				home_religion = reformed
+				religion = reformed
 				type = master_of_mint
 			}
 			employed_advisor = {
-				home_religion = reformed
+				religion = reformed
 				type = inquisitor
 			}
 		}
@@ -949,7 +949,7 @@ country_event = {
 		NOT = { is_year = 1680 }
 		OR = {
 			employed_advisor = {
-				home_religion = catholic
+				religion = catholic
 			}
 			has_idea_group = humanist_ideas
 			has_idea_group = innovativeness_ideas

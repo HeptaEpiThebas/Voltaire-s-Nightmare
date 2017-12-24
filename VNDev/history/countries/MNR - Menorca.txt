@@ -2,8 +2,9 @@ government = iqta
 government_rank = 1
 technology_group = muslim
 primary_culture = berber
-religion = shiite
+religion = sunni
 capital = 2701
+religious_school = maliki_school
 
 1227.1.1 = {
 	monarch = {

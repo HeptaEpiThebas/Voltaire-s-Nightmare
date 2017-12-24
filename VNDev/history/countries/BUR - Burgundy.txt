@@ -4,6 +4,7 @@ primary_culture = burgundian
 religion = catholic
 technology_group = western
 capital = 765
+add_army_professionalism = 0.1
 
 1032.1.1 = {
 	monarch = {
@@ -383,7 +384,7 @@ capital = 765
 		mil = 5
 	}
 }
-1408.1.1 = { leader = {	name = "Jean de Pressy"   	type = general	rank = 3	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1437.1.1 } }
+1408.1.1 = { leader = {	name = "Jean de Pressy"   	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1437.1.1 } }
 1419.9.11 = {
 	monarch = {
 		name = "Philippe III"
@@ -392,7 +393,7 @@ capital = 765
 		adm = 5
 		dip = 5
 		mil = 5
-		leader = { name = "Philippe III"   	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 1 }
+		leader = { name = "Philippe III"   	type = general	fire = 3	shock = 3	manuever = 3	siege = 1 }
 	}
 }
 1433.11.10 = {
@@ -416,10 +417,8 @@ capital = 765
 		adm = 2
 		dip = 0
 		mil = 4
-		leader = { name = "Charles I le Téméraire"	type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 1}
+		leader = { name = "Charles I le Téméraire"	type = general	fire = 3	shock = 3	manuever = 3	siege = 1}
 	}
-}
-1467.6.16 = {
 	heir = {
 		name = "Marie"
 		monarch_name = "Marie I"
@@ -431,6 +430,19 @@ capital = 765
 		dip = 4
 		mil = 2
 		female = yes
+	}
+}
+1468.7.3 = {
+	queen = {
+		country_of_origin = ENG
+		name = "Margaret"
+		dynasty = "York"
+		birth_date = 1446.5.3
+		death_date = 1503.11.23
+		female = yes
+		adm = 5
+		dip = 4
+		mil = 1
 	}
 }
 1477.1.6 = {

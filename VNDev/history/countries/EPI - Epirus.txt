@@ -149,11 +149,10 @@ capital = 2773
 }
 #1359.5.1 to WTH
 1366.1.1 = {
-	primary_culture = serbian
-	add_accepted_culture = greek
 	monarch = {
 		name = "Toma"
 		dynasty = "Preljubovic"
+		culture = serbian
 		birth_date = 1340.1.1 #est
 		dip = 1
 		adm = 1
@@ -175,6 +174,7 @@ capital = 2773
 	monarch = {
 		name = "Marija"
 		dynasty = "Nemanjic"
+		culture = serbian
 		birth_date = 1350.1.1
 		female = yes
 		adm = 2
@@ -183,11 +183,11 @@ capital = 2773
 	}
 }
 1385.1.1 = {
-	primary_culture = tuscan
-	religion = catholic
 	monarch = {
 		name = "Esau I"
 		dynasty = "de Buondelmonti"
+		culture = tuscan
+		religion = catholic
 		birth_date = 1360.1.1 #est
 		dip = 1
 		adm = 1
@@ -210,6 +210,8 @@ capital = 2773
 		name = "Giorgio"
 		monarch_name = "Giorgio I"
 		dynasty = "de Buondelmonti"
+		culture = tuscan
+		religion = catholic
 		birth_date = 1399.1.1
 		death_date = 1453.1.1
 		claim = 75
@@ -222,15 +224,12 @@ capital = 2773
 	monarch = {
 		name = "Giorgio I"
 		dynasty = "de Buondelmonti"
+		culture = tuscan
+		religion = catholic
 		birth_date = 1399.1.1
 		dip = 0
 		adm = 0
 		mil = 0
 	}
-}
-1411.2.26 = {
-	remove_accepted_culture = greek
-	primary_culture = greek
-	religion = orthodox
 }
 1430.1.1 = { capital = 1209 }

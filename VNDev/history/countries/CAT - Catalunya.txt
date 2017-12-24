@@ -116,7 +116,7 @@ historical_friend = ARA
 	add_ruler_personality = pious_personality
 }
 1137.11.13 = { government_rank = 5 }
-1711.4.18 = { government = bureaucratic_despotism }
+1711.4.18 = { government = constitutional_republic }
 1759.8.12 = { government = enlightened_despotism }
 1809.12.10 = {
 	government = constitutional_republic

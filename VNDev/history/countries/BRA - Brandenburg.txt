@@ -613,6 +613,7 @@ historical_friend = PTH
 		mil = 5
 		leader = { name = "Friedrich Wilhelm I"	type = general	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 0}
 	}
+	add_army_professionalism = 0.2
 }
 1645.1.1 = { leader = {	name = "Otto von Sparr"		type = general	rank = 2	fire = 3	shock = 2	manuever = 2	siege = 2	death_date = 1668.5.9 } }
 1646.12.7 = {

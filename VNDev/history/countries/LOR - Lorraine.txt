@@ -235,7 +235,7 @@ historical_friend = BAR
 		mil = 3
 	}
 	queen = {
-		county_of_origin = HAB
+		country_of_origin = HAB
 		name = "Elisabeth"
 		dynasty = "von Habsburg"
 		birth_date = 1285.1.1
@@ -272,7 +272,7 @@ historical_friend = BAR
 }
 1333.1.1 = {
 	queen = {
-		county_of_origin = BLO
+		country_of_origin = BLO
 		name = "Marie"
 		dynasty = "de Blois"
 		birth_date = 1323.1.1
@@ -329,7 +329,7 @@ historical_friend = BAR
 }
 1361.1.1 = {
 	queen = {
-		county_of_origin = WUR
+		country_of_origin = WUR
 		name = "Sophie"
 		dynasty = "von Württemberg"
 		birth_date = 1343.1.1
@@ -369,6 +369,7 @@ historical_friend = BAR
 	monarch = {
 		name = "Jean II"
 		dynasty = "d'Anjou"
+		culture = angevin_culture
 		birth_date = 1424.8.2
 		adm = 1
 		dip = 4
@@ -378,6 +379,7 @@ historical_friend = BAR
 		name = "Nicolas"
 		monarch_name = "Nicolas I"
 		dynasty = "d'Anjou"
+		culture = angevin_culture
 		birth_date = 1448.1.1
 		death_date = 1473.8.25
 		claim = 95
@@ -390,6 +392,7 @@ historical_friend = BAR
 	monarch = {
 		name = "Nicolas I"
 		dynasty = "d'Anjou"
+		culture = angevin_culture
 		birth_date = 1448.1.1
 		adm = 1
 		dip = 4
@@ -428,7 +431,7 @@ historical_friend = BAR
 		adm = 4
 		dip = 1
 		mil = 4
-		leader = {	name = "Antoine I"            	type = general	rank = 0	fire = 3	shock = 1	manuever = 3	siege = 0 }
+		leader = {	name = "Antoine I"            	type = general	fire = 3	shock = 1	manuever = 3	siege = 0 }
 	}
 }
 1508.12.10 = {
@@ -439,7 +442,7 @@ historical_friend = BAR
 		adm = 4
 		dip = 1
 		mil = 4
-		leader = {	name = "Antoine I"            	type = general	rank = 0	fire = 3	shock = 1	manuever = 3	siege = 0 }
+		leader = {	name = "Antoine I"            	type = general	fire = 3	shock = 1	manuever = 3	siege = 0 }
 	}
 }
 1517.8.23 = {
@@ -539,7 +542,7 @@ historical_friend = BAR
 		adm = 2
 		dip = 0
 		mil = 0
-		leader = {	name = "Charles IV"            	type = general	rank = 0	fire = 2	shock = 2	manuever = 3	siege = 1}
+		leader = {	name = "Charles IV"            	type = general	fire = 2	shock = 2	manuever = 3	siege = 1}
 	}
 }
 1624.5.1 = {
@@ -550,7 +553,7 @@ historical_friend = BAR
 		adm = 2
 		dip = 0
 		mil = 0
-		leader = {	name = "Charles IV"            	type = general	rank = 0	fire = 2	shock = 2	manuever = 3	siege = 1}
+		leader = {	name = "Charles IV"            	type = general	fire = 2	shock = 2	manuever = 3	siege = 1}
 	}
 	heir = {
 		name = "Nicolas"
@@ -585,7 +588,7 @@ historical_friend = BAR
 		adm = 2
 		dip = 0
 		mil = 0
-		leader = {	name = "Charles IV"            	type = general	rank = 0	fire = 2	shock = 2	manuever = 3	siege = 1}
+		leader = {	name = "Charles IV"            	type = general	fire = 2	shock = 2	manuever = 3	siege = 1}
 	}
 }
 1641.1.1 = { leave_league = catholic }

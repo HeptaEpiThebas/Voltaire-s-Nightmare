@@ -431,6 +431,7 @@ country_event = {
 				}
 				spawn_rebels = {
    					type = pretender_rebels
+   					culture = swedish
     				size = 3
     				leader = "Haraldr Harfagreatta"
     				friend = NOL
@@ -449,6 +450,7 @@ country_event = {
 				}
 				spawn_rebels = {
    					type = pretender_rebels
+   					culture = swedish
     				size = 3
     				leader = "Haraldr Harfagreatta"
     				friend = NOL
@@ -501,6 +503,7 @@ country_event = {
 				}
 				spawn_rebels = {
    					type = pretender_rebels
+   					culture = swedish
     				size = 4
     				leader = "Haraldr Harfagreatta"
 				}
@@ -518,6 +521,7 @@ country_event = {
 				}
 				spawn_rebels = {
    					type = pretender_rebels
+   					culture = swedish
     				size = 3
     				leader = "Haraldr Harfagreatta"
 				}
@@ -2723,7 +2727,10 @@ country_event = {
 					}
 				}
 			}
-			all_province = { discover_country = RUM }
+			every_province = {
+				limit = {}
+				discover_country = RUM
+			}
 			every_province = {
 				limit = {
 					OR = {

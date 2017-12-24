@@ -52,7 +52,7 @@ capital = 10
 		adm = 3
 	}
 }
-1170 = {
+1170.1.1 = {
 	monarch = {
 		name = "Kuno I"
 		dynasty = "von Münzenberg"

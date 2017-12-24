@@ -29,7 +29,6 @@ fixed_capital = 2233
 		leader = {	
 			name = "Konstantinos Monomachos"
 			type = general
-			rank = 0
 			fire = 0
 			shock = 0
 			manuever = 2
@@ -144,8 +143,7 @@ fixed_capital = 2233
 	}
 	leader = {	
 		name = "Nikephoros Palaiologos"
-		type = general	
-		rank = 1
+		type = general
 		fire = 3
 		shock = 3
 		manuever = 0 
@@ -154,8 +152,7 @@ fixed_capital = 2233
 	} 
 	leader = {
 		name = "Romanos Diogenes"
-		type = general	
-		rank = 1
+		type = general
 		fire = 4
 		shock = 4
 		manuever = 0 
@@ -164,8 +161,7 @@ fixed_capital = 2233
 	}
 	leader = {
 		name = "Theodoros Alyates"
-		type = general	
-		rank = 1
+		type = general
 		fire = 1
 		shock = 3
 		manuever = 1 
@@ -174,8 +170,7 @@ fixed_capital = 2233
 	}
 	leader = {
 		name = "Nikephoros Bryennios"
-		type = general	
-		rank = 1
+		type = general
 		fire = 2
 		shock = 1
 		manuever = 1
@@ -219,7 +214,6 @@ fixed_capital = 2233
 		leader = {	
 			name = "Alexios Komnenos"
 			type = general
-			rank = 0
 			fire = 5
 			shock = 5
 			manuever = 2
@@ -243,8 +237,7 @@ fixed_capital = 2233
 	}
 	leader = {	
 		name = "Adrianos Komnenos"
-		type = general	
-		rank = 1
+		type = general
 		fire = 3
 		shock = 3
 		manuever = 2
@@ -253,8 +246,7 @@ fixed_capital = 2233
 	} 
 	leader = {
 		name = "Giorgios Palaiologos"
-		type = general	
-		rank = 1
+		type = general
 		fire = 2
 		shock = 2
 		manuever = 4 
@@ -323,8 +315,7 @@ fixed_capital = 2233
 	}
 	leader = {
 		name = "Baudouin d'Antioche"
-		type = general	
-		rank = 1
+		type = general
 		fire = 2
 		shock = 1
 		manuever = 3 
@@ -542,7 +533,6 @@ fixed_capital = 2233
 	leader = {	
 		name = "Licario"	
 		type = general	
-		rank = 1	
 		fire = 5	
 		shock = 4	
 		manuever = 2	
@@ -841,8 +831,8 @@ fixed_capital = 2233
 		adm = 3
 		dip = 2
 		mil = 2
-		leader = {	name = "Konstantinos XI"	type = general	rank = 0	fire = 3	shock = 3	manuever = 4	siege = 0 }
+		leader = {	name = "Konstantinos XI"	type = general	fire = 3	shock = 3	manuever = 4	siege = 0 }
 	}
 }
 
-1452.1.1 = { leader = {	name = "Giovanni Giustiniani"	type = general	rank = 1	fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 1453.5.29 } }
+1452.1.1 = { leader = {	name = "Giovanni Giustiniani"	type = general	fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 1453.5.29 } }

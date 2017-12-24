@@ -214,7 +214,6 @@ capital = 930
 		leader = { 
 			name = "Jan de Reginar"
 			type = general	
-			rank = 0	
 			fire = 3	
 			shock = 4
 			manuever = 1

@@ -126,6 +126,7 @@ country_event = {
 			estate = estate_burghers
 			loyalty = 15
 		}
+		add_army_professionalism = 0.02
 		add_estate_influence_modifier = {
 			estate = estate_nobles
 			desc = EST_VAL_NO_EXCLUSIVE_RIGHT_TO_BE_OFFICERS_NOBLES
@@ -1326,6 +1327,9 @@ country_event = {
 			estate = estate_nobles
 			influence = 60
 		}
+		any_owned_province = {
+			has_estate = estate_nobles
+		}
 	}
 
 	
@@ -1347,6 +1351,10 @@ country_event = {
 					33 = { set_country_flag = noble_statesman }
 					33 = { set_country_flag = noble_army_reformer }
 				}
+			}
+			random_owned_province = {
+				limit = { has_estate = estate_nobles }
+				save_event_target_as = noble_province
 			}
 		}
 	}
@@ -1376,6 +1384,8 @@ country_event = {
 					}
 					define_advisor = {
 						type = statesman
+						culture = event_target:noble_province
+						religion = event_target:noble_province
 						skill = 3
 						discount = yes
 					}
@@ -1384,6 +1394,8 @@ country_event = {
 					limit = { NOT = { monthly_income = 25} }
 					define_advisor = {
 						type = statesman
+						culture = event_target:noble_province
+						religion = event_target:noble_province
 						skill = 2
 						discount = yes
 					}
@@ -1397,6 +1409,8 @@ country_event = {
 					}
 					define_advisor = {
 						type = army_reformer
+						culture = event_target:noble_province
+						religion = event_target:noble_province
 						skill = 3
 						discount = yes
 					}
@@ -1405,6 +1419,8 @@ country_event = {
 					limit = { NOT = { monthly_income = 25 } }
 					define_advisor = {
 						type = army_reformer
+						culture = event_target:noble_province
+						religion = event_target:noble_province
 						skill = 2
 						discount = yes
 					}

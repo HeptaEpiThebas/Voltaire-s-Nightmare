@@ -4,6 +4,7 @@ primary_culture = emilian
 religion = catholic
 technology_group = western
 capital = 648	# Parma
+add_army_professionalism = 0.05
 
 1022.1.1 = {
 	monarch = {

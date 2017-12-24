@@ -42,7 +42,6 @@ capital = 862
 		leader = {	
 			name = "Cu-Uladh Ó hAnluain"
 			type = general
-			rank = 0
 			fire = 2
 			shock = 2
 			manuever = 1

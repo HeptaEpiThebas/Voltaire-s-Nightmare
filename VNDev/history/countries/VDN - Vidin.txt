@@ -51,7 +51,6 @@ capital = 2438
 		leader = {	
 			name = "Mikhail Šišman"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 4
 			manuever = 1

@@ -18,7 +18,6 @@ capital = 2775
 		leader = {	
 			name = "Jordan d'Exeter"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 4
 			manuever = 2

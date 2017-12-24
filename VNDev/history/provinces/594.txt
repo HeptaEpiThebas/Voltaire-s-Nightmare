@@ -46,7 +46,19 @@ discovered_by = muslim
 	add_core = GEN
 	remove_core = BYZ
 }
-1455.1.1 = {
+1340.1.1 = {
+	owner = BYZ
+	controller = BYZ
+	add_core = BYZ
+	remove_core = GEN
+}
+1346.9.12 = {
+	owner = GEN
+	controller = GEN
+	add_core = GEN
+	remove_core = BYZ
+}
+1455.10.31 = {
 	owner = TUR
 	controller = TUR
 	add_core = TUR
