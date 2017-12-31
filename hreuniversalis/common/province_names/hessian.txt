@@ -1,2 +1,0 @@
-78 = "Aschebersch"
-762 = "M‰‰nz"

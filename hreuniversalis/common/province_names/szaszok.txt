@@ -1,4 +1,0 @@
-451 = "Bistritz"
-447 = "Groﬂ-Kokelburg"
-508 = "Kronstadt"
-2363 = "Hermannstadt"

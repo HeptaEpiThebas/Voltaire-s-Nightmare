@@ -1,2 +1,0 @@
-987.5.21 = { celestial_emperor = FRA }
-1589.8.8 = { celestial_emperor = xxx }

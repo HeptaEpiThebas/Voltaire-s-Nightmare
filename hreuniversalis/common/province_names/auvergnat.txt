@@ -1,3 +1,0 @@
-2892 = "Auvèrnhe"
-1270 = "Mercuèr"
-1271 = "Montpensièr"

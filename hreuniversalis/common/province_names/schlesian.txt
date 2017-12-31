@@ -1,8 +1,0 @@
-815 = "Raciburz"
-2825 = "Bytun"
-2943 = "Nymodlin"
-2815 = "Uopole"
-812 = "Namysluw"
-307 = "Laubn"
-288 = "Uopawa"
-2904 = "Karnuw"

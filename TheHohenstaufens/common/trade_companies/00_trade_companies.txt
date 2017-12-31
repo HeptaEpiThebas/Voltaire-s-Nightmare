@@ -1,6 +1,0 @@
-trade_company_north_china = {
-	color = { 60 60 255 }
-	
-	provinces = {
-	}
-}

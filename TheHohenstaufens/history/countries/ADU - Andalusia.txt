@@ -1,6 +1,0 @@
-government = feudal_monarchy
-government_rank = 5
-primary_culture = andalucian
-religion = sunni
-technology_group = western
-capital = 1236

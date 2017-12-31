@@ -1,3 +1,0 @@
-647 = "Cošpèja"
-2595 = "Bibbjèna"
-1083 = "Giara"

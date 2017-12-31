@@ -1,5 +1,0 @@
-1873 = "Zuoz"
-2237 = "Lozärn"
-2281 = "Bärn"
-211 = "Ilanz"
-60 = "Stüelinge"

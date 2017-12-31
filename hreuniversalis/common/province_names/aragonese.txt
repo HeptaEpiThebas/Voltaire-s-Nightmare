@@ -1,8 +1,0 @@
-989 = "Arlet"
-2671 = "Marsiella"
-991 = "Ais"
-1001 = "Folcalquer"
-428 = "Castelaragonese"
-651 = "Càller"
-4030 = "Uesca"
-564 = "Nápols"

@@ -1,5 +1,0 @@
-2960 = "Kimbré"
-91 = "Mont"
-892 = "Tornai"
-934 = "Dunkèke"
-918 = "Artoé"
