@@ -135,6 +135,7 @@ add_army_professionalism = 0.05
 	clear_scripted_personalities = yes
 	add_ruler_personality = charismatic_negotiator_personality
 }
+1122.9.23 = { set_global_flag = guelph_ghib_enabled }	# Concordat of Worms
 1124.12.13 = {
 	monarch = {
 		name = "Honorius II"
@@ -204,7 +205,6 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-1158.1.1 = { set_global_flag = guelph_ghib_enabled }	# Diet of Roncaglia
 1159.9.1 = {
 	monarch = {
 		name = "Alexander III"

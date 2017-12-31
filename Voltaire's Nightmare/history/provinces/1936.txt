@@ -29,13 +29,18 @@ discovered_by = muslim
 	add_core = MRK
 	remove_core = BRG
 }
-1248.1.1 = {
+1267.1.1 = {
 	owner = DMD
 	controller = DMD
 	remove_core = MRK
+	add_permanent_province_modifier = {
+		name = hanseatic_city
+		duration = -1
+	}
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1523.1.1 = { religion = protestant }
+1667.1.1 = { remove_province_modifier = hanseatic_city }
 1803.2.25 = {
 	owner = NSA
 	controller = NSA

@@ -135,10 +135,6 @@ build_weapons = {
 			factor = 1.5
 			trade_goods = iron
 		}
-		modifier = {
-			factor = 5.0
-			has_province_modifier = stora_kopparberget_modifier
-		}
 	}
 	effect = {
 		add_institution_embracement = {

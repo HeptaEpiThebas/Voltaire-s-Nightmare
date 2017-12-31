@@ -32,6 +32,10 @@ fort_14th = yes
 	owner = LUN
 	add_core = LUN
 	remove_core = BRU
+	add_permanent_province_modifier = {
+		name = hanseatic_city
+		duration = -1
+	}
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1400.1.1 = {
@@ -77,6 +81,7 @@ fort_14th = yes
 	base_production = 7
 	base_manpower = 7
 }
+1719.9.30 = { remove_province_modifier = hanseatic_city }
 1757.7.26 = { controller = FRA }
 1757.11.5 = { controller = HAN }
 1803.7.5 = { controller = FRA }

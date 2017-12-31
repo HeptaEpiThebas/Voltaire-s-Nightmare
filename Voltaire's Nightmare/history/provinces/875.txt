@@ -29,10 +29,15 @@ fort_14th = yes
 	controller = MUN
 	add_core = MUN
 	remove_core = CRV
+	add_permanent_province_modifier = {
+		name = hanseatic_city
+		duration = -1
+	}
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1534.2.1 = { unrest = 3 }
 1535.6.24 = { unrest = 0 }
+1719.9.30 = { remove_province_modifier = hanseatic_city }
 1723.1.1 = {
  	base_tax = 8 
 	base_production = 8

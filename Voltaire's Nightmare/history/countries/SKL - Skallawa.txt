@@ -3,7 +3,7 @@ government_rank = 3
 technology_group = eastern
 primary_culture = pruthenian
 religion = animism
-capital = 386
+capital = 486
 
 1054.1.1 = {
 	monarch = {

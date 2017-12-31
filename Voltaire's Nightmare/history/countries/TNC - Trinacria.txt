@@ -16,8 +16,7 @@ capital = 2041
 	}
 	leader = {	
 		name = "Conrad d'Oria"	
-		type = admiral	
-		rank = 1	
+		type = admiral
 		fire = 2	
 		shock = 2	
 		manuever = 2	

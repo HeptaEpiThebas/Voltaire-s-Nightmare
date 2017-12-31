@@ -55,6 +55,7 @@ add_army_professionalism = 0.1
 	}
 }
 1065.12.24 = {
+	set_global_flag = lon_split_flag
 	monarch = {
 		name = "Alfonso VI"
 		dynasty = "Jiménez"

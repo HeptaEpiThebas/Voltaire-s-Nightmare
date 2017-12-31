@@ -28,10 +28,26 @@ discovered_by = muslim
 	add_core = FRA
 	remove_core = ANJ
 }
-1325.12.16 = {
+1269.1.1 = {
 	owner = ALE
 	controller = ALE
 	remove_core = FRA
+}
+1284.4.6 = {
+	owner = FRA
+	controller = FRA
+	add_core = FRA
+}
+1290.8.16 = {
+	owner = ANJ
+	controller = ANJ
+	add_core = ANJ
+	remove_core = FRA
+}
+1325.12.16 = {
+	owner = ALE
+	controller = ALE
+	remove_core = ANJ
 }
 1424.8.17 = { owner = ENG controller = ENG add_core = ENG add_core = FRA }
 1450.4.15 = { owner = ALE controller = ALE remove_core = FRA }

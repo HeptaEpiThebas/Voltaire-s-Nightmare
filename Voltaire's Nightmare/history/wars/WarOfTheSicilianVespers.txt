@@ -15,10 +15,6 @@ war_goal = {
 	add_defender = DRZ
 	add_defender = MLL
 	add_defender = FRA
-	add_defender = NAV
-	add_defender = CHP
-	add_defender = PAP
-	add_defender = GEN
 }
 
 1283.7.8 = {
@@ -119,8 +115,4 @@ war_goal = {
 	rem_defender = VLW
 	rem_defender = MLL
 	rem_defender = FRA
-	rem_defender = NAV
-	rem_defender = CHP
-	rem_defender = PAP
-	rem_defender = GEN
 }

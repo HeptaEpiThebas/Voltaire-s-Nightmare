@@ -211,13 +211,12 @@ capital = 1940
 		dip = 3
 		mil = 2
 		adm = 2
-		leader = {	name = "Gioacchino I Murat"	type = general		rank = 0	fire = 4	shock = 4	manuever = 6	siege = 2 }
+		leader = {	name = "Gioacchino I Murat"	type = general	fire = 4	shock = 4	manuever = 6	siege = 2 }
 	}
 } #done 1808.8.1
 1806.7.12 = { elector = yes }
 1809.3.3 = {
 	monarch = {
-		monarch = {
 		name = "Louis"
 		dynasty = "Bonaparte"
 		culture = corsican

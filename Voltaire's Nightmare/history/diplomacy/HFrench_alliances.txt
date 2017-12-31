@@ -137,20 +137,20 @@ union = {
 	first = NAV
 	second = CHP
 	start_date = 1234.4.7
-	end_date = 1284.8.16
-}
-union = {
-	first = FRA
-	second = CHP
-	start_date = 1284.8.16
 	end_date = 1314.11.29
 }
 
 #France
-union = {
+royal_marriage = {
 	first = FRA
 	second = NAV
 	start_date = 1284.8.16
+	end_date = 1305.4.2
+}
+union = {
+	first = FRA
+	second = NAV
+	start_date = 1314.11.29
 	end_date = 1328.2.1
 }
 
@@ -358,4 +358,12 @@ union = {
 	second = DAU
 	start_date = 1183.1.1
 	end_date = 1192.8.25
+}
+
+#marriage
+royal_marriage = {
+	first = NAV
+	second = ALE
+	start_date = 1525.1.1
+	end_date = 1549.12.21
 }

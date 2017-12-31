@@ -56,7 +56,6 @@ capital = 372
 	}
 }
 1248.1.1 = {
-	government_rank = 1
 	monarch = {
 		name = "Heinrich IV" #1
 		dynasty = "Reuss"

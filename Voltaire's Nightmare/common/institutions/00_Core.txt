@@ -1907,7 +1907,6 @@ manufactories = {
 			has_building = textile
 			has_building = plantations
 			has_building = tradecompany
-			has_building = mills
 		}
 	}
 	start_chance = 10		#in 100 for when a province can_start

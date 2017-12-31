@@ -3,7 +3,7 @@ government_rank = 3
 technology_group = eastern
 religion = animism
 primary_culture = latvian
-capital = 2121
+capital = 2059
 
 1054.1.1 = {
 	monarch = {

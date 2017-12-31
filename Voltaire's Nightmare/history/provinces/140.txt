@@ -15,6 +15,12 @@ discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
+1267.1.1 = {
+	add_permanent_province_modifier = {
+		name = hanseatic_city
+		duration = -1
+	}
+}
 1523.5.13 = {
 	owner = WFB
 	controller = WFB
@@ -24,6 +30,7 @@ discovered_by = muslim
 	owner = HDS
 	controller = HDS
 }
+1719.9.30 = { remove_province_modifier = hanseatic_city }
 1803.2.25 = {
 	owner = PRU
 	controller = PRU

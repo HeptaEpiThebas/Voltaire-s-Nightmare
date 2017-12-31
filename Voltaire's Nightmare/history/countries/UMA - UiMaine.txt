@@ -133,7 +133,6 @@ capital = 333
 		leader = {	
 			name = "Tadhg Ó Cellaigh"
 			type = general
-			rank = 0
 			fire = 1
 			shock = 2
 			manuever = 1

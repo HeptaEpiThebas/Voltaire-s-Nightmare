@@ -122,6 +122,12 @@
  all_graviates_titles_acquired: "Pfalzgrave, Raugrave, Rheingrave and Wildgrave"
  make_turin_capital_title: "Make Turin the Capital"
  make_turin_capital_desc: "As a more Italian oriented state, Savoy must have their capital in the peninsula, and Turin will be our glorious beacon!"
+ revoke_hansa_rights_title: "Revoke Hanseatic Rights"
+ revoke_hansa_rights_desc: "These so-called 'Hanseatic Cities' have far too much autonomy within our realm. We need to bring them back into our centralized administration by force, whether they like it or not."
+ reform_eastern_monarchy_title: "Adopt Feudal Administration"
+ reform_eastern_monarchy_desc: "The decentralized pseudo-feudal system that has governed our nation for centuries has become obsolete and cumbersome. We should adopt a more Westernized system to prop up the military and economic clout we desire. While this will finally solve our autonomy problems, it will come at great cost, as minorities slip away."
+ curtail_templars_title: "Curtail the Templars"
+ curtail_templars_desc: "The Knights Templar, who started their career as defenders of the faith in the Holy Land, have essentially become an international banking cartel. We have received word their initiation rituals involve denying Christ and worshipping Mahomet! We must petition the Pope to wipe these criminals out and seize their wealth for the Crown."
 #Missions
  scottish_control2_title: "Push Our Frontiers"
  scottish_control2_desc: "To protect Scotland we must advance the frontier south and take Northhymberland to act as a buffer."

@@ -97,14 +97,6 @@ capital = 2262
 		dip = 2
 		mil = 2
 	}
-	define_ruler = {
-		name = "Pomelina di Campofregoso (Regent)"
-		regency = yes
-		female = yes
-		adm = 2
-		dip = 2
-		mil = 2
-	}
 	heir = {
 		name = "Claudina"
 		monarch_name = "Claudina"
@@ -181,13 +173,6 @@ capital = 2262
 		dip = 2
 		mil = 2
 	}
-	define_ruler = {
-		name = "(Regency Council)"
-		regency = yes
-		adm = 2
-		dip = 2
-		mil = 2
-	}
 	heir = {
 		name = "Honoré"
 		monarch_name = "Honoré I"
@@ -252,7 +237,7 @@ capital = 2262
 		death_date = 1662.1.10
 		claim = 95
 		adm = 5
-		dip = 2
+		dip = 5
 		mil = 3
 	}
 }
@@ -260,13 +245,6 @@ capital = 2262
 	monarch = {
 		name = "Frederico Landi (Regent)"
 		regent = yes
-		adm = 2
-		dip = 2
-		mil = 2
-	}
-	define_ruler = {
-		name = "Frederico Landi (Regent)"
-		regency = yes
 		adm = 2
 		dip = 2
 		mil = 2
@@ -279,20 +257,23 @@ capital = 2262
 		death_date = 1662.1.10
 		claim = 95
 		adm = 5
-		dip = 2
+		dip = 5
 		mil = 3
 	}
 }
-1633.1.1 = {
+1616.12.24 = {
 	monarch = {
 		name = "Honoré II"
 		dynasty = "Grimaldi"
 		birth_date = 1597.12.24
 		adm = 5
-		dip = 2
+		dip = 5
 		mil = 3
 	}
-	government_rank = 2
+}
+1633.1.1 = {
+	government = administrative_monarchy
+	government_rank = 4
 }
 1642.7.25 = {
 	heir = {
@@ -316,8 +297,6 @@ capital = 2262
 		dip = 6
 		mil = 4
 	}
-	government = administrative_monarchy
-	government_rank = 4
 	heir = {
 		name = "Antonio"
 		monarch_name = "Antonio I"

@@ -50,3 +50,16 @@ capital = 2418
 		mil = 2
 	}
 }
+
+#Principality
+1451.1.1 = {
+	government_rank = 4
+	monarch = {
+		name = "Ivan VII"
+		dynasty = "Frankapan"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+#done 1481

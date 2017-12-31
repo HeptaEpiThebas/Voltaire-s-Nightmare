@@ -52,7 +52,7 @@ alliance = {
 	first = HSA
 	second = KOF
 	trade_league = 1
-	start_date = 1260.1.1
+	start_date = 1288.6.5
 	end_date = 1470.1.1
 }
 #KOF kicked out for a few years due to siding with England
@@ -68,7 +68,7 @@ alliance = {
 	first = HSA
 	second = DMD
 	trade_league = 1
-	start_date = 1260.1.1
+	start_date = 1267.1.1
 	end_date = 1667.1.1
 }
 

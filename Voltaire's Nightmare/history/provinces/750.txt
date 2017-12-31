@@ -27,9 +27,6 @@ discovered_by = muslim
 	controller = VRT
 	remove_core = FRA
 }
-1418.5.29 = { controller = BUR }
-1435.9.11 = { controller = ENG }
-1437.1.1 = { controller = VRT } 
 1466.4.24 = {
 	owner = FRA
 	controller = FRA

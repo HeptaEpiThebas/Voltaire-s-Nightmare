@@ -26,7 +26,10 @@ country_event = {
 	option = {
 		name = "FBIA1" #Bohemia
 		ai_chance = { factor = 70 }
-		define_ruler = { dynasty = "Premyslovci" }
+		define_ruler = {
+			dynasty = "Premyslovci"
+			culture = czech
+		}
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = 10
@@ -44,7 +47,10 @@ country_event = {
 	option = {
 		name = "FBIB1"
 		ai_chance = { factor = 25 }
-		define_ruler = { dynasty = "von Zähringen" }
+		define_ruler = {
+			dynasty = "von Zähringen"
+			culture = boden_alemannic
+		}
 		add_prestige = 10
 		add_estate_loyalty = {
 			estate = estate_nobles
@@ -89,5 +95,311 @@ country_event = {
 			who = FROM
 			modifier = opinion_choose_heir
 		}
+	}
+}
+
+province_event = {
+	id = fbievents.3
+	title = "FBIT3"
+	desc = "FBID3"
+	picture = GREAT_BUILDING_eventPicture
+
+	trigger = {
+		NOT = { has_province_modifier = hanseatic_city }
+		NOT = { has_province_flag = hansa_asked }
+		NOT = { any_neighbor_province = { has_province_modifier = hanseatic_city } }
+		NOT = { is_year = 1500 }
+		development = 8
+		religion_group = christian
+		OR = {
+			superregion = baltic_superregion
+			superregion = lowlands_superregion
+			superregion = germanynorth_superregion
+			superregion = british_isles_superregion
+			superregion = scandinavia_superregion
+		}
+		owner = {
+			has_institution = guilds
+			NOT = { government = tribal }
+			NOT = {
+				num_of_owned_provinces_with = {
+					value = 2
+					has_province_modifier = hanseatic_city
+				}
+			}
+		}
+	}
+
+	immediate = {
+		hidden_effect = { set_province_flag = hansa_asked }
+	}
+
+	mean_time_to_happen = {
+		months = 1200
+
+		modifier = {
+			factor = 0.9
+			has_port = yes
+		}
+		modifier = {
+			factor = 0.9
+			development = 10
+		}
+		modifier = {
+			factor = 0.9
+			development = 20
+		}
+		modifier = {
+			factor = 0.9
+			development = 30
+		}
+		modifier = {
+			factor = 0.9
+			has_estate = estate_burghers
+		}
+		modifier = {
+			factor = 1.3
+			OR = {
+				has_province_modifier = center_of_trade_modifier
+				has_province_modifier = important_natural_harbor
+				has_province_modifier = inland_center_of_trade_modifier
+			}
+		}
+		modifier = {
+			factor = 2
+			is_year = 1400
+		}
+	}
+	
+	option = {
+		name = "FBIA3"
+		ai_chance = { factor = 90 }
+		add_local_autonomy = 15
+		add_permanent_province_modifier = {
+			name = "hanseatic_city"
+			duration = -1
+		}
+	}
+	option = {
+		name = "FBIB3"
+		ai_chance = { factor = 10 }
+		add_unrest = 5
+	}
+}
+
+country_event = {
+	id = fbievents.4
+	title = "FBIT4"
+	desc = "FBID4"
+	picture = KING_SICK_IN_BED_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	major = yes
+
+	trigger = {
+		normal_or_historical_nations = yes
+		current_age = age_of_empire
+		NOT = { has_global_flag = lon_split_flag }
+		tag = LON
+		is_subject = no
+		government = monarchy
+		religion_group = christian
+		OR = {
+			any_owned_province = { is_core = CAS }
+			any_owned_province = { is_core = GAL }
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = { set_global_flag = lon_split_flag }
+	}
+
+	option = {
+		name = "FBIA4"
+		ai_chance = { factor = 95 }
+		if = {
+			limit = { NOT = { exists = CAS } }
+			CAS = { define_ruler = { dynasty = ROOT } }
+		}
+		every_owned_province = {
+			limit = { is_core = CAS }
+			cede_province = CAS
+			remove_core = LON
+		}
+		if = {
+			limit = { NOT = { exists = GAL } }
+			GAL = { define_ruler = { dynasty = ROOT } }
+		}
+		every_owned_province = {
+			limit = { is_core = GAL }
+			cede_province = GAL
+			remove_core = LON
+		}
+
+	}
+	option = {
+		name = "FBIB4"
+		ai_chance = { factor = 5 }
+		add_corruption = 20
+		add_legitimacy = -20
+		add_stability = -2
+		random_owned_province = {
+			limit = { is_core = CAS }
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 2
+			}
+		}
+		random_owned_province = {
+			limit = { is_core = GAL }
+			spawn_rebels = {
+				type = nationalist_rebels
+				size = 2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.5
+	title = "FBIT5"
+	desc = "FBID5"
+	picture = ANGRY_MOB_eventPicture
+
+	trigger = {
+		capital_scope = { superregion = lombardy_superregion }
+		culture_group = latin
+		government = theocratic_government
+		current_age = age_of_holy_wars
+		NOT = { has_country_flag = had_commune_question }
+		NOT = { num_of_cities = 5 }
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.75
+			NOT = { num_of_cities = 2 }
+		}
+		modifier = {
+			factor = 0.8
+			NOT = { devotion = 80 }
+		}
+		modifier = {
+			factor = 0.4
+			NOT = { devotion = 40 }
+		}
+		modifier = {
+			factor = 0.8
+			capital_scope = { development = 8 }
+		}
+		modifier = {
+			factor = 0.8
+			capital_scope = { development = 12 }
+		}
+	}
+
+	immediate = {
+		hidden_effect = { set_country_flag = had_commune_question }
+	}
+
+	option = {
+		name = "FBIA5"
+		ai_chance = { factor = 95 }
+		change_government = italian_monarchy
+		country_event = { id = elections.723 }
+	}
+	option = {
+		name = "FBIB5"
+		ai_chance = { factor = 5 }
+		add_devotion = 15
+		capital_scope = {
+			spawn_rebels = {
+				type = revolutionary_rebels
+				size = 1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = fbievents.6
+	title = "FBIT6"
+	desc = "FBID6"
+	picture = HRE_eventPicture
+
+	major = yes
+
+	trigger = {
+		normal_or_historical_nations = yes
+		NOT = { has_global_flag = guelph_ghib_enabled }
+		is_emperor = yes
+		OR = {
+			current_age = age_of_holy_wars
+			hre_reform_level = 1
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 240
+		modifier = {
+			factor = 0.1
+			hre_reform_level = 1
+		}
+	}
+
+	option = {
+		name = "FBIA6"
+		custom_tooltip = fbia6.tt
+		hidden_effect = { set_global_flag = guelph_ghib_enabled }
+	}
+}
+
+country_event = {
+	id = fbievents.7
+	title = "FBIT7"
+	desc = "FBID7"
+	picture = DEATH_OF_HEIR_eventPicture
+
+	major = yes
+	is_triggered_only = yes
+
+	trigger = {
+		normal_or_historical_nations = yes
+		NOT = { has_institution = renaissance }
+		NOT = { has_country_flag = tws_collapsed }
+		government = monarchy
+		num_of_cities = 10
+		is_emperor = no
+		ai = yes
+		OR = {
+			AND = {
+				tag = TUS
+				NOT = { started_in = 1115.7.24 }
+			}
+			AND = {
+				tag = WWS
+				NOT = { started_in = 1268.10.29 }
+			}
+			AND = {
+				tag = SAX
+				NOT = { started_in = 1180.1.1 }
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "FBIA7"
+		collapse_nation = yes
+		set_country_flag = tws_collapsed
 	}
 }

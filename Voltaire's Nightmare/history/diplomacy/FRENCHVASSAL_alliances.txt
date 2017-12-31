@@ -66,6 +66,13 @@ dependency = {
 	first = FRA
 	second = ALE
 	start_date = 1269.1.1
+	end_date = 1284.4.6
+}
+dependency = {
+	subject_type = "tributary_state"
+	first = FRA
+	second = ALE
+	start_date = 1325.12.16
 	end_date = 1424.8.17
 }
 dependency = {
@@ -449,7 +456,7 @@ dependency = {
 	first = FRA
 	second = FLA
 	start_date = 1247.1.1
-	end_date = 1323.12.1
+	end_date = 1297.1.1
 }
 
 # Foix

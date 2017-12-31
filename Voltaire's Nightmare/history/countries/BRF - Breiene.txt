@@ -15,7 +15,6 @@ capital = 857
 		leader = {	
 			name = "Cathal Ó Raghallaigh"
 			type = general
-			rank = 0
 			fire = 2
 			shock = 1
 			manuever = 0

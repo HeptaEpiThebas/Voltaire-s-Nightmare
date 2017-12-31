@@ -18,6 +18,7 @@ country_event = {
 		NOT = { government = papal_government }
 		reform_desire = 1.0
 		NOT = { current_age = age_of_empire }
+		is_year = 1100
 		NOT = { has_global_flag = cathar_heresy_g }
 		OR = {
 			capital_scope = { superregion = french_superregion }
@@ -154,6 +155,7 @@ country_event = {
 		NOT = { government = papal_government }
 		reform_desire = 1.0
 		has_global_flag = cathar_heresy_g
+		is_year = 1100
 		NOT = { has_global_flag = waldensian_heresy_g }
 		NOT = { has_country_flag = cathar_reformation }
 		OR = {
@@ -291,6 +293,7 @@ country_event = {
 		NOT = { government = papal_government }
 		reform_desire = 1.0
 		has_global_flag = waldensian_heresy_g
+		is_year = 1200
 		NOT = { has_global_flag = bogomilist_heresy_g }
 		NOT = { has_country_flag = cathar_reformation }
 		NOT = { has_country_flag = waldensian_reformation }
@@ -433,6 +436,7 @@ country_event = {
 		NOT = { government = papal_government }
 		reform_desire = 1.0
 		has_global_flag = bogomilist_heresy_g
+		is_year = 1200
 		NOT = { has_global_flag = fraticelli_heresy_g }
 		NOT = { has_country_flag = cathar_reformation }
 		NOT = { has_country_flag = waldensian_reformation }
@@ -571,6 +575,7 @@ country_event = {
 		NOT = { government = papal_government }
 		reform_desire = 1.0
 		has_global_flag = fraticelli_heresy_g
+		is_year = 1300
 		NOT = { has_global_flag = lollard_heresy_g }
 		NOT = { has_country_flag = cathar_reformation }
 		NOT = { has_country_flag = waldensian_reformation }
@@ -711,6 +716,7 @@ country_event = {
 		NOT = { government = papal_government }
 		reform_desire = 1.0
 		has_global_flag = lollard_heresy_g
+		is_year = 1300
 		NOT = { has_global_flag = hussite_heresy_g }
 		NOT = { has_country_flag = cathar_reformation }
 		NOT = { has_country_flag = waldensian_reformation }

@@ -20,10 +20,15 @@ discovered_by = muslim
 	owner = MUT
 	controller = MUT
 	remove_core = THU
+	add_permanent_province_modifier = {
+		name = hanseatic_city
+		duration = -1
+	}
 }
 1523.2.1 = { religion = anabaptist }
 1525.1.1 = { religion = catholic }
 1542.1.1 = { religion = protestant }
+1719.9.30 = { remove_province_modifier = hanseatic_city }
 1803.2.25 = {
 	owner = PRU
 	controller = PRU

@@ -21,6 +21,12 @@ discovered_by = muslim
 	controller = NRV
 	remove_core = CRV
 }
+1267.1.1 = {
+	add_permanent_province_modifier = {
+		name = hanseatic_city
+		duration = -1
+	}
+}
 1402.1.1 = {
 	owner = PDR
 	controller = PDR
@@ -47,6 +53,7 @@ discovered_by = muslim
 	add_core = PRU
 	remove_core = BRA
 }
+1719.9.30 = { remove_province_modifier = hanseatic_city }
 1806.11.1 = { controller = FRA }
 1807.7.9 = {
 	owner = WES

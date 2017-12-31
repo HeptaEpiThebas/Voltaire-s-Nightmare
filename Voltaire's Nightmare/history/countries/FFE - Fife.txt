@@ -16,7 +16,6 @@ capital = 3001
 		leader = {	
 			name = "MacDuff"
 			type = general
-			rank = 0
 			fire = 3
 			shock = 3
 			manuever = 0

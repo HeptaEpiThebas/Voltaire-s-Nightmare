@@ -1,3 +1,11 @@
+#Old Zurich War
+union = {
+	first = GLA
+	second = TGG
+	start_date = 1436.4.30
+	end_date = 1468.1.1
+}
+
 #Welf ancestral lands
 union = {
 	first = CTH

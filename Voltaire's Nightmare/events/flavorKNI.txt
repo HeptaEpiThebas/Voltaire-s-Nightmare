@@ -219,6 +219,7 @@ country_event = {
 			add_core = KNI
 		}
 		KNI = {
+			change_primary_culture = maltese
 			add_opinion = {
 				who = ROOT
 				modifier = spa_ceded_malta

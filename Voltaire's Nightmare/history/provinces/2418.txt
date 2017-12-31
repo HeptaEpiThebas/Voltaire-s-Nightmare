@@ -37,10 +37,14 @@ discovered_by = muslim
 	controller = CRO
 	add_core = CRO
 }
+1451.1.1 = {
+	owner = PRJ
+	controller = PRJ
+	remove_core = CRO
+}
 1481.1.1 = {
 	owner = VEN
 	controller = VEN
-	remove_core = CRO
 }
 1797.10.17 = {
 	owner = HAB

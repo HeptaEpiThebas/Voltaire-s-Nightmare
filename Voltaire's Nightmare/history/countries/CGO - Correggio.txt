@@ -142,9 +142,6 @@ capital = 2426
 		dip = 3
 		mil = 1
 	}
-}
-
-1420.1.1 = {
 	heir = {
 		name = "Niccolò I"
 		dynasty = "da Correggio"

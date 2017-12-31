@@ -10,16 +10,16 @@ base_manpower = 2
 capital = "Valladolid"
 is_city = yes
 add_core = LON
-add_core = CAS
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 fort_14th = yes
 
-1065.12.24 = {
+1072.1.1 = {
 	owner = CAS
 	controller = CAS
+	add_core = CAS
 	remove_core = LON
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }

@@ -1025,8 +1025,8 @@ national_focus = DIP
 		female = yes
 	}
 }
-1556.1.1 = { leader = {	name = "William Fitzwilliam"           	type = admiral	rank = 0	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1599.2.6 } }
-1558.1.1 = { leader = {	name = "Edward Clinton"               	type = admiral	rank = 0	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1585.1.16 } }
+1556.1.1 = { leader = {	name = "William Fitzwilliam"           	type = admiral	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1599.2.6 } }
+1558.1.1 = { leader = {	name = "Edward Clinton"               	type = admiral	fire = 2	shock = 3	manuever = 4	siege = 0	death_date = 1585.1.16 } }
 1558.11.17 = {
 	religion = anglican
 	monarch = {
@@ -1040,7 +1040,7 @@ national_focus = DIP
 	}
 }
 1580.1.1 = { decision = enlist_privateers }
-1585.1.1 = { leader = {	name = "Charles Howard" 	type = admiral		rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1624.12.14 } }
+1585.1.1 = { leader = {	name = "Charles Howard" 	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1624.12.14 } }
 1598.1.1 = { mercantilism = 10 }
 1603.3.24 = {
 	monarch = {

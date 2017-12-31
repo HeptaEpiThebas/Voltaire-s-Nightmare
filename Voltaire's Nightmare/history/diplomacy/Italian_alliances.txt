@@ -382,3 +382,11 @@ union = {
 	start_date = 1714.9.7
 	end_date = 1796.11.15
 }
+
+#Briefly conquered
+union = {
+	first = LAN
+	second = URB
+	start_date = 1516.5.30
+	end_date = 1519.5.4
+}

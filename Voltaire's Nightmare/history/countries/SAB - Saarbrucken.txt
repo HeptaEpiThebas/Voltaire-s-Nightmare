@@ -130,13 +130,6 @@ capital = 771
 		dip = 2
 		mil = 2
 	}
-	define_ruler = {
-		name = "(Regency Council)"
-		regency = yes
-		adm = 2
-		dip = 2
-		mil = 2
-	}
 	heir = {
 		name = "Johann"
 		monarch_name = "Johann II"

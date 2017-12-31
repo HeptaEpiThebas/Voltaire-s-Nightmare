@@ -20,7 +20,6 @@ discovered_by = muslim
 1269.1.1 = {
 	owner = BOS
 	controller = BOS
-	remove_core = SER
 	remove_core = HUM
 }
 1392.1.1 = {

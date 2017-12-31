@@ -10,15 +10,16 @@ base_manpower = 2
 capital = "Palencia"
 is_city = yes
 add_core = LON
-add_core = CAS
+estate = estate_clergy
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = western
 discovered_by = muslim
 
-1065.12.24 = {
+1072.1.1 = {
 	owner = CAS
 	controller = CAS
+	add_core = CAS
 	remove_core = LON
 }
 1464.5.1 = { unrest = 3 }

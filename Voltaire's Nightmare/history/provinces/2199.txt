@@ -52,6 +52,12 @@ fort_14th = yes
 	add_core = PML
 	remove_core = BRA
 }
+1283.1.1 = {
+	add_permanent_province_modifier = {
+		name = hanseatic_city
+		duration = -1
+	}
+}
 1294.12.29 = {
 	owner = KUJ
 	controller = KUJ
@@ -150,6 +156,7 @@ fort_14th = yes
 	remove_core = BRA
 	remove_core = POM
 }
+1719.9.30 = { remove_province_modifier = hanseatic_city }
 1806.7.12 = { hre = no }
 1815.3.16 = { hre = yes }
 1871.1.18 = {

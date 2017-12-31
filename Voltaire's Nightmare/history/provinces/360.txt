@@ -29,6 +29,10 @@ discovered_by = muslim
 	owner = KIL
 	controller = KIL
 	remove_core = SHL
+	add_permanent_province_modifier = {
+		name = hanseatic_city
+		duration = -1
+	}
 }
 1337.1.1 = { fort_14th = no fort_15th = yes }
 1390.1.26 = {
@@ -54,6 +58,7 @@ discovered_by = muslim
 base_production = 5 }
 1627.5.1 = { controller = HAB }
 1629.5.22 = { controller = KIL }
+1719.9.30 = { remove_province_modifier = hanseatic_city }
 1739.6.18 = {
 	owner = DAN
 	controller = DAN

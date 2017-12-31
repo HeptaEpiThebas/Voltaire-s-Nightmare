@@ -1125,11 +1125,6 @@ country_event = {
 	major = yes
 	is_triggered_only = yes
 	
-	mean_time_to_happen = {
-		months = 32
-	}
-	
-	
 	option = {		# Continue building up the Janissaries
 		name = "flavor_tur.EVTOPTA100"
 		add_country_modifier = {
@@ -1301,10 +1296,10 @@ country_event = {
 		NOT = { has_country_flag = had_janissary_civilianization }
 		NOT = { has_ruler_modifier = janissaries_disciplined }
 		NOT = { has_disaster = janissary_decadence }
+	}
 	
 	mean_time_to_happen = {
-		months = 500
-		
+		months = 500	
 	}
 	
 	option = {		# Everyone needs to make a living.

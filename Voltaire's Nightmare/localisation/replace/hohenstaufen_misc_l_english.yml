@@ -42,6 +42,8 @@
  ANNEX_MANDATE_TT: "Requires at least 50 Feudal Authority"
  theodosian_walls: "Theodosian Walls"
  desc_theodosian_walls: "Built around the turn of the 5th century AD under Emperor Theodosius II, the Theodosian Walls are the greatest defensive construction in Europe. It is theorized that they are impregnable by land, as they consist of a double-layered limestone bulwark protected by moats, crenellations, and numerous towers."
+ hanseatic_city: "Hanseatic City"
+ desc_hanseatic_city: "The capital city of this province is a member of the Hanseatic League, a rich trading confederation. It has considerable rights and autonomies and will be supported by its fellow cities, unless its rights are curtailed."
  foreign_trade_modifier: "Incoming Foreign Trade"
  desc_foreign_trade_modifier: "This province sits at a gateway between the rest of the world - Asia and Africa - and Europe. This incoming trade drastically increases its value."
  newworld_trade_modifier_1: "Early New World Trade"

@@ -547,7 +547,6 @@ capital = 411
 		leader = { 
 			name = "Hans"
 			type = general
-			rank = 0
 			fire = 2
 			shock = 2
 			manuever = 2
@@ -563,7 +562,7 @@ capital = 411
 		adm = 1
 		dip = 3
 		mil = 4
-		leader = { name = "Hans"		type = general	rank = 0	fire = 2	shock = 2	manuever = 2	siege = 0 }
+		leader = { name = "Hans"		type = general	fire = 2	shock = 2	manuever = 2	siege = 0 }
 	}
 	queen = {
 		country_of_origin = SAX
@@ -588,7 +587,7 @@ capital = 411
 		adm = 1
 		dip = 1
 		mil = 0
-		leader = { name = "Christian II"	type = general	rank = 0	fire = 2	shock = 3	manuever = 2	siege = 1 }
+		leader = { name = "Christian II"	type = general	fire = 2	shock = 3	manuever = 2	siege = 1 }
 	}
 }
 1513.2.20 = {
@@ -599,7 +598,7 @@ capital = 411
 		adm = 1
 		dip = 1
 		mil = 0
-		leader = { name = "Christian II"	type = general	rank = 0	fire = 2	shock = 3	manuever = 2	siege = 1 }
+		leader = { name = "Christian II"	type = general	fire = 2	shock = 3	manuever = 2	siege = 1 }
 	}
 	heir = {
 		name = "Frederik"
@@ -730,7 +729,6 @@ capital = 411
 		leader = { 
 			name = "Christian IV"
 			type = general
-			rank = 0
 			fire = 3
 			shock = 3
 			manuever = 2
@@ -746,7 +744,7 @@ capital = 411
 		adm = 1
 		dip = 4
 		mil = 0
-		leader = { name = "Christian IV"	type = general	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 1 }
+		leader = { name = "Christian IV"	type = general	fire = 3	shock = 3	manuever = 2	siege = 1 }
 	}
 }
 1597.11.27 = {
@@ -837,7 +835,6 @@ capital = 411
 		leader = { 
 			name = "Christian V"
 			type = general
-			rank = 0
 			fire = 3
 			shock = 3
 			manuever = 3
@@ -855,7 +852,7 @@ capital = 411
 		adm = 1
 		dip = 3
 		mil = 2
-		leader = { name = "Christian V"		type = general	rank = 0	fire = 3	shock = 3	manuever = 3	siege = 0 }
+		leader = { name = "Christian V"		type = general	fire = 3	shock = 3	manuever = 3	siege = 0 }
 	}
 	queen = {
 		country_of_origin = HES
@@ -1142,37 +1139,37 @@ capital = 411
 }
 
 ######################GENERALS##########################
-1488.1.1 = { leader = {	name = "Junker Schlentz"       	type = general	rank = 2	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1500.1.1 } }
-1504.1.1 = { leader = {	name = "Søren Norby"           	type = admiral	rank = 2	fire = 2	shock = 5	manuever = 3	siege = 0	death_date = 1530.1.1 } }
-1519.1.1 = { leader = {	name = "Otto Krumpen"          	type = general	rank = 2	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1569.1.1 } }
-1523.1.1 = { leader = {	name = "Johan Rantzau"         	type = general	rank = 2	fire = 3	shock = 3	manuever = 3	siege = 0 	death_date = 1565.12.12 } }
-1526.1.1 = { leader = {	name = "Vincens Lunge"         	type = general	rank = 2	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1536.1.3 } }
-1535.1.1 = { leader = {	name = "Peder Skram"           	type = admiral	rank = 2	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1581.7.11 } }
-1540.1.1 = { leader = {	name = "Herluf Trolle"         	type = admiral	rank = 2	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1565.6.25 } }
-1562.1.1 = { leader = {	name = "Daniel Rantzau"        	type = general	rank = 2	fire = 4	shock = 5	manuever = 3	siege = 1	death_date = 1569.11.11 } }
-1610.1.1 = { leader = {	name = "Gert Rantzau"          	type = general	rank = 2	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1627.1.1 } }
-1628.1.1 = { leader = {	name = "Peder Galt"            	type = admiral	rank = 2	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1644.1.1 } }
-1635.1.1 = { leader = {	name = "Anders Bille"          	type = general	rank = 2	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1657.11.10 } }
-1635.1.1 = { leader = {	name = "Hannibal Sehested"     	type = general	rank = 2	fire = 3	shock = 5	manuever = 3	siege = 0	death_date = 1666.9.23 } }
-1637.1.1 = { leader = {	name = "Ebbe Ulfeld"           	type = general	rank = 2	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1645.1.1 } }
-1648.1.1 = { leader = {	name = "Hans Schack"           	type = general	rank = 2	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1676.2.27 } }
-1648.1.1 = { leader = {	name = "Tønne Huitfeldt"       	type = general	rank = 2	fire = 2	shock = 1	manuever = 1	siege = 2 	death_date = 1660.1.1 } }
-1650.1.1 = { leader = {	name = "Ivar Krabbe"           	type = general	rank = 2	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1666.10.30 } }
-1650.1.1 = { leader = {	name = "Eberstein"             	type = general	rank = 2	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1681.8.28 } }
-1651.1.1 = { leader = {	name = "Jørgen Bjelke"         	type = general	rank = 2	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1697.1.1 } }
-1657.1.1 = { leader = {	name = "Niels Juel"            	type = admiral	rank = 2	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1697.4.8 } }
-1662.1.1 = { leader = {	name = "Cort Adelaer"          	type = admiral	rank = 2	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1675.1.1 } }
-1664.1.1 = { leader = {	name = "Holstein-Plön"         	type = general	rank = 2	fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 1676.1.1 } }
-1673.1.1 = { leader = {	name = "Ulrich Gyldenlöwe"     	type = general	rank = 2	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1676.1.1 } }
-1690.1.1 = { leader = {	name = "Andreas Harboe"        	type = general	rank = 2	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1706.1.1 } }
-1693.1.1 = { leader = {	name = "Frederik Gersdorff"    	type = general	rank = 2	fire = 2	shock = 3	manuever = 3	siege = 0 	death_date = 1724.1.1 } }
-1693.1.1 = { leader = {	name = "Friedrich von Trampe"  	type = general	rank = 2	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1704.1.1 } }
-1696.1.1 = { leader = {	name = "Christian Gyldenlöwe"  	type = general	rank = 2	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1717.1.1 } }
-1700.1.1 = { leader = {	name = "Christian Sehested"    	type = admiral	rank = 2	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1740.1.1 } }
-1700.1.1 = { leader = {	name = "Christian Reventlow"   	type = general	rank = 2	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1713.1.1 } }
-1710.1.1 = { leader = {	name = "Lützow"                	type = general	rank = 2	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1720.1.1 } }
-1711.1.1 = { leader = {	name = "Peter Tordenskiold"    	type = admiral	rank = 2	fire = 2	shock = 6	manuever = 4	siege = 0	death_date = 1720.1.1 } }
-1711.1.1 = { leader = {	name = "Poul Løvenørn"         	type = general	rank = 2	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1730.1.1 } }
-1745.1.1 = { leader = {	name = "Hans Knudtzon"         	type = admiral	rank = 2	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1780.1.1 } }
-1760.1.1 = { leader = {	name = "F.C. Kaas"             	type = admiral	rank = 2	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1775.1.1 } }
-1780.1.1 = { leader = {	name = "Steen Bille"           	type = admiral	rank = 2	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1792.1.1 } }
+1488.1.1 = { leader = {	name = "Junker Schlentz"       	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1500.1.1 } }
+1504.1.1 = { leader = {	name = "Søren Norby"           	type = admiral	fire = 2	shock = 5	manuever = 3	siege = 0	death_date = 1530.1.1 } }
+1519.1.1 = { leader = {	name = "Otto Krumpen"          	type = general	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1569.1.1 } }
+1523.1.1 = { leader = {	name = "Johan Rantzau"         	type = general	fire = 3	shock = 3	manuever = 3	siege = 0 	death_date = 1565.12.12 } }
+1526.1.1 = { leader = {	name = "Vincens Lunge"         	type = general	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1536.1.3 } }
+1535.1.1 = { leader = {	name = "Peder Skram"           	type = admiral	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1581.7.11 } }
+1540.1.1 = { leader = {	name = "Herluf Trolle"         	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1565.6.25 } }
+1562.1.1 = { leader = {	name = "Daniel Rantzau"        	type = general	fire = 4	shock = 5	manuever = 3	siege = 1	death_date = 1569.11.11 } }
+1610.1.1 = { leader = {	name = "Gert Rantzau"          	type = general	fire = 2	shock = 3	manuever = 2	siege = 0	death_date = 1627.1.1 } }
+1628.1.1 = { leader = {	name = "Peder Galt"            	type = admiral	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1644.1.1 } }
+1635.1.1 = { leader = {	name = "Anders Bille"          	type = general	fire = 2	shock = 4	manuever = 3	siege = 0	death_date = 1657.11.10 } }
+1635.1.1 = { leader = {	name = "Hannibal Sehested"     	type = general	fire = 3	shock = 5	manuever = 3	siege = 0	death_date = 1666.9.23 } }
+1637.1.1 = { leader = {	name = "Ebbe Ulfeld"           	type = general	fire = 2	shock = 2	manuever = 2	siege = 0	death_date = 1645.1.1 } }
+1648.1.1 = { leader = {	name = "Hans Schack"           	type = general	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1676.2.27 } }
+1648.1.1 = { leader = {	name = "Tønne Huitfeldt"       	type = general	fire = 2	shock = 1	manuever = 1	siege = 2 	death_date = 1660.1.1 } }
+1650.1.1 = { leader = {	name = "Ivar Krabbe"           	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1666.10.30 } }
+1650.1.1 = { leader = {	name = "Eberstein"             	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1681.8.28 } }
+1651.1.1 = { leader = {	name = "Jørgen Bjelke"         	type = general	fire = 1	shock = 2	manuever = 3	siege = 0	death_date = 1697.1.1 } }
+1657.1.1 = { leader = {	name = "Niels Juel"            	type = admiral	fire = 4	shock = 4	manuever = 4	siege = 0	death_date = 1697.4.8 } }
+1662.1.1 = { leader = {	name = "Cort Adelaer"          	type = admiral	fire = 3	shock = 3	manuever = 4	siege = 0	death_date = 1675.1.1 } }
+1664.1.1 = { leader = {	name = "Holstein-Plön"         	type = general	fire = 4	shock = 2	manuever = 3	siege = 0	death_date = 1676.1.1 } }
+1673.1.1 = { leader = {	name = "Ulrich Gyldenlöwe"     	type = general	fire = 3	shock = 4	manuever = 3	siege = 0	death_date = 1676.1.1 } }
+1690.1.1 = { leader = {	name = "Andreas Harboe"        	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1706.1.1 } }
+1693.1.1 = { leader = {	name = "Frederik Gersdorff"    	type = general	fire = 2	shock = 3	manuever = 3	siege = 0 	death_date = 1724.1.1 } }
+1693.1.1 = { leader = {	name = "Friedrich von Trampe"  	type = general	fire = 2	shock = 3	manuever = 3	siege = 0	death_date = 1704.1.1 } }
+1696.1.1 = { leader = {	name = "Christian Gyldenlöwe"  	type = general	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1717.1.1 } }
+1700.1.1 = { leader = {	name = "Christian Sehested"    	type = admiral	fire = 4	shock = 4	manuever = 3	siege = 0	death_date = 1740.1.1 } }
+1700.1.1 = { leader = {	name = "Christian Reventlow"   	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1713.1.1 } }
+1710.1.1 = { leader = {	name = "Lützow"                	type = general	fire = 4	shock = 3	manuever = 3	siege = 0	death_date = 1720.1.1 } }
+1711.1.1 = { leader = {	name = "Peter Tordenskiold"    	type = admiral	fire = 2	shock = 6	manuever = 4	siege = 0	death_date = 1720.1.1 } }
+1711.1.1 = { leader = {	name = "Poul Løvenørn"         	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1730.1.1 } }
+1745.1.1 = { leader = {	name = "Hans Knudtzon"         	type = admiral	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1780.1.1 } }
+1760.1.1 = { leader = {	name = "F.C. Kaas"             	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1775.1.1 } }
+1780.1.1 = { leader = {	name = "Steen Bille"           	type = admiral	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1792.1.1 } }

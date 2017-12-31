@@ -48,7 +48,7 @@ capital = 2686	# Naxos
 }
 1323.1.1 = {
 	monarch = {
-		name = "Niccolò" I
+		name = "Niccolò I"
 		dynasty = "Sanudo"
 		adm = 2
 		dip = 2

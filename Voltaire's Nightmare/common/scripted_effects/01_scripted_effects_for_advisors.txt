@@ -15,7 +15,7 @@ check_if_non_state_advisor_effect = {
 				$chance_of_tertiary$ = { set_country_flag = heathen_advisor }
 			}
 		}
-		else_if = { Fallback for Muslim
+		else_if = { #Fallback for Muslim
 			limit = {
 				OR = {
 					capital_scope = { continent = africa }

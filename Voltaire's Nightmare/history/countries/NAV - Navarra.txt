@@ -241,7 +241,7 @@ capital = 2160	# Pamplona
 	}
 }
 1274.7.22 = {
-	queen = {
+	monarch = {
         name = "Joana"
         dynasty = "de Blois" 
         birth_date = 1273.1.14
@@ -251,7 +251,32 @@ capital = 2160	# Pamplona
         mil = 2
     }
 }
-#1284.8.16 marries FRA
+1289.10.4 = {
+	heir = {
+		name = "Luis"
+		monarch_name = "Luis I"
+		dynasty = "Capet"
+		birth_date = 1289.10.4
+		death_date = 1316.6.5
+		culture = cosmopolitan_french
+		claim = 95
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+1305.4.2 = {
+	monarch = {
+		name = "Luis I"
+		dynasty = "Capet"
+		birth_date = 1289.10.4
+		culture = cosmopolitan_french
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+#1314.11.29 to FRA
 1328.2.1 = {
 	monarch = {
 		name = "Filipe I"

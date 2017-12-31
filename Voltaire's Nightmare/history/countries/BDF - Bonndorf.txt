@@ -260,7 +260,6 @@ capital = 60
 }
 1537.1.1 = {
 	monarch = {
-		monarch = {
 		name = "Eitelfritz I"
 		dynasty = "von Lupfen"
 		adm = 2
@@ -270,7 +269,6 @@ capital = 60
 }
 1567.1.1 = {
 	monarch = {
-		monarch = {
 		name = "Heinrich VIII"
 		dynasty = "von Lupfen"
 		adm = 2

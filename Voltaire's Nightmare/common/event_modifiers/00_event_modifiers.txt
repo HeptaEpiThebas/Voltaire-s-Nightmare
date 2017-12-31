@@ -69,20 +69,20 @@ newworld_trade_modifier_1 = {
 }
 
 newworld_trade_modifier_2 = {
-	province_trade_power_value = 25
-	trade_value = 25
+	province_trade_power_value = 20
+	trade_value = 20
 	picture = "nwt_icon"
 }
 
 newworld_trade_modifier_3 = {
-	province_trade_power_value = 40
-	trade_value = 40
+	province_trade_power_value = 30
+	trade_value = 30
 	picture = "nwt_icon"
 }
 
 foreign_trade_modifier = {
-	province_trade_power_value = 30
-	trade_value = 30
+	province_trade_power_value = 25
+	trade_value = 25
 	picture = "incoming_icon"
 }
 
@@ -90,6 +90,13 @@ theodosian_walls = {
 	local_defensiveness = 1.0
 	local_hostile_attrition = 2
 	picture = "theodosian_icon"
+}
+
+hanseatic_city = {
+	province_trade_power_value = 5
+	allowed_num_of_buildings = 1
+	min_local_autonomy = 15
+	picture = "hanseatic_icon"
 }
 
 rosicrucianist = {
@@ -138,21 +145,6 @@ all_graviates_titles_acquired = {
     legitimacy = 1
     prestige = 1
     max_states = 1
-}
-
-slz_ambition_num_of_buildings = {
-	allowed_num_of_buildings = 1
-	picture = "allowed_num_of_buildings" 
-}
-
-wdx_idea_7_goods_produced = {
-	trade_goods_size = 0.15
-	picture = "global_trade_goods_size"
-}
-
-paa_idea_1_max_attrition = {
-	max_attrition = 1.5
-	picture = "max_attrition"
 }
 
 ##############################
@@ -1168,8 +1160,8 @@ loyalist_stronghold = {
 }
 
 the_advancement_of_true_religion_act = {
-	global_unrest = 1
-	global_missionary_strength = 0.01
+	global_institution_spread = -0.05
+	global_missionary_strength = 0.005
 	religion = yes
 }
 the_blasphemy_act = {
@@ -1180,6 +1172,7 @@ the_blasphemy_act = {
 
 the_act_of_uniformity = {
 	global_missionary_strength = 0.01
+	embracement_cost = 0.1
 	religion = yes
 }
 
@@ -1226,6 +1219,11 @@ the_popery_act = {
 
 the_sheikh_ul_islam = {
 	global_missionary_strength = 0.01
+	religion = yes
+}
+
+muslim_enforced_religion = {
+	global_heretic_missionary_strength = 0.02
 	religion = yes
 }
 
@@ -1884,6 +1882,10 @@ ven_murano_glass_industry = {
 
 diamond_mines_of_golconda_modifier = { #The only major source of diamonds in the world for most of the game.
 	trade_goods_size = 4.0
+}
+
+jingdezhen_kilns = {
+	trade_goods_size = 2.5
 }
 
 coffea_arabica_modifier = { #Removed by prices.32 event

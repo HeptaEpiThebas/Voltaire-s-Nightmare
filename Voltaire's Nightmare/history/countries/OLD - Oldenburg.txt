@@ -196,8 +196,8 @@ capital = 55	# Oldenburg
 		name = "Christian VI"
 		dynasty = "von Oldenburg"
 		birth_date = 1426.1.1
-		adm = 2
-		dip = 2
+		adm = 4
+		dip = 1
 		mil = 2
 	}
 	clear_scripted_personalities = yes

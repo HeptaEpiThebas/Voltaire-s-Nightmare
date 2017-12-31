@@ -26,6 +26,10 @@ discovered_by = muslim
 	owner = WFB
 	controller = WFB
 	remove_core = BRU
+	add_permanent_province_modifier = {
+		name = hanseatic_city
+		duration = -1
+	}
 }
 1286.1.1 = {
 	owner = GTT
@@ -66,6 +70,7 @@ discovered_by = muslim
 	add_core = WFB
 }
 1634.8.11 = { remove_core = CLB }
+1719.9.30 = { remove_province_modifier = hanseatic_city }
 1807.7.9 = {
 	owner = WES
 	controller = WES

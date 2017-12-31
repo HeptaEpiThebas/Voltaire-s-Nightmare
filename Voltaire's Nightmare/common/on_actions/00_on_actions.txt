@@ -512,22 +512,12 @@ on_peace_recipient = {
 # root = winning country, from = loser country
 on_war_won = {
 	ROOT = { country_event = { id = tributary_events.32 } }
-	if = { #remove/add more attrition Passau Ideas
-		limit = { has_idea = PAA_idea_1 }
-		FROM = { country_event = { id = ni_province_event_on_capture.6 } }
-		ROOT = { country_event = { id = ni_province_event_on_capture.6 } } 
-	}
 }
 
 # country
 # root = loser country, from = winner country
 on_war_lost = {
 	ROOT = { country_event = { id = tributary_events.32 } }
-	if = { #remove/add more attrition Passau Ideas
-		limit = { has_idea = PAA_idea_1 }
-		FROM = { country_event = { id = ni_province_event_on_capture.6 } }
-		ROOT = { country_event = { id = ni_province_event_on_capture.6 } } 
-	}
 }
 
 # country
@@ -623,9 +613,6 @@ on_siege_lost_country = {
 # province
 # root = location, from = losing country
 on_siege_won_province = {
-	events = {
-		ni_province_event_on_capture.5
-	}
 }
 
 # province
@@ -760,10 +747,15 @@ on_monarch_death = {
 			clr_ruler_flag = eng_repromised_throne_flag
 		}
 	}
-	random_events = { 
+	events = {
+		flavor_tus.16 #Savanorola Leaves This World
+	}
+	random_events = {
 		1000 = 0
+		1000 = fbievents.4
 		100 = hremodevents.29
-		50 = hremodevents.17
+		100 = hremodevents.17
+		100 = fbievents.7
 	}
 }
 

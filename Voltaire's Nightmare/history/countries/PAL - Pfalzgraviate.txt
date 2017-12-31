@@ -330,7 +330,7 @@ capital = 2732 #Heidelberg
 		mil = 3
 	}
 }
-1481.1.1 = { leader = {	name = "Franz von Sickingen"	type = general	rank = 0	fire = 2	shock = 3	manuever = 2	siege = 3	death_date = 1523.5.7 } }
+1481.1.1 = { leader = {	name = "Franz von Sickingen"	type = general	fire = 2	shock = 3	manuever = 2	siege = 3	death_date = 1523.5.7 } }
 1508.2.27 = {
 	monarch = {
 		name = "Ludwig V"
@@ -544,7 +544,7 @@ capital = 2732 #Heidelberg
 		dip = 2
 		mil = 3
 	}
-	leader = {	name = "Ernst von Mansfeld"	type = general	rank = 0	fire = 3	shock = 4	manuever = 2	siege = 0	death_date = 1626.11.29 }
+	leader = {	name = "Ernst von Mansfeld"	type = general	fire = 3	shock = 4	manuever = 2	siege = 0	death_date = 1626.11.29 }
 }
 1613.2.14 = {
 	queen = {
@@ -729,5 +729,5 @@ capital = 2732 #Heidelberg
 		mil = 1
 	}
 }
-1750.1.1 = { leader = {	name = "Friedrich Riedesel"          	type = general	rank = 0	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1800.1.6 } }
+1750.1.1 = { leader = {	name = "Friedrich Riedesel"          	type = general	fire = 3	shock = 3	manuever = 2	siege = 0	death_date = 1800.1.6 } }
 1777.12.30 = { elector = no } # Maximilian III dies, Karl becomes elector of both the Pawesternate and Bavaria

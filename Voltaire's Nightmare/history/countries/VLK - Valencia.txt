@@ -76,7 +76,6 @@ capital = 2024
 		leader = {	
 			name = "El Cid"
 			type = general
-			rank = 0
 			fire = 4
 			shock = 5
 			manuever = 2

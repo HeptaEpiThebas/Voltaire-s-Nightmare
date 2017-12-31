@@ -5,7 +5,7 @@
 1782 = "Òrta"
 494 = "Varés"
 1818 = "Milan"
-501 = "Méed"
+501 = "Rozzan"
 1820 = "Bré"
 2742 = "Bressa"
 107 = "Bèrghem"

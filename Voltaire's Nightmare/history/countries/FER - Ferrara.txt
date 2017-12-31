@@ -318,6 +318,18 @@ add_army_professionalism = 0.05
 		dip = 4
 		mil = 3
 	}
+	queen = {
+		country_of_origin = PAP
+		name = "Lucrècia"
+		dynasty = "Borgia"
+		culture = valencian
+		birth_date = 1480.4.18
+		death_date = 1519.6.24
+		female = yes
+		adm = 0
+		dip = 6
+		mil = 6
+	}
 }
 1508.4.5 = {
 	heir = {

@@ -21,9 +21,6 @@ discovered_by = muslim
 	controller = TNR
 	remove_core = NEV
 }
-1418.5.29 = { controller = BUR }
-1435.9.11 = { controller = ENG }
-1437.1.1 = { controller = TNR } 
 1512.4.11 = {
 	owner = FRA
 	controller = FRA

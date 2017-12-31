@@ -14,7 +14,7 @@ historical_friend = KOF
 historical_friend = DMD
 historical_friend = SOE
 
-1248.1.1 = {
+1226.1.1 = {
 	monarch = {
 		name = "Stadtrat"
 		adm = 2

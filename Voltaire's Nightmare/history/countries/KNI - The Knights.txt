@@ -525,7 +525,7 @@ add_army_professionalism = 0.1
 		adm = 4
 		dip = 4
 		mil = 5
-		leader = { name = "Emmanuel de Rohan"	type = general	rank = 0	fire = 4	shock = 4	manuever = 4	siege = 0 }
+		leader = { name = "Emmanuel de Rohan"	type = general	fire = 4	shock = 4	manuever = 4	siege = 0 }
 
 	}
 }

@@ -23,7 +23,6 @@ capital = 11
 		mil = 2
 	}
 }
-1104.1.1 = { government = feudal_monarchy }
 1130.1.1 = {
 	monarch = {
 		name = "Berthold I"

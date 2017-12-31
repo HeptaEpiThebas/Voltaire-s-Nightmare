@@ -55,9 +55,6 @@ discovered_by = muslim
 	controller = ORL
 	add_core = ORL
 }
-1418.5.29 = { controller = BUR }
-1435.9.11 = { controller = ENG }
-1437.1.1 = { controller = ORL } 
 1498.4.5 = {
 	owner = FRA
 	controller = FRA

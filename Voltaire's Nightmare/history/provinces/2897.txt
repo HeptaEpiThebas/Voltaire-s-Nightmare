@@ -34,8 +34,12 @@ discovered_by = muslim
 	add_core = ANJ
 	remove_core = BLO
 }
-1418.5.29 = { controller = BUR }
-1425.1.1 = { owner = FRA add_core = FRA remove_core = ANJ }
+1425.1.1 = {
+	owner = FRA
+	controller = BUR
+	add_core = FRA
+	remove_core = ANJ
+}
 1435.9.11 = { controller = ENG }
 1437.1.1 = { controller = FRA } 
 1444.1.1 = {

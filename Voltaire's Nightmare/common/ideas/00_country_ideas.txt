@@ -525,10 +525,6 @@ HAB_ideas = {
 		OR = {
 			tag = HAB
 			tag = EAH
-			AND = {
-				tag = STY
-				dynasty = "von Habsburg"
-			}
 		}
 	}
 	free = yes		#will be added at load.

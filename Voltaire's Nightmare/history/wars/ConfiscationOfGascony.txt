@@ -13,10 +13,6 @@ war_goal = {
 	add_defender = NMR
 }
 
-1287.1.8 = {
-	add_attacker = MCO
-}
-
 1302.7.11 = {
 	battle = {
 		name = "Golden Spurs"
@@ -45,7 +41,6 @@ war_goal = {
 
 1305.6.23 = {
 	rem_attacker = FRA
-	rem_attacker = MCO
 	rem_defender = FLA
 	rem_defender = NMR
 }

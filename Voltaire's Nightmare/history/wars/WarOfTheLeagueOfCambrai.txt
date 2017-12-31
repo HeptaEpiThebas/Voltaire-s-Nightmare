@@ -314,5 +314,6 @@ war_goal = {
 	rem_attacker = ABR
 	rem_attacker = VEN
 	rem_attacker = NAX
+	rem_attacker = MLO
 	rem_defender = HAB
 }

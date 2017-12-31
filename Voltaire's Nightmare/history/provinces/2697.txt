@@ -21,6 +21,12 @@ add_permanent_province_modifier = {
 	duration = -1
 }
 
+1285.1.1 = {
+	add_permanent_province_modifier = {
+		name = hanseatic_city
+		duration = -1
+	}
+}
 1288.1.1 = {
 	owner = SWE
 	controller = SWE
@@ -69,6 +75,7 @@ add_permanent_province_modifier = {
 	owner = DAN
 	controller = DAN
 }
+1470.1.1 = { remove_province_modifier = hanseatic_city }
 1523.4.14 = { revolt = { type = revolutionary_rebels size = 1 } controller = REB }
 1525.6.1 = { revolt = {} controller = DAN }
 1536.1.1 = { religion = protestant}

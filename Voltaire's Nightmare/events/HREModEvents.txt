@@ -885,14 +885,7 @@ country_event = {
 				add_core = ETL
 				cede_province = ETL
 			}
-			ETL = {
-				define_ruler = {
-					dynasty = ROOT
-					adm = 3
-					dip = 3
-					mil = 3
-				}
-			}
+			ETL = { define_ruler = { dynasty = ROOT } }
 		}
 	}
 
@@ -2147,6 +2140,7 @@ country_event = {
 			had_country_flag = { flag = recent_BYZ_mil days = 730 }
 		}
 		normal_or_historical_nations = yes
+		NOT = { started_in = 1071.8.26 }
 	}
 	
 	mean_time_to_happen = {
@@ -2189,6 +2183,7 @@ country_event = {
 			had_country_flag = { flag = recent_BYZ_man days = 730 }
 		}
 		normal_or_historical_nations = yes
+		NOT = { started_in = 1071.8.26 }
 	}
 	
 	mean_time_to_happen = {
@@ -2231,6 +2226,7 @@ country_event = {
 			had_country_flag = { flag = recent_BYZ_naval days = 730 }
 		}
 		normal_or_historical_nations = yes
+		NOT = { started_in = 1071.8.26 }
 	}
 	
 	mean_time_to_happen = {
@@ -2273,6 +2269,7 @@ country_event = {
 			had_country_flag = { flag = recent_BYZ_sailors days = 730 }
 		}
 		normal_or_historical_nations = yes
+		NOT = { started_in = 1071.8.26 }
 	}
 	
 	mean_time_to_happen = {
@@ -2315,6 +2312,7 @@ country_event = {
 			had_country_flag = { flag = recent_BYZ_adm days = 730 }
 		}
 		normal_or_historical_nations = yes
+		NOT = { started_in = 1071.8.26 }
 	}
 	
 	mean_time_to_happen = {
@@ -2357,6 +2355,7 @@ country_event = {
 			had_country_flag = { flag = recent_BYZ_states days = 730 }
 		}
 		normal_or_historical_nations = yes
+		NOT = { started_in = 1071.8.26 }
 	}
 	
 	mean_time_to_happen = {
@@ -2394,6 +2393,8 @@ country_event = {
 	trigger = {
 		tag = BYZ
 		NOT = { has_country_flag = manzikert_happened }
+		normal_or_historical_nations = yes
+		NOT = { started_in = 1071.8.26 }
 	}
 	
 	mean_time_to_happen = {

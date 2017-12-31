@@ -1,3 +1,5 @@
+2169 = "Iculisma"
+2948 = "Caletes"
 547 = "Vinceia"
 1793 = "Ceretania"
 1283 = "Rhedae"

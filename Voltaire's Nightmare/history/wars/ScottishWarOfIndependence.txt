@@ -11,11 +11,11 @@ war_goal = {
 	add_attacker = GLY
 	add_attacker = ILE
 	add_attacker = FRA
-	add_attacker = CHP
-	add_attacker = NAV
 	add_defender = ENG
 	add_defender = AQT
 	add_defender = PMK
+	add_defender = GOW
+	add_defender = GLM
 }
 
 1296.4.27 = {
@@ -105,7 +105,7 @@ war_goal = {
 }
 
 1314.11.29 = {
-	rem_attacker = CHP
+	add_attacker = NAV
 }
 
 1315.5.23 = { #invasion of Ireland
@@ -196,4 +196,6 @@ war_goal = {
 	rem_attacker = FRA
 	rem_defender = ENG
 	rem_defender = AQT
+	rem_defender = GOW
+	rem_defender = GLM
 }
