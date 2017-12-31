@@ -13,6 +13,7 @@
  building_arsenal: "Hospice"
  building_college: "College"
 #Misc
+ CLAIM_HK_WAR_NAME: "$ORDER$$FIRST$-$SECOND$ war for the Irish High Kingdom"
  ire_trib_state: "Irish Tributary State"
  ire_trib_state_title: "Irish Tributary State"
  ire_trib_state_is_our: "Our Irish Tributary State"
