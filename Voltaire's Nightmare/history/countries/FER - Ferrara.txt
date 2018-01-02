@@ -148,7 +148,7 @@ add_army_professionalism = 0.05
 }
 1317.1.1 = {
 	monarch = {
-		name = "NiccolÚ I"
+		name = "Niccol≈à I"
 		dynasty = "d'Este"
 		adm = 2
 		dip = 1
@@ -190,7 +190,7 @@ add_army_professionalism = 0.05
 }
 1361.11.3 = {
 	monarch = {
-		name = "NiccolÚ II"
+		name = "Niccol≈à II"
 		dynasty = "d'Este"
 		birth_date = 1338.1.1
 		adm = 5
@@ -208,8 +208,8 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 	heir = {
-		name = "NiccolÚ"
-		monarch_name = "NiccolÚ III"
+		name = "Niccol≈à"
+		monarch_name = "Niccol≈à III"
 		dynasty = "d'Este"
 		birth_date = 1383.11.9
 		death_date = 1441.1.1
@@ -221,7 +221,7 @@ add_army_professionalism = 0.05
 }
 1393.7.30 = {
 	monarch = {
-		name = "NiccolÚ III"
+		name = "Niccol≈à III"
 		dynasty = "d'Este"
 		birth_date = 1383.11.9
 		adm = 2
@@ -320,8 +320,8 @@ add_army_professionalism = 0.05
 	}
 	queen = {
 		country_of_origin = PAP
-		name = "LucrËcia"
-		dynasty = "Borgia"
+		name = "Lucrƒçcia"
+		dynasty = "de Borja"
 		culture = valencian
 		birth_date = 1480.4.18
 		death_date = 1519.6.24
