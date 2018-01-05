@@ -975,6 +975,8 @@ country_event = {
 				new_world_i = 100
 			}
 		}
+		any_owned_province = { continent = europe }
+		any_owned_province = { continent = africa }
 	}
 
 	mean_time_to_happen = {
@@ -1001,7 +1003,6 @@ country_event = {
 		add_dip_power = -100
 		random_owned_province = {
 			limit = {
-				has_port = yes
 				OR ={
 					is_state = yes
 					is_capital = yes
